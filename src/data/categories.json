@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ai-literacy",
+    "slug": "ai-literacy",
+    "name": "AI Literacy",
+    "nameKey": "categories.ai-literacy",
+    "description": "Understand what AI is, how it works, and what it means for education",
+    "icon": "brain",
+    "color": "#2B547E",
+    "lessonCount": 8
+  },
+  {
+    "id": "practical-skills",
+    "slug": "practical-skills",
+    "name": "Practical AI Skills",
+    "nameKey": "categories.practical-skills",
+    "description": "Learn to use AI tools effectively in your teaching practice",
+    "icon": "wrench",
+    "color": "#4A7C59",
+    "lessonCount": 10
+  },
+  {
+    "id": "considerations",
+    "slug": "considerations",
+    "name": "Considerations on AI",
+    "nameKey": "categories.considerations",
+    "description": "Navigate ethics, privacy, policy, and responsible AI use",
+    "icon": "scale",
+    "color": "#8B6914",
+    "lessonCount": 9
+  },
+  {
+    "id": "accessibility",
+    "slug": "accessibility",
+    "name": "AI for All Learners",
+    "nameKey": "categories.accessibility",
+    "description": "Use AI to support students with diverse learning needs",
+    "icon": "heart",
+    "color": "#7B2D8B",
+    "lessonCount": 8
+  }
+]

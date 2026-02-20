@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Acasă",
+    "resources": "Resurse",
+    "assessment": "Evaluare",
+    "about": "Despre"
+  },
+  "hero": {
+    "title": "AI4Teachers",
+    "titleSub": "Ghidul tău pentru AI în Educație",
+    "subtitle": "O platformă de învățare gratuită creată pentru profesori. Fie că abia începeți sau doriți să aprofundați — vă ajutăm să găsiți calea potrivită.",
+    "exploreBtn": "Explorează Resursele",
+    "assessBtn": "Începe Evaluarea"
+  },
+  "categories": {
+    "ai-literacy": "Alfabetizare AI",
+    "practical-skills": "Abilități Practice AI",
+    "considerations": "Considerații despre AI",
+    "accessibility": "AI pentru Toți Elevii"
+  },
+  "home": {
+    "categoriesTitle": "Teme Disponibile",
+    "categoriesSubtitle": "Explorați lecții și resurse în patru domenii cheie ale AI în educație",
+    "explore": "Explorează",
+    "lessons": "lecții",
+    "choosePathTitle": "Alegeți Traseul",
+    "choosePathSubtitle": "Fiecare învață diferit. Alegeți abordarea care vi se potrivește.",
+    "pathNewTitle": "Sunt nou/nouă în AI în educație",
+    "pathNewDesc": "Nu știți de unde să începeți? Completați o evaluare rapidă și vă vom crea un traseu personalizat de învățare.",
+    "pathNewStep1": "Evaluare",
+    "pathNewStep2": "Traseu",
+    "pathNewStep3": "Învățați!",
+    "pathNewCta": "Începe Evaluarea",
+    "pathNewTime": "Durează aproximativ 10 minute",
+    "pathExperiencedTitle": "Știu ce caut",
+    "pathExperiencedDesc": "Sunteți familiarizat cu AI? Răsfoiți biblioteca noastră completă organizată pe teme și niveluri.",
+    "pathExperiencedCta": "Explorează Resursele",
+    "recommended": "Recomandat"
+  },
+  "resources": {
+    "title": "Resurse de Învățare",
+    "all": "Toate",
+    "allLevels": "Toate Nivelurile",
+    "searchPlaceholder": "Caută lecții...",
+    "noResults": "Nu s-au găsit lecții.",
+    "comingSoon": "Conținutul urmează! Lucrăm la adăugarea materialelor.",
+    "curatedTitle": "Resurse Externe Selectate",
+    "readTime": "min citire",
+    "backToResources": "Înapoi la Resurse"
+  },
+  "levels": {
+    "beginner": "Începător",
+    "intermediate": "Intermediar",
+    "advanced": "Avansat"
+  },
+  "lesson": {
+    "relatedResources": "Resurse Conexe",
+    "previousLesson": "Lecția Anterioară",
+    "nextLesson": "Lecția Următoare",
+    "backToCategory": "Înapoi la {{category}}"
+  },
+  "kas": {
+    "title": "Evaluarea Cunoștințelor",
+    "description": "Această evaluare va analiza cunoștințele dvs. actuale în 4 domenii ale AI în educație. Durează aproximativ 10 minute.",
+    "startBtn": "Începe Evaluarea",
+    "nextBtn": "Următoarea",
+    "backBtn": "Înapoi",
+    "sectionOf": "Secțiunea {{current}} din {{total}}",
+    "questionOf": "Întrebarea {{current}} din {{total}}",
+    "resultsTitle": "Profilul dvs. de Cunoștințe AI",
+    "score": "Scor",
+    "level": "Nivel",
+    "printBtn": "Tipărește",
+    "pdfBtn": "Salvează ca PDF",
+    "startLearning": "Începe Învățarea",
+    "retakeBtn": "Reia Evaluarea",
+    "learningPathTitle": "Traseul dvs. Personalizat de Învățare",
+    "learningPathDesc": "Pe baza rezultatelor dvs., vă recomandăm:",
+    "selectAnswer": "Selectați un răspuns"
+  },
+  "footer": {
+    "disclaimer": "Finanțat de Uniunea Europeană. Opiniile exprimate aparțin exclusiv autorilor și nu reflectă neapărat opiniile Uniunii Europene sau ale EACEA.",
+    "projectNumber": "Număr proiect: KA210-SCH-86126A35",
+    "partners": "Parteneri"
+  }
+}

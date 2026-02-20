@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Home",
+    "resources": "Resources",
+    "assessment": "Assessment",
+    "about": "About"
+  },
+  "hero": {
+    "title": "AI4Teachers",
+    "titleSub": "Your Guide to AI in Education",
+    "subtitle": "A free learning platform built for K-12 teachers. Whether you're just starting out or ready to dive deeper — we'll help you find the right path.",
+    "exploreBtn": "Explore Resources",
+    "assessBtn": "Take the Assessment"
+  },
+  "categories": {
+    "ai-literacy": "AI Literacy",
+    "practical-skills": "Practical AI Skills",
+    "considerations": "Considerations on AI",
+    "accessibility": "AI for All Learners"
+  },
+  "home": {
+    "categoriesTitle": "Available Resource Topics",
+    "categoriesSubtitle": "Explore curated lessons and resources across four key areas of AI in education",
+    "explore": "Explore",
+    "lessons": "lessons",
+    "choosePathTitle": "Choose Your Path",
+    "choosePathSubtitle": "Everyone learns differently. Pick the approach that suits you.",
+    "pathNewTitle": "I'm new to AI in education",
+    "pathNewDesc": "Not sure where to start? Take a quick assessment and we'll create a personalized learning path just for you.",
+    "pathNewStep1": "Assessment",
+    "pathNewStep2": "Learning Path",
+    "pathNewStep3": "Learn!",
+    "pathNewCta": "Start the Assessment",
+    "pathNewTime": "Takes about 10 minutes",
+    "pathExperiencedTitle": "I know what I'm looking for",
+    "pathExperiencedDesc": "Already familiar with AI? Browse our full library of resources organized by topic and difficulty level.",
+    "pathExperiencedCta": "Browse All Resources",
+    "recommended": "Recommended"
+  },
+  "resources": {
+    "title": "Learning Resources",
+    "all": "All",
+    "allLevels": "All Levels",
+    "searchPlaceholder": "Search lessons...",
+    "noResults": "No lessons found matching your filters.",
+    "comingSoon": "Content coming soon! We're working on adding materials to this section.",
+    "curatedTitle": "Curated External Resources",
+    "readTime": "min read",
+    "backToResources": "Back to Resources"
+  },
+  "levels": {
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced"
+  },
+  "lesson": {
+    "relatedResources": "Related Resources",
+    "previousLesson": "Previous Lesson",
+    "nextLesson": "Next Lesson",
+    "backToCategory": "Back to {{category}}"
+  },
+  "kas": {
+    "title": "Knowledge Assessment",
+    "description": "This assessment will evaluate your current knowledge across 4 areas of AI in education and create a personalized learning path for you. It takes approximately 10 minutes.",
+    "startBtn": "Start Assessment",
+    "nextBtn": "Next",
+    "backBtn": "Back",
+    "sectionOf": "Section {{current}} of {{total}}",
+    "questionOf": "Question {{current}} of {{total}}",
+    "resultsTitle": "Your AI Knowledge Profile",
+    "score": "Score",
+    "level": "Level",
+    "printBtn": "Print Results",
+    "pdfBtn": "Save as PDF",
+    "startLearning": "Start Learning",
+    "retakeBtn": "Retake Assessment",
+    "learningPathTitle": "Your Personalized Learning Path",
+    "learningPathDesc": "Based on your results, we recommend starting with these materials:",
+    "selectAnswer": "Please select an answer to continue"
+  },
+  "footer": {
+    "disclaimer": "Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.",
+    "projectNumber": "Project number: KA210-SCH-86126A35",
+    "partners": "Partners"
+  }
+}

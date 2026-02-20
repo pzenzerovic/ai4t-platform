@@ -1,0 +1,257 @@
+{
+  "categories": [
+    {
+      "id": "ai-literacy",
+      "name": "AI Literacy",
+      "questions": [
+        {
+          "id": "al-q1",
+          "type": "self-assessment",
+          "text": "How would you describe your current understanding of what artificial intelligence is and how it works?",
+          "options": [
+            { "id": "a", "text": "I have little to no understanding of AI", "score": 0 },
+            { "id": "b", "text": "I know the basics — AI uses data and algorithms", "score": 1 },
+            { "id": "c", "text": "I can explain how LLMs generate text and understand their limitations", "score": 2 }
+          ]
+        },
+        {
+          "id": "al-q2",
+          "type": "knowledge",
+          "text": "When a large language model (like ChatGPT) generates a response, what is it actually doing?",
+          "options": [
+            { "id": "a", "text": "Searching the internet for the answer", "score": 0 },
+            { "id": "b", "text": "Retrieving information from a database of facts", "score": 0 },
+            { "id": "c", "text": "Predicting the most likely next word based on patterns in training data", "score": 2 },
+            { "id": "d", "text": "I'm not sure", "score": 0 }
+          ]
+        },
+        {
+          "id": "al-q3",
+          "type": "knowledge",
+          "text": "What does the term 'hallucination' mean in the context of AI?",
+          "options": [
+            { "id": "a", "text": "When AI becomes self-aware", "score": 0 },
+            { "id": "b", "text": "When AI generates confident-sounding but incorrect information", "score": 2 },
+            { "id": "c", "text": "When AI refuses to answer a question", "score": 0 },
+            { "id": "d", "text": "I haven't heard this term", "score": 0 }
+          ]
+        },
+        {
+          "id": "al-q4",
+          "type": "scenario",
+          "text": "A colleague tells you: 'AI understands what students need and can replace tutoring.' How would you respond?",
+          "options": [
+            { "id": "a", "text": "That sounds about right — AI is very advanced now", "score": 0 },
+            { "id": "b", "text": "AI can help, but it doesn't truly understand — it processes patterns", "score": 1 },
+            { "id": "c", "text": "AI simulates understanding through statistical prediction, which is useful but fundamentally different from human comprehension", "score": 2 }
+          ]
+        },
+        {
+          "id": "al-q5",
+          "type": "self-assessment",
+          "text": "How familiar are you with the concept of multimodal AI (AI that processes images, audio, and text together)?",
+          "options": [
+            { "id": "a", "text": "I haven't heard of this", "score": 0 },
+            { "id": "b", "text": "I know it exists but haven't used it", "score": 1 },
+            { "id": "c", "text": "I've used multimodal features (e.g., uploading images to ChatGPT) and understand the concept", "score": 2 }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "You're at the beginning of your AI journey. Start with understanding what AI is and how language models work — this foundation will help everything else make sense.",
+        "intermediate": "You have a good grasp of AI basics. Dive deeper into multimodal AI and the different layers of AI capability to round out your understanding.",
+        "advanced": "Excellent understanding of AI concepts! Explore our advanced materials on AI agents and the future of AI to stay at the cutting edge."
+      }
+    },
+    {
+      "id": "practical-skills",
+      "name": "Practical AI Skills",
+      "questions": [
+        {
+          "id": "ps-q1",
+          "type": "self-assessment",
+          "text": "How often do you currently use AI tools (ChatGPT, Claude, Copilot, or similar) in your teaching practice?",
+          "options": [
+            { "id": "a", "text": "Never or almost never", "score": 0 },
+            { "id": "b", "text": "Occasionally — a few times per month", "score": 1 },
+            { "id": "c", "text": "Regularly — at least weekly for lesson preparation or classroom activities", "score": 2 }
+          ]
+        },
+        {
+          "id": "ps-q2",
+          "type": "knowledge",
+          "text": "What is 'prompt engineering' in the context of working with AI?",
+          "options": [
+            { "id": "a", "text": "Programming AI systems using code", "score": 0 },
+            { "id": "b", "text": "The skill of formulating clear, specific instructions to get better AI outputs", "score": 2 },
+            { "id": "c", "text": "A technical process done by AI developers, not teachers", "score": 0 },
+            { "id": "d", "text": "I'm not sure what this means", "score": 0 }
+          ]
+        },
+        {
+          "id": "ps-q3",
+          "type": "scenario",
+          "text": "You want to use AI to create a worksheet for your 6th-grade science class on photosynthesis. Which approach would give better results?",
+          "options": [
+            { "id": "a", "text": "Type 'make a worksheet about photosynthesis'", "score": 1 },
+            { "id": "b", "text": "Type 'Create a worksheet for 6th graders on photosynthesis, including 3 diagram-labeling tasks and 5 multiple-choice questions at basic comprehension level, suitable for a 20-minute activity'", "score": 2 },
+            { "id": "c", "text": "I wouldn't know how to start", "score": 0 }
+          ]
+        },
+        {
+          "id": "ps-q4",
+          "type": "knowledge",
+          "text": "What is 'context' in the context of AI conversation, and why does it matter?",
+          "options": [
+            { "id": "a", "text": "It's the background information you give AI so it can generate more relevant responses", "score": 1 },
+            { "id": "b", "text": "It's a technical setting I wouldn't need to worry about", "score": 0 },
+            { "id": "c", "text": "It refers to the conversation history that AI uses as working memory", "score": 1 },
+            { "id": "d", "text": "Both A and C are correct", "score": 2 }
+          ]
+        },
+        {
+          "id": "ps-q5",
+          "type": "self-assessment",
+          "text": "Which AI-powered educational tools have you used? (This helps us understand your experience breadth)",
+          "options": [
+            { "id": "a", "text": "None yet", "score": 0 },
+            { "id": "b", "text": "I've tried 1-2 tools (e.g., ChatGPT or Canva AI)", "score": 1 },
+            { "id": "c", "text": "I regularly use 3+ different AI tools for different teaching tasks", "score": 2 }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "You're just getting started with AI tools — that's perfectly fine! Our practical guides will walk you through using ChatGPT, Claude, and education-specific AI tools step by step.",
+        "intermediate": "You've started using AI tools, which is great. Now it's time to refine your prompting skills and explore more specialized educational AI platforms.",
+        "advanced": "You're an experienced AI tool user! Explore our advanced lessons on meta-prompting and building custom tools to take your practice further."
+      }
+    },
+    {
+      "id": "considerations",
+      "name": "Considerations on AI",
+      "questions": [
+        {
+          "id": "co-q1",
+          "type": "self-assessment",
+          "text": "How confident are you in discussing the ethical implications of using AI in education with colleagues or students?",
+          "options": [
+            { "id": "a", "text": "Not confident — I haven't thought much about this", "score": 0 },
+            { "id": "b", "text": "Somewhat confident — I'm aware of some issues like privacy and bias", "score": 1 },
+            { "id": "c", "text": "Very confident — I can discuss bias, data privacy, academic integrity, and pedagogical implications", "score": 2 }
+          ]
+        },
+        {
+          "id": "co-q2",
+          "type": "scenario",
+          "text": "A student submits an essay that you suspect was entirely written by AI. What is your approach?",
+          "options": [
+            { "id": "a", "text": "Use an AI detection tool and confront the student with the result", "score": 1 },
+            { "id": "b", "text": "Focus on the learning process — have a conversation about the work and ask the student to explain their reasoning", "score": 2 },
+            { "id": "c", "text": "I'm not sure how I would handle this situation", "score": 0 }
+          ]
+        },
+        {
+          "id": "co-q3",
+          "type": "knowledge",
+          "text": "Why is it important to review AI-generated educational materials before using them in class?",
+          "options": [
+            { "id": "a", "text": "AI might generate content that is factually incorrect, biased, or inappropriate for the age group", "score": 2 },
+            { "id": "b", "text": "It's a legal requirement", "score": 0 },
+            { "id": "c", "text": "AI-generated materials are usually fine and don't need much review", "score": 0 },
+            { "id": "d", "text": "I haven't thought about this", "score": 0 }
+          ]
+        },
+        {
+          "id": "co-q4",
+          "type": "knowledge",
+          "text": "What does 'human in the loop' mean in the context of AI in education?",
+          "options": [
+            { "id": "a", "text": "A human must always be present when AI is running", "score": 0 },
+            { "id": "b", "text": "Teachers maintain oversight and final decision-making authority over AI-generated outputs and recommendations", "score": 2 },
+            { "id": "c", "text": "Students must always work in groups when using AI", "score": 0 },
+            { "id": "d", "text": "I'm not familiar with this term", "score": 0 }
+          ]
+        },
+        {
+          "id": "co-q5",
+          "type": "scenario",
+          "text": "Your school is considering adopting an AI-powered adaptive learning platform. What should be evaluated first?",
+          "options": [
+            { "id": "a", "text": "The cost of the platform", "score": 0 },
+            { "id": "b", "text": "Data privacy compliance (GDPR), what student data is collected, how it's stored, and pedagogical alignment with curriculum", "score": 2 },
+            { "id": "c", "text": "Whether students will enjoy using it", "score": 0 },
+            { "id": "d", "text": "I wouldn't know what to evaluate", "score": 0 }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "Ethical and responsible use of AI is crucial. Start with our foundational materials on AI ethics, privacy, and the teacher's role in AI-assisted learning.",
+        "intermediate": "You're aware of key issues. Deepen your understanding of GDPR compliance, academic integrity strategies, and how to develop school-level AI policies.",
+        "advanced": "Strong ethical awareness! Explore our advanced materials on AI policy development and leading AI integration at the school level."
+      }
+    },
+    {
+      "id": "accessibility",
+      "name": "AI for All Learners",
+      "questions": [
+        {
+          "id": "ac-q1",
+          "type": "self-assessment",
+          "text": "How familiar are you with using technology (including AI) to support students with disabilities or special educational needs?",
+          "options": [
+            { "id": "a", "text": "Not familiar — I haven't explored this area", "score": 0 },
+            { "id": "b", "text": "Somewhat familiar — I know some tools exist but haven't used many", "score": 1 },
+            { "id": "c", "text": "Very familiar — I regularly use assistive technology and/or AI tools for differentiated instruction", "score": 2 }
+          ]
+        },
+        {
+          "id": "ac-q2",
+          "type": "knowledge",
+          "text": "Which of these is an example of AI being used to support a student with a visual impairment?",
+          "options": [
+            { "id": "a", "text": "Using ChatGPT's voice mode to describe images or read text aloud", "score": 2 },
+            { "id": "b", "text": "Using a spell-checker", "score": 0 },
+            { "id": "c", "text": "Using a digital whiteboard", "score": 0 },
+            { "id": "d", "text": "I'm not sure", "score": 0 }
+          ]
+        },
+        {
+          "id": "ac-q3",
+          "type": "scenario",
+          "text": "You have a student who recently arrived from another country and speaks very little of the language of instruction. How could AI help?",
+          "options": [
+            { "id": "a", "text": "AI can't really help with language barriers", "score": 0 },
+            { "id": "b", "text": "Use AI translation tools and text-to-speech to provide materials in the student's native language while they learn", "score": 1 },
+            { "id": "c", "text": "Use AI to simplify and adapt text complexity, provide bilingual glossaries, and create visual supports alongside translated materials", "score": 2 }
+          ]
+        },
+        {
+          "id": "ac-q4",
+          "type": "knowledge",
+          "text": "What is Microsoft Immersive Reader and how can it support learners?",
+          "options": [
+            { "id": "a", "text": "A paid Microsoft Office add-on for creating presentations", "score": 0 },
+            { "id": "b", "text": "A free tool that reads text aloud, breaks words into syllables, highlights parts of speech, and translates — supporting students with dyslexia, visual impairments, or language barriers", "score": 2 },
+            { "id": "c", "text": "A screen magnifier for low-vision users", "score": 0 },
+            { "id": "d", "text": "I haven't heard of it", "score": 0 }
+          ]
+        },
+        {
+          "id": "ac-q5",
+          "type": "self-assessment",
+          "text": "How would you rate your ability to adapt teaching materials for students with different learning needs using AI tools?",
+          "options": [
+            { "id": "a", "text": "I wouldn't know where to start", "score": 0 },
+            { "id": "b", "text": "I could do basic adaptations (e.g., simplifying text) but not much more", "score": 1 },
+            { "id": "c", "text": "I can use multiple AI tools to differentiate materials across visual, auditory, cognitive, and language needs", "score": 2 }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "AI offers powerful tools for supporting diverse learners. Start with our overview of accessibility tools and learn how AI can help students with different needs.",
+        "intermediate": "You have some awareness of accessibility tools. Explore our specific guides on supporting students with visual, hearing, cognitive, and language needs.",
+        "advanced": "Great expertise in accessibility! Explore our advanced materials on building comprehensive inclusive classrooms with AI and our tools directory."
+      }
+    }
+  ]
+}

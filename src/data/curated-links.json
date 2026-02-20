@@ -1,0 +1,217 @@
+{
+  "ai-literacy": [
+    {
+      "title": "Elements of AI",
+      "provider": "University of Helsinki / MinnaLearn",
+      "level": "beginner",
+      "type": "Online course",
+      "url": "https://www.elementsofai.com/",
+      "description": "Free online course covering AI basics — widely used in European teacher training",
+      "language": "EN (30+ languages)"
+    },
+    {
+      "title": "AI for Everyone",
+      "provider": "Coursera / Andrew Ng",
+      "level": "beginner",
+      "type": "Online course",
+      "url": "https://www.coursera.org/learn/ai-for-everyone",
+      "description": "Non-technical introduction to AI concepts, capabilities, and limitations",
+      "language": "EN (subtitles in 20+ languages)"
+    },
+    {
+      "title": "What is Artificial Intelligence?",
+      "provider": "IBM",
+      "level": "beginner",
+      "type": "Article",
+      "url": "https://www.ibm.com/think/topics/artificial-intelligence",
+      "description": "Clear, accessible overview of AI concepts for non-technical readers",
+      "language": "EN"
+    },
+    {
+      "title": "AI and Education: Guidance for Policy-makers",
+      "provider": "UNESCO",
+      "level": "beginner",
+      "type": "Policy document",
+      "url": "https://unesdoc.unesco.org/ark:/48223/pf0000376709",
+      "description": "Comprehensive framework for AI in education policy",
+      "language": "EN"
+    },
+    {
+      "title": "How Large Language Models Work",
+      "provider": "Anthropic",
+      "level": "intermediate",
+      "type": "Documentation",
+      "url": "https://docs.anthropic.com/",
+      "description": "Official documentation explaining how Claude and LLMs work",
+      "language": "EN"
+    },
+    {
+      "title": "GPT: How does it work?",
+      "provider": "OpenAI",
+      "level": "intermediate",
+      "type": "Documentation",
+      "url": "https://platform.openai.com/docs/",
+      "description": "Official OpenAI documentation on GPT models and capabilities",
+      "language": "EN"
+    },
+    {
+      "title": "Neural Networks (3Blue1Brown)",
+      "provider": "YouTube / 3Blue1Brown",
+      "level": "intermediate",
+      "type": "Video series",
+      "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi",
+      "description": "Visual, intuitive explanation of neural networks and deep learning",
+      "language": "EN"
+    },
+    {
+      "title": "Stanford HAI: AI Index Report",
+      "provider": "Stanford University",
+      "level": "advanced",
+      "type": "Annual report",
+      "url": "https://aiindex.stanford.edu/report/",
+      "description": "Comprehensive annual report on state of AI — data, trends, policy",
+      "language": "EN"
+    },
+    {
+      "title": "AI Safety Overview",
+      "provider": "Anthropic",
+      "level": "advanced",
+      "type": "Article",
+      "url": "https://www.anthropic.com/research",
+      "description": "Research and perspectives on building safe AI systems",
+      "language": "EN"
+    },
+    {
+      "title": "EU AI Act — Summary",
+      "provider": "European Commission",
+      "level": "advanced",
+      "type": "Policy document",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "description": "Official EU regulation on AI — relevant for European teachers",
+      "language": "EN"
+    }
+  ],
+  "practical-skills": [
+    {
+      "title": "ChatGPT for Teachers",
+      "provider": "OpenAI",
+      "level": "beginner",
+      "type": "Guide",
+      "url": "https://openai.com/chatgpt/use-cases/education",
+      "description": "Official guide for using ChatGPT in educational settings",
+      "language": "EN"
+    },
+    {
+      "title": "Prompt Engineering Guide",
+      "provider": "DAIR.AI",
+      "level": "intermediate",
+      "type": "Guide",
+      "url": "https://www.promptingguide.ai/",
+      "description": "Comprehensive guide to prompt engineering techniques",
+      "language": "EN"
+    },
+    {
+      "title": "MagicSchool.ai",
+      "provider": "MagicSchool",
+      "level": "beginner",
+      "type": "Tool",
+      "url": "https://www.magicschool.ai/",
+      "description": "AI platform designed specifically for teachers with 60+ tools",
+      "language": "EN"
+    },
+    {
+      "title": "Canva for Education",
+      "provider": "Canva",
+      "level": "beginner",
+      "type": "Tool",
+      "url": "https://www.canva.com/education/",
+      "description": "Free design platform with AI features for educators",
+      "language": "EN (40+ languages)"
+    },
+    {
+      "title": "Curipod",
+      "provider": "Curipod",
+      "level": "beginner",
+      "type": "Tool",
+      "url": "https://curipod.com/",
+      "description": "AI-powered interactive lesson generator for teachers",
+      "language": "EN"
+    }
+  ],
+  "considerations": [
+    {
+      "title": "UNESCO: AI Ethics Guidelines",
+      "provider": "UNESCO",
+      "level": "intermediate",
+      "type": "Policy document",
+      "url": "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+      "description": "Global framework for ethical AI development and use",
+      "language": "EN"
+    },
+    {
+      "title": "EU AI Act — Full Text",
+      "provider": "European Commission",
+      "level": "advanced",
+      "type": "Legislation",
+      "url": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+      "description": "The European Union's comprehensive AI regulation",
+      "language": "EN"
+    },
+    {
+      "title": "Ethical Guidelines on AI for Teachers",
+      "provider": "European Commission",
+      "level": "beginner",
+      "type": "Guidelines",
+      "url": "https://op.europa.eu/en/publication-detail/-/publication/d81a0d54-5348-11ed-92ed-01aa75ed71a1",
+      "description": "Practical ethical guidelines specifically for educators",
+      "language": "EN"
+    },
+    {
+      "title": "AI and Academic Integrity",
+      "provider": "International Center for Academic Integrity",
+      "level": "intermediate",
+      "type": "Guide",
+      "url": "https://academicintegrity.org/",
+      "description": "Resources on maintaining academic integrity in the age of AI",
+      "language": "EN"
+    }
+  ],
+  "accessibility": [
+    {
+      "title": "Microsoft Accessibility Tools",
+      "provider": "Microsoft",
+      "level": "beginner",
+      "type": "Tool suite",
+      "url": "https://www.microsoft.com/en-us/accessibility",
+      "description": "Comprehensive accessibility tools including Immersive Reader",
+      "language": "EN (40+ languages)"
+    },
+    {
+      "title": "Google Accessibility",
+      "provider": "Google",
+      "level": "beginner",
+      "type": "Tool suite",
+      "url": "https://www.google.com/accessibility/",
+      "description": "Google's accessibility features and tools for education",
+      "language": "EN"
+    },
+    {
+      "title": "Goblin Tools",
+      "provider": "Goblin Tools",
+      "level": "beginner",
+      "type": "Tool",
+      "url": "https://goblin.tools/",
+      "description": "AI-powered tools designed for neurodivergent users",
+      "language": "EN"
+    },
+    {
+      "title": "ARASAAC",
+      "provider": "Government of Aragon",
+      "level": "intermediate",
+      "type": "Resource library",
+      "url": "https://arasaac.org/",
+      "description": "Free augmentative and alternative communication pictograms",
+      "language": "Multilingual"
+    }
+  ]
+}

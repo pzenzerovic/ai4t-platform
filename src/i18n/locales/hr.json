@@ -1,0 +1,86 @@
+{
+  "nav": {
+    "home": "Naslovnica",
+    "resources": "Materijali",
+    "assessment": "Procjena",
+    "about": "O projektu"
+  },
+  "hero": {
+    "title": "AI4Teachers",
+    "titleSub": "Vaš vodič za AI u obrazovanju",
+    "subtitle": "Besplatna obrazovna platforma za nastavnike. Bilo da tek počinjete ili želite produbiti znanje — pomoći ćemo vam pronaći pravi put.",
+    "exploreBtn": "Istraži materijale",
+    "assessBtn": "Započni procjenu"
+  },
+  "categories": {
+    "ai-literacy": "AI pismenost",
+    "practical-skills": "Praktične AI vještine",
+    "considerations": "Promišljanja o AI",
+    "accessibility": "AI za sve učenike"
+  },
+  "home": {
+    "categoriesTitle": "Dostupne teme resursa",
+    "categoriesSubtitle": "Istražite kurirane lekcije i resurse u četiri ključna područja AI u obrazovanju",
+    "explore": "Istraži",
+    "lessons": "lekcije",
+    "choosePathTitle": "Odaberite svoj put",
+    "choosePathSubtitle": "Svatko uči drugačije. Odaberite pristup koji vam odgovara.",
+    "pathNewTitle": "Tek počinjem s AI u obrazovanju",
+    "pathNewDesc": "Niste sigurni odakle početi? Riješite kratku procjenu i mi ćemo stvoriti personalizirani put učenja za vas.",
+    "pathNewStep1": "Procjena",
+    "pathNewStep2": "Put učenja",
+    "pathNewStep3": "Učite!",
+    "pathNewCta": "Započni procjenu",
+    "pathNewTime": "Traje otprilike 10 minuta",
+    "pathExperiencedTitle": "Znam što tražim",
+    "pathExperiencedDesc": "Već ste upoznati s AI? Pregledajte našu kompletnu biblioteku resursa organiziranih po temama i razinama.",
+    "pathExperiencedCta": "Pregledaj sve resurse",
+    "recommended": "Preporučeno"
+  },
+  "resources": {
+    "title": "Materijali za učenje",
+    "all": "Sve",
+    "allLevels": "Sve razine",
+    "searchPlaceholder": "Pretraži lekcije...",
+    "noResults": "Nema lekcija koje odgovaraju filtrima.",
+    "comingSoon": "Sadržaj uskoro dolazi! Radimo na dodavanju materijala u ovu sekciju.",
+    "curatedTitle": "Kurirani vanjski resursi",
+    "readTime": "min čitanja",
+    "backToResources": "Natrag na materijale"
+  },
+  "levels": {
+    "beginner": "Početnik",
+    "intermediate": "Srednja razina",
+    "advanced": "Napredna razina"
+  },
+  "lesson": {
+    "relatedResources": "Povezani resursi",
+    "previousLesson": "Prethodna lekcija",
+    "nextLesson": "Sljedeća lekcija",
+    "backToCategory": "Natrag na {{category}}"
+  },
+  "kas": {
+    "title": "Procjena znanja",
+    "description": "Ova procjena će ocijeniti vaše trenutno znanje u 4 područja AI u obrazovanju i stvoriti personalizirani put učenja. Traje približno 10 minuta.",
+    "startBtn": "Započni procjenu",
+    "nextBtn": "Dalje",
+    "backBtn": "Natrag",
+    "sectionOf": "Sekcija {{current}} od {{total}}",
+    "questionOf": "Pitanje {{current}} od {{total}}",
+    "resultsTitle": "Vaš AI profil znanja",
+    "score": "Rezultat",
+    "level": "Razina",
+    "printBtn": "Ispiši rezultate",
+    "pdfBtn": "Spremi kao PDF",
+    "startLearning": "Počni učiti",
+    "retakeBtn": "Ponovi procjenu",
+    "learningPathTitle": "Vaš personalizirani put učenja",
+    "learningPathDesc": "Na temelju vaših rezultata, preporučujemo da započnete s ovim materijalima:",
+    "selectAnswer": "Odaberite odgovor za nastavak"
+  },
+  "footer": {
+    "disclaimer": "Financira Europska unija. Izneseni stavovi i mišljenja isključivo su stavovi autora i ne odražavaju nužno stavove Europske unije ili Europske izvršne agencije za obrazovanje i kulturu (EACEA). Ni Europska unija ni EACEA ne mogu se smatrati odgovornima za njih.",
+    "projectNumber": "Broj projekta: KA210-SCH-86126A35",
+    "partners": "Partneri"
+  }
+}
