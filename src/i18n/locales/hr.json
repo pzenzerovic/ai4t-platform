@@ -3,7 +3,8 @@
     "home": "Naslovnica",
     "resources": "Materijali",
     "assessment": "Procjena",
-    "about": "O projektu"
+    "about": "O projektu",
+    "myResults": "Moji rezultati"
   },
   "hero": {
     "title": "AI4Teachers",
@@ -68,6 +69,7 @@
     "sectionOf": "Sekcija {{current}} od {{total}}",
     "questionOf": "Pitanje {{current}} od {{total}}",
     "resultsTitle": "Vaš AI profil znanja",
+    "getResults": "Dobijte svoj AI profil znanja",
     "score": "Rezultat",
     "level": "Razina",
     "printBtn": "Ispiši rezultate",

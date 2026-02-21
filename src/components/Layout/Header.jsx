@@ -1,12 +1,19 @@
-import { useState } from 'react'
-import { Link, useParams, useNavigate } from 'react-router-dom'
+import { useState, useEffect } from 'react'
+import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import LanguageSwitcher from '../common/LanguageSwitcher'
 
 export default function Header() {
   const { t } = useTranslation()
   const { lang } = useParams()
   const [mobileOpen, setMobileOpen] = useState(false)
+  const [hasResults, setHasResults] = useState(false)
+
+  useEffect(() => {
+    setHasResults(!!localStorage.getItem('ai4t-kas-results'))
+    const onStorage = () => setHasResults(!!localStorage.getItem('ai4t-kas-results'))
+    window.addEventListener('storage', onStorage)
+    return () => window.removeEventListener('storage', onStorage)
+  }, [])
 
   const navLinks = [
     { to: `/${lang}/`, label: t('nav.home') },
@@ -35,7 +42,17 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <LanguageSwitcher />
+            {hasResults && (
+              <Link
+                to={`/${lang}/assessment?view=results`}
+                className="flex items-center gap-1.5 px-3 py-1.5 bg-accent/10 text-accent hover:bg-accent/20 rounded-lg text-sm font-medium transition-colors no-underline"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                {t('nav.myResults')}
+              </Link>
+            )}
           </nav>
 
           <button
@@ -65,9 +82,18 @@ export default function Header() {
                 {link.label}
               </Link>
             ))}
-            <div className="pt-2">
-              <LanguageSwitcher />
-            </div>
+            {hasResults && (
+              <Link
+                to={`/${lang}/assessment?view=results`}
+                onClick={() => setMobileOpen(false)}
+                className="flex items-center gap-1.5 py-2 text-accent font-medium no-underline"
+              >
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                {t('nav.myResults')}
+              </Link>
+            )}
           </nav>
         )}
       </div>

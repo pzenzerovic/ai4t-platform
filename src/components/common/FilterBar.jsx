@@ -9,16 +9,6 @@ export default function FilterBar({ activeCategory, activeLevel, onCategoryChang
   return (
     <div className="flex flex-col sm:flex-row gap-4 mb-8">
       <div className="flex flex-wrap gap-2">
-        <button
-          onClick={() => onCategoryChange(null)}
-          className={`px-4 py-2 rounded-lg text-sm font-medium transition-colors ${
-            !activeCategory
-              ? 'bg-primary text-white'
-              : 'bg-gray-100 text-gray-600 hover:bg-gray-200'
-          }`}
-        >
-          {t('resources.all')}
-        </button>
         {categories.map(cat => (
           <button
             key={cat.id}

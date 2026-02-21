@@ -3,10 +3,20 @@ import kasData from '../data/kas-questions.json'
 import { calculateAllScores } from '../utils/scoring'
 
 const totalQuestions = kasData.categories.reduce((sum, cat) => sum + cat.questions.length, 0)
+const STORAGE_KEY = 'ai4t-kas-results'
+
+function loadSavedResults() {
+  try {
+    const saved = localStorage.getItem(STORAGE_KEY)
+    return saved ? JSON.parse(saved) : null
+  } catch {
+    return null
+  }
+}
 
 export default function useKAS() {
-  const [phase, setPhase] = useState('welcome') // welcome | questions | results
-  const [currentQuestion, setCurrentQuestion] = useState(0) // 0 to totalQuestions-1
+  const [phase, setPhase] = useState('welcome')
+  const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState({})
   const [results, setResults] = useState(null)
 
@@ -46,10 +56,11 @@ export default function useKAS() {
     if (currentQuestion < totalQuestions - 1) {
       setCurrentQuestion(prev => prev + 1)
     } else {
-      // Calculate results
+      // Calculate results and persist
       const scores = calculateAllScores(answers, kasData.categories)
       setResults(scores)
       setPhase('results')
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(scores))
     }
   }, [currentQuestion, answers])
 
@@ -64,6 +75,20 @@ export default function useKAS() {
     setCurrentQuestion(0)
     setAnswers({})
     setResults(null)
+  }, [])
+
+  const resetToWelcome = useCallback(() => {
+    if (phase !== 'questions') {
+      setPhase('welcome')
+    }
+  }, [phase])
+
+  const viewResults = useCallback(() => {
+    const saved = loadSavedResults()
+    if (saved) {
+      setResults(saved)
+      setPhase('results')
+    }
   }, [])
 
   return {
@@ -82,5 +107,7 @@ export default function useKAS() {
     next,
     back,
     retake,
+    viewResults,
+    resetToWelcome,
   }
 }

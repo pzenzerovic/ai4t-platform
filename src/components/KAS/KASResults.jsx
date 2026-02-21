@@ -1,4 +1,4 @@
-import { useParams, Link } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useRef } from 'react'
 import RadarChart from './RadarChart'
@@ -12,10 +12,6 @@ export default function KASResults({ results, onRetake }) {
   const resultsRef = useRef(null)
 
   const learningPath = generateLearningPath(results, lang)
-
-  const handlePrint = () => {
-    window.print()
-  }
 
   const handlePDF = async () => {
     const html2pdf = (await import('html2pdf.js')).default
@@ -59,7 +55,7 @@ export default function KASResults({ results, onRetake }) {
       </div>
 
       {/* Learning Path */}
-      <section className="bg-gray-50 rounded-xl p-6 mb-8">
+      <section className="bg-gray-50 rounded-xl p-6 mb-8" style={{ pageBreakBefore: 'always' }}>
         <h2 className="text-2xl font-bold text-gray-900 mb-2">{t('kas.learningPathTitle')}</h2>
         <p className="text-gray-600 mb-6">{t('kas.learningPathDesc')}</p>
 
@@ -67,16 +63,18 @@ export default function KASResults({ results, onRetake }) {
           {learningPath.length > 0 ? learningPath.map((item, i) => (
             <div key={i} className="bg-white rounded-lg border border-gray-200 p-4 flex items-center gap-4">
               <div className="w-8 h-8 bg-primary/10 rounded-full flex items-center justify-center flex-shrink-0">
-                <span className="text-sm font-bold text-primary">{i + 1}</span>
+                <span className="text-sm font-bold text-primary leading-none">{i + 1}</span>
               </div>
               <div className="flex-1 min-w-0">
                 {item.type === 'lesson' ? (
-                  <Link
-                    to={`/${lang}/lesson/${item.categorySlug}/${item.slug}`}
+                  <a
+                    href={`/${lang}/lesson/${item.categorySlug}/${item.slug}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="font-medium text-gray-900 hover:text-primary no-underline"
                   >
                     {item.title}
-                  </Link>
+                  </a>
                 ) : (
                   <a
                     href={item.url}
@@ -110,24 +108,20 @@ export default function KASResults({ results, onRetake }) {
       {/* Actions */}
       <div className="flex flex-wrap gap-3 justify-center print:hidden">
         <button
-          onClick={handlePrint}
-          className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg font-medium transition-colors"
-        >
-          {t('kas.printBtn')}
-        </button>
-        <button
           onClick={handlePDF}
           className="px-6 py-3 bg-gray-100 hover:bg-gray-200 text-gray-700 rounded-lg font-medium transition-colors"
         >
           {t('kas.pdfBtn')}
         </button>
         {firstLessonLink && (
-          <Link
-            to={`/${lang}/lesson/${firstLessonLink.categorySlug}/${firstLessonLink.slug}`}
+          <a
+            href={`/${lang}/lesson/${firstLessonLink.categorySlug}/${firstLessonLink.slug}`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-6 py-3 bg-accent hover:bg-accent-dark text-white rounded-lg font-medium transition-colors no-underline"
           >
             {t('kas.startLearning')}
-          </Link>
+          </a>
         )}
         <button
           onClick={onRetake}

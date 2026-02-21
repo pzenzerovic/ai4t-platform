@@ -3,7 +3,8 @@
     "home": "Αρχική",
     "resources": "Υλικό",
     "assessment": "Αξιολόγηση",
-    "about": "Σχετικά"
+    "about": "Σχετικά",
+    "myResults": "Τα Αποτελέσματά μου"
   },
   "hero": {
     "title": "AI4Teachers",
@@ -68,6 +69,7 @@
     "sectionOf": "Ενότητα {{current}} από {{total}}",
     "questionOf": "Ερώτηση {{current}} από {{total}}",
     "resultsTitle": "Το Προφίλ Γνώσεων AI σας",
+    "getResults": "Δείτε το Προφίλ Γνώσεων AI σας",
     "score": "Βαθμολογία",
     "level": "Επίπεδο",
     "printBtn": "Εκτύπωση",

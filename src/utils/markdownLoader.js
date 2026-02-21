@@ -82,6 +82,11 @@ export function getAllLessons(lang = 'en') {
     const { metadata, content } = parseFrontmatter(raw)
     if (!metadata.title) continue
 
+    // Calculate reading time from actual word count (200 wpm for educational content)
+    const plainText = content.replace(/[#*`>|\-\[\]()!]/g, '').replace(/\s+/g, ' ').trim()
+    const wordCount = plainText.split(' ').filter(w => w.length > 0).length
+    metadata.readingTime = Math.max(1, Math.ceil(wordCount / 200))
+
     lessons.push({
       ...metadata,
       content,

@@ -1,3 +1,5 @@
+import { useEffect } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import useKAS from '../../hooks/useKAS'
 import KASProgress from './KASProgress'
@@ -6,7 +8,17 @@ import KASResults from './KASResults'
 
 export default function KASWizard() {
   const { t } = useTranslation()
+  const [searchParams] = useSearchParams()
   const kas = useKAS()
+
+  // React to URL changes: show results or reset to welcome
+  useEffect(() => {
+    if (searchParams.get('view') === 'results') {
+      kas.viewResults()
+    } else {
+      kas.resetToWelcome()
+    }
+  }, [searchParams]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Welcome screen
   if (kas.phase === 'welcome') {
@@ -73,7 +85,7 @@ export default function KASWizard() {
           className="px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg font-medium transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
         >
           {kas.currentQuestion === kas.totalQuestions - 1
-            ? t('kas.resultsTitle')
+            ? t('kas.getResults')
             : t('kas.nextBtn')
           }
         </button>

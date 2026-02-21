@@ -12,7 +12,7 @@ export default function LevelBadge({ level, size = 'sm' }) {
   const sizeClass = size === 'sm' ? 'text-xs px-2 py-0.5' : 'text-sm px-3 py-1'
 
   return (
-    <span className={`inline-block rounded-full border font-medium ${colors} ${sizeClass}`}>
+    <span className={`inline-flex items-center rounded-full border font-medium leading-none ${colors} ${sizeClass}`}>
       {t(`levels.${level}`)}
     </span>
   )

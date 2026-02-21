@@ -3,7 +3,8 @@
     "home": "Acasă",
     "resources": "Resurse",
     "assessment": "Evaluare",
-    "about": "Despre"
+    "about": "Despre",
+    "myResults": "Rezultatele mele"
   },
   "hero": {
     "title": "AI4Teachers",
@@ -68,6 +69,7 @@
     "sectionOf": "Secțiunea {{current}} din {{total}}",
     "questionOf": "Întrebarea {{current}} din {{total}}",
     "resultsTitle": "Profilul dvs. de Cunoștințe AI",
+    "getResults": "Obțineți Profilul dvs. de Cunoștințe AI",
     "score": "Scor",
     "level": "Nivel",
     "printBtn": "Tipărește",

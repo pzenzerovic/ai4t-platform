@@ -14,7 +14,7 @@ export default function LessonList() {
   const { categorySlug } = useParams()
   const allLessons = useAllLessons()
 
-  const [activeCategory, setActiveCategory] = useState(categorySlug || null)
+  const [activeCategory, setActiveCategory] = useState(categorySlug || 'ai-literacy')
   const [activeLevel, setActiveLevel] = useState(null)
   const [search, setSearch] = useState('')
 
@@ -49,7 +49,6 @@ export default function LessonList() {
         <p className="text-gray-600 mb-6">{currentCategory.description}</p>
       )}
 
-      <SearchBar value={search} onChange={setSearch} />
       <FilterBar
         activeCategory={activeCategory}
         activeLevel={activeLevel}

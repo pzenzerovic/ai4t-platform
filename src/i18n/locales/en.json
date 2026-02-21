@@ -3,7 +3,8 @@
     "home": "Home",
     "resources": "Resources",
     "assessment": "Assessment",
-    "about": "About"
+    "about": "About",
+    "myResults": "My Results"
   },
   "hero": {
     "title": "AI4Teachers",
@@ -68,6 +69,7 @@
     "sectionOf": "Section {{current}} of {{total}}",
     "questionOf": "Question {{current}} of {{total}}",
     "resultsTitle": "Your AI Knowledge Profile",
+    "getResults": "Get your AI Knowledge Profile",
     "score": "Score",
     "level": "Level",
     "printBtn": "Print Results",
