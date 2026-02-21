@@ -41,7 +41,10 @@
 | Homepage with category overview | ✅ Final version | |
 | Resource library with filtering | ✅ Final version | |
 | Lesson page with Markdown rendering | ✅ Final version | Breadcrumbs, prev/next navigation |
-| Curated external resources per lesson | ✅ Final version | |
+| Curated external resources | ✅ Final version | Shown at category level on resources page |
+| Image support in lessons | ✅ Final version | Local images, 3 sizes (full/medium/small), auto-captions |
+| YouTube video embeds | ✅ Final version | Auto-detected from links, privacy-enhanced mode |
+| Lesson writing template | ✅ Final version | LESSON-TEMPLATE.md with full authoring guide |
 | Knowledge Assessment System | ✅ Final version | Full wizard flow |
 | KAS results with radar chart | ✅ Final version | |
 | Personalized learning path | ✅ Final version | |
