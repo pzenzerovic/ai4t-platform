@@ -6,15 +6,6 @@ level: "intermediate"
 readingTime: "12"
 description: "A clear explanation of what LLMs are, how they generate text, and why understanding this matters for teachers."
 order: 3
-curatedLinks:
-  - title: "How LLMs Work"
-    url: "https://docs.anthropic.com/"
-    provider: "Anthropic"
-    description: "Official documentation on Claude and LLMs"
-  - title: "Neural Networks Explained"
-    url: "https://www.youtube.com/playlist?list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi"
-    provider: "3Blue1Brown"
-    description: "Visual explanation of neural networks"
 ---
 
 ## What is a Large Language Model?

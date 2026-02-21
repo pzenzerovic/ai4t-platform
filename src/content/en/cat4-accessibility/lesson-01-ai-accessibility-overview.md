@@ -6,15 +6,6 @@ level: "beginner"
 readingTime: "10"
 description: "How AI tools can support students with disabilities and diverse learning needs."
 order: 1
-curatedLinks:
-  - title: "Microsoft Accessibility"
-    url: "https://www.microsoft.com/en-us/accessibility"
-    provider: "Microsoft"
-    description: "Comprehensive accessibility tools including Immersive Reader"
-  - title: "Google Accessibility"
-    url: "https://www.google.com/accessibility/"
-    provider: "Google"
-    description: "Google's accessibility features for education"
 ---
 
 ## AI as an Accessibility Tool

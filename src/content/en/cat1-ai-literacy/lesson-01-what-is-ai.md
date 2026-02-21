@@ -6,15 +6,6 @@ level: "beginner"
 readingTime: "10"
 description: "A clear, non-technical explanation of what AI is, what it is not, and why it matters for teachers."
 order: 1
-curatedLinks:
-  - title: "Elements of AI"
-    url: "https://www.elementsofai.com/"
-    provider: "University of Helsinki"
-    description: "Free online course covering AI basics"
-  - title: "What is AI?"
-    url: "https://www.ibm.com/think/topics/artificial-intelligence"
-    provider: "IBM"
-    description: "Accessible overview of AI concepts"
 ---
 
 ## Why Start with This Question?

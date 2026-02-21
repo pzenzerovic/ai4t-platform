@@ -6,15 +6,6 @@ level: "beginner"
 readingTime: "8"
 description: "How AI is already present in schools, from adaptive learning platforms to automated grading."
 order: 2
-curatedLinks:
-  - title: "UNESCO: AI and Education Guidance"
-    url: "https://unesdoc.unesco.org/ark:/48223/pf0000376709"
-    provider: "UNESCO"
-    description: "Comprehensive framework for AI in education policy"
-  - title: "AI for Everyone"
-    url: "https://www.coursera.org/learn/ai-for-everyone"
-    provider: "Coursera"
-    description: "Non-technical introduction to AI concepts"
 ---
 
 ## AI Is Already in Your School

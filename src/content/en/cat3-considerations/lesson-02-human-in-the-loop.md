@@ -6,11 +6,6 @@ level: "intermediate"
 readingTime: "8"
 description: "Understanding why teacher oversight is essential when using AI in education."
 order: 2
-curatedLinks:
-  - title: "AI and Academic Integrity"
-    url: "https://academicintegrity.org/"
-    provider: "ICAI"
-    description: "Resources on academic integrity in the age of AI"
 ---
 
 ## What Does "Human in the Loop" Mean?

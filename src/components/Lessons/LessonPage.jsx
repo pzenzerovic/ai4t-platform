@@ -4,9 +4,98 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { useLesson, useLessonsByCategory } from '../../hooks/useContent'
 import LevelBadge from './LevelBadge'
-import CuratedLinks from './CuratedLinks'
 import { ChevronLeftIcon, ChevronRightIcon } from '../common/Icons'
 import categories from '../../data/categories.json'
+
+// Extract YouTube video ID from various URL formats
+function getYouTubeId(url) {
+  try {
+    const u = new URL(url)
+    if (u.hostname === 'youtu.be') return u.pathname.slice(1)
+    if (u.hostname.includes('youtube.com')) {
+      if (u.pathname.startsWith('/embed/')) return u.pathname.split('/')[2]
+      return u.searchParams.get('v')
+    }
+  } catch {
+    return null
+  }
+  return null
+}
+
+// Custom Markdown components for images and video embeds
+const markdownComponents = {
+  // Custom image renderer with size control and captions
+  // Usage: ![Caption text](url) → full width
+  //        ![Caption text|small](url) → 40% width
+  //        ![Caption text|medium](url) → 65% width
+  img({ src, alt }) {
+    let caption = alt || ''
+    let sizeClass = 'max-w-full'
+
+    // Parse size hint from alt text: "Description|small" or "Description|medium"
+    if (caption.includes('|')) {
+      const parts = caption.split('|')
+      caption = parts[0].trim()
+      const size = parts[1].trim().toLowerCase()
+      if (size === 'small') sizeClass = 'max-w-[40%]'
+      else if (size === 'medium') sizeClass = 'max-w-[65%]'
+    }
+
+    return (
+      <figure className="my-6">
+        <img
+          src={src}
+          alt={caption}
+          className={`${sizeClass} mx-auto block rounded-lg`}
+          loading="lazy"
+        />
+        {caption && (
+          <figcaption className="text-sm text-gray-500 text-center italic mt-2">
+            {caption}
+          </figcaption>
+        )}
+      </figure>
+    )
+  },
+
+  // Custom link renderer — detects YouTube URLs and renders as embedded players
+  // Usage: [Video Title](https://youtube.com/watch?v=xxxxx)
+  a({ href, children }) {
+    const videoId = href ? getYouTubeId(href) : null
+
+    if (videoId) {
+      const title = typeof children === 'string' ? children :
+        Array.isArray(children) ? children.join('') : 'Video'
+
+      return (
+        <div className="my-6">
+          <p className="text-sm font-medium text-gray-700 mb-2">{title}</p>
+          <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+            <iframe
+              className="absolute top-0 left-0 w-full h-full rounded-lg"
+              src={`https://www.youtube-nocookie.com/embed/${videoId}`}
+              title={title}
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            />
+          </div>
+        </div>
+      )
+    }
+
+    // Regular link — open external links in new tab
+    const isExternal = href && (href.startsWith('http://') || href.startsWith('https://'))
+    return (
+      <a
+        href={href}
+        target={isExternal ? '_blank' : undefined}
+        rel={isExternal ? 'noopener noreferrer' : undefined}
+      >
+        {children}
+      </a>
+    )
+  },
+}
 
 export default function LessonPage() {
   const { t } = useTranslation()
@@ -59,30 +148,10 @@ export default function LessonPage() {
 
       {/* Content */}
       <article className="prose max-w-none">
-        <ReactMarkdown remarkPlugins={[remarkGfm]}>{lesson.content}</ReactMarkdown>
+        <ReactMarkdown remarkPlugins={[remarkGfm]} components={markdownComponents}>
+          {lesson.content}
+        </ReactMarkdown>
       </article>
-
-      {/* Curated links */}
-      {lesson.curatedLinks && lesson.curatedLinks.length > 0 && (
-        <section className="mt-10 pt-8 border-t border-gray-200">
-          <h2 className="text-xl font-bold text-gray-900 mb-4">{t('lesson.relatedResources')}</h2>
-          <div className="space-y-3">
-            {lesson.curatedLinks.map((link, i) => (
-              <a
-                key={i}
-                href={link.url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="block bg-gray-50 border border-gray-200 rounded-lg p-4 hover:bg-gray-100 transition-colors no-underline"
-              >
-                <div className="font-medium text-primary">{link.title}</div>
-                {link.provider && <div className="text-xs text-gray-500 mt-1">{link.provider}</div>}
-                {link.description && <div className="text-sm text-gray-600 mt-1">{link.description}</div>}
-              </a>
-            ))}
-          </div>
-        </section>
-      )}
 
       {/* Navigation */}
       <nav className="mt-10 pt-8 border-t border-gray-200">

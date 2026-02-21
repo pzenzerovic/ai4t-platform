@@ -6,15 +6,6 @@ level: "intermediate"
 readingTime: "8"
 description: "Practical strategies for using AI to support students who speak different languages."
 order: 2
-curatedLinks:
-  - title: "ARASAAC"
-    url: "https://arasaac.org/"
-    provider: "Government of Aragon"
-    description: "Free augmentative and alternative communication pictograms"
-  - title: "Goblin Tools"
-    url: "https://goblin.tools/"
-    provider: "Goblin Tools"
-    description: "AI-powered tools for neurodivergent users"
 ---
 
 ## The Multilingual Classroom Challenge

@@ -6,11 +6,6 @@ level: "intermediate"
 readingTime: "10"
 description: "What AI is good at, what it struggles with, and why hallucinations happen."
 order: 4
-curatedLinks:
-  - title: "AI Safety Overview"
-    url: "https://www.anthropic.com/research"
-    provider: "Anthropic"
-    description: "Research on building safe AI systems"
 ---
 
 ## Why Understanding Limitations Matters

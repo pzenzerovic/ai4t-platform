@@ -6,11 +6,6 @@ level: "beginner"
 readingTime: "8"
 description: "A practical guide to setting up and using ChatGPT effectively in your teaching practice."
 order: 2
-curatedLinks:
-  - title: "ChatGPT for Teachers"
-    url: "https://openai.com/chatgpt/use-cases/education"
-    provider: "OpenAI"
-    description: "Official guide for using ChatGPT in education"
 ---
 
 ## Getting Started

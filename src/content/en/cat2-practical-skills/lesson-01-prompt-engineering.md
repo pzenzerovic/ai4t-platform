@@ -6,11 +6,6 @@ level: "beginner"
 readingTime: "10"
 description: "Learn the fundamentals of writing effective prompts to get better results from AI tools."
 order: 1
-curatedLinks:
-  - title: "Prompt Engineering Guide"
-    url: "https://www.promptingguide.ai/"
-    provider: "DAIR.AI"
-    description: "Comprehensive guide to prompt engineering techniques"
 ---
 
 ## What is Prompt Engineering?

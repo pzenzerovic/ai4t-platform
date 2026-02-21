@@ -6,15 +6,6 @@ level: "beginner"
 readingTime: "10"
 description: "An introduction to the ethical considerations of using AI in educational settings."
 order: 1
-curatedLinks:
-  - title: "Ethical Guidelines on AI for Teachers"
-    url: "https://op.europa.eu/en/publication-detail/-/publication/d81a0d54-5348-11ed-92ed-01aa75ed71a1"
-    provider: "European Commission"
-    description: "Practical ethical guidelines for educators"
-  - title: "UNESCO AI Ethics"
-    url: "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics"
-    provider: "UNESCO"
-    description: "Global framework for ethical AI"
 ---
 
 ## Why Ethics Matters in AI for Education
