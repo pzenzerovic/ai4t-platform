@@ -210,6 +210,8 @@ All of these work:
 - Place videos on their own line, with blank lines before and after
 - Add a sentence before the video explaining what the viewer will learn
 - Non-YouTube links render as normal clickable links
+- Videos are embedded in privacy-enhanced mode (youtube-nocookie.com)
+- YouTube may show related videos from the same channel after playback ends — this is a YouTube limitation that cannot be fully disabled
 
 ---
 

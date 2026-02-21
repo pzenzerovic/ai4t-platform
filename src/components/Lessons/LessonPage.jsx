@@ -30,23 +30,24 @@ const markdownComponents = {
   //        ![Caption text|medium](url) → 65% width
   img({ src, alt }) {
     let caption = alt || ''
-    let sizeClass = 'max-w-full'
+    let maxWidth = '100%'
 
     // Parse size hint from alt text: "Description|small" or "Description|medium"
     if (caption.includes('|')) {
       const parts = caption.split('|')
       caption = parts[0].trim()
       const size = parts[1].trim().toLowerCase()
-      if (size === 'small') sizeClass = 'max-w-[40%]'
-      else if (size === 'medium') sizeClass = 'max-w-[65%]'
+      if (size === 'small') maxWidth = '40%'
+      else if (size === 'medium') maxWidth = '65%'
     }
 
     return (
-      <figure className="my-6">
+      <figure className="my-6" style={{ textAlign: 'center' }}>
         <img
           src={src}
           alt={caption}
-          className={`${sizeClass} mx-auto block rounded-lg`}
+          style={{ maxWidth, margin: '0 auto', display: 'block' }}
+          className="rounded-lg"
           loading="lazy"
         />
         {caption && (
@@ -73,7 +74,7 @@ const markdownComponents = {
           <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
             <iframe
               className="absolute top-0 left-0 w-full h-full rounded-lg"
-              src={`https://www.youtube-nocookie.com/embed/${videoId}`}
+              src={`https://www.youtube-nocookie.com/embed/${videoId}?rel=0&modestbranding=1&iv_load_policy=3`}
               title={title}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
