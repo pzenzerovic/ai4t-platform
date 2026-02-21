@@ -2,8 +2,10 @@
 
 > **Last updated:** 2026-02-21
 >
-> This document tracks the status of all educational content, translations, and platform features.
+> This document tracks the status of all educational content and translations.
 > Partners can use this to see what is planned, in progress, and completed at a glance.
+>
+> See also: [PLATFORM-STATUS.md](PLATFORM-STATUS.md) for platform features and KAS system status.
 
 ### Status Legend
 
@@ -125,46 +127,6 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 | Romanian (RO) | Asociatia Adfaber | 0 / 36 | 📋 Not started |
 
 > **Note:** UI translations (buttons, menus, labels) are already complete in all 4 languages. Only lesson content needs translation.
-
----
-
-## Knowledge Assessment System (KAS)
-
-| Component | Status |
-|-----------|--------|
-| Questions — AI Literacy (5 questions) | 📝 Draft published |
-| Questions — Practical AI Skills (5 questions) | 📝 Draft published |
-| Questions — Considerations on AI (5 questions) | 📝 Draft published |
-| Questions — AI for All Learners (5 questions) | 📝 Draft published |
-| Scoring logic and level assignment | 📝 Draft published |
-| Radar chart visualization | 📝 Draft published |
-| Personalized learning path generation | 📝 Draft published |
-| PDF export of results | 📝 Draft published |
-| Results persistence (browser storage) | 📝 Draft published |
-| KAS question translations (HR, EL, RO) | 📋 Planned |
-
----
-
-## Platform Features
-
-| Feature | Status | Notes |
-|---------|--------|-------|
-| Homepage with category overview | 📝 Draft published | |
-| Resource library with filtering | 📝 Draft published | Filters by category and level |
-| Lesson page with Markdown rendering | 📝 Draft published | Breadcrumbs, prev/next navigation |
-| Curated external resources per lesson | 📝 Draft published | |
-| Knowledge Assessment System | 📝 Draft published | Full wizard flow |
-| KAS results with radar chart | 📝 Draft published | |
-| Personalized learning path | 📝 Draft published | Based on assessment scores |
-| PDF export | 📝 Draft published | |
-| Multi-language UI | 📝 Draft published | EN, HR, EL, RO |
-| Responsive mobile layout | 📝 Draft published | |
-| Vercel deployment | 📝 Draft published | Auto-deploys on push |
-| Footer with partner info + EU disclaimer | 📝 Draft published | |
-| Language switcher | 📝 Draft published | Hidden for now |
-| Search functionality | 📝 Draft published | Hidden for now |
-| About page | 📋 Planned | |
-| "How It Works" section on homepage | 📋 Planned | |
 
 ---
 
