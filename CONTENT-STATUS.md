@@ -2,7 +2,16 @@
 
 > **Last updated:** 2026-02-21
 >
-> This document tracks the status of all educational content, translations, and platform features. Partners can use this to see what is planned, in progress, and completed.
+> This document tracks the status of all educational content, translations, and platform features.
+> Partners can use this to see what is planned, in progress, and completed at a glance.
+
+### Status Legend
+
+| Icon | Status | Meaning |
+|------|--------|---------|
+| 📋 | Planned | Not yet started |
+| 📝 | Draft published | On the platform, content still being refined |
+| ✅ | Final version | Reviewed, finalized, no further changes expected |
 
 ---
 
@@ -10,81 +19,110 @@
 
 ### Category 1: AI Literacy
 
-| # | Lesson | Level | Status |
-|---|--------|-------|--------|
-| 1 | What is Artificial Intelligence? | Beginner | Done |
-| 2 | AI in Education Today | Beginner | Done |
-| 3 | How Large Language Models Work | Intermediate | Done |
-| 4 | Understanding AI's Limitations | Intermediate | Done |
-| 5 | History and Evolution of AI | Beginner | Planned |
-| 6 | Types of AI — Narrow vs General | Intermediate | Planned |
-| 7 | Machine Learning Basics for Teachers | Advanced | Planned |
-| 8 | The Future of AI in Education | Advanced | Planned |
+| # | Lesson | Level | Source | Status |
+|---|--------|-------|--------|--------|
+| 1 | What is Artificial Intelligence? | Beginner | Priručnik 1, Ch.1 | 📝 Draft published |
+| 2 | AI in Education Today | Beginner | Priručnik 1, Ch.1 | 📝 Draft published |
+| 3 | A Brief History of AI — Why Now? | Beginner | Priručnik 1, Ch.2 | 📋 Planned |
+| 4 | How Large Language Models Work | Intermediate | Priručnik 1, Ch.3 | 📝 Draft published |
+| 5 | Understanding AI's Limitations | Intermediate | Priručnik 1, Ch.3 | 📝 Draft published |
+| 6 | Multimodal AI — When AI Sees and Hears | Intermediate | Priručnik 1, Ch.4 | 📋 Planned |
+| 7 | The Layers of AI — From Chatbots to Agents | Advanced | Priručnik 1, Ch.5 | 📋 Planned |
+| 8 | The Future of AI — Memory, AGI, and Beyond | Advanced | Priručnik 1, Ch.5 | 📋 Planned |
 
 ### Category 2: Practical AI Skills
 
-| # | Lesson | Level | Status |
-|---|--------|-------|--------|
-| 1 | Introduction to Prompt Engineering | Beginner | Done |
-| 2 | Getting Started with ChatGPT for Teachers | Beginner | Done |
-| 3 | Creating Lesson Plans with AI | Beginner | Planned |
-| 4 | AI-Powered Assessment and Feedback | Intermediate | Planned |
-| 5 | Using AI for Differentiated Instruction | Intermediate | Planned |
-| 6 | AI Tools for Content Creation | Intermediate | Planned |
-| 7 | AI for Administrative Tasks | Beginner | Planned |
-| 8 | Building AI-Enhanced Worksheets | Intermediate | Planned |
-| 9 | Advanced Prompt Techniques | Advanced | Planned |
-| 10 | Evaluating and Choosing AI Tools | Advanced | Planned |
+| # | Lesson | Source | Status |
+|---|--------|--------|--------|
+| 1 | Context and AI — Why It Matters | Priručnik 2, Ch.1 | 📋 Planned |
+| 2 | Introduction to Prompt Engineering | Priručnik 2, Ch.2 | 📝 Draft published |
+| 3 | Prompt Engineering — Practical Examples by Subject | Priručnik 2, Ch.2 | 📋 Planned |
+| 4 | Meta-prompting — Thinking Before You Ask | Priručnik 2, Ch.3 | 📋 Planned |
+| 5 | Getting Started with ChatGPT for Teachers | NEW | 📝 Draft published |
+| 6 | Getting Started with Claude for Teachers | NEW | 📋 Planned |
+| 7 | Canva AI for Education | Existing guide | 📋 Planned |
+| 8 | MagicSchool.ai for Teachers | Existing guide | 📋 Planned |
+| 9 | Building Simple Web Tools with Lovable | Existing guide | 📋 Planned |
+| 10 | Curated: Curipod, Diffit, Copilot, Perplexity, Gamma | Links + descriptions | 📋 Planned |
 
-### Category 3: Considerations on AI
+### Category 3: Considerations on AI in Education
 
-| # | Lesson | Level | Status |
-|---|--------|-------|--------|
-| 1 | Ethics of AI in Education | Beginner | Done |
-| 2 | Human in the Loop — Teacher Oversight of AI | Intermediate | Done |
-| 3 | Student Data Privacy and AI | Beginner | Planned |
-| 4 | Academic Integrity in the Age of AI | Intermediate | Planned |
-| 5 | Bias and Fairness in AI Systems | Intermediate | Planned |
-| 6 | AI Policies for Schools | Advanced | Planned |
-| 7 | Teaching Students About AI Ethics | Intermediate | Planned |
-| 8 | Environmental Impact of AI | Beginner | Planned |
-| 9 | Copyright and AI-Generated Content | Advanced | Planned |
+| # | Lesson | Source | Status |
+|---|--------|--------|--------|
+| 1 | From Answers to Learning — Changing the Paradigm | Priručnik 3, Ch.1 | 📋 Planned |
+| 2 | AI as a Tutor — Guided Learning with AI | Priručnik 3, Ch.2 | 📋 Planned |
+| 3 | AI for Practice and Knowledge Assessment | Priručnik 3, Ch.3 | 📋 Planned |
+| 4 | Structuring Knowledge — Summaries, Flashcards, Organization | Priručnik 3, Ch.4 | 📋 Planned |
+| 5 | Responsible and Strategic Use of AI in Learning | Priručnik 3, Ch.6 | 📋 Planned |
+| 6 | Ethics of AI in Education — Bias, Fairness, Human Agency | Greece doc | 📝 Draft published |
+| 7 | AI Policy for Schools — GDPR, Data Privacy, Acceptable Use | NEW | 📋 Planned |
+| 8 | Detecting AI-Generated Student Work | NEW | 📋 Planned |
+| 9 | Curated: UNESCO guidelines, EU AI Act, national policies | Links + descriptions | 📋 Planned |
+| +1 | Human in the Loop — Teacher Oversight of AI | Additional | 📝 Draft published |
 
-### Category 4: AI for All Learners
+### Category 4: AI Tools for Disadvantaged Learners
 
-| # | Lesson | Level | Status |
-|---|--------|-------|--------|
-| 1 | AI and Accessibility — An Overview | Beginner | Done |
-| 2 | AI for Multilingual Classrooms | Intermediate | Done |
-| 3 | AI for Students with Dyslexia | Beginner | Planned |
-| 4 | AI-Powered Assistive Technologies | Intermediate | Planned |
-| 5 | Personalized Learning with AI | Intermediate | Planned |
-| 6 | AI for Gifted and Talented Students | Advanced | Planned |
-| 7 | AI for Students with ADHD | Beginner | Planned |
-| 8 | Universal Design for Learning and AI | Advanced | Planned |
+| # | Lesson | Source | Status |
+|---|--------|--------|--------|
+| 1 | AI and Accessibility — An Overview | Priručnik 4, Intro | 📝 Draft published |
+| 2 | AI for Students with Visual Impairments | Priručnik 4 | 📋 Planned |
+| 3 | AI for Students with Hearing Impairments | Priručnik 4 | 📋 Planned |
+| 4 | AI for Cognitive Accessibility | Priručnik 4 | 📋 Planned |
+| 5 | AI for Multilingual Classrooms | Priručnik 4 | 📝 Draft published |
+| 6 | AI for Students with Intellectual Disabilities | Priručnik 4 | 📋 Planned |
+| 7 | Accessibility Tools Directory | Priručnik 4, tool table | 📋 Planned |
+| 8 | Curated: Microsoft Accessibility, Google Accessibility, specialized tools | Links | 📋 Planned |
 
 ### Content Summary
 
-| Category | Done | Planned | Total |
-|----------|------|---------|-------|
+| Category | 📝 Draft | 📋 Planned | Total |
+|----------|----------|------------|-------|
 | AI Literacy | 4 | 4 | 8 |
 | Practical AI Skills | 2 | 8 | 10 |
-| Considerations on AI | 2 | 7 | 9 |
-| AI for All Learners | 2 | 6 | 8 |
-| **Total** | **10** | **25** | **35** |
+| Considerations on AI in Education | 2 | 8 | 10 |
+| AI Tools for Disadvantaged Learners | 2 | 6 | 8 |
+| **Total** | **10** | **26** | **36** |
+
+---
+
+## Curated External Resources
+
+### Category 1: AI Literacy (10 resources — defined)
+
+| # | Resource | Provider | Level |
+|---|----------|----------|-------|
+| 1 | Elements of AI | University of Helsinki / MinnaLearn | Beginner |
+| 2 | AI for Everyone | Coursera / Andrew Ng | Beginner |
+| 3 | What is Artificial Intelligence? | IBM | Beginner |
+| 4 | AI and Education: Guidance for Policy-makers | UNESCO | Beginner |
+| 5 | How Large Language Models Work | Anthropic | Intermediate |
+| 6 | GPT: How does it work? | OpenAI | Intermediate |
+| 7 | Neural Networks | 3Blue1Brown (YouTube) | Intermediate |
+| 8 | AI Index Report | Stanford HAI | Advanced |
+| 9 | AI Safety Overview | Anthropic | Advanced |
+| 10 | EU AI Act — Summary | European Commission | Advanced |
+
+### Categories 2–4: Curated Resources (planned)
+
+| Category | Planned | Status |
+|----------|---------|--------|
+| Practical AI Skills | 10 resources | 📋 Planned |
+| Considerations on AI in Education | 10 resources | 📋 Planned |
+| AI Tools for Disadvantaged Learners | 8 resources | 📋 Planned |
+| **Total curated resources** | **38** | |
 
 ---
 
 ## Content Translations
 
-Each lesson needs to be translated into 3 additional languages. Translation should begin once the English version of a lesson is finalized.
+Each lesson needs to be translated into 3 additional languages. Translation should begin once the English version of a lesson is marked ✅ Final version.
 
 | Language | Responsibility | Lessons Translated | Status |
 |----------|---------------|-------------------|--------|
-| English (EN) | EDUKA | 10 / 35 | In progress |
-| Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 35 | Not started |
-| Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 35 | Not started |
-| Romanian (RO) | Asociatia Adfaber | 0 / 35 | Not started |
+| English (EN) | EDUKA | 10 / 36 | 📝 In progress |
+| Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 36 | 📋 Not started |
+| Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 36 | 📋 Not started |
+| Romanian (RO) | Asociatia Adfaber | 0 / 36 | 📋 Not started |
 
 > **Note:** UI translations (buttons, menus, labels) are already complete in all 4 languages. Only lesson content needs translation.
 
@@ -94,16 +132,16 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Component | Status |
 |-----------|--------|
-| Questions — AI Literacy (5 questions) | Done |
-| Questions — Practical AI Skills (5 questions) | Done |
-| Questions — Considerations on AI (5 questions) | Done |
-| Questions — AI for All Learners (5 questions) | Done |
-| Scoring logic and level assignment | Done |
-| Radar chart visualization | Done |
-| Personalized learning path generation | Done |
-| PDF export of results | Done |
-| Results persistence (browser storage) | Done |
-| KAS question translations (HR, EL, RO) | Not started |
+| Questions — AI Literacy (5 questions) | 📝 Draft published |
+| Questions — Practical AI Skills (5 questions) | 📝 Draft published |
+| Questions — Considerations on AI (5 questions) | 📝 Draft published |
+| Questions — AI for All Learners (5 questions) | 📝 Draft published |
+| Scoring logic and level assignment | 📝 Draft published |
+| Radar chart visualization | 📝 Draft published |
+| Personalized learning path generation | 📝 Draft published |
+| PDF export of results | 📝 Draft published |
+| Results persistence (browser storage) | 📝 Draft published |
+| KAS question translations (HR, EL, RO) | 📋 Planned |
 
 ---
 
@@ -111,31 +149,31 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Feature | Status | Notes |
 |---------|--------|-------|
-| Homepage with category overview | Done | |
-| Resource library with filtering | Done | Filters by category and level |
-| Lesson page with Markdown rendering | Done | Breadcrumbs, prev/next navigation |
-| Curated external resources per lesson | Done | |
-| Knowledge Assessment System | Done | Full wizard flow |
-| KAS results with radar chart | Done | |
-| Personalized learning path | Done | Based on assessment scores |
-| PDF export | Done | |
-| Multi-language UI | Done | EN, HR, EL, RO |
-| Responsive mobile layout | Done | |
-| Vercel deployment | Done | Auto-deploys on push |
-| Footer with partner info + EU disclaimer | Done | |
-| Language switcher | Done | Hidden for now |
-| Search functionality | Done | Hidden for now |
-| About page | Planned | |
-| "How It Works" section on homepage | Planned | |
+| Homepage with category overview | 📝 Draft published | |
+| Resource library with filtering | 📝 Draft published | Filters by category and level |
+| Lesson page with Markdown rendering | 📝 Draft published | Breadcrumbs, prev/next navigation |
+| Curated external resources per lesson | 📝 Draft published | |
+| Knowledge Assessment System | 📝 Draft published | Full wizard flow |
+| KAS results with radar chart | 📝 Draft published | |
+| Personalized learning path | 📝 Draft published | Based on assessment scores |
+| PDF export | 📝 Draft published | |
+| Multi-language UI | 📝 Draft published | EN, HR, EL, RO |
+| Responsive mobile layout | 📝 Draft published | |
+| Vercel deployment | 📝 Draft published | Auto-deploys on push |
+| Footer with partner info + EU disclaimer | 📝 Draft published | |
+| Language switcher | 📝 Draft published | Hidden for now |
+| Search functionality | 📝 Draft published | Hidden for now |
+| About page | 📋 Planned | |
+| "How It Works" section on homepage | 📋 Planned | |
 
 ---
 
 ## How to Update This Document
 
 When a lesson is written or translated, update the relevant table:
-- Change `Planned` to `In progress` or `Done`
-- Update the summary counts
-- Update the "Last updated" date at the top
+1. Change 📋 Planned → 📝 Draft published → ✅ Final version
+2. Update the summary counts
+3. Update the "Last updated" date at the top
 
 ---
 
