@@ -1,6 +1,6 @@
 # AI4Teachers — Content & Development Status
 
-> **Last updated:** 2026-02-21
+> **Last updated:** 2026-02-22
 >
 > This document tracks the status of all educational content and translations.
 > Partners can use this to see what is planned, in progress, and completed at a glance.
@@ -25,12 +25,12 @@
 |---|--------|-------|--------|--------|
 | 1 | What is Artificial Intelligence? | Beginner | Priručnik 1, Ch.1 | 📝 Draft published |
 | 2 | AI in Education Today | Beginner | Priručnik 1, Ch.1 | 📝 Draft published |
-| 3 | A Brief History of AI — Why Now? | Beginner | Priručnik 1, Ch.2 | 📋 Planned |
+| 3 | A Brief History of AI — Why Now? | Beginner | Priručnik 1, Ch.2 | 📝 Draft published |
 | 4 | How Large Language Models Work | Intermediate | Priručnik 1, Ch.3 | 📝 Draft published |
 | 5 | Understanding AI's Limitations | Intermediate | Priručnik 1, Ch.3 | 📝 Draft published |
-| 6 | Multimodal AI — When AI Sees and Hears | Intermediate | Priručnik 1, Ch.4 | 📋 Planned |
-| 7 | The Layers of AI — From Chatbots to Agents | Advanced | Priručnik 1, Ch.5 | 📋 Planned |
-| 8 | The Future of AI — Memory, AGI, and Beyond | Advanced | Priručnik 1, Ch.5 | 📋 Planned |
+| 6 | Multimodal AI — When AI Sees and Hears | Intermediate | Priručnik 1, Ch.4 | 📝 Draft published |
+| 7 | The Layers of AI — From Chatbots to Agents | Advanced | Priručnik 1, Ch.5 | 📝 Draft published |
+| 8 | The Future of AI — Memory, AGI, and Beyond | Advanced | Priručnik 1, Ch.5 | 📝 Draft published |
 
 ### Category 2: Practical AI Skills
 
@@ -79,11 +79,11 @@
 
 | Category | 📝 Draft | 📋 Planned | Total |
 |----------|----------|------------|-------|
-| AI Literacy | 4 | 4 | 8 |
+| AI Literacy | 8 | 0 | 8 |
 | Practical AI Skills | 2 | 8 | 10 |
 | Considerations on AI in Education | 2 | 8 | 10 |
 | AI Tools for Disadvantaged Learners | 2 | 6 | 8 |
-| **Total** | **10** | **26** | **36** |
+| **Total** | **14** | **22** | **36** |
 
 ---
 
@@ -121,7 +121,7 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Language | Responsibility | Lessons Translated | Status |
 |----------|---------------|-------------------|--------|
-| English (EN) | EDUKA | 10 / 36 | 📝 In progress |
+| English (EN) | EDUKA | 14 / 36 | 📝 In progress |
 | Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 36 | 📋 Not started |
 | Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 36 | 📋 Not started |
 | Romanian (RO) | Asociatia Adfaber | 0 / 36 | 📋 Not started |
