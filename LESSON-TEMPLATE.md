@@ -47,36 +47,182 @@ order: 3
 
 ## Content Structure
 
-After the frontmatter, write the lesson content in Markdown. Follow this general structure:
+After the frontmatter, write the lesson content in Markdown. Every lesson must follow this structure:
+
+### 1. Opening Hook (required)
+
+The first section must explain **why this topic matters to teachers**. This is not a brief intro — it is a substantial paragraph (4-6 sentences) that establishes relevance, sets expectations for the lesson, and motivates the reader to continue.
+
+Good hooks connect the topic to something teachers already experience, set up the problem the lesson will solve, or explain what the reader will be able to do differently after reading.
+
+```markdown
+## Why This Topic Matters
+
+[4-6 sentences establishing relevance for teachers. Connect to their
+daily practice. Set expectations for what the lesson will cover.]
+```
+
+### 2. Main Content Sections
+
+The body of the lesson consists of 3-6 main concept sections using `##` headings, with optional `###` subsections for deeper detail.
+
+Each concept section should be developed in **flowing prose paragraphs**, not bullet-point lists. Use blockquotes to highlight key insights at natural pause points (2-4 per lesson, not more).
+
+When a section introduces a conceptual idea, end it by connecting back to classroom practice — explain what this means for the reader as a teacher.
+
+### 3. Summary (required)
+
+Every lesson must end with a `## Summary` section containing 5-7 bullet points. Each bullet should be a **complete sentence** that captures a key message, not a short fragment. A reader who only reads the summary should get the essential takeaways of the entire lesson.
+
+```markdown
+## Summary
+
+- [Complete sentence capturing key message 1]
+- [Complete sentence capturing key message 2]
+- [Complete sentence capturing key message 3]
+- [Complete sentence capturing key message 4]
+- [Complete sentence capturing key message 5]
+```
+
+### Structural Template
 
 ```markdown
 ## Opening Hook / Why This Matters
 
-A short paragraph (2-3 sentences) explaining why this topic is relevant for teachers.
+[4-6 sentences of motivation and relevance]
 
 ## Main Concept 1
 
-Explanation with examples...
+[Prose paragraphs with examples. End by connecting to classroom practice.]
 
-> **Key Insight**: Important takeaway highlighted in a blockquote.
+> **Key Insight**: [Important takeaway]
 
 ## Main Concept 2
 
-More content...
+[More prose paragraphs...]
 
 ### Subsection (if needed)
 
-Deeper detail...
+[Deeper detail...]
 
-## Practical Implications for Teachers
+## Main Concept 3
 
-How does this apply in the classroom?
+[Continue pattern...]
+
+> **Tip**: [Practical advice for teachers]
+
+## Practical Implications / What This Means for Teachers
+
+[Explicit connection to classroom practice — may be woven into earlier
+sections instead of a standalone section, but the connection must exist.]
 
 ## Summary
 
-- Bullet point recap of key takeaways
-- Keep to 3-5 points
+- [Complete sentence 1]
+- [Complete sentence 2]
+- [Complete sentence 3]
+- [Complete sentence 4]
+- [Complete sentence 5]
 ```
+
+---
+
+## Writing Style Rules
+
+These rules ensure consistency across all lessons. They are based on the style established in Category 1 and must be followed for all future content.
+
+### Prose Over Lists
+
+Write in **flowing paragraphs**, not bullet-point lists. Lists should be used sparingly and only for content that is genuinely list-like: summaries, step-by-step procedures, comparison tables, or series of short parallel items.
+
+**Wrong** — bullet-point dump:
+```markdown
+AI can help teachers by:
+- Creating lesson plans
+- Generating worksheets
+- Translating content
+- Summarizing texts
+- Brainstorming ideas
+```
+
+**Right** — developed prose:
+```markdown
+Teachers are increasingly using AI to generate first drafts of lesson plans
+and teaching materials, create differentiated worksheets for students at
+different reading levels, produce quiz questions aligned with specific
+learning objectives, translate content for multilingual classrooms, and
+summarize long texts into student-appropriate versions.
+```
+
+### Formal but Warm Register
+
+Avoid contractions. Write "do not" instead of "don't", "cannot" instead of "can't", "it is" instead of "it's". This creates a professional tone without being cold. Combine this with direct second-person address ("you", "your") to keep the tone warm and personal despite the formal register.
+
+### Define Technical Terms Inline
+
+When introducing a technical term for the first time, define it immediately — in the same sentence or the next. Use *italics* for the term on first use. Do not assume the reader will look up unfamiliar terms.
+
+```markdown
+This phenomenon is known as *hallucination* — when an AI model generates
+information that sounds confident and plausible but is actually incorrect.
+```
+
+### Use Teaching Analogies
+
+Wherever possible, explain AI concepts through analogies drawn from teaching practice. Teachers understand scaffolding, lesson planning, assessment, differentiation, and feedback loops — use these as bridges to AI concepts.
+
+```markdown
+Think of context as a lesson plan: just as a good lesson plan gives
+structure to your teaching, good context gives structure to AI's responses.
+```
+
+### Connect Every Concept to Practice
+
+Every major concept section should explicitly connect back to what this means for teachers in their classroom. Do not leave the reader to make the connection themselves. Either include a paragraph at the end of each section or dedicate a standalone section to practical implications.
+
+### Reference Other Lessons
+
+When a concept was covered in a previous lesson or will be explored in a later one, reference it briefly. This creates a sense of a cohesive course rather than isolated articles.
+
+```markdown
+Recall from the previous lesson that an LLM generates text by predicting
+the most likely next token based on patterns learned from training data.
+```
+
+```markdown
+This skill — communicating clearly with AI — is explored in depth in the
+Practical AI Skills lessons.
+```
+
+### Myth-Busting Pattern
+
+When addressing common misconceptions, use the explicit pattern: **name the myth, then dismantle it**. Bold the myth as a quote, then explain why it is wrong.
+
+```markdown
+**Myth: "AI understands what I'm saying."** AI processes patterns in language.
+When you type a question and receive a remarkably relevant response, it is
+easy to feel that you are being understood. In reality, the AI has learned
+from billions of text examples what kind of response typically follows your
+kind of question.
+```
+
+### Blockquote Discipline
+
+Use blockquotes (Key Insight, Tip, Warning) **2-4 times per lesson**, not more. Each blockquote should mark a genuine highlight moment — something worth remembering even if the reader skims everything else. Overusing blockquotes dilutes their impact.
+
+| Blockquote Type | When to Use |
+|-----------------|-------------|
+| `> **Key Insight**:` | For fundamental conceptual takeaways |
+| `> **Tip**:` | For practical, actionable advice |
+| `> **Warning**:` | For important cautions or common pitfalls |
+
+### Tables for Comparison, Not Decoration
+
+Use tables when comparing features, listing tools with attributes, or presenting structured data. Do not use tables as a substitute for prose or as decoration. Every table should serve a clear purpose that would be harder to achieve in paragraph form.
+
+### No "Next Steps" Section
+
+Do not end lessons with a "Next Steps" or "Coming Up Next" section. End with the Summary. If the lesson naturally connects to the next topic, weave that reference into the final content paragraphs before the Summary.
 
 ---
 
@@ -91,7 +237,7 @@ The platform auto-calculates reading time at 200 words per minute:
 | 10 min | ~2,000 words |
 | 12 min | ~2,400 words |
 
-Most lessons should aim for **8-12 minutes** (1,600-2,400 words).
+**Minimum word count: 1,600 words.** Most lessons should aim for **8-10 minutes** (1,600-2,000 words). Lessons may go up to 2,400 words if the topic requires it, but should not exceed that. If a lesson is running long, consider splitting it into two lessons.
 
 ---
 
@@ -101,7 +247,7 @@ Most lessons should aim for **8-12 minutes** (1,600-2,400 words).
 
 ```markdown
 **Bold text** for emphasis
-*Italic text* for terms or titles
+*Italic text* for terms on first use, or for titles
 `inline code` for technical terms, tool names, or commands
 ```
 
@@ -225,14 +371,20 @@ Learn more at the [Elements of AI](https://www.elementsofai.com/) website.
 
 ---
 
-## Tone & Style Guidelines
+## Tone & Style Guidelines — Quick Reference
 
 - **Audience**: K-12 teachers with varying technical backgrounds
 - **Tone**: Friendly, professional, encouraging — not condescending
-- **Language**: Clear, jargon-free. When technical terms are necessary, define them immediately
-- **Examples**: Use classroom-relevant examples wherever possible
+- **Register**: Formal but warm — no contractions, but use "you" and "your" freely
+- **Language**: Clear, jargon-free. When technical terms are necessary, define them immediately inline
+- **Paragraphs**: Write in flowing prose. Avoid bullet-point dumps. Develop ideas across sentences.
+- **Examples**: Use classroom-relevant examples and teaching analogies wherever possible
 - **Active voice**: Prefer "AI processes data" over "Data is processed by AI"
 - **Second person**: Address the reader as "you" — "As a teacher, you might..."
+- **Connections**: Reference other lessons to build a cohesive course narrative
+- **Blockquotes**: 2-4 per lesson maximum. Each must be a genuine highlight moment.
+- **Summary**: 5-7 complete sentences, not short fragments
+- **Minimum length**: 1,600 words per lesson
 
 ---
 
@@ -250,55 +402,86 @@ order: 3
 
 ## Why Should Teachers Care About AI History?
 
-Understanding where AI comes from helps you see where it's going -- and
-why it's suddenly everywhere in education. The story is shorter and more
-surprising than you might think.
+In education, students understand the present more easily when they know
+how it came about. The same is true for AI. Today's AI tools did not appear
+overnight, nor are they the result of a single technological breakthrough.
+They are the product of a long series of attempts, failures, disappointments,
+and breakthroughs spanning over seven decades.
+
+Understanding this history helps you as a teacher in two important ways:
+first, it explains why AI has been talked about for decades, and second,
+it reveals why this particular moment represents a genuine shift in
+everyday practice.
 
 ## The Early Days: Can Machines Think? (1950s)
 
-In 1950, mathematician Alan Turing asked a simple but profound question:
-"Can machines think?" He proposed what we now call the Turing Test...
+The story begins in 1950, when mathematician Alan Turing asked a
+deceptively simple question: "Can machines think?" This was not a
+technical question — it was philosophical. But it laid the foundation
+for the entire field of artificial intelligence.
 
-![The Turing Test concept illustrated|medium](/images/lessons/ai-literacy/turing-test.png)
+Turing proposed what we now call the *Turing Test*: if a machine can
+carry on a conversation so convincingly that a human cannot tell whether
+they are talking to a person or a machine, can we say it "thinks"? This
+question gave researchers a direction and a challenge that would drive
+decades of work.
 
-> **Key Insight**: AI is not a new idea. Scientists have been working on
-> it for over 70 years. What changed recently is the amount of data and
-> computing power available.
+> **Key Insight**: AI is not a new idea. The foundational question was
+> asked over 70 years ago. What has changed is our ability to build
+> systems that can begin to pass versions of Turing's test.
 
 ## The AI Winters (1970s-1990s)
 
-Progress was slower than expected. Twice, funding dried up...
+After a series of unfulfilled promises, interest and funding for AI
+research dropped sharply — not once, but twice. These periods are known
+as *AI winters*. The first winter came in the mid-1970s when early
+symbolic systems failed to scale beyond toy problems. The second came in
+the late 1980s when a new wave of "expert systems" also proved too
+limited, too brittle, and too expensive for widespread use.
 
-## The Deep Learning Revolution (2010s)
-
-Everything changed when researchers figured out how to train very large
-neural networks...
-
-Watch this visual explanation of how neural networks learn:
-
-[But what is a Neural Network? - 3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk)
+This is an important lesson for anyone encountering AI today: the progress
+of AI has never been linear. It has moved in waves of excitement and
+disappointment. Understanding this pattern helps you evaluate today's AI
+developments with a more balanced perspective.
 
 ## The ChatGPT Moment (2022)
 
-When OpenAI released ChatGPT in November 2022, AI went from a
-specialist topic to front-page news overnight...
+When OpenAI released ChatGPT in November 2022, AI went from a specialist
+topic to front-page news overnight. For the first time, AI became widely
+accessible to teachers, students, and the general public. Teachers did
+not need to learn programming — they could simply ask questions in
+natural language.
+
+> **Key Insight**: The real revolution is not just that AI got better —
+> it is that AI became accessible. When teachers can use AI by simply
+> typing a question, it stops being an abstract concept and becomes an
+> everyday tool.
 
 ## What This Means for Teachers
 
-You don't need to become an AI expert. But understanding this
-timeline helps you:
-
-- **Separate hype from reality** -- AI has been through cycles before
-- **Understand current tools** -- they're built on decades of research
-- **Prepare for what's next** -- the pace of change is accelerating
+This historical overview is not meant to turn you into a technology
+historian. Its purpose is to give you a broader picture — one in which
+today's AI has a clear place, but also clear boundaries. The teachers
+who navigate this transition most successfully will be those who
+understand the context — who know that AI is a powerful but imperfect
+tool, shaped by decades of effort, and still very much a work in
+progress.
 
 ## Summary
 
-- AI research began in the 1950s with Turing's question
-- Progress came in waves, with "AI winters" in between
-- Deep learning and massive data made modern AI possible
-- ChatGPT (2022) brought AI into mainstream awareness
-- Teachers benefit from understanding this context
+- AI research began in the 1950s with Turing's foundational question:
+  "Can machines think?"
+- Progress came in waves, with periods of high excitement followed by
+  "AI winters" when expectations outpaced reality
+- The shift from rule-based systems to machine learning — letting
+  machines learn from data — was a major turning point
+- Deep learning and large language models in the 2010s-2020s enabled
+  AI to work with natural language at a practical level
+- The release of ChatGPT in 2022 made AI accessible to non-technical
+  users, including teachers, for the first time at scale
+- Understanding this history helps you evaluate AI tools with
+  appropriate expectations — neither dismissing them nor overestimating
+  them
 ```
 
 ---
@@ -309,12 +492,17 @@ timeline helps you:
 - [ ] Slug is lowercase with hyphens, no spaces
 - [ ] Category matches one of the 4 allowed values
 - [ ] Level is beginner, intermediate, or advanced
-- [ ] Content starts with a hook explaining why the topic matters
-- [ ] Key insights are highlighted in blockquotes
-- [ ] Content ends with a summary or takeaways section
+- [ ] **Opening hook** is a substantial paragraph (4-6 sentences) explaining why the topic matters
+- [ ] Content is written in **flowing prose**, not bullet-point lists
+- [ ] **No contractions** — "do not" not "don't", "cannot" not "can't"
+- [ ] Technical terms are **defined inline** on first use (in *italics*)
+- [ ] Concepts are **connected to classroom practice** — the reader knows what this means for them
+- [ ] Key insights are highlighted in blockquotes (2-4 per lesson, not more)
+- [ ] Content ends with a **Summary** of 5-7 complete sentences
+- [ ] No "Next Steps" or "Coming Up Next" section at the end
+- [ ] **Word count is at least 1,600 words** (target: 1,600-2,400)
 - [ ] All images have captions and use the correct path
 - [ ] All YouTube links use full URLs (not shortened)
-- [ ] Word count is appropriate for target reading time (1,600-2,400 words typical)
 
 ---
 
