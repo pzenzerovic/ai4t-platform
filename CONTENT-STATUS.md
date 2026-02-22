@@ -40,12 +40,11 @@
 | 2 | Introduction to Prompt Engineering | Priručnik 2, Ch.2 | 📝 Draft published |
 | 3 | Prompt Engineering — Practical Examples by Subject | Priručnik 2, Ch.2 | 📝 Draft published |
 | 4 | Meta-prompting — Thinking Before You Ask | Priručnik 2, Ch.3 | 📝 Draft published |
-| 5 | Getting Started with ChatGPT for Teachers | NEW | 📝 Draft published |
-| 6 | Getting Started with Claude for Teachers | NEW | 📝 Draft published |
+| 5 | Getting Started with ChatGPT for Teachers | NEW | 📋 Planned |
+| 6 | Getting Started with Claude for Teachers | NEW | 📋 Planned |
 | 7 | Canva AI for Education | Existing guide | 📝 Draft published |
 | 8 | MagicSchool.ai for Teachers | Existing guide | 📝 Draft published |
 | 9 | Building Simple Web Tools with Lovable | Existing guide | 📝 Draft published |
-| 10 | Curated: Curipod, Diffit, Copilot, Perplexity, Gamma | Links + descriptions | 📋 Planned |
 
 ### Category 3: Considerations on AI in Education
 
@@ -59,8 +58,7 @@
 | 6 | Ethics of AI in Education — Bias, Fairness, Human Agency | Greece doc | 📝 Draft published |
 | 7 | AI Policy for Schools — GDPR, Data Privacy, Acceptable Use | NEW | 📋 Planned |
 | 8 | Detecting AI-Generated Student Work | NEW | 📋 Planned |
-| 9 | Curated: UNESCO guidelines, EU AI Act, national policies | Links + descriptions | 📋 Planned |
-| +1 | Human in the Loop — Teacher Oversight of AI | Additional | 📝 Draft published |
+| 9 | Human in the Loop — Teacher Oversight of AI | Additional | 📝 Draft published |
 
 ### Category 4: AI Tools for Disadvantaged Learners
 
@@ -73,17 +71,16 @@
 | 5 | AI for Multilingual Classrooms | Priručnik 4 | 📝 Draft published |
 | 6 | AI for Students with Intellectual Disabilities | Priručnik 4 | 📋 Planned |
 | 7 | Accessibility Tools Directory | Priručnik 4, tool table | 📋 Planned |
-| 8 | Curated: Microsoft Accessibility, Google Accessibility, specialized tools | Links | 📋 Planned |
 
 ### Content Summary
 
 | Category | 📝 Draft | 📋 Planned | Total |
 |----------|----------|------------|-------|
 | AI Literacy | 8 | 0 | 8 |
-| Practical AI Skills | 9 | 1 | 10 |
-| Considerations on AI in Education | 2 | 8 | 10 |
-| AI Tools for Disadvantaged Learners | 2 | 6 | 8 |
-| **Total** | **21** | **15** | **36** |
+| Practical AI Skills | 7 | 2 | 9 |
+| Considerations on AI in Education | 2 | 7 | 9 |
+| AI Tools for Disadvantaged Learners | 2 | 5 | 7 |
+| **Total** | **19** | **14** | **33** |
 
 ---
 
@@ -121,10 +118,10 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Language | Responsibility | Lessons Translated | Status |
 |----------|---------------|-------------------|--------|
-| English (EN) | EDUKA | 21 / 36 | 📝 In progress |
-| Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 36 | 📋 Not started |
-| Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 36 | 📋 Not started |
-| Romanian (RO) | Asociatia Adfaber | 0 / 36 | 📋 Not started |
+| English (EN) | EDUKA | 19 / 33 | 📝 In progress |
+| Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 33 | 📋 Not started |
+| Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 33 | 📋 Not started |
+| Romanian (RO) | Asociatia Adfaber | 0 / 33 | 📋 Not started |
 
 > **Note:** UI translations (buttons, menus, labels) are already complete in all 4 languages. Only lesson content needs translation.
 
