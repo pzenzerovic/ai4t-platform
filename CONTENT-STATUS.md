@@ -36,15 +36,15 @@
 
 | # | Lesson | Source | Status |
 |---|--------|--------|--------|
-| 1 | Context and AI — Why It Matters | Priručnik 2, Ch.1 | 📋 Planned |
+| 1 | Context and AI — Why It Matters | Priručnik 2, Ch.1 | 📝 Draft published |
 | 2 | Introduction to Prompt Engineering | Priručnik 2, Ch.2 | 📝 Draft published |
-| 3 | Prompt Engineering — Practical Examples by Subject | Priručnik 2, Ch.2 | 📋 Planned |
-| 4 | Meta-prompting — Thinking Before You Ask | Priručnik 2, Ch.3 | 📋 Planned |
+| 3 | Prompt Engineering — Practical Examples by Subject | Priručnik 2, Ch.2 | 📝 Draft published |
+| 4 | Meta-prompting — Thinking Before You Ask | Priručnik 2, Ch.3 | 📝 Draft published |
 | 5 | Getting Started with ChatGPT for Teachers | NEW | 📝 Draft published |
-| 6 | Getting Started with Claude for Teachers | NEW | 📋 Planned |
-| 7 | Canva AI for Education | Existing guide | 📋 Planned |
-| 8 | MagicSchool.ai for Teachers | Existing guide | 📋 Planned |
-| 9 | Building Simple Web Tools with Lovable | Existing guide | 📋 Planned |
+| 6 | Getting Started with Claude for Teachers | NEW | 📝 Draft published |
+| 7 | Canva AI for Education | Existing guide | 📝 Draft published |
+| 8 | MagicSchool.ai for Teachers | Existing guide | 📝 Draft published |
+| 9 | Building Simple Web Tools with Lovable | Existing guide | 📝 Draft published |
 | 10 | Curated: Curipod, Diffit, Copilot, Perplexity, Gamma | Links + descriptions | 📋 Planned |
 
 ### Category 3: Considerations on AI in Education
@@ -80,10 +80,10 @@
 | Category | 📝 Draft | 📋 Planned | Total |
 |----------|----------|------------|-------|
 | AI Literacy | 8 | 0 | 8 |
-| Practical AI Skills | 2 | 8 | 10 |
+| Practical AI Skills | 9 | 1 | 10 |
 | Considerations on AI in Education | 2 | 8 | 10 |
 | AI Tools for Disadvantaged Learners | 2 | 6 | 8 |
-| **Total** | **14** | **22** | **36** |
+| **Total** | **21** | **15** | **36** |
 
 ---
 
@@ -121,7 +121,7 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Language | Responsibility | Lessons Translated | Status |
 |----------|---------------|-------------------|--------|
-| English (EN) | EDUKA | 14 / 36 | 📝 In progress |
+| English (EN) | EDUKA | 21 / 36 | 📝 In progress |
 | Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 36 | 📋 Not started |
 | Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 36 | 📋 Not started |
 | Romanian (RO) | Asociatia Adfaber | 0 / 36 | 📋 Not started |
