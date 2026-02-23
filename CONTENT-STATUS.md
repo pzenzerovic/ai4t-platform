@@ -1,6 +1,6 @@
 # AI4Teachers — Content & Development Status
 
-> **Last updated:** 2026-02-22
+> **Last updated:** 2026-02-23
 >
 > This document tracks the status of all educational content and translations.
 > Partners can use this to see what is planned, in progress, and completed at a glance.
@@ -50,15 +50,15 @@
 
 | # | Lesson | Source | Status |
 |---|--------|--------|--------|
-| 1 | From Answers to Learning — Changing the Paradigm | Priručnik 3, Ch.1 | 📋 Planned |
-| 2 | AI as a Tutor — Guided Learning with AI | Priručnik 3, Ch.2 | 📋 Planned |
-| 3 | AI for Practice and Knowledge Assessment | Priručnik 3, Ch.3 | 📋 Planned |
-| 4 | Structuring Knowledge — Summaries, Flashcards, Organization | Priručnik 3, Ch.4 | 📋 Planned |
-| 5 | Responsible and Strategic Use of AI in Learning | Priručnik 3, Ch.6 | 📋 Planned |
-| 6 | Ethics of AI in Education — Bias, Fairness, Human Agency | Greece doc | 📝 Draft published |
-| 7 | AI Policy for Schools — GDPR, Data Privacy, Acceptable Use | NEW | 📋 Planned |
-| 8 | Detecting AI-Generated Student Work | NEW | 📋 Planned |
-| 9 | Human in the Loop — Teacher Oversight of AI | Additional | 📝 Draft published |
+| 1 | From Answers to Learning — Changing the Paradigm | Priručnik 3, Ch.1 | 📝 Draft published |
+| 2 | AI as a Tutor — Guided Learning with AI | Priručnik 3, Ch.2 | 📝 Draft published |
+| 3 | AI for Practice and Knowledge Assessment | Priručnik 3, Ch.3 | 📝 Draft published |
+| 4 | Structuring Knowledge — Summaries, Flashcards, and Organisation | Priručnik 3, Ch.4 | 📝 Draft published |
+| 5 | Responsible and Strategic Use of AI in Learning | Priručnik 3, Ch.6 | 📝 Draft published |
+| 6 | Ethics of AI in Education — Bias, Fairness, and Human Agency | Greece doc | 📝 Draft published |
+| 7 | Human in the Loop — Teacher Oversight of AI | Additional | 📝 Draft published |
+| 8 | AI Policy for Schools — GDPR, Data Privacy, and Acceptable Use | NEW | 📋 Planned |
+| 9 | Detecting AI-Generated Student Work | NEW | 📋 Planned |
 
 ### Category 4: AI Tools for Disadvantaged Learners
 
@@ -78,9 +78,9 @@
 |----------|----------|------------|-------|
 | AI Literacy | 8 | 0 | 8 |
 | Practical AI Skills | 7 | 2 | 9 |
-| Considerations on AI in Education | 2 | 7 | 9 |
+| Considerations on AI in Education | 7 | 2 | 9 |
 | AI Tools for Disadvantaged Learners | 2 | 5 | 7 |
-| **Total** | **19** | **14** | **33** |
+| **Total** | **24** | **9** | **33** |
 
 ---
 
@@ -118,7 +118,7 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Language | Responsibility | Lessons Translated | Status |
 |----------|---------------|-------------------|--------|
-| English (EN) | EDUKA | 19 / 33 | 📝 In progress |
+| English (EN) | EDUKA | 24 / 33 | 📝 In progress |
 | Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 33 | 📋 Not started |
 | Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 33 | 📋 Not started |
 | Romanian (RO) | Asociatia Adfaber | 0 / 33 | 📋 Not started |
