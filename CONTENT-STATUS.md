@@ -65,12 +65,12 @@
 | # | Lesson | Source | Status |
 |---|--------|--------|--------|
 | 1 | AI and Accessibility — An Overview | Priručnik 4, Intro | 📝 Draft published |
-| 2 | AI for Students with Visual Impairments | Priručnik 4 | 📋 Planned |
-| 3 | AI for Students with Hearing Impairments | Priručnik 4 | 📋 Planned |
-| 4 | AI for Cognitive Accessibility | Priručnik 4 | 📋 Planned |
+| 2 | AI for Students with Visual Impairments | Priručnik 4 | 📝 Draft published |
+| 3 | AI for Students with Hearing Impairments | Priručnik 4 | 📝 Draft published |
+| 4 | AI for Cognitive Accessibility | Priručnik 4 | 📝 Draft published |
 | 5 | AI for Multilingual Classrooms | Priručnik 4 | 📝 Draft published |
-| 6 | AI for Students with Intellectual Disabilities | Priručnik 4 | 📋 Planned |
-| 7 | Accessibility Tools Directory | Priručnik 4, tool table | 📋 Planned |
+| 6 | AI for Students with Intellectual Disabilities | Priručnik 4 | 📝 Draft published |
+| 7 | Accessibility Tools Directory | Priručnik 4, tool table | 📝 Draft published |
 
 ### Content Summary
 
@@ -79,8 +79,8 @@
 | AI Literacy | 8 | 0 | 8 |
 | Practical AI Skills | 7 | 2 | 9 |
 | Considerations on AI in Education | 7 | 2 | 9 |
-| AI Tools for Disadvantaged Learners | 2 | 5 | 7 |
-| **Total** | **24** | **9** | **33** |
+| AI Tools for Disadvantaged Learners | 7 | 0 | 7 |
+| **Total** | **29** | **4** | **33** |
 
 ---
 
@@ -118,7 +118,7 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Language | Responsibility | Lessons Translated | Status |
 |----------|---------------|-------------------|--------|
-| English (EN) | EDUKA | 24 / 33 | 📝 In progress |
+| English (EN) | EDUKA | 29 / 33 | 📝 In progress |
 | Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 33 | 📋 Not started |
 | Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 33 | 📋 Not started |
 | Romanian (RO) | Asociatia Adfaber | 0 / 33 | 📋 Not started |
