@@ -101,14 +101,14 @@
 | 9 | AI Safety Overview | Anthropic | Advanced |
 | 10 | EU AI Act — Summary | European Commission | Advanced |
 
-### Categories 2–4: Curated Resources (planned)
+### Categories 2–4: Curated Resources
 
-| Category | Planned | Status |
-|----------|---------|--------|
-| Practical AI Skills | 10 resources | 📋 Planned |
-| Considerations on AI in Education | 10 resources | 📋 Planned |
-| AI Tools for Disadvantaged Learners | 8 resources | 📋 Planned |
-| **Total curated resources** | **38** | |
+| Category | Current | Target | Status |
+|----------|---------|--------|--------|
+| Practical AI Skills | 10 | 10 | 📝 Draft published |
+| Considerations on AI in Education | 10 | 10 | 📝 Draft published |
+| AI Tools for Disadvantaged Learners | 8 | 8 | 📝 Draft published |
+| **Total curated resources** | **38** | **38** | ✅ Targets met |
 
 ---
 

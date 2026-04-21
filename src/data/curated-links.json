@@ -136,6 +136,51 @@
       "url": "https://curipod.com/",
       "description": "AI-powered interactive lesson generator for teachers",
       "language": "EN"
+    },
+    {
+      "title": "Khanmigo for Teachers",
+      "provider": "Khan Academy",
+      "level": "beginner",
+      "type": "Tool",
+      "url": "https://www.khanmigo.ai/teachers",
+      "description": "Free AI teaching assistant for lesson planning, rubrics, and student feedback",
+      "language": "EN (multilingual support)"
+    },
+    {
+      "title": "Diffit for Teachers",
+      "provider": "Diffit",
+      "level": "beginner",
+      "type": "Tool",
+      "url": "https://web.diffit.me/",
+      "description": "Generate differentiated reading materials and activities at any reading level",
+      "language": "EN + 30+ languages"
+    },
+    {
+      "title": "Brisk Teaching",
+      "provider": "Brisk",
+      "level": "beginner",
+      "type": "Tool (Chrome extension)",
+      "url": "https://www.briskteaching.com/",
+      "description": "Chrome extension that adds AI tools directly into Google Classroom, Docs, and Slides",
+      "language": "EN"
+    },
+    {
+      "title": "Anthropic Prompt Library",
+      "provider": "Anthropic",
+      "level": "intermediate",
+      "type": "Prompt library",
+      "url": "https://docs.claude.com/en/resources/prompt-library/library",
+      "description": "Curated library of prompts for common tasks including education use cases",
+      "language": "EN"
+    },
+    {
+      "title": "Google AI Essentials",
+      "provider": "Google / Coursera",
+      "level": "intermediate",
+      "type": "Online course",
+      "url": "https://grow.google/ai-essentials/",
+      "description": "Self-paced course on working productively with generative AI tools",
+      "language": "EN"
     }
   ],
   "considerations": [
@@ -174,6 +219,60 @@
       "url": "https://academicintegrity.org/",
       "description": "Resources on maintaining academic integrity in the age of AI",
       "language": "EN"
+    },
+    {
+      "title": "TeachAI — AI Guidance for Schools Toolkit",
+      "provider": "TeachAI / Code.org / ETS / ISTE",
+      "level": "intermediate",
+      "type": "Toolkit",
+      "url": "https://www.teachai.org/toolkit",
+      "description": "Free toolkit for school leaders to develop AI policies, covering use cases, risks, and implementation",
+      "language": "EN"
+    },
+    {
+      "title": "Common Sense Education — AI Literacy for Educators",
+      "provider": "Common Sense Media",
+      "level": "beginner",
+      "type": "Course + lesson plans",
+      "url": "https://www.commonsense.org/education/ai-literacy",
+      "description": "Free professional learning course and classroom-ready lessons for teaching AI literacy",
+      "language": "EN"
+    },
+    {
+      "title": "OECD AI Principles",
+      "provider": "OECD",
+      "level": "advanced",
+      "type": "Policy framework",
+      "url": "https://oecd.ai/en/ai-principles",
+      "description": "International principles for trustworthy AI, adopted by 40+ countries",
+      "language": "EN (multilingual)"
+    },
+    {
+      "title": "GDPR and Education",
+      "provider": "European Data Protection Board",
+      "level": "advanced",
+      "type": "Guidelines",
+      "url": "https://www.edpb.europa.eu/edpb_en",
+      "description": "Official EU guidance on data protection — directly relevant to AI tool use in schools",
+      "language": "EN (multilingual)"
+    },
+    {
+      "title": "AI in Schools — Guidance",
+      "provider": "UK Department for Education",
+      "level": "intermediate",
+      "type": "Policy guidance",
+      "url": "https://www.gov.uk/government/publications/generative-artificial-intelligence-in-education",
+      "description": "Practical government guidance on generative AI use in schools",
+      "language": "EN"
+    },
+    {
+      "title": "AI Incident Database",
+      "provider": "Responsible AI Collaborative",
+      "level": "advanced",
+      "type": "Database",
+      "url": "https://incidentdatabase.ai/",
+      "description": "Searchable database of documented AI incidents and harms — useful for case studies",
+      "language": "EN"
     }
   ],
   "accessibility": [
@@ -211,6 +310,42 @@
       "type": "Resource library",
       "url": "https://arasaac.org/",
       "description": "Free augmentative and alternative communication pictograms",
+      "language": "Multilingual"
+    },
+    {
+      "title": "Seeing AI",
+      "provider": "Microsoft",
+      "level": "beginner",
+      "type": "Mobile app",
+      "url": "https://www.microsoft.com/en-us/ai/seeing-ai",
+      "description": "Free app that narrates the visual world for students with visual impairments",
+      "language": "EN + 18 languages"
+    },
+    {
+      "title": "Be My Eyes",
+      "provider": "Be My Eyes",
+      "level": "beginner",
+      "type": "Mobile app",
+      "url": "https://www.bemyeyes.com/",
+      "description": "AI-powered visual assistance through 'Be My AI' and volunteer video support",
+      "language": "EN + 180 languages"
+    },
+    {
+      "title": "Otter.ai",
+      "provider": "Otter.ai",
+      "level": "beginner",
+      "type": "Tool",
+      "url": "https://otter.ai/education",
+      "description": "Real-time transcription and captioning — supports students with hearing impairments",
+      "language": "EN, ES, FR"
+    },
+    {
+      "title": "Read&Write by TextHelp",
+      "provider": "TextHelp",
+      "level": "intermediate",
+      "type": "Tool",
+      "url": "https://www.texthelp.com/products/read-and-write-education/",
+      "description": "Literacy support software with text-to-speech, word prediction, and reading assistance for dyslexia and language learners",
       "language": "Multilingual"
     }
   ]
