@@ -1,6 +1,6 @@
 # AI4Teachers — Content & Development Status
 
-> **Last updated:** 2026-02-23
+> **Last updated:** 2026-04-21
 >
 > This document tracks the status of all educational content and translations.
 > Partners can use this to see what is planned, in progress, and completed at a glance.
@@ -40,8 +40,8 @@
 | 2 | Introduction to Prompt Engineering | Priručnik 2, Ch.2 | 📝 Draft published |
 | 3 | Prompt Engineering — Practical Examples by Subject | Priručnik 2, Ch.2 | 📝 Draft published |
 | 4 | Meta-prompting — Thinking Before You Ask | Priručnik 2, Ch.3 | 📝 Draft published |
-| 5 | Getting Started with ChatGPT for Teachers | NEW | 📋 Planned |
-| 6 | Getting Started with Claude for Teachers | NEW | 📋 Planned |
+| 5 | Getting Started with ChatGPT for Teachers | NEW | 📝 Draft published |
+| 6 | Getting Started with Claude for Teachers | NEW | 📝 Draft published |
 | 7 | Canva AI for Education | Existing guide | 📝 Draft published |
 | 8 | MagicSchool.ai for Teachers | Existing guide | 📝 Draft published |
 | 9 | Building Simple Web Tools with Lovable | Existing guide | 📝 Draft published |
@@ -57,8 +57,8 @@
 | 5 | Responsible and Strategic Use of AI in Learning | Priručnik 3, Ch.6 | 📝 Draft published |
 | 6 | Ethics of AI in Education — Bias, Fairness, and Human Agency | Greece doc | 📝 Draft published |
 | 7 | Human in the Loop — Teacher Oversight of AI | Additional | 📝 Draft published |
-| 8 | AI Policy for Schools — GDPR, Data Privacy, and Acceptable Use | NEW | 📋 Planned |
-| 9 | Detecting AI-Generated Student Work | NEW | 📋 Planned |
+| 8 | AI Policy for Schools — GDPR, Data Privacy, and Acceptable Use | NEW | 📝 Draft published |
+| 9 | Detecting AI-Generated Student Work | NEW | 📝 Draft published |
 
 ### Category 4: AI Tools for Disadvantaged Learners
 
@@ -77,10 +77,10 @@
 | Category | 📝 Draft | 📋 Planned | Total |
 |----------|----------|------------|-------|
 | AI Literacy | 8 | 0 | 8 |
-| Practical AI Skills | 7 | 2 | 9 |
-| Considerations on AI in Education | 7 | 2 | 9 |
+| Practical AI Skills | 9 | 0 | 9 |
+| Considerations on AI in Education | 9 | 0 | 9 |
 | AI Tools for Disadvantaged Learners | 7 | 0 | 7 |
-| **Total** | **29** | **4** | **33** |
+| **Total** | **33** | **0** | **33** |
 
 ---
 
@@ -118,7 +118,7 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 
 | Language | Responsibility | Lessons Translated | Status |
 |----------|---------------|-------------------|--------|
-| English (EN) | EDUKA | 29 / 33 | 📝 In progress |
+| English (EN) | EDUKA | 33 / 33 | 📝 Drafts complete |
 | Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 33 | 📋 Not started |
 | Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 33 | 📋 Not started |
 | Romanian (RO) | Asociatia Adfaber | 0 / 33 | 📋 Not started |
