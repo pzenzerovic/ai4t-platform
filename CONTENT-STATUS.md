@@ -1,6 +1,6 @@
 # AI4Teachers — Content & Development Status
 
-> **Last updated:** 2026-04-21
+> **Last updated:** 2026-05-12
 >
 > This document tracks the status of all educational content and translations.
 > Partners can use this to see what is planned, in progress, and completed at a glance.
@@ -121,7 +121,7 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 | English (EN) | EDUKA | 33 / 33 | 📝 Drafts complete |
 | Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 33 | 📋 Not started |
 | Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 33 | 📋 Not started |
-| Romanian (RO) | Asociatia Adfaber | 0 / 33 | 📋 Not started |
+| Romanian (RO) | Asociatia Adfaber | 29 / 33 | 📝 In progress (4 placeholders awaiting translation of new EN lessons: cat2/05, cat2/06, cat3/08, cat3/09) |
 
 > **Note:** UI translations (buttons, menus, labels) are already complete in all 4 languages. Only lesson content needs translation.
 

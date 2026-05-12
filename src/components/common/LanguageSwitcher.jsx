@@ -1,10 +1,12 @@
 import { useTranslation } from 'react-i18next'
 import { useNavigate, useLocation, useParams } from 'react-router-dom'
 
+// Only languages with substantial lesson content translated are shown.
+// To re-enable HR or EL, uncomment the relevant line below once translations land.
 const languages = [
   { code: 'en', label: 'EN', flag: '🇬🇧' },
-  { code: 'hr', label: 'HR', flag: '🇭🇷' },
-  { code: 'el', label: 'EL', flag: '🇬🇷' },
+  // { code: 'hr', label: 'HR', flag: '🇭🇷' },
+  // { code: 'el', label: 'EL', flag: '🇬🇷' },
   { code: 'ro', label: 'RO', flag: '🇷🇴' },
 ]
 

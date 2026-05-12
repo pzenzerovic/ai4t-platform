@@ -4,7 +4,7 @@ const partners = [
   { name: 'OS Ivana Cankara', location: 'Zagreb, Croatia', role: 'Coordinator' },
   { name: '105 Dimotiko Scholio Thessalonikis', location: 'Thessaloniki, Greece' },
   { name: 'OS Horvati', location: 'Zagreb, Croatia' },
-  { name: 'Asociatia Adfaber', location: 'Timișoara, Romania' },
+  { name: 'Asociatia Adfaber', location: 'București, Romania' },
   { name: 'EDUKA', location: 'Zagreb, Croatia' },
 ]
 

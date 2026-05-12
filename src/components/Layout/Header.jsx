@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import LanguageSwitcher from '../common/LanguageSwitcher'
 
 export default function Header() {
   const { t } = useTranslation()
@@ -53,6 +54,7 @@ export default function Header() {
                 {t('nav.myResults')}
               </Link>
             )}
+            <LanguageSwitcher />
           </nav>
 
           <button
@@ -94,6 +96,9 @@ export default function Header() {
                 {t('nav.myResults')}
               </Link>
             )}
+            <div className="pt-2 border-t border-gray-100 mt-2">
+              <LanguageSwitcher />
+            </div>
           </nav>
         )}
       </div>

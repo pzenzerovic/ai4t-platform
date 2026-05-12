@@ -1,6 +1,6 @@
 # AI4Teachers — Platform & Feature Status
 
-> **Last updated:** 2026-02-21
+> **Last updated:** 2026-05-12
 >
 > This document tracks the status of platform features and the Knowledge Assessment System.
 > Partners can use this to see what is built, what needs refinement, and what is planned.
@@ -53,7 +53,7 @@
 | Responsive mobile layout | ✅ Final version | |
 | Vercel deployment | ✅ Final version | Auto-deploys on push |
 | Footer with partner info + EU disclaimer | 📝 Draft published | Review needed — add info from formal Erasmus+ requirements |
-| Language switcher | ✅ Final version | Implemented, hidden for now |
+| Language switcher | ✅ Final version | Active in header — EN + RO live; HR + EL commented out until translations land |
 | Search functionality | ✅ Final version | Implemented, hidden for now |
 | About page | 📋 Planned | |
 
