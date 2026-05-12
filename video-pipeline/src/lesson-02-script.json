@@ -1,0 +1,58 @@
+{
+  "lesson": "lesson-02-intro-to-prompt-engineering",
+  "title": "Introduction to Prompt Engineering",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Title",
+      "text": "Prompt engineering. [pause] It <emphasis>sounds</emphasis> technical. [pause] It isn't. It's a skill you already have — you just haven't called it that yet."
+    },
+    {
+      "id": 2,
+      "name": "Reframe",
+      "text": "When you write a clear assignment brief for your students — defining the goal, the audience, the format, the criteria — you're doing prompt engineering. [pause] Same skill. Different audience."
+    },
+    {
+      "id": 3,
+      "name": "What is a prompt",
+      "text": "A <emphasis>prompt</emphasis> is just an instruction you give to an AI. [pause] One sentence, or a whole paragraph. [pause] The AI does not guess what you mean. It responds to what you wrote. [pause] Vague in — vague out."
+    },
+    {
+      "id": 4,
+      "name": "Seven principles",
+      "text": "Seven principles teachers find consistently useful. [pause] Define the goal. Specify the audience. Constrain the scope. Assign a role. Set expectations. Provide examples. Ask for step-by-step reasoning. [pause] All seven are things you already do when planning a lesson."
+    },
+    {
+      "id": 5,
+      "name": "Before/After: Goal",
+      "text": "Watch the difference. [pause] <emphasis>Weak prompt:</emphasis> Make some maths exercises. [pause] <emphasis>Strong prompt:</emphasis> Create fifteen multiplication exercises for Year 3 students practising the six times table, formatted as a worksheet. [pause] Few seconds longer to write. Output, night and day."
+    },
+    {
+      "id": 6,
+      "name": "Before/After: Audience",
+      "text": "<emphasis>Weak:</emphasis> Explain fractions. [pause] <emphasis>Strong:</emphasis> Explain fractions to Year 5 students, using everyday examples — like sharing a pizza, or splitting a chocolate bar. [pause] The age tells the AI everything about vocabulary, pace, and what counts as a good example."
+    },
+    {
+      "id": 7,
+      "name": "Before/After: Role",
+      "text": "And the single most efficient trick — assigning a role. [pause] <emphasis>Weak:</emphasis> Write a lesson plan on photosynthesis. [pause] <emphasis>Strong:</emphasis> You are a Year 7 biology teacher. Write a forty-five minute lesson plan with objectives, a warm-up, the main explanation, a hands-on activity, and a quick formative check. [pause] One phrase packs in tone, audience, approach, and expertise."
+    },
+    {
+      "id": 8,
+      "name": "Combine",
+      "text": "In practice, you don't use these one at a time. [pause] A strong educational prompt combines several at once. Role, audience, format, length, and criteria — all in one paragraph. [pause] Thirty seconds to write. Saves you twenty minutes of revision afterwards."
+    },
+    {
+      "id": 9,
+      "name": "Iterate",
+      "text": "And do not expect the first response to be perfect. [pause] AI output benefits from iteration — the same way a lesson plan does. The first prompt sets direction. Follow-ups refine. [pause] Treat it as a conversation. Not a vending machine."
+    },
+    {
+      "id": 10,
+      "name": "Closing",
+      "text": "Clear input. [pause] Useful output."
+    }
+  ]
+}

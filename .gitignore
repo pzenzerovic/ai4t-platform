@@ -2,3 +2,8 @@ node_modules
 dist
 .DS_Store
 *.local
+
+# Video pipeline build artifacts (audio + rendered MP4s)
+video-pipeline/audio/
+video-pipeline/out/
+video-pipeline/remotion/node_modules/

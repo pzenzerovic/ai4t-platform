@@ -1,0 +1,68 @@
+{
+  "lesson": "lesson-01-what-is-ai",
+  "title": "What is AI?",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    {
+      "id": 1,
+      "name": "Title",
+      "text": "Before we talk about how AI can help you in the classroom, we need to agree on what AI actually <emphasis>is</emphasis>. [pause] And — just as importantly — what it isn't."
+    },
+    {
+      "id": 2,
+      "name": "Clear the noise",
+      "text": "Because misconceptions about AI are everywhere. In the news. In the staffroom. In the way products are marketed to you. [pause] Some make us afraid. Others promise too much. [pause] Neither is the truth."
+    },
+    {
+      "id": 3,
+      "name": "Definition",
+      "text": "So — at its core, artificial intelligence is a field of computer science. [pause] It builds systems that can do things we usually associate with human thinking: <emphasis>recognising patterns</emphasis>, <emphasis>understanding language</emphasis>, <emphasis>making decisions</emphasis>, <emphasis>generating content</emphasis>. [pause] Tasks we used to think only people could do."
+    },
+    {
+      "id": 4,
+      "name": "Key insight",
+      "text": "But here's the part most people get wrong. [pause] AI does not actually <emphasis>think</emphasis>. [pause] What it does is process statistical patterns — learned from enormous amounts of data. [pause] No understanding. No intention. No consciousness. [pause] Just very, very good pattern-matching."
+    },
+    {
+      "id": 5,
+      "name": "What AI can do",
+      "text": "And that pattern-matching is genuinely useful. [pause] It can recognise patterns in text, images, and data. Generate human-like writing in dozens of languages. Translate in real time. Summarise long documents into the gist. Answer questions based on what it learned in training. [pause] All of which can save you real hours on real tasks."
+    },
+    {
+      "id": 6,
+      "name": "What AI cannot do",
+      "text": "Now — equally important — what it <emphasis>cannot</emphasis> do. [pause] It cannot truly understand meaning the way you do. It cannot feel anything, even when its writing sounds opinionated. It cannot guarantee it's telling the truth — it hallucinates, confidently. [pause] And it cannot replace your judgment. The things that make you a great teacher are precisely the things AI can't do."
+    },
+    {
+      "id": 7,
+      "name": "Three myths",
+      "text": "Three myths worth retiring right now. [pause] <emphasis>AI knows everything.</emphasis> It doesn't — it invents, confidently. [pause] <emphasis>AI will replace teachers.</emphasis> It won't — every technology predicted to replace us has only changed <emphasis>how</emphasis> we teach. [pause] <emphasis>AI understands what I'm saying.</emphasis> It doesn't — it's matching patterns. That is not the same as comprehension."
+    },
+    {
+      "id": 8,
+      "name": "Chatbot vs LLM",
+      "text": "One quick distinction. [pause] When people say AI, they usually mean a chatbot — ChatGPT, Claude, Gemini. [pause] But the chatbot is just the interface. The actual AI is the <emphasis>large language model</emphasis> behind it. [pause] The chatbot is the phone. The model is the voice on the other end."
+    },
+    {
+      "id": 9,
+      "name": "Narrow AI vs AGI",
+      "text": "And every tool you use today is a <emphasis>specialist</emphasis>. [pause] ChatGPT can write, but it can't drive a car. An image model can see, but it can't reason. [pause] A single AI that does <emphasis>everything</emphasis> a human can — doesn't exist yet. All of today's AI is narrow."
+    },
+    {
+      "id": 10,
+      "name": "Already in education",
+      "text": "And here's the thing — AI has been in your classroom for years. [pause] Khan Academy, Duolingo, Google Translate, Grammarly, auto-graders, YouTube recommendations. [pause] You've been using it all along."
+    },
+    {
+      "id": 11,
+      "name": "You already have the skills",
+      "text": "Which brings us to the good news. [pause] You already have the skills this takes. [pause] Writing a clear lesson plan is the same muscle as writing a clear prompt. Scaffolding a task for a student is exactly how you get good AI output. Grading a paper is evaluating an output. And iterating when a lesson flops — that's how you work with AI, too."
+    },
+    {
+      "id": 12,
+      "name": "Closing",
+      "text": "So — use it with <emphasis>judgment</emphasis>."
+    }
+  ]
+}

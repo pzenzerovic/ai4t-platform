@@ -1,0 +1,22 @@
+{
+  "name": "ai4t-video-pipeline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Remotion pipeline that renders AI4Teachers lesson videos from React scenes + x.ai TTS narration",
+  "scripts": {
+    "preview": "remotion studio src/index.jsx",
+    "render:01": "remotion render src/index.jsx Lesson01 ../out/lesson-01-what-is-ai.mp4",
+    "render:02": "remotion render src/index.jsx Lesson02 ../out/lesson-02-intro-to-prompt-engineering.mp4",
+    "render": "npm run render:01 && npm run render:02"
+  },
+  "dependencies": {
+    "@remotion/bundler": "4.0.295",
+    "@remotion/cli": "4.0.295",
+    "@remotion/google-fonts": "4.0.295",
+    "@remotion/media-utils": "4.0.295",
+    "@remotion/renderer": "4.0.295",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.295"
+  }
+}
