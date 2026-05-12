@@ -121,7 +121,7 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 | English (EN) | EDUKA | 33 / 33 | 📝 Drafts complete |
 | Croatian (HR) | OS Ivana Cankara / OS Horvati | 0 / 33 | 📋 Not started |
 | Greek (EL) | 105 Dimotiko Scholio Thessalonikis | 0 / 33 | 📋 Not started |
-| Romanian (RO) | Asociatia Adfaber | 29 / 33 | 📝 In progress (4 placeholders awaiting translation of new EN lessons: cat2/05, cat2/06, cat3/08, cat3/09) |
+| Romanian (RO) | Asociatia Adfaber | 33 / 33 | 📝 Drafts complete (29 by partner; 4 drafted in partner's style for cat2/05, cat2/06, cat3/08, cat3/09 — awaiting partner review) |
 
 > **Note:** UI translations (buttons, menus, labels) are already complete in all 4 languages. Only lesson content needs translation.
 
