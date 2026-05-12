@@ -125,7 +125,7 @@ export const BeforeAfterScene = ({ kicker, headline, weak, strong, tagline, acce
       }}>
         <div style={{ fontFamily: W.mono, fontSize: 14, letterSpacing: '0.25em', opacity: 0.7, marginBottom: 12 }}>WEAK PROMPT</div>
         <div style={{ fontFamily: W.display, fontSize: 36, fontStyle: 'italic', lineHeight: 1.25 }}>
-          „{weak}"
+          “{weak}”
         </div>
       </div>
 
@@ -138,7 +138,7 @@ export const BeforeAfterScene = ({ kicker, headline, weak, strong, tagline, acce
       }}>
         <div style={{ fontFamily: W.mono, fontSize: 14, letterSpacing: '0.25em', opacity: 0.7, marginBottom: 12 }}>STRONG PROMPT</div>
         <div style={{ fontFamily: W.display, fontSize: 28, fontStyle: 'italic', lineHeight: 1.3 }}>
-          „{strong}"
+          “{strong}”
         </div>
       </div>
 
