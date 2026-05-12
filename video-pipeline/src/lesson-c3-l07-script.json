@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l07 / Human in the Loop",
+  "title": "Human in the Loop",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Human in the loop. [pause] The teacher decides. The AI assists." },
+    { "id": 2, "name": "Principle",    "text": "The term comes from engineering and safety. [pause] A human must approve, verify, or intervene before the system proceeds. [pause] In aviation. In medicine. And now — in education." },
+    { "id": 3, "name": "Why",          "text": "Three reasons education needs a human in the loop. [pause] AI makes errors. AI lacks context. [pause] And education is — at its core — a human relationship." },
+    { "id": 4, "name": "Levels",       "text": "Oversight works at three levels. [pause] Before — review what AI produces. During — monitor student-AI interactions. After — evaluate outcomes. [pause] Most classrooms need before and after. Real-time when students are young." },
+    { "id": 5, "name": "Functions",    "text": "Four functions only a teacher provides. [pause] Emotional attunement. Ethical judgement. Curriculum integration. Accountability. [pause] None of these can be delegated to a machine." },
+    { "id": 6, "name": "Workload",     "text": "But oversight cannot become a burden. [pause] Build it into existing workflows. Sample student-AI transcripts. Add reflection prompts. [pause] Sustainable oversight beats heroic oversight." },
+    { "id": 7, "name": "Quote",        "text": "Remember — clicking 'approve' without reading is not oversight. [pause] The principle requires genuine engagement with what AI produces. [pause] Presence is not enough." },
+    { "id": 8, "name": "Checklist",    "text": "Before students see AI content — six quick questions. [pause] Is it accurate? Unbiased? Age-appropriate? Aligned with my objective? Culturally sensitive? Defensible to a parent?" },
+    { "id": 9, "name": "Closing",      "text": "AI assists. [pause] You decide." }
+  ]
+}

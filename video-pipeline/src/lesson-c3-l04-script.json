@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l04 / Structuring Knowledge",
+  "title": "Structuring Knowledge",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Structuring knowledge. [pause] Where understanding becomes memory." },
+    { "id": 2, "name": "Why",          "text": "Understanding is necessary. It is not sufficient. [pause] A concept grasped on Monday will fade by Friday — unless it is structured, summarised in the student's own words, and revisited." },
+    { "id": 3, "name": "Techniques",   "text": "Four techniques AI supports well. [pause] Summaries. Flashcards. Concept maps. Structured outlines. [pause] Each one organises raw understanding into a stable mental structure." },
+    { "id": 4, "name": "Principle",    "text": "But here is the rule. [pause] If AI generates the summary — the student has a summary. [pause] If the student creates it and AI checks it — the student has both a summary <emphasis>and</emphasis> deeper understanding." },
+    { "id": 5, "name": "Workflow",     "text": "The workflow is three steps. [pause] Attempt. Check. Revise. [pause] The student writes first. AI evaluates. The student rewrites — better." },
+    { "id": 6, "name": "Flashcards",   "text": "Flashcards are a perfect example. [pause] AI can generate twenty cards in seconds. [pause] But the student who decides what is worth testing learns more than the student who just receives the deck." },
+    { "id": 7, "name": "Cycle",        "text": "Knowledge structuring is not a one-time event. [pause] As new material arrives, structures expand. Outlines reorganise. Flashcard sets grow. [pause] Revisiting is where retention lives." },
+    { "id": 8, "name": "Classroom",    "text": "In your classroom — end every lesson with a five-sentence student summary. [pause] Then let AI flag what was missed. [pause] Small habit. Big difference." },
+    { "id": 9, "name": "Closing",      "text": "Student first. [pause] AI second." }
+  ]
+}

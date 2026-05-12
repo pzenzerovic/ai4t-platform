@@ -1,0 +1,16 @@
+{
+  "lesson": "c1-l05 / Understanding AI's Limitations",
+  "title": "Understanding AI's Limitations",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",       "text": "Understanding what AI cannot do. [pause] Hallucinations, gaps, and the limits of memory. [pause] Knowing these is what makes you a careful user." },
+    { "id": 2, "name": "Hallucination","text": "<emphasis>Hallucination.</emphasis> [pause] When AI produces text that sounds confident but is factually wrong. [pause] It's not a bug — it's a direct consequence of how language models work. The model generates plausible text, not verified facts." },
+    { "id": 3, "name": "Good at",     "text": "What AI is genuinely good at. [pause] First drafts. Brainstorming. Explaining the same concept in different ways. Reformatting content. Translation. [pause] These are huge time-savers when used well." },
+    { "id": 4, "name": "Struggles",   "text": "What AI consistently struggles with. [pause] Factual precision. Mathematical reasoning. Current events. Nuanced judgment. Consistency across long conversations. [pause] These are not edge cases. They are the model's structural limits." },
+    { "id": 5, "name": "Context",     "text": "The context window is the AI's <emphasis>working memory</emphasis>. [pause] When a conversation gets too long, the earliest parts drop out. [pause] Practical move — provide critical information upfront, in one structured message. Don't rely on memory across many turns." },
+    { "id": 6, "name": "Strategies",  "text": "Practical strategies. [pause] Always review AI output before using with students. Verify specific facts independently — dates, statistics, citations. [pause] When the topic is high-stakes, treat AI as a first draft, not a final source." },
+    { "id": 7, "name": "Teach it",    "text": "Teaching students about AI limitations is itself a valuable lesson. [pause] It builds <emphasis>critical thinking.</emphasis> [pause] Students who know AI hallucinates become better evaluators of everything they read." },
+    { "id": 8, "name": "Closing",     "text": "Your expertise. [pause] More important. Not less." }
+  ]
+}

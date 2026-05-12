@@ -1,0 +1,17 @@
+{
+  "lesson": "c4-l02 / AI for Students with Visual Impairments",
+  "title": "AI for Students with Visual Impairments",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "When seeing the board isn't enough. [pause] AI that can read what a student cannot." },
+    { "id": 2, "name": "The barrier",  "text": "Most teaching happens visually. [pause] The board. Slides. Worksheets. Diagrams. [pause] For a student with low vision, every one of these is a potential barrier — and waiting for help means missing the lesson." },
+    { "id": 3, "name": "Image mode",   "text": "AI <emphasis>image analysis</emphasis> changes that. [pause] A student photographs the board. The AI reads the text, describes the diagram, explains the structure, and answers follow-up questions." },
+    { "id": 4, "name": "Tools",        "text": "What the toolkit looks like. [pause] ChatGPT Vision mode for image analysis. ChatGPT Voice mode for spoken interaction. [pause] One device. Two channels. No special hardware." },
+    { "id": 5, "name": "Voice mode",   "text": "Voice mode goes further. [pause] The student speaks a question. The AI speaks the answer. [pause] No reading. No typing. A conversation — like whispering to a classmate." },
+    { "id": 6, "name": "Scenarios",    "text": "Try these in your classroom. [pause] Photograph the board after an explanation. Photograph a worksheet with small print. Photograph a lab setup the student cannot see clearly. [pause] Each becomes accessible content." },
+    { "id": 7, "name": "Limits",       "text": "Limits matter. [pause] Image quality affects accuracy. Handwriting can be misread. Complex diagrams can be misinterpreted. [pause] Every description is an approximation — review it." },
+    { "id": 8, "name": "Your role",    "text": "Your role is modest but essential. [pause] Allow phone use for AI support. Teach effective prompts. Set classroom norms for photography. [pause] And review the output." },
+    { "id": 9, "name": "Closing",      "text": "Visual content. [pause] Spoken access." }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "lesson": "c2-l08 / MagicSchool.ai for Teachers",
+  "title": "MagicSchool.ai for Teachers",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title", "text": "<emphasis>MagicSchool</emphasis>.ai. [pause] Built for teachers — over eighty specialised AI tools, one for each task." },
+    { "id": 2, "name": "Different approach", "text": "ChatGPT is a blank kitchen. MagicSchool is a <emphasis>recipe app</emphasis>. [pause] Pick the tool, fill the form — it structures the prompt for you." },
+    { "id": 3, "name": "Sign up", "text": "Free at <emphasis>magicschool.ai</emphasis>. [pause] Email or single sign-on. The free tier unlocks all eighty-plus tools with a monthly generation limit." },
+    { "id": 4, "name": "Tool dashboard", "text": "Inside, tools are grouped by category." },
+    { "id": 5, "name": "Workflow", "text": "Five steps from form to finished material." },
+    { "id": 6, "name": "Raina", "text": "<emphasis>Raina</emphasis> is the built-in chat assistant. [pause] Instead of regenerating, ask her for the one change you want. Adjust differentiation. Reshape an exit ticket. Done." },
+    { "id": 7, "name": "Privacy", "text": "MagicSchool is FERPA, COPPA, and <emphasis>GDPR</emphasis> compliant. [pause] Strong protections — but the same rule still holds. No real student names. No identifying details." },
+    { "id": 8, "name": "Best uses", "text": "Where it earns its hour back." },
+    { "id": 9, "name": "Closing", "text": "Eighty tools. [pause] One workflow." }
+  ]
+}

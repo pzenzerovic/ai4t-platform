@@ -1,0 +1,17 @@
+{
+  "lesson": "c1-l08 / The Future of AI",
+  "title": "The Future of AI — Memory, AGI, and Beyond",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",      "text": "The future of AI. [pause] What is real today. What is coming. And what remains speculation." },
+    { "id": 2, "name": "Three buckets","text": "Three categories to keep separate. [pause] Real and available — narrow AI. Being developed — agents and memory. Theoretical — AGI and superintelligence." },
+    { "id": 3, "name": "Memory",     "text": "<emphasis>Memory</emphasis> is the newest dimension. [pause] Context lasts one conversation. Memory lasts across them. [pause] AI starts to remember your subject, your grade, your style." },
+    { "id": 4, "name": "Memory caveats","text": "Memory is not human memory. [pause] It is selective — it stores what it judges important. It is limited. It is manageable — you can edit it. [pause] And it can be wrong." },
+    { "id": 5, "name": "AGI",        "text": "<emphasis>AGI</emphasis> — artificial general intelligence. [pause] AI as flexible as a human across any domain. [pause] It does not exist yet. There is no agreed timeline. Today's tools are still narrow AI." },
+    { "id": 6, "name": "ASI",       "text": "<emphasis>ASI</emphasis> goes further — superintelligence beyond any human. [pause] This is theoretical. Popular culture and policy debate. [pause] No bearing on your classroom in the foreseeable future." },
+    { "id": 7, "name": "Coming next","text": "What's actually coming in two to five years. [pause] Better memory. More capable agents. Deeper integration in tools you already use. [pause] And more platforms built specifically for education." },
+    { "id": 8, "name": "Prepare",    "text": "How to prepare. [pause] Build a strong foundation now. Develop critical evaluation. Stay curious — but skeptical. [pause] Focus on what AI cannot replace: connection, judgment, the human qualities that matter most." },
+    { "id": 9, "name": "Closing",    "text": "AI-literate. [pause] Not AI-anxious." }
+  ]
+}

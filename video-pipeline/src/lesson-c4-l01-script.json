@@ -1,0 +1,17 @@
+{
+  "lesson": "c4-l01 / AI and Accessibility — An Overview",
+  "title": "AI and Accessibility — An Overview",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "AI and accessibility. [pause] It does not solve inclusion on its own. [pause] But it can remove concrete barriers — in the moment they appear." },
+    { "id": 2, "name": "The gap",      "text": "Traditional accommodations work — but they require planning, equipment, and people. [pause] When the assistant is absent, when the translation hasn't arrived, the gap returns. [pause] That gap is where learning is lost." },
+    { "id": 3, "name": "Four areas",   "text": "AI helps in four core areas. [pause] Vision. Hearing. Cognitive processing. [pause] And language. [pause] Each represents a different kind of barrier — and a different kind of bridge." },
+    { "id": 4, "name": "Real-time",    "text": "The principle behind all four is <emphasis>real-time</emphasis> adaptation. [pause] Traditional supports require preparation in advance. [pause] AI can adapt content at the moment of need — when a topic is introduced, when a question is asked, when a worksheet appears." },
+    { "id": 5, "name": "Tool inventory","text": "The toolkit is wider than you might think. [pause] ChatGPT, Claude, Otter, Immersive Reader, Goblin Tools, ARASAAC — most run on a phone the student already has." },
+    { "id": 6, "name": "Limits",       "text": "AI cannot assess individual needs. [pause] It cannot judge whether an adaptation is pedagogically appropriate. [pause] Transcripts have errors. Translations miss nuance. [pause] Every output needs human review." },
+    { "id": 7, "name": "Teacher role", "text": "Your role has three functions. [pause] Gatekeeper — deciding when AI is appropriate. [pause] Quality controller — reviewing the adapted output. [pause] And learning designer — fitting the tool into the lesson." },
+    { "id": 8, "name": "Starting point","text": "This is a starting point. Not a complete solution. [pause] But it represents real, practical access that did not exist before — at the moments when prepared adaptations are not yet there." },
+    { "id": 9, "name": "Closing",      "text": "A bridge. [pause] In real time." }
+  ]
+}

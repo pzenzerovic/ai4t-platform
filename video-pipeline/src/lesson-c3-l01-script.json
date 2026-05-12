@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l01 / From Answers to Learning",
+  "title": "From Answers to Learning",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "From answers to learning. [pause] A paradigm shift for the AI classroom." },
+    { "id": 2, "name": "Default",      "text": "When students meet AI, the pattern is the same. [pause] Ask. Receive. Copy. Move on. [pause] The homework is done — but very little has happened in the student's mind." },
+    { "id": 3, "name": "Effort",       "text": "Learning is not the product. [pause] Learning is the <emphasis>effort</emphasis> that produces it. [pause] Questioning, struggling, failing, trying again. That is where understanding is built." },
+    { "id": 4, "name": "Two modes",    "text": "The same tool, two opposite effects. [pause] An answer machine bypasses thinking. [pause] A learning partner guides it. [pause] The technology is neutral. The pedagogy is not." },
+    { "id": 5, "name": "Shift",        "text": "The shift is from <emphasis>product</emphasis> to <emphasis>process</emphasis>. [pause] From 'write me an essay' to 'help me develop my thinking'." },
+    { "id": 6, "name": "Examples",     "text": "Two students study fractions. [pause] One copies the answer. The other says: do not give me the answer — guide me step by step. [pause] Same tool. Different learning." },
+    { "id": 7, "name": "Teacher role", "text": "The teacher's job is no longer to ban AI. [pause] It is to design the conditions under which AI deepens learning instead of bypassing it." },
+    { "id": 8, "name": "Practices",    "text": "Three concrete practices. [pause] Teach AI as a process tool. Design assignments that value drafts and reasoning. Be explicit about the purpose of every task." },
+    { "id": 9, "name": "Closing",      "text": "Build understanding. [pause] Don't bypass it." }
+  ]
+}

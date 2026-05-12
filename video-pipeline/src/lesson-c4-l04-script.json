@@ -1,0 +1,17 @@
+{
+  "lesson": "c4-l04 / AI for Cognitive Accessibility",
+  "title": "AI for Cognitive Accessibility",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Cognitive accessibility. [pause] The widest area of need — and the hardest to address systematically." },
+    { "id": 2, "name": "Range",        "text": "It covers a wide range. [pause] Dyslexia. Dyscalculia. ADHD. Autism spectrum conditions. General processing differences. [pause] And students without any diagnosis who simply find a particular text too dense." },
+    { "id": 3, "name": "Transformations","text": "AI works through <emphasis>text transformation</emphasis>. [pause] Simplify language. Restructure into tables and steps. Add concrete examples and analogies. [pause] The meaning stays. The cognitive load drops." },
+    { "id": 4, "name": "Prompts",      "text": "Specific prompts work. Vague ones do not. [pause] Rewrite at this reading level. Convert to a numbered list of single actions. Make a three-column table with concept, explanation, example." },
+    { "id": 5, "name": "By condition", "text": "Different conditions benefit from different adaptations. [pause] Dyslexia — shorter sentences, dual channel with audio. ADHD — structured sections, bullet summaries. Autism — explicit, systematic formats." },
+    { "id": 6, "name": "Principle",    "text": "The principle to hold onto. [pause] Cognitive accessibility is not about lowering standards. [pause] The learning objective stays the same. Only the path to understanding changes." },
+    { "id": 7, "name": "Limits",       "text": "Teacher judgement remains essential. [pause] AI simplifies as much as you ask — it cannot tell whether the result still meets the curriculum. [pause] Set the boundary. Preserve the key terms. Review the output." },
+    { "id": 8, "name": "For all",      "text": "And remember — this benefits every student. [pause] Anyone can find a particular text confusing in a particular moment. [pause] Adapting content becomes a normal classroom skill, not a special accommodation." },
+    { "id": 9, "name": "Closing",      "text": "Same objective. [pause] Different path." }
+  ]
+}

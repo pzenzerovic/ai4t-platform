@@ -1,0 +1,17 @@
+{
+  "lesson": "c2-l03 / Prompt Engineering Examples",
+  "title": "Prompt Engineering — Practical Examples by Subject",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",      "text": "Prompt engineering — practical examples by subject. [pause] Same principles. Different classrooms." },
+    { "id": 2, "name": "Why",        "text": "Principles only matter when you can apply them. [pause] So let's look at three real examples — math, language, history — and see what changes between weak and strong." },
+    { "id": 3, "name": "Math weak",  "text": "Math example. [pause] Weak prompt — <emphasis>make maths exercises for Year 1</emphasis>. [pause] Strong prompt — you are a Year 1 teacher. Create 20 single-digit addition exercises with sums up to 10. Use each digit at least once. No answers." },
+    { "id": 4, "name": "Math why",   "text": "What changed. [pause] A role. A precise count. Mathematical constraints. A format. [pause] The AI's capability didn't change. The context did." },
+    { "id": 5, "name": "Lang weak",  "text": "Language example. [pause] Weak — <emphasis>make English exercises</emphasis>. [pause] Strong — write an eight-sentence Present Simple story about a morning routine, then create true-false, gap-fill, question-formation, and a short writing task. With answer keys." },
+    { "id": 6, "name": "Lang why",   "text": "Notice the pedagogical structure. [pause] Receptive skills first — true-false, gap-fill. Then productive — question formation. Then free writing. [pause] The prompt mirrors how a language teacher actually plans." },
+    { "id": 7, "name": "History",    "text": "History example. [pause] Strong prompt — a chronological overview from 1800 to 2000. At least 12 inventions. Inventor, year, country, significance. [pause] Span transport, communication, medicine, computing. [pause] Constraints make it pedagogical." },
+    { "id": 8, "name": "Patterns",   "text": "The pattern. [pause] Role. Audience. Specific constraints. Anticipating the final form — answer keys, name fields, rubrics. [pause] The design comes from you. AI handles the production." },
+    { "id": 9, "name": "Closing",    "text": "Pedagogy first. [pause] Then the prompt." }
+  ]
+}

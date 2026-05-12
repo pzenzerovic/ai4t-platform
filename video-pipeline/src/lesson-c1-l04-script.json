@@ -1,0 +1,18 @@
+{
+  "lesson": "c1-l04 / How Large Language Models Work",
+  "title": "How Large Language Models Work",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",          "text": "How large language models actually work. [pause] You don't need to be an engineer — but understanding the mechanism transforms how you use these tools." },
+    { "id": 2, "name": "Why it matters", "text": "When you understand the mechanism, three things change. [pause] You stop being surprised by hallucinations. You write better prompts. And you make better decisions about when to trust the output." },
+    { "id": 3, "name": "What is an LLM", "text": "A large language model is <emphasis>not</emphasis> a database. [pause] Not a search engine. Not a system that understands meaning. [pause] It's a <emphasis>pattern machine</emphasis> — trained on billions of pages of text to learn what kinds of words follow other words." },
+    { "id": 4, "name": "Tokens",         "text": "LLMs don't read whole words. They work with <emphasis>tokens</emphasis> — chunks of text. The word „understanding\" might be split into „under\" and „standing.\" [pause] This is why AI sometimes can't count letters in a word — it doesn't see letters, it sees chunks." },
+    { "id": 5, "name": "Process",        "text": "The generation process. [pause] You type a prompt. The model breaks it into tokens. It predicts the most likely next token. Adds it. Predicts the next. [pause] Word by word. One token at a time." },
+    { "id": 6, "name": "No planning",    "text": "Important detail. [pause] The model does <emphasis>not</emphasis> plan its response in advance. [pause] It builds it word by word, each one predicted from everything before it. [pause] That's why it can write a beautiful explanation — and make a factual error in the next sentence." },
+    { "id": 7, "name": "Context window", "text": "Context is the model's <emphasis>working memory</emphasis>. [pause] It sees your whole conversation, not just the last message. Modern models hold hundreds of pages. [pause] When conversation gets too long, the earliest parts drop out. The AI doesn't „forget\" — it literally lost the data." },
+    { "id": 8, "name": "Reads like",     "text": "Why LLMs seem to think. [pause] They've learned what well-reasoned text <emphasis>looks like</emphasis>. [pause] They reproduce the pattern of logical argument without performing logical reasoning. [pause] Think of it as the world's most well-read parrot." },
+    { "id": 9, "name": "For practice",   "text": "What this means for your practice. [pause] Write clearer prompts — better patterns mean better results. Verify factual claims — dates, statistics, citations. [pause] Provide context all at once — don't rely on memory across many messages." },
+    { "id": 10, "name": "Closing",       "text": "Patterns in. [pause] Plausible text out." }
+  ]
+}

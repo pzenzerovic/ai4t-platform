@@ -12,6 +12,7 @@ import {
 } from './Templates.jsx'
 
 export const FPS = 30
+export const LESSON_ID = 'c2-l02' // Intro to Prompt Engineering
 
 // Audio durations measured from x.ai TTS (Sal voice) + 1.0s tail per scene.
 // Closing gets a longer tail so the short last line breathes.
@@ -136,9 +137,9 @@ const STARTS = SCENES.reduce((acc, sc) => {
 STARTS.unshift(0)
 STARTS.pop()
 
-export const LESSON_02_DURATION_SECONDS = SCENES.reduce((a, b) => a + b.dur, 0)
+export const LESSON_DURATION_SECONDS = SCENES.reduce((a, b) => a + b.dur, 0)
 
-export const Lesson02 = () => {
+export const LessonC2L02 = () => {
   return (
     <AbsoluteFill style={{
       background: W.bg,
@@ -157,7 +158,7 @@ export const Lesson02 = () => {
         const sceneNumber = i + 1
         const fromFrame = Math.round(STARTS[i] * FPS)
         const durationFrames = Math.round(scene.dur * FPS)
-        const audioFile = `audio/lesson-02/scene-${String(sceneNumber).padStart(2, '0')}.mp3`
+        const audioFile = `audio/c2-l02/scene-${String(sceneNumber).padStart(2, '0')}.mp3`
         const SceneComponent = scene.component
         return (
           <Sequence

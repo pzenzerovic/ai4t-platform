@@ -1,0 +1,17 @@
+{
+  "lesson": "c4-l06 / AI for Students with Intellectual Disabilities",
+  "title": "AI for Students with Intellectual Disabilities",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "AI for students with intellectual disabilities. [pause] A fundamentally different approach." },
+    { "id": 2, "name": "The shift",    "text": "In other lessons, the student uses AI with some independence. [pause] Here, the dynamic changes. [pause] The student works with the mentor. The mentor works with AI. Always layered. Always together." },
+    { "id": 3, "name": "Principle",    "text": "The foundational principle. [pause] AI may adapt the <emphasis>method</emphasis> of learning — never the goal. [pause] Simplify language. Break the task into steps. But never complete the task on the student's behalf." },
+    { "id": 4, "name": "Three uses",   "text": "Three core uses. [pause] Simplify instructions into concrete language. Break tasks into one-action steps. Create visual and structural supports the mentor can pair with pictograms." },
+    { "id": 5, "name": "Tools",        "text": "Tools in the mentor's hand. [pause] ChatGPT or Claude for text simplification. Goblin Tools for task decomposition. ARASAAC for pictograms. [pause] Choiceworks for visual routines." },
+    { "id": 6, "name": "Rules",        "text": "Strict rules govern use. [pause] The student does not use AI independently. Less is more — one tool, one purpose. The mentor filters all output. [pause] And AI is never used for assessment." },
+    { "id": 7, "name": "Dignity",      "text": "If the student becomes anxious — or pays more attention to the device than the activity — turn the AI off. [pause] The learning continues in the human space between mentor and student." },
+    { "id": 8, "name": "Privacy",      "text": "Privacy obligations are heightened. [pause] Never enter personal student data into an AI tool. No names. No diagnoses. [pause] Describe needs in general terms. The technology is for content — nothing more." },
+    { "id": 9, "name": "Closing",      "text": "AI in the mentor's hand. [pause] Student in the room." }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "lesson": "c2-l01 / Context and AI",
+  "title": "Context and AI — Why It Matters",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",       "text": "Context. [pause] The single most important concept in practical AI use. [pause] And the most often misunderstood." },
+    { "id": 2, "name": "The problem", "text": "You ask AI a question. The answer is technically correct, completely useless. [pause] It didn't fail because it lacked knowledge. It failed because it lacked context." },
+    { "id": 3, "name": "Definition",  "text": "<emphasis>Context</emphasis> is everything available to the AI when it generates a response — your question, your details, the conversation so far. [pause] Not the same as knowledge." },
+    { "id": 4, "name": "Staffroom",   "text": "Imagine a colleague says: <emphasis>make me a worksheet</emphasis>. [pause] You would ask — what subject, what grade, how many questions. [pause] AI cannot ask those questions. It just guesses." },
+    { "id": 5, "name": "Quality",     "text": "Context quality and response quality move together. [pause] <emphasis>Create a quiz about fractions</emphasis> — generic output. [pause] Specify Year 6, unlike denominators, 10 questions, answer key — dramatically more useful." },
+    { "id": 6, "name": "What helps",  "text": "What context helps most in the classroom. [pause] Student age. Prior knowledge. Learning objectives. Output format. And — sometimes — the role the AI should adopt." },
+    { "id": 7, "name": "Mistakes",    "text": "Two common mistakes. [pause] One — assuming AI will figure out what you mean. It won't. [pause] Two — overloading with irrelevant detail. More text doesn't equal better context. Relevance does." },
+    { "id": 8, "name": "Foundation",  "text": "Context is the foundation for everything ahead — prompting, meta-prompting. [pause] And the good news? It is not a technical skill. It is something teachers already do every day." },
+    { "id": 9, "name": "Closing",     "text": "Clear context. [pause] Useful output." }
+  ]
+}

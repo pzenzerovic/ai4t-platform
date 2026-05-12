@@ -1,0 +1,17 @@
+{
+  "lesson": "c2-l05 / Getting Started with ChatGPT for Teachers",
+  "title": "Getting Started with ChatGPT",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title", "text": "Getting started with <emphasis>ChatGPT</emphasis>. [pause] The tool most teachers meet first — used as a real professional instrument." },
+    { "id": 2, "name": "What it is", "text": "ChatGPT is a conversational AI built by OpenAI on top of a large language model. [pause] It does not look up answers — it generates fresh text every time." },
+    { "id": 3, "name": "Setup", "text": "Free at <emphasis>chat.openai.com</emphasis>. [pause] Sign in with email or single sign-on. The free tier is enough for most teacher workflows." },
+    { "id": 4, "name": "Interface tour", "text": "A simple interface — past chats on the left, the conversation in the middle, your text box at the bottom. [pause] At the top, you can switch models." },
+    { "id": 5, "name": "Workflow", "text": "Every useful prompt follows the same shape. [pause] Set context — subject, grade, objective. Give the task. Read critically. Iterate." },
+    { "id": 6, "name": "Four starters", "text": "Four high-value first workflows. [pause] Lesson drafts. Differentiated texts. Practice questions. Rewriting your own materials for clarity." },
+    { "id": 7, "name": "Privacy", "text": "<emphasis>Never</emphasis> paste student names, identifying details, or confidential school documents. [pause] Anonymise first. Everything you type leaves your device." },
+    { "id": 8, "name": "Build the habit", "text": "Pick two recurring tasks. Use ChatGPT for them every week. [pause] Save the prompts that work. That small library becomes your toolkit." },
+    { "id": 9, "name": "Closing", "text": "First draft. [pause] Your judgement." }
+  ]
+}

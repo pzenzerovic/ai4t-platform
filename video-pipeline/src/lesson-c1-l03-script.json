@@ -1,0 +1,16 @@
+{
+  "lesson": "c1-l03 / A Brief History of AI",
+  "title": "A Brief History of AI — Why Now?",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",      "text": "A brief history of AI. [pause] Today's tools didn't appear overnight. [pause] They're the result of seventy years of attempts, failures, and breakthroughs." },
+    { "id": 2, "name": "Why care",   "text": "Why should a teacher care about AI history? [pause] Two reasons. [pause] One — it explains why AI has been talked about for decades. [pause] Two — it shows why <emphasis>this moment</emphasis> is genuinely different." },
+    { "id": 3, "name": "Timeline",   "text": "Five turning points. [pause] 1950 — Turing asks: can machines think? [pause] 1960s — early symbolic AI like ELIZA. [pause] 1970s, 80s — two AI winters when hype crashed. [pause] 1997 — Deep Blue beats Kasparov at chess. [pause] 2022 — ChatGPT arrives, AI becomes accessible to everyone." },
+    { "id": 4, "name": "Non-linear", "text": "An important lesson. [pause] AI's progress has <emphasis>never</emphasis> been linear. [pause] Two winters where funding crashed. [pause] Each wave produced real advances — and inflated expectations that couldn't be met." },
+    { "id": 5, "name": "Why now",    "text": "So why is now different? [pause] Two things changed. [pause] AI got <emphasis>better</emphasis> — large language models can hold a conversation. [pause] And AI got <emphasis>accessible</emphasis> — no coding, no setup. Just type a question." },
+    { "id": 6, "name": "ChatGPT",    "text": "November 2022. ChatGPT released. [pause] For the first time, AI moved from a specialist topic to front-page news overnight. [pause] Teachers, students, the general public — everyone could use it the same day." },
+    { "id": 7, "name": "Practice",   "text": "What this means for your practice. [pause] AI in education is not temporary. The teachers who navigate this transition most successfully will be those who understand the context — [pause] who know AI is powerful but imperfect, shaped by decades of effort, and still a work in progress." },
+    { "id": 8, "name": "Closing",    "text": "Old question. [pause] New answer." }
+  ]
+}

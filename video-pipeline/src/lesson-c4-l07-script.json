@@ -1,0 +1,17 @@
+{
+  "lesson": "c4-l07 / Accessibility Tools Directory",
+  "title": "Accessibility Tools Directory",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Accessibility tools directory. [pause] A practical reference — what each one does, who it helps, and how to use it well." },
+    { "id": 2, "name": "Categories",   "text": "Three categories. [pause] General-purpose AI tools. Specialised accessibility tools. And supporting tools that complement the AI ones. [pause] No single tool does everything." },
+    { "id": 3, "name": "General",      "text": "The general-purpose tools are the most versatile. [pause] ChatGPT. Claude. Microsoft Copilot. [pause] They simplify text, translate, analyse images, speak, listen — across every accessibility area." },
+    { "id": 4, "name": "Specialised",  "text": "Specialised tools go deeper. [pause] Otter dot AI for transcription. Microsoft Immersive Reader and Read and Write for reading support. Goblin Tools for task decomposition. [pause] Each does one thing extremely well." },
+    { "id": 5, "name": "Pictograms",   "text": "For students with intellectual disabilities, specialised libraries matter. [pause] ARASAAC offers a free, open library of pictograms. Choiceworks supports visual routines. [pause] AI structures the text. Pictograms make it visible." },
+    { "id": 6, "name": "Tool cloud",   "text": "The full inventory at a glance. [pause] ChatGPT, Claude, Copilot, Otter, Immersive Reader, Read and Write, Goblin Tools, ARASAAC, Choiceworks. [pause] More than a teacher needs. Less than the landscape contains." },
+    { "id": 7, "name": "Selection",    "text": "How to choose. [pause] Start with one general-purpose AI tool. Add one specialised tool matched to the student's primary need. [pause] Too many tools at once creates its own cognitive overload." },
+    { "id": 8, "name": "Considerations","text": "Practical considerations apply across all of them. [pause] Cost. Privacy. Device compatibility. [pause] And — more than tool selection — training and routine. Predictability is itself an accessibility support." },
+    { "id": 9, "name": "Closing",      "text": "Right tool. [pause] Right student." }
+  ]
+}

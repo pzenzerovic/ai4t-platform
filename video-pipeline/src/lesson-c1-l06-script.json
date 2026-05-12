@@ -1,0 +1,17 @@
+{
+  "lesson": "c1-l06 / Multimodal AI",
+  "title": "Multimodal AI — When AI Sees and Hears",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",       "text": "Multimodal AI. [pause] When AI no longer just reads — it sees, and it hears." },
+    { "id": 2, "name": "Beyond text", "text": "Until recently, tools like ChatGPT worked only with text. [pause] Today's models are <emphasis>multimodal</emphasis> — they can handle text, images, audio, and video together, in one conversation." },
+    { "id": 3, "name": "Definition",  "text": "Multimodal simply means <emphasis>multiple modes</emphasis> of information. [pause] Just like teaching — voice, board, image, demonstration — all in one lesson." },
+    { "id": 4, "name": "Analyze",     "text": "AI can analyze what you upload. [pause] A photo of a leaf. A student's handwritten essay. A chart from a textbook. [pause] It describes, summarizes, gives feedback." },
+    { "id": 5, "name": "Generate",    "text": "AI can also <emphasis>generate</emphasis> media. [pause] Custom diagrams from a sentence. Natural-sounding speech in dozens of languages. Short video clips. [pause] No design skills required." },
+    { "id": 6, "name": "Classroom",   "text": "Imagine a biology lesson. [pause] Before — AI generates a labeled leaf diagram. During — students upload their photos. After — AI transcribes their spoken reflections. [pause] One lesson. Three modalities." },
+    { "id": 7, "name": "Caution",     "text": "The same caution applies as with text. [pause] The model recognizes patterns, not meaning. [pause] It can misidentify objects, misread handwriting, generate hands with too many fingers. [pause] Always verify." },
+    { "id": 8, "name": "Start small", "text": "Where to start. [pause] Upload one image. Ask one question. [pause] That single interaction reveals both the power and the limits — in a way you can immediately use." },
+    { "id": 9, "name": "Closing",     "text": "AI that sees. [pause] AI that listens." }
+  ]
+}

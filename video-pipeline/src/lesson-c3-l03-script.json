@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l03 / AI for Practice and Assessment",
+  "title": "AI for Practice and Assessment",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "AI for practice and assessment. [pause] Turning every mistake into a learning opportunity." },
+    { "id": 2, "name": "Shift",        "text": "From testing to learning through practice. [pause] AI does not just generate tasks. It combines three things that are hard to do at scale — immediate feedback, adaptive difficulty, and endless practice material." },
+    { "id": 3, "name": "Use cases",    "text": "What AI practice systems look like in the classroom. [pause] Quizzes. Drills. Interactive dialogues. Adaptive problem sets. [pause] Every one of them — personalised to the student." },
+    { "id": 4, "name": "Loop",         "text": "The practice loop. [pause] AI generates a problem. The student solves it. The AI evaluates and explains. [pause] If correct — next, harder. If wrong — a similar problem and a clear correction." },
+    { "id": 5, "name": "Feedback",     "text": "Feedback is where the value lives. [pause] A worksheet says right or wrong. [pause] AI explains the error, names the misconception, and generates targeted practice. [pause] Every mistake becomes information." },
+    { "id": 6, "name": "Adaptive",     "text": "Adaptive difficulty keeps students in the zone of growth. [pause] Struggling? It eases back. Confident? It pushes harder. [pause] Personalised pacing — for every student, at any time." },
+    { "id": 7, "name": "Misuse",       "text": "But practice can be misused. [pause] The line between 'help me work' and 'do the work for me' is the line teachers must teach." },
+    { "id": 8, "name": "Teacher",      "text": "Help students design their practice. [pause] Generic prompts give generic practice. [pause] Specific prompts — by topic, level, and goal — produce learning. And remind them: verify the feedback. AI is not infallible." },
+    { "id": 9, "name": "Closing",      "text": "Practice with purpose. [pause] Feedback with insight." }
+  ]
+}

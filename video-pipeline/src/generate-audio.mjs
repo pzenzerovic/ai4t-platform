@@ -20,13 +20,12 @@ import { fileURLToPath } from 'node:url'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const ENV_PATH = path.resolve(__dirname, '..', '..', '.env.local')
 
-// Lesson is selected via --lesson NN (default 01). Audio for each lesson lives
-// in its own subdirectory so different lessons can be regenerated independently.
+// Lesson is selected via --lesson c1-l01 (or any matching id). Each lesson has
+// its own script JSON and per-lesson audio subdirectory.
 function lessonPaths(lessonId) {
-  const padded = String(lessonId).padStart(2, '0')
   return {
-    script: path.join(__dirname, `lesson-${padded}-script.json`),
-    audioDir: path.resolve(__dirname, '..', 'audio', `lesson-${padded}`),
+    script: path.join(__dirname, `lesson-${lessonId}-script.json`),
+    audioDir: path.resolve(__dirname, '..', 'audio', lessonId),
   }
 }
 
@@ -92,7 +91,11 @@ async function main() {
   const sceneFilterIdx = args.indexOf('--scene')
   const sceneFilter = sceneFilterIdx >= 0 ? parseInt(args[sceneFilterIdx + 1], 10) : null
   const lessonIdx = args.indexOf('--lesson')
-  const lessonId = lessonIdx >= 0 ? parseInt(args[lessonIdx + 1], 10) : 1
+  if (lessonIdx < 0) {
+    console.error('ERROR: --lesson <id> is required (e.g. --lesson c1-l01)')
+    process.exit(1)
+  }
+  const lessonId = args[lessonIdx + 1]
 
   const { script: scriptPath, audioDir } = lessonPaths(lessonId)
   const scriptRaw = await fs.readFile(scriptPath, 'utf8')
@@ -101,7 +104,7 @@ async function main() {
 
   await fs.mkdir(audioDir, { recursive: true })
 
-  console.log(`Lesson: ${String(lessonId).padStart(2, '0')} (${script.lesson})`)
+  console.log(`Lesson: ${lessonId} (${script.lesson})`)
   console.log(`Voice: ${voiceId} · Language: ${language}`)
   console.log(`Output: ${audioDir}`)
   console.log('')

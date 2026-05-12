@@ -1,0 +1,17 @@
+{
+  "lesson": "c2-l06 / Getting Started with Claude for Teachers",
+  "title": "Getting Started with Claude",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title", "text": "Getting started with <emphasis>Claude</emphasis>. [pause] A second assistant — with a different feel for long-form teaching work." },
+    { "id": 2, "name": "Who builds it", "text": "Claude is built by <emphasis>Anthropic</emphasis>, founded by former OpenAI researchers. [pause] Same kind of language model — different design choices and behaviour." },
+    { "id": 3, "name": "Where it lives", "text": "Access it at <emphasis>claude.ai</emphasis>. [pause] Free tier for everyday work, paid Claude Pro for higher limits and the best models." },
+    { "id": 4, "name": "Strengths", "text": "Claude tends to write longer, more structured prose. [pause] It handles big documents in one go — chapters, curricula, long readings." },
+    { "id": 5, "name": "Features", "text": "Two features matter most for teachers. [pause] <emphasis>Projects</emphasis> keep your curriculum and style guide ready in every chat. <emphasis>Artefacts</emphasis> hold your drafts in a side panel you can edit." },
+    { "id": 6, "name": "Workflow", "text": "Four classroom-ready workflows. [pause] Process a long reading into student materials. Draft a unit plan. Build a rubric. Run a course inside a Project." },
+    { "id": 7, "name": "Privacy", "text": "Same rule as any AI tool. [pause] No real student names. No identifying details. No confidential documents. Anonymise first — always." },
+    { "id": 8, "name": "Two tools together", "text": "You do not need to pick just one. [pause] Many teachers use ChatGPT for quick drafts and Claude for sustained writing. [pause] Try both on the same task." },
+    { "id": 9, "name": "Closing", "text": "Long form. [pause] Steady partner." }
+  ]
+}

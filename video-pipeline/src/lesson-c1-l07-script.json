@@ -1,0 +1,17 @@
+{
+  "lesson": "c1-l07 / The Layers of AI",
+  "title": "The Layers of AI — From Chatbots to Agents",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",      "text": "The layers of AI. [pause] A mental map — from simple chatbots to autonomous agent systems." },
+    { "id": 2, "name": "Why layers", "text": "Most teachers meet AI through a chatbot window. [pause] But what you see there is one layer. There are six. [pause] Each one extends the capabilities of the one before it." },
+    { "id": 3, "name": "Stack",      "text": "From the ground up. [pause] Layer 1 — text chatbots. Layer 2 — multimodal. Layer 3 — tool use. Layer 4 — computer use. Layer 5 — agents. Layer 6 — agent systems." },
+    { "id": 4, "name": "L1 to L2",   "text": "Layer 1 is what most teachers use today — text in, text out. [pause] Layer 2 adds eyes and ears — images, audio, video. [pause] There is enormous value at these two layers alone." },
+    { "id": 5, "name": "L3",         "text": "Layer 3 is when models start to <emphasis>use tools</emphasis>. [pause] They search the web. Analyze a spreadsheet. Run calculations. [pause] AI moves from knowing things — to finding things out." },
+    { "id": 6, "name": "L4 to L5",   "text": "Layer 4 lets AI operate your computer — open apps, click buttons, fill forms. [pause] Layer 5 is the shift to agents. [pause] You give a goal. The agent plans the steps." },
+    { "id": 7, "name": "L6",         "text": "Layer 6 — agent systems. [pause] A team of agents working together. One researches, one designs, one creates, one checks. [pause] Early days, but the direction is clear." },
+    { "id": 8, "name": "Where you", "text": "Most teachers today work at layers one and two. [pause] That is fine. [pause] The point of the map is not to climb it — it is to know what each layer offers, and where the tools are heading." },
+    { "id": 9, "name": "Closing",    "text": "More capable AI. [pause] More important teacher." }
+  ]
+}

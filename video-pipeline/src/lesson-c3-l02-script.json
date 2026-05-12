@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l02 / AI as a Tutor",
+  "title": "AI as a Tutor",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "AI as a tutor. [pause] Guided learning, one question at a time." },
+    { "id": 2, "name": "Definition",   "text": "A tutor is not an answer machine. [pause] It asks questions. It guides reasoning. It adapts to the student. [pause] AI can do all three — when you set it up to teach, not to answer." },
+    { "id": 3, "name": "Activate",     "text": "Tutoring mode is not the default. [pause] You can use ChatGPT's <emphasis>Study and Learn</emphasis> mode. Or Claude's <emphasis>Learning</emphasis> style. [pause] Or just write the prompt yourself — it works in any tool." },
+    { "id": 4, "name": "Pattern",      "text": "When tutoring works, the rhythm is familiar. [pause] Diagnose, question, adapt, scaffold. [pause] The AI provides the structure. The student does the thinking." },
+    { "id": 5, "name": "Maths",        "text": "A Year 6 student types: do not give me the answer to 2x plus 3 equals 11. [pause] The AI asks what is preventing x from being alone. [pause] The student reasons. The AI confirms. Step by step." },
+    { "id": 6, "name": "Adaptive",     "text": "If the student struggles, the AI simplifies. [pause] If the student is confident, it pushes harder. [pause] This is the zone of proximal development — automated and on demand." },
+    { "id": 7, "name": "Limits",       "text": "But the digital tutor has real limits. [pause] It cannot read body language. It cannot sense frustration. It does not <emphasis>understand</emphasis>. [pause] It can be confidently wrong." },
+    { "id": 8, "name": "Teacher",      "text": "The teacher remains the architect. [pause] Train students on prompts. Set the learning context. Monitor and evaluate sessions. [pause] The AI is the tool. You are the designer." },
+    { "id": 9, "name": "Closing",      "text": "Patient tutor. [pause] Human architect." }
+  ]
+}

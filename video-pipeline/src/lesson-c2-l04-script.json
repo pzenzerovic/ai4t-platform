@@ -1,0 +1,17 @@
+{
+  "lesson": "c2-l04 / Meta-prompting",
+  "title": "Meta-prompting — Thinking Before You Ask",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",      "text": "Meta-prompting. [pause] Thinking through a task — with AI — before you ask for the answer." },
+    { "id": 2, "name": "When",       "text": "Sometimes you know the problem but not the solution. [pause] <emphasis>My students struggle with multiplication tables, but I'm not sure what kind of exercise works best.</emphasis> [pause] Writing a precise prompt feels premature." },
+    { "id": 3, "name": "Definition", "text": "<emphasis>Meta-prompting</emphasis> is prompting about prompting. [pause] You don't say <emphasis>make me X</emphasis>. You say <emphasis>I'm trying to achieve Y — what are my options?</emphasis>" },
+    { "id": 4, "name": "Reflection", "text": "It aligns perfectly with reflective practice. [pause] Teachers already ask — what do I want to achieve? What approach suits this group? [pause] Meta-prompting extends that conversation to an AI partner." },
+    { "id": 5, "name": "Version 1",  "text": "Meta-prompting <emphasis>1.0</emphasis> — improving an existing prompt. [pause] You write a draft. You ask the AI: <emphasis>how could I improve this for a more precise result?</emphasis> [pause] It suggests what is missing. You rewrite." },
+    { "id": 6, "name": "Version 2",  "text": "Meta-prompting <emphasis>2.0</emphasis> — exploring options. [pause] You start with no prompt. Just a problem. [pause] AI lays out approaches. You pick one. Then — and only then — you write the actual prompt." },
+    { "id": 7, "name": "Cycle",      "text": "Four moves in a cycle. [pause] Explore — discuss the options. Decide — pick the approach. Prompt — write the specific request. Refine — iterate the output." },
+    { "id": 8, "name": "When use",   "text": "When to use it. [pause] When you know the problem, not the solution. When the task is complex. When you want to compare approaches. [pause] For simple tasks — direct prompting is enough." },
+    { "id": 9, "name": "Closing",    "text": "Think first. [pause] Then ask." }
+  ]
+}

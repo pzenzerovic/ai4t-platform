@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l08 / AI Policy for Schools",
+  "title": "AI Policy for Schools",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "AI policy for schools. [pause] GDPR, data privacy, and acceptable use." },
+    { "id": 2, "name": "Why",          "text": "Every school now needs a written AI policy. [pause] Students use AI. Teachers use AI. Vendors pitch AI. [pause] In the absence of policy — every individual makes their own rules. That is not governance." },
+    { "id": 3, "name": "GDPR",         "text": "Start with <emphasis>GDPR</emphasis>. [pause] Purpose limitation. Data minimisation. Storage limitation. [pause] When student data goes into a general AI tool — it leaves the school's control. That requires a lawful basis." },
+    { "id": 4, "name": "Components",   "text": "Six components produce a workable policy. [pause] Scope. Permitted uses. Data handling. Tool approval. Disclosure. Review." },
+    { "id": 5, "name": "Permitted",    "text": "The practical core — permitted and prohibited uses. [pause] Teachers may use AI on anonymised material. They may not paste identifiable student data into unapproved tools. [pause] Clarity protects everyone." },
+    { "id": 6, "name": "Approval",     "text": "Tool approval matters. [pause] Before any new AI tool touches student data — review documentation, sign a Data Processing Agreement, complete an impact assessment. [pause] No agreement means no compliance." },
+    { "id": 7, "name": "Age",          "text": "Student use is calibrated to age. [pause] Primary — restricted. Lower secondary — supervised. Upper secondary — structured individual use. [pause] Assessment is always treated separately." },
+    { "id": 8, "name": "Practice",     "text": "A policy becomes real through three things. [pause] Active communication — not just publication. Practical infrastructure that supports the rules. And consistent enforcement — in every decision, not just after incidents." },
+    { "id": 9, "name": "Closing",      "text": "Written policy. [pause] Defensible practice." }
+  ]
+}

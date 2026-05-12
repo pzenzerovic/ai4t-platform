@@ -1,0 +1,16 @@
+{
+  "lesson": "c2-l07 / Canva AI for Education",
+  "title": "Canva AI for Education",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title", "text": "Canva AI for <emphasis>education</emphasis>. [pause] Polished classroom visuals — without design skills." },
+    { "id": 2, "name": "What it is", "text": "Canva is an online design platform. [pause] Its AI suite — called <emphasis>Magic Studio</emphasis> — generates the visual work, so you focus on the pedagogy." },
+    { "id": 3, "name": "Free for teachers", "text": "<emphasis>Canva for Education</emphasis> is free for verified teachers and students. [pause] Sign up at canva.com slash education with your school email." },
+    { "id": 4, "name": "Magic Studio", "text": "Inside, the tools you will use most. [pause] Magic Design builds whole decks. Magic Write drafts text. Text-to-image creates illustrations. Background remover and layout suggestions polish the rest." },
+    { "id": 5, "name": "Workflow", "text": "Every Canva AI project follows the same five steps." },
+    { "id": 6, "name": "Best uses", "text": "Where it earns its keep. [pause] Lesson decks. Worksheets. Posters. Infographics. Certificates. Newsletters. Each one in minutes, not hours." },
+    { "id": 7, "name": "Caution", "text": "AI visuals can look impressive and still be wrong. [pause] Review every slide. Check facts, age-appropriateness, and cultural fit before students see it." },
+    { "id": 8, "name": "Closing", "text": "Your pedagogy. [pause] Their design." }
+  ]
+}

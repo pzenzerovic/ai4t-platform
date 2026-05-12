@@ -1,0 +1,17 @@
+{
+  "lesson": "c4-l05 / AI for Multilingual Classrooms",
+  "title": "AI for Multilingual Classrooms",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Multilingual classrooms. [pause] When a student doesn't speak the language of instruction — every lesson is an accessibility challenge." },
+    { "id": 2, "name": "The reach",    "text": "Language barriers cut across every subject. [pause] Maths problem statements. Science instructions. History passages. Even PE — verbal instructions that leave the student standing still while classmates begin." },
+    { "id": 3, "name": "The shift",    "text": "Before AI, a student waited. [pause] After AI, the worksheet, the instruction, the reading — translated in seconds, into their mother tongue. [pause] Subject content becomes immediately accessible." },
+    { "id": 4, "name": "Tools",        "text": "AI can do more than translate. [pause] Direct translation. Language-level adaptation — explain at B1, use everyday words. [pause] Or selective help — define just the words they don't know." },
+    { "id": 5, "name": "Voice",        "text": "Voice mode is powerful here. [pause] The student speaks in Ukrainian. The AI explains in simplified Croatian. [pause] The instruction lands. And the target language is heard in a context the student already understands." },
+    { "id": 6, "name": "Vocab",        "text": "Technical vocabulary needs special handling. [pause] Translate the text, but keep the scientific terms in the language of instruction. [pause] The student understands — and learns the term they will meet on the test." },
+    { "id": 7, "name": "Cultural",     "text": "Translation is linguistic — not cultural. [pause] An example about splitting a restaurant bill, a reference to local history — these may need human context. [pause] AI gives equivalence. You give meaning." },
+    { "id": 8, "name": "Asset",        "text": "And reframe the perspective. [pause] Multilingual students bring cognitive and cultural assets. [pause] Use AI to translate — but also to celebrate. Show us how this concept is expressed in your language." },
+    { "id": 9, "name": "Closing",      "text": "Different language. [pause] Same content." }
+  ]
+}

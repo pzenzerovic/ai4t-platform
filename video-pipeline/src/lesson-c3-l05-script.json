@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l05 / Responsible Use of AI",
+  "title": "Responsible Use of AI",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Responsible and strategic use of AI. [pause] A framework for thoughtful integration." },
+    { "id": 2, "name": "Risks",        "text": "AI can accelerate the right answer. [pause] That is exactly where the danger lives. [pause] Without intention — passive consumption. Reduced effort. Avoidance of struggle. Dependence." },
+    { "id": 3, "name": "Framework",    "text": "A four-step framework for responsible use. [pause] Objective. Mode. Autonomy. Reflection. [pause] Each step is a deliberate pedagogical choice." },
+    { "id": 4, "name": "Step 1",       "text": "Step one — define the objective. [pause] Conceptual understanding? Procedural skill? Analytical ability? [pause] The objective determines everything that follows." },
+    { "id": 5, "name": "Step 2",       "text": "Step two — choose the mode. [pause] Tutor. Practice. Knowledge structuring. Source of examples. [pause] Each mode serves different purposes. Choose deliberately." },
+    { "id": 6, "name": "Step 3",       "text": "Step three — define autonomy. [pause] Where does the student work alone? Where do they work with AI? [pause] Draw the line clearly — for the student and for yourself." },
+    { "id": 7, "name": "Step 4",       "text": "Step four — plan reflection without AI. [pause] Every activity ends with the student articulating what they learned, alone. [pause] That is how knowledge becomes theirs." },
+    { "id": 8, "name": "Test",         "text": "One question keeps you honest. [pause] If I remove the AI from this activity — can the student still demonstrate the objective?" },
+    { "id": 9, "name": "Closing",      "text": "Tool with purpose. [pause] Learning that lasts." }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l09 / Detecting AI-Generated Work",
+  "title": "Detecting AI-Generated Work",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Detecting AI-generated student work. [pause] Why the wrong question gives the wrong answer." },
+    { "id": 2, "name": "Wrong place",  "text": "Teachers want a tool that separates real student work from AI-generated work. [pause] That tool does not exist. [pause] And there are strong reasons to believe it never will." },
+    { "id": 3, "name": "Detectors",    "text": "AI detectors are unreliable in both directions. [pause] They miss AI content. They falsely flag genuine student writing. [pause] The arms race between detection and evasion has a clear direction — and it is not in your favour." },
+    { "id": 4, "name": "False pos",    "text": "False positives are the deepest harm. [pause] Polished writing. Second-language students. Anyone using grammar tools. [pause] The students most likely to be wrongly accused are often the ones working hardest." },
+    { "id": 5, "name": "Intuition",    "text": "Teacher intuition has limits too. [pause] A sudden change in style is a reason to look — not evidence of misconduct. [pause] The right response is conversation. Not accusation." },
+    { "id": 6, "name": "Shift",        "text": "Shift the focus. [pause] From detection to assessment design. [pause] You will not win the surveillance game. But you can change the game." },
+    { "id": 7, "name": "Insight",      "text": "Here is the key insight. [pause] The assessments most vulnerable to AI are exactly the ones whose value was already weakest. [pause] Generic. Take-home. One-shot. [pause] AI is a forcing function for better design." },
+    { "id": 8, "name": "Programme",    "text": "The practical programme. [pause] Assess process — drafts, notes, revisions. Include in-class components. Ask for context-specific work. Use iterative feedback. Make rules explicit. Treat the situation as shared, not adversarial." },
+    { "id": 9, "name": "Closing",      "text": "Better assessment. [pause] Not better surveillance." }
+  ]
+}

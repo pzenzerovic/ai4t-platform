@@ -1,0 +1,17 @@
+{
+  "lesson": "c1-l02 / AI in Education Today",
+  "title": "AI in Education Today",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",       "text": "AI in your classroom. [pause] You've been using it for years. [pause] You just didn't call it that." },
+    { "id": 2, "name": "Already here","text": "Spell-check. Translation. Video recommendations. Adaptive practice apps. [pause] AI has been quietly in your school for over a decade. [pause] What changed recently — it became <emphasis>visible</emphasis>." },
+    { "id": 3, "name": "Adaptive",    "text": "<emphasis>Adaptive learning</emphasis> is the oldest form. [pause] Platforms that build a model of each student and adjust difficulty in real time. [pause] Khan Academy, Duolingo, national platforms. All AI underneath." },
+    { "id": 4, "name": "Assessment",  "text": "<emphasis>Automated assessment</emphasis> grades multiple choice, flags plagiarism, spots patterns. [pause] Useful for routine. [pause] But it cannot judge creativity, originality, or the quality of thinking. [pause] Only patterns." },
+    { "id": 5, "name": "Content shift","text": "What's <emphasis>new</emphasis> — content creation. [pause] Large language models can draft lesson plans, differentiate texts, write quiz questions, translate, brainstorm. [pause] One tool. Many tasks. [pause] That's the real shift." },
+    { "id": 6, "name": "Skills transfer","text": "Your existing skills transfer directly. [pause] Writing learning objectives equals writing prompts. Differentiating equals asking for variations. Evaluating student work equals evaluating AI output. Scaffolding tasks equals breaking down complex requests." },
+    { "id": 7, "name": "Changes",     "text": "What's <emphasis>changing:</emphasis> speed of preparation, range of tasks AI can help with, expectations on schools. [pause] What's <emphasis>not</emphasis> changing: the teacher-student relationship, the need for professional judgment, the fact that learning is social." },
+    { "id": 8, "name": "Start small", "text": "Where to begin. [pause] Pick one routine task — quiz questions, a parent letter, a worksheet. [pause] Try AI for it. Compare to your own work. [pause] Talk to colleagues. [pause] Be patient — it's a new professional skill." },
+    { "id": 9, "name": "Closing",     "text": "Same skills. [pause] New tools." }
+  ]
+}

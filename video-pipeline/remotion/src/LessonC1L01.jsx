@@ -15,6 +15,7 @@ loadInter('normal',    { weights: ['400', '500', '600', '700'], subsets: ['latin
 loadJBMono('normal',   { weights: ['400', '500'], subsets: ['latin'] })
 
 export const FPS = 30
+export const LESSON_ID = 'c1-l01' // What is AI?
 
 // Scene durations (seconds) derived from Sal-voice MP3 lengths + tail padding.
 // Each scene's audio fits inside its window; the tail is silent breathing room.
@@ -49,9 +50,9 @@ const SCENE_STARTS = SCENE_DURATIONS.reduce((acc, d) => {
 SCENE_STARTS.unshift(0)
 SCENE_STARTS.pop() // we want starts, not the final end
 
-export const LESSON_01_DURATION_SECONDS = SCENE_DURATIONS.reduce((a, b) => a + b, 0)
+export const LESSON_DURATION_SECONDS = SCENE_DURATIONS.reduce((a, b) => a + b, 0)
 
-export const Lesson01 = () => {
+export const LessonC1L01 = () => {
   return (
     <AbsoluteFill style={{
       background: WARM.bg,
@@ -72,7 +73,7 @@ export const Lesson01 = () => {
         const durationSeconds = SCENE_DURATIONS[i]
         const fromFrame = Math.round(startSeconds * FPS)
         const durationFrames = Math.round(durationSeconds * FPS)
-        const audioFile = `audio/lesson-01/scene-${String(sceneNumber).padStart(2, '0')}.mp3`
+        const audioFile = `audio/c1-l01/scene-${String(sceneNumber).padStart(2, '0')}.mp3`
         return (
           <Sequence
             key={sceneNumber}

@@ -1,0 +1,18 @@
+{
+  "lesson": "c2-l09 / Building Simple Web Tools with Lovable",
+  "title": "Building Simple Web Tools with Lovable",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title", "text": "Building simple web tools with <emphasis>Lovable</emphasis>. [pause] Describe an app in plain English — get a working web tool back." },
+    { "id": 2, "name": "What it is", "text": "Lovable is an online builder. [pause] You write what the tool should do. It generates a working web app. You refine it through conversation." },
+    { "id": 3, "name": "Where it lives", "text": "Sign up at <emphasis>lovable.dev</emphasis>. [pause] Chat window on the left. Live preview on the right. No code in sight." },
+    { "id": 4, "name": "Use cases", "text": "What it is good for. [pause] Quick quizzes. Exit tickets. Learning games. Flashcards. Resource hubs. Anything small, focused, and interactive." },
+    { "id": 5, "name": "Workflow", "text": "Four moves. Same loop every time." },
+    { "id": 6, "name": "First prompt", "text": "Be specific. [pause] Who uses it. On what device. What they should do. How feedback works. The clearer the brief — the closer version one lands." },
+    { "id": 7, "name": "Visual edit", "text": "<emphasis>Visual edit</emphasis> mode lets you click any element and ask for a change. [pause] Make the start button green. Bigger font. The AI handles the code." },
+    { "id": 8, "name": "Publish & test", "text": "Click publish — Lovable gives you a shareable link. [pause] Always test on the school network and the actual student device <emphasis>before</emphasis> the lesson." },
+    { "id": 9, "name": "Privacy", "text": "Lovable is for adults. [pause] Teachers build. Students just open the published link. No real student data inside the app. Ever." },
+    { "id": 10, "name": "Closing", "text": "Words in. [pause] Apps out." }
+  ]
+}

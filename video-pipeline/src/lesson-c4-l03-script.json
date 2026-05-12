@@ -1,0 +1,17 @@
+{
+  "lesson": "c4-l03 / AI for Students with Hearing Impairments",
+  "title": "AI for Students with Hearing Impairments",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "AI for students who cannot hear the lesson. [pause] Speech, turned into structured text." },
+    { "id": 2, "name": "The barrier",  "text": "Teaching is largely a <emphasis>spoken</emphasis> activity. [pause] Explanations. Instructions. Discussions. Feedback. [pause] For a hearing-impaired student, every spoken word is a potential gap in access." },
+    { "id": 3, "name": "Real-time",    "text": "Real-time transcription converts speech to text as it's spoken. [pause] Otter dot AI runs on a phone on the desk. The transcript appears on screen. [pause] An ephemeral medium becomes permanent and reviewable." },
+    { "id": 4, "name": "Tools",        "text": "The toolkit. [pause] Otter dot AI for transcription. Built-in captions in Teams and Google Meet. [pause] Then ChatGPT or Claude — to process what was captured." },
+    { "id": 5, "name": "After class",  "text": "After the lesson, raw transcripts become study material. [pause] Summaries. Structured notes. Vocabulary lists. Simpler explanations. [pause] Each prompt serves a different learning purpose." },
+    { "id": 6, "name": "Workflow",     "text": "The most effective workflow has two stages. [pause] During the lesson — transcription captures everything. [pause] After the lesson — AI organises and adapts. Capture is fast. Processing is intelligent." },
+    { "id": 7, "name": "Improving",    "text": "Small teacher habits make a big difference. [pause] Speak clearly. Moderate pace. Face the class. [pause] And repeat student questions before answering — so the full exchange lands in the transcript." },
+    { "id": 8, "name": "Limits",       "text": "Limits to remember. [pause] Multi-speaker discussions reduce accuracy. Privacy laws govern recording. [pause] Transcripts are personal study tools — not documents to share widely." },
+    { "id": 9, "name": "Closing",      "text": "Spoken lesson. [pause] Reviewable text." }
+  ]
+}

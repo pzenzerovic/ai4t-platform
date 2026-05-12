@@ -1,0 +1,17 @@
+{
+  "lesson": "c3-l06 / Ethics of AI in Education",
+  "title": "Ethics of AI in Education",
+  "voice_id": "sal",
+  "language": "en",
+  "scenes": [
+    { "id": 1, "name": "Title",        "text": "Ethics of AI in education. [pause] Bias, fairness, and human agency." },
+    { "id": 2, "name": "Why",          "text": "Ethics is not separate from technology. [pause] Every AI tool you use in class carries ethical weight — for real students, in real classrooms. [pause] Understanding it is a professional responsibility." },
+    { "id": 3, "name": "Bias",         "text": "Algorithmic bias is the first concern. [pause] AI learns from data — and that data carries the world's inequalities. [pause] Stereotyped examples. Underrepresented groups. Subtle exclusion. [pause] Always review before classroom use." },
+    { "id": 4, "name": "Oracle",       "text": "The <emphasis>oracle effect</emphasis>. [pause] Students trust computers more than they should. [pause] AI presents wrong answers with the same confidence as right ones. [pause] Make AI errors visible — make them a teaching moment." },
+    { "id": 5, "name": "Privacy",      "text": "Data privacy. [pause] Every interaction is recorded. Every name, every detail, every story typed in. [pause] Under GDPR — that matters. [pause] Teach students never to share personal information with AI." },
+    { "id": 6, "name": "Agency",       "text": "Human agency is the deepest principle. [pause] AI provides information, suggestions, tools. [pause] But the pedagogical decision — what to teach, how, when — belongs to the teacher. Never to the technology." },
+    { "id": 7, "name": "Misuses",      "text": "Common ethical misuses to watch for. [pause] Generating quizzes without checking for bias. Trusting AI grades as final. Pasting student data into public tools. [pause] All preventable. None acceptable." },
+    { "id": 8, "name": "Literacy",     "text": "Use ethics as a teaching tool. [pause] Analyse a biased example. Discuss a hallucination. Explore a privacy question. [pause] Critical thinking about AI is critical thinking, full stop." },
+    { "id": 9, "name": "Closing",      "text": "Technology serves learning. [pause] Not the other way around." }
+  ]
+}
