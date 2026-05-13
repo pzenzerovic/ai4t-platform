@@ -53,44 +53,44 @@ const VID = { fps: FPS, width: 3840, height: 2160 }
 export const RemotionRoot = () => (
   <>
     {/* ── Cat 1 — AI Literacy ──────────────────────────── */}
-    <Composition id="C1L01_WhatIsAi"                       component={LessonC1L01} durationInFrames={FRAME(DUR_C1L01)} {...VID} />
-    <Composition id="C1L02_AiInEducation"                  component={LessonC1L02} durationInFrames={FRAME(DUR_C1L02)} {...VID} />
-    <Composition id="C1L03_BriefHistoryOfAi"               component={LessonC1L03} durationInFrames={FRAME(DUR_C1L03)} {...VID} />
-    <Composition id="C1L04_HowLlmsWork"                    component={LessonC1L04} durationInFrames={FRAME(DUR_C1L04)} {...VID} />
-    <Composition id="C1L05_AiLimitations"                  component={LessonC1L05} durationInFrames={FRAME(DUR_C1L05)} {...VID} />
-    <Composition id="C1L06_MultimodalAi"                   component={LessonC1L06} durationInFrames={FRAME(DUR_C1L06)} {...VID} />
-    <Composition id="C1L07_LayersOfAi"                     component={LessonC1L07} durationInFrames={FRAME(DUR_C1L07)} {...VID} />
-    <Composition id="C1L08_FutureOfAi"                     component={LessonC1L08} durationInFrames={FRAME(DUR_C1L08)} {...VID} />
+    <Composition id="C1L01-WhatIsAi"                       component={LessonC1L01} durationInFrames={FRAME(DUR_C1L01)} {...VID} />
+    <Composition id="C1L02-AiInEducation"                  component={LessonC1L02} durationInFrames={FRAME(DUR_C1L02)} {...VID} />
+    <Composition id="C1L03-BriefHistoryOfAi"               component={LessonC1L03} durationInFrames={FRAME(DUR_C1L03)} {...VID} />
+    <Composition id="C1L04-HowLlmsWork"                    component={LessonC1L04} durationInFrames={FRAME(DUR_C1L04)} {...VID} />
+    <Composition id="C1L05-AiLimitations"                  component={LessonC1L05} durationInFrames={FRAME(DUR_C1L05)} {...VID} />
+    <Composition id="C1L06-MultimodalAi"                   component={LessonC1L06} durationInFrames={FRAME(DUR_C1L06)} {...VID} />
+    <Composition id="C1L07-LayersOfAi"                     component={LessonC1L07} durationInFrames={FRAME(DUR_C1L07)} {...VID} />
+    <Composition id="C1L08-FutureOfAi"                     component={LessonC1L08} durationInFrames={FRAME(DUR_C1L08)} {...VID} />
 
     {/* ── Cat 2 — Practical AI Skills ──────────────────── */}
-    <Composition id="C2L01_ContextAndAi"                   component={LessonC2L01} durationInFrames={FRAME(DUR_C2L01)} {...VID} />
-    <Composition id="C2L02_IntroToPromptEngineering"       component={LessonC2L02} durationInFrames={FRAME(DUR_C2L02)} {...VID} />
-    <Composition id="C2L03_PromptEngineeringExamples"      component={LessonC2L03} durationInFrames={FRAME(DUR_C2L03)} {...VID} />
-    <Composition id="C2L04_MetaPrompting"                  component={LessonC2L04} durationInFrames={FRAME(DUR_C2L04)} {...VID} />
-    <Composition id="C2L05_GettingStartedWithChatgpt"      component={LessonC2L05} durationInFrames={FRAME(DUR_C2L05)} {...VID} />
-    <Composition id="C2L06_GettingStartedWithClaude"       component={LessonC2L06} durationInFrames={FRAME(DUR_C2L06)} {...VID} />
-    <Composition id="C2L07_CanvaAiForEducation"            component={LessonC2L07} durationInFrames={FRAME(DUR_C2L07)} {...VID} />
-    <Composition id="C2L08_MagicSchoolForTeachers"         component={LessonC2L08} durationInFrames={FRAME(DUR_C2L08)} {...VID} />
-    <Composition id="C2L09_LovableForEducation"            component={LessonC2L09} durationInFrames={FRAME(DUR_C2L09)} {...VID} />
+    <Composition id="C2L01-ContextAndAi"                   component={LessonC2L01} durationInFrames={FRAME(DUR_C2L01)} {...VID} />
+    <Composition id="C2L02-IntroToPromptEngineering"       component={LessonC2L02} durationInFrames={FRAME(DUR_C2L02)} {...VID} />
+    <Composition id="C2L03-PromptEngineeringExamples"      component={LessonC2L03} durationInFrames={FRAME(DUR_C2L03)} {...VID} />
+    <Composition id="C2L04-MetaPrompting"                  component={LessonC2L04} durationInFrames={FRAME(DUR_C2L04)} {...VID} />
+    <Composition id="C2L05-GettingStartedWithChatgpt"      component={LessonC2L05} durationInFrames={FRAME(DUR_C2L05)} {...VID} />
+    <Composition id="C2L06-GettingStartedWithClaude"       component={LessonC2L06} durationInFrames={FRAME(DUR_C2L06)} {...VID} />
+    <Composition id="C2L07-CanvaAiForEducation"            component={LessonC2L07} durationInFrames={FRAME(DUR_C2L07)} {...VID} />
+    <Composition id="C2L08-MagicSchoolForTeachers"         component={LessonC2L08} durationInFrames={FRAME(DUR_C2L08)} {...VID} />
+    <Composition id="C2L09-LovableForEducation"            component={LessonC2L09} durationInFrames={FRAME(DUR_C2L09)} {...VID} />
 
     {/* ── Cat 3 — Considerations on AI ─────────────────── */}
-    <Composition id="C3L01_FromAnswersToLearning"          component={LessonC3L01} durationInFrames={FRAME(DUR_C3L01)} {...VID} />
-    <Composition id="C3L02_AiAsATutor"                     component={LessonC3L02} durationInFrames={FRAME(DUR_C3L02)} {...VID} />
-    <Composition id="C3L03_AiForPracticeAndAssessment"     component={LessonC3L03} durationInFrames={FRAME(DUR_C3L03)} {...VID} />
-    <Composition id="C3L04_StructuringKnowledge"           component={LessonC3L04} durationInFrames={FRAME(DUR_C3L04)} {...VID} />
-    <Composition id="C3L05_ResponsibleUseOfAi"             component={LessonC3L05} durationInFrames={FRAME(DUR_C3L05)} {...VID} />
-    <Composition id="C3L06_EthicsOfAiInEducation"          component={LessonC3L06} durationInFrames={FRAME(DUR_C3L06)} {...VID} />
-    <Composition id="C3L07_HumanInTheLoop"                 component={LessonC3L07} durationInFrames={FRAME(DUR_C3L07)} {...VID} />
-    <Composition id="C3L08_AiPolicyForSchools"             component={LessonC3L08} durationInFrames={FRAME(DUR_C3L08)} {...VID} />
-    <Composition id="C3L09_DetectingAiGeneratedWork"       component={LessonC3L09} durationInFrames={FRAME(DUR_C3L09)} {...VID} />
+    <Composition id="C3L01-FromAnswersToLearning"          component={LessonC3L01} durationInFrames={FRAME(DUR_C3L01)} {...VID} />
+    <Composition id="C3L02-AiAsATutor"                     component={LessonC3L02} durationInFrames={FRAME(DUR_C3L02)} {...VID} />
+    <Composition id="C3L03-AiForPracticeAndAssessment"     component={LessonC3L03} durationInFrames={FRAME(DUR_C3L03)} {...VID} />
+    <Composition id="C3L04-StructuringKnowledge"           component={LessonC3L04} durationInFrames={FRAME(DUR_C3L04)} {...VID} />
+    <Composition id="C3L05-ResponsibleUseOfAi"             component={LessonC3L05} durationInFrames={FRAME(DUR_C3L05)} {...VID} />
+    <Composition id="C3L06-EthicsOfAiInEducation"          component={LessonC3L06} durationInFrames={FRAME(DUR_C3L06)} {...VID} />
+    <Composition id="C3L07-HumanInTheLoop"                 component={LessonC3L07} durationInFrames={FRAME(DUR_C3L07)} {...VID} />
+    <Composition id="C3L08-AiPolicyForSchools"             component={LessonC3L08} durationInFrames={FRAME(DUR_C3L08)} {...VID} />
+    <Composition id="C3L09-DetectingAiGeneratedWork"       component={LessonC3L09} durationInFrames={FRAME(DUR_C3L09)} {...VID} />
 
     {/* ── Cat 4 — AI for All Learners ──────────────────── */}
-    <Composition id="C4L01_AiAndAccessibilityOverview"     component={LessonC4L01} durationInFrames={FRAME(DUR_C4L01)} {...VID} />
-    <Composition id="C4L02_AiForVisualImpairments"         component={LessonC4L02} durationInFrames={FRAME(DUR_C4L02)} {...VID} />
-    <Composition id="C4L03_AiForHearingImpairments"        component={LessonC4L03} durationInFrames={FRAME(DUR_C4L03)} {...VID} />
-    <Composition id="C4L04_CognitiveAccessibility"         component={LessonC4L04} durationInFrames={FRAME(DUR_C4L04)} {...VID} />
-    <Composition id="C4L05_AiForMultilingualClassrooms"    component={LessonC4L05} durationInFrames={FRAME(DUR_C4L05)} {...VID} />
-    <Composition id="C4L06_AiForIntellectualDisabilities"  component={LessonC4L06} durationInFrames={FRAME(DUR_C4L06)} {...VID} />
-    <Composition id="C4L07_AccessibilityToolsDirectory"    component={LessonC4L07} durationInFrames={FRAME(DUR_C4L07)} {...VID} />
+    <Composition id="C4L01-AiAndAccessibilityOverview"     component={LessonC4L01} durationInFrames={FRAME(DUR_C4L01)} {...VID} />
+    <Composition id="C4L02-AiForVisualImpairments"         component={LessonC4L02} durationInFrames={FRAME(DUR_C4L02)} {...VID} />
+    <Composition id="C4L03-AiForHearingImpairments"        component={LessonC4L03} durationInFrames={FRAME(DUR_C4L03)} {...VID} />
+    <Composition id="C4L04-CognitiveAccessibility"         component={LessonC4L04} durationInFrames={FRAME(DUR_C4L04)} {...VID} />
+    <Composition id="C4L05-AiForMultilingualClassrooms"    component={LessonC4L05} durationInFrames={FRAME(DUR_C4L05)} {...VID} />
+    <Composition id="C4L06-AiForIntellectualDisabilities"  component={LessonC4L06} durationInFrames={FRAME(DUR_C4L06)} {...VID} />
+    <Composition id="C4L07-AccessibilityToolsDirectory"    component={LessonC4L07} durationInFrames={FRAME(DUR_C4L07)} {...VID} />
   </>
 )
