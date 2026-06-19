@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l05'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 7.3, component: () => (
     <TitleScene
       title="Getting Started with ChatGPT"
       italicWord="ChatGPT"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 05"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 11, component: () => (
     <DefinitionScene
       kicker="WHAT IT IS"
       headline="A conversational AI built on a large language model."
@@ -27,7 +27,7 @@ const SCENES = [
       tagline="Generates text — does not look up answers."
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 8.5, component: () => (
     <ToolWalkthroughScene
       kicker="WHERE TO START"
       headline="Free at chat.openai.com."
@@ -41,7 +41,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 9.5, component: () => (
     <ToolWalkthroughScene
       kicker="INTERFACE TOUR"
       headline="The layout — and the one habit to build."
@@ -56,7 +56,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 9.4, component: () => (
     <ProcessFlowScene
       kicker="THE CORE WORKFLOW"
       headline="The same four moves, every time."
@@ -69,7 +69,7 @@ const SCENES = [
       tagline="Same prompt-engineering moves — inside this UI."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 10.4, component: () => (
     <CardGridScene
       kicker="FOUR STARTER WORKFLOWS"
       headline="High-value uses for tomorrow."
@@ -83,7 +83,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 10.5, component: () => (
     <MythBustScene
       kicker="PRIVACY"
       headline="One rule, no exceptions."
@@ -92,7 +92,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 9.4, component: () => (
     <BulletListScene
       kicker="MAKE IT A HABIT"
       headline="From first try to weekly practice."
@@ -105,7 +105,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 3.9, component: () => (
     <ClosingScene
       tagline="First draft. Your judgement."
       italicWord="judgement"

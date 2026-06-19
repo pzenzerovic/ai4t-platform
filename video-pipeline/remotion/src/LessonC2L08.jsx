@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l08'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 8.3, component: () => (
     <TitleScene
       title="MagicSchool.ai"
       italicWord="MagicSchool"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 08"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 8.6, component: () => (
     <EqualityScene
       kicker="A DIFFERENT APPROACH"
       headline="Blank kitchen versus recipe app."
@@ -35,7 +35,7 @@ const SCENES = [
       tagline="Same AI underneath — wildly different friction."
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 9.8, component: () => (
     <ToolWalkthroughScene
       kicker="SIGN UP"
       headline="Free at magicschool.ai."
@@ -49,7 +49,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 3.1, component: () => (
     <PillCloudScene
       kicker="TOOL CATEGORIES"
       headline="The dashboard, by job to be done."
@@ -62,7 +62,7 @@ const SCENES = [
       filled={false}
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 3.2, component: () => (
     <ProcessFlowScene
       kicker="THE CORE WORKFLOW"
       headline="From form to finished material."
@@ -76,7 +76,7 @@ const SCENES = [
       tagline="The Additional Context field is where you put the real classroom."
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 11.2, component: () => (
     <DefinitionScene
       kicker="RAINA"
       headline="The chat assistant turns one-shot into iteration."
@@ -85,7 +85,7 @@ const SCENES = [
       tagline="One specific change — without regenerating from scratch."
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 12.1, component: () => (
     <MythBustScene
       kicker="PRIVACY"
       headline="Strong protections — not a free pass."
@@ -94,7 +94,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 2.1, component: () => (
     <CardGridScene
       kicker="BEST USES"
       headline="Where MagicSchool wins back the most time."

@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c1-l08'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 8.2, component: () => (
     <TitleScene
       title="The Future of AI"
       subtitle="Memory, AGI, and what comes next"
       kicker="AI4TEACHERS · 08"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.1, component: () => (
     <CardGridScene
       kicker="THREE CATEGORIES"
       headline="Keep them separate."
@@ -30,7 +30,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.8, component: () => (
     <DefinitionScene
       kicker="MEMORY"
       headline="Information that survives the conversation."
@@ -39,7 +39,7 @@ const SCENES = [
       tagline="From a tool you use to a tool that adapts to you."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 11.7, component: () => (
     <BulletListScene
       kicker="ABOUT MEMORY"
       headline="Not the same as human memory."
@@ -52,7 +52,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 14.4, component: () => (
     <ConceptCirclesScene
       kicker="AGI vs ASI"
       headline="Two terms — kept apart."
@@ -70,7 +70,7 @@ const SCENES = [
       tagline="Neither exists. Today's tools are still narrow AI."
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 12.5, component: () => (
     <TimelineScene
       kicker="NEXT 2-5 YEARS"
       headline="What is actually coming."
@@ -83,7 +83,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 12.4, component: () => (
     <BulletListScene
       kicker="HOW TO PREPARE"
       headline="The fundamentals change more slowly than the tools."
@@ -97,7 +97,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 15, component: () => (
     <QuoteScene
       kicker="THE GOAL"
       quote="Not an AI expert — an AI-literate teacher."

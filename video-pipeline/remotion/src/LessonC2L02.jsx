@@ -17,7 +17,7 @@ export const LESSON_ID = 'c2-l02' // Intro to Prompt Engineering
 // Audio durations measured from x.ai TTS (Sal voice) + 1.0s tail per scene.
 // Closing gets a longer tail so the short last line breathes.
 const SCENES = [
-  { dur: 9.5,  component: () => (
+  { dur: 8.5,  component: () => (
     <TitleScene
       title="Prompt Engineering"
       italicWord="Engineering"
@@ -25,7 +25,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 02"
     />
   )},
-  { dur: 12.5, component: () => (
+  { dur: 11.8, component: () => (
     <EqualityScene
       kicker="CHAPTER ONE"
       headline="What you already do — under a new name."
@@ -42,7 +42,7 @@ const SCENES = [
       tagline="Same skill. Different audience."
     />
   )},
-  { dur: 14.5, component: () => (
+  { dur: 13.8, component: () => (
     <DefinitionScene
       kicker="DEFINITION"
       headline="A prompt is just an instruction."
@@ -51,7 +51,7 @@ const SCENES = [
       tagline="Vague in — vague out."
     />
   )},
-  { dur: 17.7, component: () => (
+  { dur: 17.1, component: () => (
     <NumberedPillsScene
       kicker="THE FUNDAMENTALS"
       headline="Seven principles. All borrowed from teaching."
@@ -66,7 +66,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20.6, component: () => (
+  { dur: 20, component: () => (
     <BeforeAfterScene
       kicker="01 · DEFINE THE GOAL"
       headline="Watch the difference."
@@ -75,7 +75,7 @@ const SCENES = [
       tagline="A few seconds longer to write. Output, night and day."
     />
   )},
-  { dur: 18.5, component: () => (
+  { dur: 17.9, component: () => (
     <BeforeAfterScene
       kicker="02 · SPECIFY YOUR AUDIENCE"
       headline="The age changes everything."
@@ -84,7 +84,7 @@ const SCENES = [
       tagline="Vocabulary, pace, and what counts as a good example."
     />
   )},
-  { dur: 25.7, component: () => (
+  { dur: 25, component: () => (
     <BeforeAfterScene
       kicker="04 · ASSIGN A ROLE"
       headline="The single most efficient trick."
@@ -93,7 +93,7 @@ const SCENES = [
       tagline="One phrase = tone + audience + approach + expertise."
     />
   )},
-  { dur: 17.0, component: () => (
+  { dur: 16.4, component: () => (
     <AnnotatedPromptScene
       kicker="STACK THEM"
       headline="In practice, you combine several at once."
@@ -107,7 +107,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 17.5, component: () => (
+  { dur: 16.8, component: () => (
     <CycleStepsScene
       kicker="ITERATE"
       headline="Like a lesson plan."
@@ -120,7 +120,7 @@ const SCENES = [
       tagline="A conversation — not a vending machine."
     />
   )},
-  { dur: 5.5, component: () => (
+  { dur: 4.7, component: () => (
     <ClosingScene
       tagline="Clear input. Useful output."
       italicWord="Useful"

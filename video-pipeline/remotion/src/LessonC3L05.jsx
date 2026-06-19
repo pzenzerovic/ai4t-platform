@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l05'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 6.9, component: () => (
     <TitleScene
       title="Responsible Use of AI"
       italicWord="Responsible"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 05"
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 13.7, component: () => (
     <BulletListScene
       kicker="WHAT GOES WRONG"
       headline="The risks of unintentional use."
@@ -31,7 +31,7 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 11.1, component: () => (
     <NumberedPillsScene
       kicker="THE FRAMEWORK"
       headline="Four steps for responsible integration."
@@ -43,7 +43,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 11.5, component: () => (
     <BulletListScene
       kicker="01 · DEFINE THE OBJECTIVE"
       headline="What should the student develop?"
@@ -57,7 +57,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 11.8, component: () => (
     <BulletListScene
       kicker="02 · CHOOSE THE MODE"
       headline="Pick the right AI role for the goal."
@@ -71,7 +71,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 11.2, component: () => (
     <BulletListScene
       kicker="03 · SET AUTONOMY"
       headline="Draw the line clearly."
@@ -84,7 +84,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 11, component: () => (
     <BulletListScene
       kicker="04 · REFLECT WITHOUT AI"
       headline="The final phase belongs to the student."
@@ -97,14 +97,14 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 8.5, component: () => (
     <QuoteScene
       kicker="THE KEY TEST"
       quote="If I remove the AI, can the student still demonstrate the objective?"
       attribution="If not — the activity may be building dependence, not competence."
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.8, component: () => (
     <ClosingScene
       tagline="Tool with purpose. Learning that lasts."
       italicWord="lasts"

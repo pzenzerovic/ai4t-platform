@@ -10,21 +10,21 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l01'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 7.7, component: () => (
     <TitleScene
       title="Context and AI"
       subtitle="The foundation of every useful AI interaction"
       kicker="AI4TEACHERS · 01"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 10.1, component: () => (
     <QuoteScene
       kicker="THE PROBLEM"
       quote="Technically correct. Completely useless."
       attribution="What thin context produces"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 10.9, component: () => (
     <DefinitionScene
       kicker="CONTEXT"
       headline="Everything available to AI when it answers."
@@ -33,7 +33,7 @@ const SCENES = [
       tagline="Not the same as knowledge."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 11.8, component: () => (
     <BeforeAfterScene
       kicker="THIN vs RICH"
       headline="Same task. Very different results."
@@ -42,7 +42,7 @@ const SCENES = [
       tagline="Difference isn't in the model. It's in the context."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.9, component: () => (
     <NumberedPillsScene
       kicker="WHAT CONTEXT HELPS MOST"
       headline="Five things that change every output."
@@ -55,7 +55,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 11.4, component: () => (
     <TwoColumnScene
       kicker="TWO COMMON MISTAKES"
       headline="What goes wrong with context."
@@ -81,7 +81,7 @@ const SCENES = [
       rightColor={W.clay}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 15.1, component: () => (
     <BulletListScene
       kicker="WORKING MEMORY"
       headline="Large — but finite."
@@ -93,13 +93,13 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 11, component: () => (
     <QuoteScene
       kicker="THE GOOD NEWS"
       quote="It is not a technical skill. It is something teachers already do every day."
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.5, component: () => (
     <ClosingScene
       tagline="Clear context. Useful output."
       italicWord="Clear"

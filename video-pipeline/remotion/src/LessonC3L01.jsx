@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l01'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 4.6, component: () => (
     <TitleScene
       title="From Answers to Learning"
       italicWord="Learning"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 01"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.4, component: () => (
     <BulletListScene
       kicker="THE DEFAULT PATTERN"
       headline="What students do first."
@@ -32,14 +32,14 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 12.1, component: () => (
     <QuoteScene
       kicker="KEY INSIGHT"
       quote="Learning is the effort that produces the product."
       attribution="Not the product itself."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13.5, component: () => (
     <EqualityScene
       kicker="ONE TOOL · TWO EFFECTS"
       headline="The technology is neutral. The pedagogy is not."
@@ -56,7 +56,7 @@ const SCENES = [
       tagline="Same tool. Opposite outcomes."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 7.6, component: () => (
     <DefinitionScene
       kicker="THE PARADIGM SHIFT"
       headline="From product tool to process tool."
@@ -65,7 +65,7 @@ const SCENES = [
       tagline="The question changes everything."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.4, component: () => (
     <TwoColumnScene
       kicker="TWO STUDENTS · ONE TOPIC"
       headline="Both use ChatGPT to study fractions."
@@ -83,7 +83,7 @@ const SCENES = [
       rightColor={W.sage}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 9.3, component: () => (
     <BulletListScene
       kicker="THE TEACHER'S NEW ROLE"
       headline="Design the conditions for learning."
@@ -96,7 +96,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 12.9, component: () => (
     <ClosingScene
       tagline="Build understanding. Don't bypass it."
       italicWord="Build"

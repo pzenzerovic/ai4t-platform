@@ -11,14 +11,14 @@ export const FPS = 30
 export const LESSON_ID = 'c1-l03'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 9.9, component: () => (
     <TitleScene
       title="A Brief History of AI"
       subtitle="Seventy years of attempts, failures, and breakthroughs"
       kicker="AI4TEACHERS · 03"
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 13.1, component: () => (
     <BulletListScene
       kicker="WHY HISTORY MATTERS"
       headline="Two reasons for teachers to care."
@@ -30,7 +30,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 24, component: () => (
+  { dur: 25.5, component: () => (
     <TimelineScene
       kicker="FIVE TURNING POINTS"
       headline="The shape of seven decades of AI."
@@ -44,14 +44,14 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 13.8, component: () => (
     <QuoteScene
       kicker="KEY INSIGHT"
       quote="AI's progress has never been linear."
       attribution="A lesson from seven decades"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 14.7, component: () => (
     <DefinitionScene
       kicker="WHY NOW IS DIFFERENT"
       headline="Two things changed at once."
@@ -59,7 +59,7 @@ const SCENES = [
       tagline="From a specialist topic to a daily tool."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 14.7, component: () => (
     <BulletListScene
       kicker="NOVEMBER 2022"
       headline="The day AI became a daily tool."
@@ -71,7 +71,7 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 19.1, component: () => (
     <BulletListScene
       kicker="WHAT THIS MEANS FOR YOU"
       headline="The teachers who navigate this best…"
@@ -83,7 +83,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.8, component: () => (
     <ClosingScene
       tagline="Old question. New answer."
       italicWord="New"

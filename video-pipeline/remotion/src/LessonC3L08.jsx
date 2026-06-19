@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l08'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 6.7, component: () => (
     <TitleScene
       title="AI Policy for Schools"
       italicWord="Policy"
@@ -18,14 +18,14 @@ const SCENES = [
       kicker="AI4TEACHERS · 08"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 14.2, component: () => (
     <QuoteScene
       kicker="WHY IT MATTERS"
       quote="In the absence of policy, individuals make their own rules."
       attribution="That is not governance."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 15.7, component: () => (
     <BulletListScene
       kicker="GDPR · THE BASELINE"
       headline="Three principles that govern AI tools."
@@ -38,7 +38,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 9.9, component: () => (
     <NumberedPillsScene
       kicker="SIX COMPONENTS"
       headline="A workable policy covers six things."
@@ -52,7 +52,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 15.4, component: () => (
     <TwoColumnScene
       kicker="02 · PERMITTED & PROHIBITED"
       headline="The practical core of every policy."
@@ -70,7 +70,7 @@ const SCENES = [
       rightColor={W.clay}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13.2, component: () => (
     <ProcessFlowScene
       kicker="04 · TOOL APPROVAL"
       headline="Before any new AI tool touches student data."
@@ -82,7 +82,7 @@ const SCENES = [
       tagline="No agreement means no compliance."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 13.7, component: () => (
     <BulletListScene
       kicker="STUDENT USE BY AGE"
       headline="Calibrate to developmental stage."
@@ -95,7 +95,7 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 14.5, component: () => (
     <BulletListScene
       kicker="FROM POLICY TO PRACTICE"
       headline="Three things make a policy real."
@@ -108,7 +108,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.2, component: () => (
     <ClosingScene
       tagline="Written policy. Defensible practice."
       italicWord="Defensible"

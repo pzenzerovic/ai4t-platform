@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l09'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 6.6, component: () => (
     <TitleScene
       title="Detecting AI-Generated Work"
       italicWord="Detecting"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 09"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 10.4, component: () => (
     <MythBustScene
       kicker="THE FALSE PROMISE"
       headline="The detector myth."
@@ -28,7 +28,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13.9, component: () => (
     <BulletListScene
       kicker="FALSE POSITIVES"
       headline="Who gets wrongly accused."
@@ -40,14 +40,14 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.5, component: () => (
     <QuoteScene
       kicker="ON INTUITION"
       quote="A reason to look more carefully is not evidence of misconduct."
       attribution="Conversation comes before accusation."
     />
   )},
-  { dur: 21, component: () => (
+  { dur: 12.7, component: () => (
     <BeforeAfterScene
       kicker="THE SHIFT"
       headline="Stop trying to catch. Start designing differently."
@@ -56,14 +56,14 @@ const SCENES = [
       tagline="From surveillance to pedagogy."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 9.2, component: () => (
     <QuoteScene
       kicker="KEY INSIGHT"
       quote="AI is a forcing function for better assessment design."
       attribution="The vulnerable assessments are the weak ones."
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 16.2, component: () => (
     <BulletListScene
       kicker="THE PRACTICAL PROGRAMME"
       headline="What to do instead of detecting."
@@ -78,7 +78,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 18.7, component: () => (
     <BulletListScene
       kicker="WORK WITH STUDENTS"
       headline="Shared problem, not adversarial."
@@ -90,7 +90,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.1, component: () => (
     <ClosingScene
       tagline="Better assessment. Not better surveillance."
       italicWord="Better"

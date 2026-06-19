@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l04'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 4.5, component: () => (
     <TitleScene
       title="Structuring Knowledge"
       italicWord="Structuring"
@@ -18,14 +18,14 @@ const SCENES = [
       kicker="AI4TEACHERS · 04"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 12.8, component: () => (
     <QuoteScene
       kicker="WHY IT MATTERS"
       quote="Understanding is necessary. It is not sufficient."
       attribution="Without structure, knowledge fades."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13.1, component: () => (
     <CardGridScene
       kicker="FOUR TECHNIQUES"
       headline="Where AI helps organise learning."
@@ -39,7 +39,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 12.1, component: () => (
     <DefinitionScene
       kicker="THE PEDAGOGICAL PRINCIPLE"
       headline="The student does the thinking. AI checks the work."
@@ -48,7 +48,7 @@ const SCENES = [
       tagline="Generation alone produces material — not learning."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 11.7, component: () => (
     <ProcessFlowScene
       kicker="THE WORKFLOW"
       headline="Three steps that turn AI into a learning tool."
@@ -60,7 +60,7 @@ const SCENES = [
       tagline="The act of creating is itself a form of learning."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 13.1, component: () => (
     <BeforeAfterScene
       kicker="FLASHCARDS · TWO PATHS"
       headline="The same deck. Different learning."
@@ -69,7 +69,7 @@ const SCENES = [
       tagline="Deciding what to test is itself a learning act."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.8, component: () => (
     <DefinitionScene
       kicker="A RECURRING CYCLE"
       headline="Structures grow as learning grows."
@@ -78,7 +78,7 @@ const SCENES = [
       tagline="Retention lives in the revisit."
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 12.4, component: () => (
     <BulletListScene
       kicker="IN YOUR CLASSROOM"
       headline="One small habit, every lesson."
@@ -91,7 +91,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.2, component: () => (
     <ClosingScene
       tagline="Student first. AI second."
       italicWord="first"

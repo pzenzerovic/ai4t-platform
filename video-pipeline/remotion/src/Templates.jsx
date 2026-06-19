@@ -116,36 +116,46 @@ export const BeforeAfterScene = ({ kicker, headline, weak, strong, tagline, acce
       <Kicker text={kicker} color={accentKicker} t={head} />
       <Headline t={head} size={TYPE.headline}>{headline}</Headline>
 
-      {/* WEAK card — clay, left */}
-      <div style={{
-        position: 'absolute', left: 160, top: 400, width: 760, minHeight: 320,
-        background: W.clay, color: W.cream, borderRadius: 28, padding: '42px 48px',
-        boxShadow: '0 8px 24px rgba(42,38,32,0.14)',
-        opacity: leftIn, transform: `translateY(${(1 - leftE) * 30}px) scale(${0.94 + 0.06 * leftE})`,
-      }}>
-        <div style={{ fontFamily: W.mono, fontSize: TYPE.monoLabel, letterSpacing: '0.25em', opacity: 0.75, marginBottom: 18, fontWeight: 600 }}>WEAK PROMPT</div>
-        <div style={{ fontFamily: W.display, fontSize: 44, fontStyle: 'italic', lineHeight: 1.25 }}>
-          “{weak}”
-        </div>
-      </div>
+      {/* Auto-shrink body fonts when prompts are long so cards don't push the
+         tagline off-screen. */}
+      {(() => {
+        const weakSize  = weak.length  > 100 ? 36 : 44
+        const strongSize = strong.length > 100 ? 32 : strong.length > 60 ? 36 : 40
+        return (
+          <>
+            {/* WEAK card — clay, left */}
+            <div style={{
+              position: 'absolute', left: 160, top: 380, width: 760, maxHeight: 600,
+              background: W.clay, color: W.cream, borderRadius: 28, padding: '36px 44px',
+              boxShadow: '0 8px 24px rgba(42,38,32,0.14)', overflow: 'hidden',
+              opacity: leftIn, transform: `translateY(${(1 - leftE) * 30}px) scale(${0.94 + 0.06 * leftE})`,
+            }}>
+              <div style={{ fontFamily: W.mono, fontSize: TYPE.monoLabel, letterSpacing: '0.25em', opacity: 0.75, marginBottom: 16, fontWeight: 600 }}>WEAK PROMPT</div>
+              <div style={{ fontFamily: W.display, fontSize: weakSize, fontStyle: 'italic', lineHeight: 1.25 }}>
+                “{weak}”
+              </div>
+            </div>
 
-      {/* STRONG card — sage, right */}
-      <div style={{
-        position: 'absolute', left: 1000, top: 400, width: 760, minHeight: 320,
-        background: W.sage, color: W.cream, borderRadius: 28, padding: '42px 48px',
-        boxShadow: '0 8px 24px rgba(42,38,32,0.14)',
-        opacity: rightIn, transform: `translateY(${(1 - rightE) * 30}px) scale(${0.94 + 0.06 * rightE})`,
-      }}>
-        <div style={{ fontFamily: W.mono, fontSize: TYPE.monoLabel, letterSpacing: '0.25em', opacity: 0.75, marginBottom: 18, fontWeight: 600 }}>STRONG PROMPT</div>
-        <div style={{ fontFamily: W.display, fontSize: 40, fontStyle: 'italic', lineHeight: 1.3 }}>
-          “{strong}”
-        </div>
-      </div>
+            {/* STRONG card — sage, right */}
+            <div style={{
+              position: 'absolute', left: 1000, top: 380, width: 760, maxHeight: 600,
+              background: W.sage, color: W.cream, borderRadius: 28, padding: '36px 44px',
+              boxShadow: '0 8px 24px rgba(42,38,32,0.14)', overflow: 'hidden',
+              opacity: rightIn, transform: `translateY(${(1 - rightE) * 30}px) scale(${0.94 + 0.06 * rightE})`,
+            }}>
+              <div style={{ fontFamily: W.mono, fontSize: TYPE.monoLabel, letterSpacing: '0.25em', opacity: 0.75, marginBottom: 16, fontWeight: 600 }}>STRONG PROMPT</div>
+              <div style={{ fontFamily: W.display, fontSize: strongSize, fontStyle: 'italic', lineHeight: 1.3 }}>
+                “{strong}”
+              </div>
+            </div>
+          </>
+        )
+      })()}
 
       {tagline && (
         <div style={{
-          position: 'absolute', left: 0, right: 0, bottom: 80, textAlign: 'center',
-          fontFamily: W.display, fontSize: 44, fontStyle: 'italic', color: W.muted,
+          position: 'absolute', left: 0, right: 0, bottom: 28, textAlign: 'center',
+          fontFamily: W.display, fontSize: 40, fontStyle: 'italic', color: W.muted,
           opacity: tag, transform: `translateY(${(1 - Easing.easeOutCubic(tag)) * 12}px)`,
         }}>{tagline}</div>
       )}
@@ -571,15 +581,18 @@ export const MythBustScene = ({ kicker, headline, myths, accentKicker = W.clay }
           const t = clamp((localTime - 0.8 - i * stagger) / 0.6, 0, 1)
           const e = Easing.easeOutBack(t)
           const stamp = clamp((localTime - 0.8 - i * stagger - 1.5) / 0.5, 0, 1)
+          // Auto-shrink myth size for long quotes so the row doesn't overflow.
+          const mythSize = m.myth.length > 40 ? 40 : TYPE.myth
+          const realitySize = m.reality.length > 80 ? 30 : 36
           return (
             <div key={i} style={{
-              display: 'flex', alignItems: 'stretch', gap: 24, marginBottom: 24,
+              display: 'flex', alignItems: 'stretch', gap: 24, marginBottom: 20,
               opacity: t, transform: `translateY(${(1 - e) * 20}px)`,
             }}>
               <div style={{
-                background: W.clay, color: W.cream, padding: '28px 36px', borderRadius: 24,
-                fontFamily: W.display, fontStyle: 'italic', fontSize: TYPE.myth,
-                minWidth: 620, position: 'relative',
+                background: W.clay, color: W.cream, padding: '24px 32px', borderRadius: 24,
+                fontFamily: W.display, fontStyle: 'italic', fontSize: mythSize,
+                minWidth: 560, position: 'relative', lineHeight: 1.2,
               }}>
                 “{m.myth}”
                 <div style={{
@@ -590,9 +603,9 @@ export const MythBustScene = ({ kicker, headline, myths, accentKicker = W.clay }
                 }} />
               </div>
               <div style={{
-                flex: 1, background: W.cream, padding: '28px 36px', borderRadius: 24,
-                fontFamily: W.sans, fontSize: 38, color: W.ink,
-                display: 'flex', alignItems: 'center', opacity: stamp, lineHeight: 1.35,
+                flex: 1, background: W.cream, padding: '24px 32px', borderRadius: 24,
+                fontFamily: W.sans, fontSize: realitySize, color: W.ink,
+                display: 'flex', alignItems: 'center', opacity: stamp, lineHeight: 1.3,
               }}>{m.reality}</div>
             </div>
           )
@@ -654,14 +667,25 @@ export const BulletListScene = ({
   const localTime = useLocal()
   const head = clamp(localTime / 0.8, 0, 1)
 
+  // Auto-scale font and gap to keep all items on screen regardless of count.
+  const count = items.length
+  const hasSubs = items.some(it => typeof it === 'object' && it.sub)
+  const big = count <= 3
+  const medium = count === 4
+  const mainSize = big ? 52 : medium ? 46 : hasSubs ? 38 : 42
+  const subSize  = big ? 32 : medium ? 28 : 24
+  const gap      = big ? 32 : medium ? 24 : 18
+  const indSize  = big ? 38 : medium ? 32 : 28
+  const indWidth = big ? 84 : 64
+
   return (
     <>
       <Kicker text={kicker} color={accentKicker || accent} t={head} />
       <Headline t={head} size={TYPE.headline}>{headline}</Headline>
 
       <div style={{
-        position: 'absolute', left: 200, right: 200, top: 430,
-        display: 'flex', flexDirection: 'column', gap: 28,
+        position: 'absolute', left: 200, right: 200, top: 430, bottom: 60,
+        display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', gap,
       }}>
         {items.map((item, i) => {
           const t = clamp((localTime - 1 - i * 0.7) / 0.5, 0, 1)
@@ -669,30 +693,29 @@ export const BulletListScene = ({
           const indicator = numbered ? String(i + 1).padStart(2, '0') : null
           return (
             <div key={i} style={{
-              display: 'flex', alignItems: 'flex-start', gap: 28,
+              display: 'flex', alignItems: 'flex-start', gap: 22,
               opacity: t, transform: `translateX(${(1 - e) * -30}px)`,
             }}>
               {numbered ? (
                 <div style={{
-                  fontFamily: W.mono, fontSize: 36, color: accent, fontWeight: 600,
-                  letterSpacing: '0.1em', flexShrink: 0, width: 80,
-                  paddingTop: 6,
+                  fontFamily: W.mono, fontSize: indSize, color: accent, fontWeight: 600,
+                  letterSpacing: '0.1em', flexShrink: 0, width: indWidth, paddingTop: 4,
                 }}>{indicator}</div>
               ) : (
                 <div style={{
-                  width: 16, height: 16, borderRadius: 4, background: accent,
-                  flexShrink: 0, marginTop: 22,
+                  width: 14, height: 14, borderRadius: 4, background: accent,
+                  flexShrink: 0, marginTop: mainSize * 0.45,
                 }} />
               )}
               <div style={{
-                fontFamily: W.display, fontSize: 48, color: W.ink, lineHeight: 1.25,
-                fontWeight: 500,
+                fontFamily: W.display, fontSize: mainSize, color: W.ink, lineHeight: 1.2,
+                fontWeight: 500, flex: 1, minWidth: 0,
               }}>
                 {typeof item === 'string' ? item : item.text}
                 {typeof item === 'object' && item.sub && (
                   <div style={{
-                    fontFamily: W.sans, fontSize: 30, color: W.muted, marginTop: 6,
-                    fontWeight: 400, lineHeight: 1.35,
+                    fontFamily: W.sans, fontSize: subSize, color: W.muted, marginTop: 4,
+                    fontWeight: 400, lineHeight: 1.3,
                   }}>{item.sub}</div>
                 )}
               </div>
@@ -1147,14 +1170,26 @@ export const StackScene = ({ kicker, headline, layers, accentKicker = W.clay }) 
   const head = clamp(localTime / 0.8, 0, 1)
   const palette = [W.clay, W.sage, W.sky, W.muted]
 
+  // Available vertical space is roughly y=430 to y=1040 (~610px). Distribute
+  // height + gap across layers so a 6-layer stack still fits comfortably.
+  const count = layers.length
+  const compact = count >= 5
+  const gap        = compact ? 12 : 18
+  const minHeight  = compact ? 78 : 110
+  const padY       = compact ? 16 : 28
+  const padX       = compact ? 28 : 40
+  const layerLabel = compact ? 16 : 20
+  const titleSize  = compact ? 32 : 44
+  const subSize    = compact ? 20 : 24
+
   return (
     <>
       <Kicker text={kicker} color={accentKicker} t={head} />
       <Headline t={head} size={TYPE.headline}>{headline}</Headline>
 
       <div style={{
-        position: 'absolute', left: 360, right: 360, top: 430,
-        display: 'flex', flexDirection: 'column', gap: 18,
+        position: 'absolute', left: 360, right: 360, top: 430, bottom: 40,
+        display: 'flex', flexDirection: 'column', gap, justifyContent: 'flex-start',
       }}>
         {layers.map((layer, i) => {
           const t = clamp((localTime - 1.2 - i * 0.7) / 0.6, 0, 1)
@@ -1162,25 +1197,25 @@ export const StackScene = ({ kicker, headline, layers, accentKicker = W.clay }) 
           const color = layer.color || palette[i % palette.length]
           return (
             <div key={i} style={{
-              background: color, borderRadius: 22, padding: '28px 40px',
+              background: color, borderRadius: 18, padding: `${padY}px ${padX}px`,
               color: W.cream, display: 'flex', alignItems: 'center',
-              justifyContent: 'space-between', gap: 24, minHeight: 110,
+              justifyContent: 'space-between', gap: 24, minHeight,
               opacity: t, transform: `translateY(${(1 - e) * 30}px) scale(${0.96 + 0.04 * e})`,
               boxShadow: '0 6px 20px rgba(42,38,32,0.12)',
             }}>
               <div>
                 <div style={{
-                  fontFamily: W.mono, fontSize: 20, letterSpacing: '0.2em',
-                  opacity: 0.8, fontWeight: 600, marginBottom: 6,
+                  fontFamily: W.mono, fontSize: layerLabel, letterSpacing: '0.2em',
+                  opacity: 0.8, fontWeight: 600, marginBottom: 4,
                 }}>LAYER {String(layers.length - i).padStart(2, '0')}</div>
                 <div style={{
-                  fontFamily: W.display, fontSize: 44, fontWeight: 500, lineHeight: 1.1,
+                  fontFamily: W.display, fontSize: titleSize, fontWeight: 500, lineHeight: 1.1,
                 }}>{layer.title}</div>
               </div>
               {layer.sub && (
                 <div style={{
-                  fontFamily: W.sans, fontSize: 24, opacity: 0.92,
-                  flex: 1, textAlign: 'right', lineHeight: 1.4,
+                  fontFamily: W.sans, fontSize: subSize, opacity: 0.92,
+                  flex: 1, textAlign: 'right', lineHeight: 1.3,
                 }}>{layer.sub}</div>
               )}
             </div>

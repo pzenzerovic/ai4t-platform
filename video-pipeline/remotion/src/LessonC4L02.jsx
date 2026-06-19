@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c4-l02'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 5.4, component: () => (
     <TitleScene
       title="AI for Visual Impairments"
       subtitle="When seeing the board is not enough"
       kicker="AI4TEACHERS · 02"
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 15.4, component: () => (
     <PillCloudScene
       kicker="THE VISUAL CHANNEL"
       headline="Most teaching is locked behind sight."
@@ -28,7 +28,7 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 12.6, component: () => (
     <DefinitionScene
       kicker="IMAGE ANALYSIS"
       headline="The AI can see what the student cannot."
@@ -37,7 +37,7 @@ const SCENES = [
       tagline="Beyond OCR — it understands structure and context."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.8, component: () => (
     <CardGridScene
       kicker="THE TOOLKIT"
       headline="One phone. Two AI capabilities."
@@ -49,7 +49,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.1, component: () => (
     <DefinitionScene
       kicker="VOICE INTERACTION"
       headline="Not text-to-speech. A real conversation."
@@ -58,7 +58,7 @@ const SCENES = [
       tagline="A learning partner — not just a reader."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 13.2, component: () => (
     <CardGridScene
       kicker="PRACTICAL SCENARIOS"
       headline="Try these this week."
@@ -71,7 +71,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.8, component: () => (
     <CardGridScene
       kicker="LIMITS TO REMEMBER"
       headline="Descriptions are approximations."
@@ -83,7 +83,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 11.4, component: () => (
     <BulletListScene
       kicker="YOUR ROLE"
       headline="Modest steps with real impact."
@@ -97,7 +97,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.5, component: () => (
     <ClosingScene
       tagline="Visual content. Spoken access."
       italicWord="Spoken"

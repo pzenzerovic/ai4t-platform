@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l07'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 5.2, component: () => (
     <TitleScene
       title="Human in the Loop"
       italicWord="Human"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 07"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.2, component: () => (
     <DefinitionScene
       kicker="THE PRINCIPLE"
       headline="A human approves at every critical decision."
@@ -27,7 +27,7 @@ const SCENES = [
       tagline="Technology assists. Humans decide."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 11.3, component: () => (
     <ConceptCirclesScene
       kicker="WHY EDUCATION NEEDS IT"
       headline="Three independent arguments."
@@ -37,7 +37,7 @@ const SCENES = [
       tagline="Each reason on its own is sufficient."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 16, component: () => (
     <BulletListScene
       kicker="THREE LEVELS OF OVERSIGHT"
       headline="When and how to look."
@@ -50,7 +50,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 13.1, component: () => (
     <CardGridScene
       kicker="IRREPLACEABLE FUNCTIONS"
       headline="Four things only a teacher can do."
@@ -64,7 +64,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.9, component: () => (
     <BulletListScene
       kicker="MAKING IT SUSTAINABLE"
       headline="Oversight without overwhelm."
@@ -77,14 +77,14 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 10.8, component: () => (
     <QuoteScene
       kicker="WARNING"
       quote="Clicking 'approve' without reading is not oversight."
       attribution="Presence is not enough — engagement is."
     />
   )},
-  { dur: 21, component: () => (
+  { dur: 12.4, component: () => (
     <BulletListScene
       kicker="THE CHECKLIST"
       headline="Six questions before students see AI content."
@@ -100,7 +100,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.9, component: () => (
     <ClosingScene
       tagline="AI assists. You decide."
       italicWord="decide"

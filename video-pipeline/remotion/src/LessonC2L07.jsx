@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l07'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 6.2, component: () => (
     <TitleScene
       title="Canva AI for Education"
       italicWord="Education"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 07"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 9.9, component: () => (
     <DefinitionScene
       kicker="WHAT IT IS"
       headline="An online design platform with an AI suite called Magic Studio."
@@ -27,7 +27,7 @@ const SCENES = [
       tagline="You provide the teaching. Canva handles the look."
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 9.5, component: () => (
     <ToolWalkthroughScene
       kicker="FREE FOR TEACHERS"
       headline="Canva for Education — verified, premium, free."
@@ -41,7 +41,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 15, component: () => (
     <ToolWalkthroughScene
       kicker="MAGIC STUDIO"
       headline="The AI features you will actually use."
@@ -56,7 +56,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 4, component: () => (
     <ProcessFlowScene
       kicker="THE CORE WORKFLOW"
       headline="Same five steps, every project."
@@ -70,7 +70,7 @@ const SCENES = [
       tagline="The AI gives a first draft. You make it pedagogical."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 11.1, component: () => (
     <CardGridScene
       kicker="BEST CLASSROOM USES"
       headline="Where Canva AI saves you the most time."
@@ -86,7 +86,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 11.1, component: () => (
     <MythBustScene
       kicker="CAUTION"
       headline="Pretty is not the same as pedagogically sound."
@@ -95,7 +95,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.3, component: () => (
     <ClosingScene
       tagline="Your pedagogy. Their design."
       italicWord="Your"

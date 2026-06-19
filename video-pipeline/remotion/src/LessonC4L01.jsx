@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c4-l01'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 10.3, component: () => (
     <TitleScene
       title="AI and Accessibility"
       subtitle="A bridge between the barrier and the support"
       kicker="AI4TEACHERS · 01"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 14.3, component: () => (
     <BulletListScene
       kicker="THE GAP"
       headline="Traditional support is real — but not always present."
@@ -30,7 +30,7 @@ const SCENES = [
       numbered={false}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 11.6, component: () => (
     <CardGridScene
       kicker="FOUR CORE AREAS"
       headline="Different barriers. Different bridges."
@@ -44,7 +44,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 17.7, component: () => (
     <DefinitionScene
       kicker="THE PRINCIPLE"
       headline="Real-time adaptation, at the moment of need."
@@ -53,7 +53,7 @@ const SCENES = [
       tagline="Complements advance preparation — does not replace it."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.3, component: () => (
     <PillCloudScene
       kicker="THE TOOLKIT"
       headline="Most run on the phone in a student's pocket."
@@ -64,7 +64,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 14.4, component: () => (
     <CardGridScene
       kicker="WHAT AI CANNOT DO"
       headline="Outputs are approximations — not certainties."
@@ -77,7 +77,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 14.7, component: () => (
     <BulletListScene
       kicker="THE TEACHER'S ROLE"
       headline="Three functions in every accessibility moment."
@@ -90,7 +90,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 11.6, component: () => (
     <BulletListScene
       kicker="A STARTING POINT"
       headline="Practical access that didn't exist before."
@@ -103,7 +103,7 @@ const SCENES = [
       numbered={false}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.5, component: () => (
     <ClosingScene
       tagline="A bridge. In real time."
       italicWord="bridge"

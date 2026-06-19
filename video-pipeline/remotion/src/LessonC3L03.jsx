@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l03'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 6.6, component: () => (
     <TitleScene
       title="Practice and Assessment"
       italicWord="Practice"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 03"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.8, component: () => (
     <DefinitionScene
       kicker="THE SHIFT"
       headline="From summative testing to formative practice."
@@ -27,7 +27,7 @@ const SCENES = [
       tagline="Immediate. Adaptive. Unlimited."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13.5, component: () => (
     <CardGridScene
       kicker="USE CASES"
       headline="Four practice formats AI handles well."
@@ -41,7 +41,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 17.7, component: () => (
     <ProcessFlowScene
       kicker="THE PRACTICE LOOP"
       headline="A learning cycle that runs itself."
@@ -54,14 +54,14 @@ const SCENES = [
       tagline="Every step is learning, not just the right answer."
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 14.9, component: () => (
     <QuoteScene
       kicker="THE CORE VALUE"
       quote="Feedback turns every mistake into a learning opportunity."
       attribution="Not the questions — the explanations."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13, component: () => (
     <DefinitionScene
       kicker="ADAPTIVE DIFFICULTY"
       headline="Stay in the zone of growth."
@@ -70,7 +70,7 @@ const SCENES = [
       tagline="Pacing personalised to every student."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 9.2, component: () => (
     <MythBustScene
       kicker="USE WITH CARE"
       headline="What students should not do."
@@ -80,7 +80,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 16, component: () => (
     <BulletListScene
       kicker="HELP STUDENTS PRACTISE WELL"
       headline="A practical methodology."

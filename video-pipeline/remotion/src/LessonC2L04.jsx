@@ -10,20 +10,20 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l04'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 7, component: () => (
     <TitleScene
       title="Meta-prompting"
       subtitle="Thinking before you ask"
       kicker="AI4TEACHERS · 04"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 13.1, component: () => (
     <QuoteScene
       kicker="THE SITUATION"
       quote="I know the problem. I just don't know what the solution should look like."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 9.6, component: () => (
     <DefinitionScene
       kicker="META-PROMPTING"
       headline="Prompting about prompting."
@@ -32,7 +32,7 @@ const SCENES = [
       tagline="Not the answer — the process of arriving at it."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.2, component: () => (
     <BulletListScene
       kicker="A NATURAL EXTENSION"
       headline="Reflective practice — with a partner."
@@ -44,7 +44,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 15.3, component: () => (
     <TwoColumnScene
       kicker="TWO VERSIONS"
       headline="Both useful — for different moments."
@@ -68,7 +68,7 @@ const SCENES = [
       }}
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 14.3, component: () => (
     <CycleStepsScene
       kicker="THE META-PROMPTING CYCLE"
       headline="Four moves before the final ask."
@@ -81,7 +81,7 @@ const SCENES = [
       tagline="The dialogue does the thinking."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 12.3, component: () => (
     <CardGridScene
       kicker="WHEN TO USE IT"
       headline="Four good moments."
@@ -95,13 +95,13 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 12.2, component: () => (
     <QuoteScene
       kicker="THE LIMIT"
       quote="For simple, well-defined tasks — direct prompting is enough."
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.2, component: () => (
     <ClosingScene
       tagline="Think first. Then ask."
       italicWord="first"

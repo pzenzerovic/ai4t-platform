@@ -22,19 +22,21 @@ export const LESSON_ID = 'c1-l01' // What is AI?
 // To regenerate timings: run video-pipeline/src/generate-audio.mjs, then
 // `ffprobe` each MP3 and add ~1.0s tail. Last scene gets longer tail for
 // the closing "Use it with judgment" line to breathe.
+// Scene durations = audio length + 0.4s tail (1.5s tail for the closing).
+// Synced from MP3 lengths by video-pipeline/src/sync-scene-durations.mjs.
 const SCENE_DURATIONS = [
-  11.0,  // S1 Title              (audio 9.87  + 1.13)
-  14.5,  // S2 Clear the noise    (audio 13.51 + 0.99)
-  19.8,  // S3 Definition         (audio 18.76 + 1.04)
-  20.5,  // S4 Key insight        (audio 19.51 + 0.99)
-  21.5,  // S5 Can do             (audio 20.51 + 0.99)
-  26.0,  // S6 Cannot do          (audio 25.03 + 0.97)
-  26.0,  // S7 Three myths        (audio 24.97 + 1.03)
-  21.7,  // S8 Chatbot vs LLM     (audio 20.74 + 0.96)
-  17.9,  // S9 Narrow vs AGI      (audio 16.88 + 1.02)
-  14.0,  // S10 Already in edu    (audio 13.06 + 0.94)
-  21.6,  // S11 Skills            (audio 20.58 + 1.02)
-  5.0,   // S12 Closing           (audio 1.96  + 3.04 — long tail)
+  10.3,  // S1 Title
+  13.9,  // S2 Clear the noise
+  19.2,  // S3 Definition
+  19.9,  // S4 Key insight
+  20.9,  // S5 Can do
+  25.4,  // S6 Cannot do
+  25.4,  // S7 Three myths
+  21.1,  // S8 Chatbot vs LLM
+  17.3,  // S9 Narrow vs AGI
+  13.5,  // S10 Already in edu
+  21.0,  // S11 Skills
+  3.5,   // S12 Closing
 ]
 
 const SCENE_COMPONENTS = [

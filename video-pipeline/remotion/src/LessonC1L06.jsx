@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c1-l06'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 7.7, component: () => (
     <TitleScene
       title="Multimodal AI"
       subtitle="When AI sees, hears, and speaks"
       kicker="AI4TEACHERS · 06"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.8, component: () => (
     <BulletListScene
       kicker="BEYOND TEXT"
       headline="A real shift in the past two years."
@@ -30,7 +30,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 10.7, component: () => (
     <DefinitionScene
       kicker="MULTIMODAL"
       headline="Multiple modes of information at once."
@@ -39,7 +39,7 @@ const SCENES = [
       tagline="Closer to how teaching actually works."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 11.4, component: () => (
     <CardGridScene
       kicker="WHAT IT CAN ANALYZE"
       headline="Upload — and ask."
@@ -52,7 +52,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 10.8, component: () => (
     <PillCloudScene
       kicker="WHAT IT CAN GENERATE"
       headline="Not just analyze — create."
@@ -65,7 +65,7 @@ const SCENES = [
       filled={true}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 16.1, component: () => (
     <ProcessFlowScene
       kicker="A BIOLOGY LESSON"
       headline="Three modalities, one class."
@@ -77,13 +77,13 @@ const SCENES = [
       tagline="Each step uses a different multimodal capability."
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 13.3, component: () => (
     <QuoteScene
       kicker="THE SAME CAUTION"
       quote="The model recognizes patterns — not meaning. Verify visual analysis as carefully as text."
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 12.5, component: () => (
     <BulletListScene
       kicker="HOW TO START"
       headline="Begin with one image."
@@ -96,7 +96,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.4, component: () => (
     <ClosingScene
       tagline="AI that sees. AI that listens."
       italicWord="listens"

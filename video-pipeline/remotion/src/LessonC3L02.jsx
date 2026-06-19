@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l02'
 
 const SCENES = [
-  { dur: 8, component: () => (
+  { dur: 5.3, component: () => (
     <TitleScene
       title="AI as a Tutor"
       italicWord="Tutor"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 02"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12, component: () => (
     <DefinitionScene
       kicker="DEFINITION"
       headline="A tutor asks questions. A tool delivers answers."
@@ -27,7 +27,7 @@ const SCENES = [
       tagline="Set AI up to teach — not to solve."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 11.8, component: () => (
     <CardGridScene
       kicker="HOW TO ACTIVATE"
       headline="Three ways to put AI in tutor mode."
@@ -40,7 +40,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 10.5, component: () => (
     <ProcessFlowScene
       kicker="THE TUTORING PATTERN"
       headline="A familiar rhythm to any experienced teacher."
@@ -53,7 +53,7 @@ const SCENES = [
       tagline="The AI provides structure. The student does the thinking."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 14.1, component: () => (
     <BulletListScene
       kicker="EXAMPLE · MATHS"
       headline="A Year 6 student solves 2x + 3 = 11."
@@ -66,7 +66,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 10.8, component: () => (
     <DefinitionScene
       kicker="ADAPTIVE DIFFICULTY"
       headline="The AI keeps the student in the zone of growth."
@@ -75,7 +75,7 @@ const SCENES = [
       tagline="Personalised differentiation — automatic and on demand."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13, component: () => (
     <MythBustScene
       kicker="THE LIMITS"
       headline="What the digital tutor cannot do."
@@ -85,7 +85,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.1, component: () => (
     <BulletListScene
       kicker="THE TEACHER'S ROLE"
       headline="The AI is the tool. You are the architect."
@@ -98,7 +98,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.5, component: () => (
     <ClosingScene
       tagline="Patient tutor. Human architect."
       italicWord="architect"

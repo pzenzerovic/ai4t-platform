@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c3-l06'
 
 const SCENES = [
-  { dur: 9, component: () => (
+  { dur: 5.8, component: () => (
     <TitleScene
       title="Ethics of AI in Education"
       italicWord="Ethics"
@@ -18,14 +18,14 @@ const SCENES = [
       kicker="AI4TEACHERS · 06"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 13.2, component: () => (
     <QuoteScene
       kicker="THE PRINCIPLE"
       quote="Ethics is not separate from technology."
       attribution="Every AI tool carries real consequences."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 18, component: () => (
     <BulletListScene
       kicker="01 · ALGORITHMIC BIAS"
       headline="AI inherits the world's inequalities."
@@ -38,7 +38,7 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.9, component: () => (
     <DefinitionScene
       kicker="02 · THE ORACLE EFFECT"
       headline="Students trust computers too much."
@@ -47,7 +47,7 @@ const SCENES = [
       tagline="Make AI errors visible. Turn them into lessons."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 14, component: () => (
     <BulletListScene
       kicker="03 · DATA AND PRIVACY"
       headline="Every interaction is recorded."
@@ -60,14 +60,14 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 14.7, component: () => (
     <QuoteScene
       kicker="04 · HUMAN AGENCY"
       quote="AI suggests. The teacher decides."
       attribution="Pedagogical judgement is never delegated."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 15.2, component: () => (
     <MythBustScene
       kicker="COMMON ETHICAL MISUSES"
       headline="Things teachers should not do."
@@ -78,7 +78,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 13.7, component: () => (
     <BulletListScene
       kicker="ETHICS AS AI LITERACY"
       headline="Turn every concern into a lesson."
@@ -91,7 +91,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.1, component: () => (
     <ClosingScene
       tagline="Technology serves learning. Not the other way around."
       italicWord="serves"

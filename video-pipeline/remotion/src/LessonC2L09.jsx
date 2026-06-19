@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l09'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 6.9, component: () => (
     <TitleScene
       title="Building Tools with Lovable"
       italicWord="Lovable"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 09"
     />
   )},
-  { dur: 15, component: () => (
+  { dur: 9, component: () => (
     <DefinitionScene
       kicker="WHAT IT IS"
       headline="An AI builder for small, interactive web apps."
@@ -27,7 +27,7 @@ const SCENES = [
       tagline="No code. Plain-language conversation with a developer."
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 7, component: () => (
     <ToolWalkthroughScene
       kicker="WHERE IT LIVES"
       headline="Sign up at lovable.dev."
@@ -41,7 +41,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 10.8, component: () => (
     <PillCloudScene
       kicker="GOOD FOR"
       headline="Small, focused, interactive."
@@ -54,7 +54,7 @@ const SCENES = [
       filled={false}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 3.6, component: () => (
     <CycleStepsScene
       kicker="THE CORE LOOP"
       headline="Generate, test, observe, refine."
@@ -67,7 +67,7 @@ const SCENES = [
       tagline="The same iteration habit from prompt engineering."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 11.1, component: () => (
     <BulletListScene
       kicker="YOUR FIRST PROMPT"
       headline="The details that decide version one."
@@ -81,7 +81,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 10.4, component: () => (
     <ToolWalkthroughScene
       kicker="VISUAL EDIT MODE"
       headline="Point and ask for a change."
@@ -95,7 +95,7 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 9.2, component: () => (
     <MythBustScene
       kicker="PUBLISH & PRIVACY"
       headline="Two non-negotiables before class."
@@ -105,7 +105,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 10.6, component: () => (
     <ClosingScene
       tagline="Words in. Apps out."
       italicWord="out"

@@ -12,14 +12,14 @@ export const FPS = 30
 export const LESSON_ID = 'c1-l02'
 
 const SCENES = [
-  { dur: 9.5,  component: () => (
+  { dur: 6.4,  component: () => (
     <TitleScene
       title="AI in Education Today"
       subtitle="You've been using it for years — you just didn't call it that"
       kicker="AI4TEACHERS · 02"
     />
   )},
-  { dur: 16.0, component: () => (
+  { dur: 13.4, component: () => (
     <PillCloudScene
       kicker="ALREADY HERE"
       headline="AI has been in your school for over a decade."
@@ -31,7 +31,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 16.0, component: () => (
+  { dur: 14.9, component: () => (
     <DefinitionScene
       kicker="ADAPTIVE LEARNING"
       headline="Platforms that adjust difficulty in real time."
@@ -40,7 +40,7 @@ const SCENES = [
       tagline="Khan Academy. Duolingo. National platforms."
     />
   )},
-  { dur: 16.5, component: () => (
+  { dur: 14.1, component: () => (
     <CardGridScene
       kicker="AUTOMATED ASSESSMENT"
       headline="Helpful for routine. Limited for judgment."
@@ -52,7 +52,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19.0, component: () => (
+  { dur: 14.8, component: () => (
     <PillCloudScene
       kicker="THE BIGGEST SHIFT"
       headline="One tool. Many tasks."
@@ -65,7 +65,7 @@ const SCENES = [
       filled={true}
     />
   )},
-  { dur: 21.0, component: () => (
+  { dur: 17.9, component: () => (
     <NumberedPillsScene
       kicker="SKILLS THAT TRANSFER"
       headline="What you already do — applied to AI."
@@ -79,7 +79,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19.0, component: () => (
+  { dur: 15.1, component: () => (
     <TwoColumnScene
       kicker="WHAT IS AND ISN'T CHANGING"
       headline="A balanced view."
@@ -103,7 +103,7 @@ const SCENES = [
       }}
     />
   )},
-  { dur: 16.0, component: () => (
+  { dur: 15.7, component: () => (
     <BulletListScene
       kicker="WHERE TO BEGIN"
       headline="A practical starting plan."
@@ -117,7 +117,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5.0,  component: () => (
+  { dur: 4.7,  component: () => (
     <ClosingScene
       tagline="Same skills. New tools."
       italicWord="New"

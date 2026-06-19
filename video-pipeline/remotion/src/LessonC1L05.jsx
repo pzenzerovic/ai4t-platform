@@ -10,12 +10,12 @@ export const FPS = 30
 export const LESSON_ID = 'c1-l05'
 
 const SCENES = [
-  { dur: 11, component: () => (
+  { dur: 10, component: () => (
     <TitleScene title="AI's Limitations"
       subtitle="What it cannot do — and what that means for you"
       kicker="AI4TEACHERS · 05" />
   )},
-  { dur: 18, component: () => (
+  { dur: 15.5, component: () => (
     <DefinitionScene
       kicker="HALLUCINATION"
       headline="Confident output. Factually wrong."
@@ -24,7 +24,7 @@ const SCENES = [
       tagline="Not a bug — a feature of how LLMs work."
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 14.5, component: () => (
     <CardGridScene
       kicker="WHAT AI IS GOOD AT"
       headline="Use it generously here."
@@ -37,7 +37,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 17.4, component: () => (
     <CardGridScene
       kicker="WHAT AI STRUGGLES WITH"
       headline="Verify these. Always."
@@ -50,7 +50,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 15.6, component: () => (
     <DefinitionScene
       kicker="CONTEXT WINDOW"
       headline="The AI's working memory has a limit."
@@ -59,7 +59,7 @@ const SCENES = [
       tagline="Provide critical info upfront, in one message."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 16, component: () => (
     <BulletListScene
       kicker="PRACTICAL STRATEGIES"
       headline="Three habits that catch trouble early."
@@ -72,13 +72,13 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 12.4, component: () => (
     <QuoteScene
       kicker="A TEACHING OPPORTUNITY"
       quote="Teaching students about AI limitations is itself a critical thinking lesson."
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.3, component: () => (
     <ClosingScene tagline="Your expertise. More important, not less."
       italicWord="More" kicker="AI4TEACHERS · NEXT LESSON →" />
   )},

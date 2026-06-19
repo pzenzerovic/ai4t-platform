@@ -10,7 +10,7 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l06'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 6.5, component: () => (
     <TitleScene
       title="Getting Started with Claude"
       italicWord="Claude"
@@ -18,7 +18,7 @@ const SCENES = [
       kicker="AI4TEACHERS · 06"
     />
   )},
-  { dur: 15, component: () => (
+  { dur: 9.2, component: () => (
     <DefinitionScene
       kicker="WHO BUILDS IT"
       headline="Claude is built by Anthropic."
@@ -27,7 +27,7 @@ const SCENES = [
       tagline="Same kind of LLM — different design priorities."
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 8.8, component: () => (
     <ToolWalkthroughScene
       kicker="WHERE IT LIVES"
       headline="Sign in at claude.ai."
@@ -41,7 +41,7 @@ const SCENES = [
       accent={W.sage}
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 9, component: () => (
     <CardGridScene
       kicker="STRENGTHS FOR TEACHERS"
       headline="Where Claude tends to shine."
@@ -54,7 +54,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 11.3, component: () => (
     <ToolWalkthroughScene
       kicker="TWO KEY FEATURES"
       headline="Built for sustained classroom work."
@@ -68,7 +68,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 10.4, component: () => (
     <ProcessFlowScene
       kicker="STARTER WORKFLOWS"
       headline="Four high-value uses, in order."
@@ -81,7 +81,7 @@ const SCENES = [
       tagline="One conversation. A package of materials."
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 10.7, component: () => (
     <MythBustScene
       kicker="PRIVACY"
       headline="Same rule. Every assistant."
@@ -90,7 +90,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 10.2, component: () => (
     <TwoColumnScene
       kicker="USING BOTH TOOLS"
       headline="You do not have to pick just one."
@@ -108,7 +108,7 @@ const SCENES = [
       rightColor={W.sage}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.5, component: () => (
     <ClosingScene
       tagline="Long form. Steady partner."
       italicWord="Steady"

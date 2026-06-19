@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c2-l03'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 6.6, component: () => (
     <TitleScene
       title="Prompt Engineering"
       subtitle="Real examples — math, language, history"
       kicker="AI4TEACHERS · 03"
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 10.4, component: () => (
     <BulletListScene
       kicker="FROM PRINCIPLES TO PRACTICE"
       headline="What you'll see in this lesson."
@@ -30,7 +30,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 16.1, component: () => (
     <BeforeAfterScene
       kicker="EXAMPLE 1 — MATHEMATICS"
       headline="Year 1 addition worksheet."
@@ -39,7 +39,7 @@ const SCENES = [
       tagline="Role + count + math constraint + format."
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 12.2, component: () => (
     <BeforeAfterScene
       kicker="EXAMPLE 2 — LANGUAGE"
       headline="Year 6 Present Simple story exercises."
@@ -48,7 +48,7 @@ const SCENES = [
       tagline="Receptive → productive → free production."
     />
   )},
-  { dur: 22, component: () => (
+  { dur: 18.4, component: () => (
     <BeforeAfterScene
       kicker="EXAMPLE 3 — HISTORY"
       headline="Inventions 1800-2000 review."
@@ -57,7 +57,7 @@ const SCENES = [
       tagline="Constraints make it pedagogical."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 14.5, component: () => (
     <CardGridScene
       kicker="WHAT EVERY STRONG PROMPT HAS"
       headline="Four ingredients that always help."
@@ -71,7 +71,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 18.5, component: () => (
     <ProcessFlowScene
       kicker="THE WORKFLOW"
       headline="From idea to classroom-ready."
@@ -83,13 +83,13 @@ const SCENES = [
       tagline="AI handles production. You handle design."
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 13.9, component: () => (
     <QuoteScene
       kicker="THE TAKEAWAY"
       quote="The AI is a production tool. The pedagogy comes from you."
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.7, component: () => (
     <ClosingScene
       tagline="Pedagogy first. Then the prompt."
       italicWord="first"

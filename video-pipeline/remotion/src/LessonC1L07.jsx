@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c1-l07'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 7.6, component: () => (
     <TitleScene
       title="The Layers of AI"
       subtitle="From chatbots to agent systems"
       kicker="AI4TEACHERS · 07"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 11.6, component: () => (
     <BulletListScene
       kicker="WHY THINK IN LAYERS"
       headline="A mental map, not a hierarchy."
@@ -30,7 +30,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 26, component: () => (
+  { dur: 14.5, component: () => (
     <StackScene
       kicker="SIX LAYERS"
       headline="Each layer extends the one below."
@@ -44,7 +44,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.3, component: () => (
     <TwoColumnScene
       kicker="LAYERS 1 & 2"
       headline="Where most teachers work today."
@@ -68,7 +68,7 @@ const SCENES = [
       }}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.7, component: () => (
     <DefinitionScene
       kicker="LAYER 3"
       headline="From knowing things to finding things out."
@@ -77,7 +77,7 @@ const SCENES = [
       tagline="Models gain access to external tools."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 12.1, component: () => (
     <TwoColumnScene
       kicker="LAYERS 4 & 5"
       headline="From operating tools to setting goals."
@@ -101,7 +101,7 @@ const SCENES = [
       }}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.4, component: () => (
     <BulletListScene
       kicker="LAYER 6 — AGENT SYSTEMS"
       headline="A team of AIs, each with a role."
@@ -115,13 +115,13 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 11, component: () => (
     <QuoteScene
       kicker="THE TEACHER'S ROLE"
       quote="As AI gets more capable, the teacher becomes more important — not less."
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.7, component: () => (
     <ClosingScene
       tagline="One map. Six layers."
       italicWord="Six"

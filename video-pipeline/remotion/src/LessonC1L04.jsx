@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c1-l04'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 8.6, component: () => (
     <TitleScene
       title="How LLMs Work"
       subtitle="No engineering background required"
       kicker="AI4TEACHERS · 04"
     />
   )},
-  { dur: 16, component: () => (
+  { dur: 11.1, component: () => (
     <BulletListScene
       kicker="WHY THE MECHANISM MATTERS"
       headline="Three things change when you understand it."
@@ -30,7 +30,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 15.7, component: () => (
     <CardGridScene
       kicker="WHAT AN LLM IS NOT"
       headline="Not a database. Not a search engine. Not understanding."
@@ -43,7 +43,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 16.9, component: () => (
     <DefinitionScene
       kicker="TOKENS"
       headline="LLMs work with chunks, not words."
@@ -52,7 +52,7 @@ const SCENES = [
       tagline="Which is why AI sometimes can't count letters in a word."
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 14, component: () => (
     <ProcessFlowScene
       kicker="GENERATION"
       headline="Word by word. One token at a time."
@@ -65,13 +65,13 @@ const SCENES = [
       tagline="No plan. Just statistical next-token prediction."
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 16.9, component: () => (
     <QuoteScene
       kicker="THE KEY INSIGHT"
       quote="The model does not plan its response. It builds it word by word."
     />
   )},
-  { dur: 24, component: () => (
+  { dur: 17.4, component: () => (
     <ConceptCirclesScene
       kicker="CONTEXT"
       headline="The model's working memory."
@@ -89,13 +89,13 @@ const SCENES = [
       tagline="When conversation gets too long, the earliest parts drop out."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 15.6, component: () => (
     <QuoteScene
       kicker="A USEFUL MENTAL MODEL"
       quote="Think of it as the world's most well-read parrot."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 16.1, component: () => (
     <BulletListScene
       kicker="WHAT THIS MEANS"
       headline="Three habits for your practice."
@@ -108,7 +108,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.5, component: () => (
     <ClosingScene
       tagline="Patterns in. Plausible text out."
       italicWord="Plausible"
