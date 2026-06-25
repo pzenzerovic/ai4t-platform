@@ -3,7 +3,7 @@ import { AbsoluteFill, Sequence, Audio, staticFile } from 'remotion'
 import { WARM as W } from './theme.js'
 import {
   TitleScene, CardGridScene, DefinitionScene, BulletListScene,
-  ConceptCirclesScene, TimelineScene, QuoteScene, ClosingScene,
+  TimelineScene, ClosingScene,
 } from './Templates.jsx'
 
 export const FPS = 30
@@ -53,24 +53,26 @@ const SCENES = [
     />
   )},
   { dur: 14.4, component: () => (
-    <ConceptCirclesScene
-      kicker="AGI vs ASI"
-      headline="Two terms — kept apart."
-      left={{
-        label: 'AGI',
-        caption: 'Human-level across all domains',
-        color: W.sky,
-      }}
-      right={{
-        label: 'ASI',
-        caption: 'Beyond any human, at everything',
-        color: W.clay,
-      }}
-      connector="arrow"
-      tagline="Neither exists. Today's tools are still narrow AI."
+    <DefinitionScene
+      kicker="AGI"
+      headline="Artificial general intelligence."
+      italicTerm="general"
+      flow={['Narrow AI today', '→', 'AGI']}
+      tagline="Does not exist yet. No agreed timeline."
+      accentKicker={W.sky}
     />
   )},
   { dur: 12.5, component: () => (
+    <DefinitionScene
+      kicker="ASI"
+      headline="Superintelligence beyond any human."
+      italicTerm="Superintelligence"
+      flow={['Human', '→', 'AGI', '→', 'ASI']}
+      tagline="Theoretical. No bearing on the classroom — yet."
+      accentKicker={W.clay}
+    />
+  )},
+  { dur: 12.4, component: () => (
     <TimelineScene
       kicker="NEXT 2-5 YEARS"
       headline="What is actually coming."
@@ -83,7 +85,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 12.4, component: () => (
+  { dur: 15, component: () => (
     <BulletListScene
       kicker="HOW TO PREPARE"
       headline="The fundamentals change more slowly than the tools."
@@ -95,12 +97,6 @@ const SCENES = [
       ]}
       accent={W.sage}
       numbered={true}
-    />
-  )},
-  { dur: 15, component: () => (
-    <QuoteScene
-      kicker="THE GOAL"
-      quote="Not an AI expert — an AI-literate teacher."
     />
   )},
   { dur: 5, component: () => (

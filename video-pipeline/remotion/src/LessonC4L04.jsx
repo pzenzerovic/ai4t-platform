@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c4-l04'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 6.7, component: () => (
     <TitleScene
       title="Cognitive Accessibility"
       subtitle="Real-time differentiation, without changing the goal"
       kicker="AI4TEACHERS · 04"
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 15.8, component: () => (
     <PillCloudScene
       kicker="WHO BENEFITS"
       headline="A wide and often invisible spectrum."
@@ -28,7 +28,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13, component: () => (
     <CardGridScene
       kicker="THE TRANSFORMATIONS"
       headline="Three ways AI adapts text."
@@ -41,7 +41,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 12.6, component: () => (
     <BulletListScene
       kicker="PROMPTS THAT WORK"
       headline="Specific beats vague — every time."
@@ -55,7 +55,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 21, component: () => (
+  { dur: 14.8, component: () => (
     <CardGridScene
       kicker="MATCHING ADAPTATION TO NEED"
       headline="Different barriers. Different formats."
@@ -69,13 +69,13 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 15, component: () => (
+  { dur: 11.7, component: () => (
     <QuoteScene
       kicker="THE PRINCIPLE"
       quote="The learning objective stays the same. Only the path to understanding changes."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.6, component: () => (
     <DefinitionScene
       kicker="TEACHER JUDGEMENT"
       headline="AI simplifies as asked — not as right."
@@ -84,7 +84,7 @@ const SCENES = [
       tagline="The pedagogical decision stays with you."
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 14.1, component: () => (
     <BulletListScene
       kicker="FOR EVERY STUDENT"
       headline="Adaptation as a normal classroom skill."
@@ -97,7 +97,7 @@ const SCENES = [
       numbered={false}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.4, component: () => (
     <ClosingScene
       tagline="Same objective. Different path."
       italicWord="path"

@@ -78,12 +78,16 @@ export const Scene01 = () => {
 // ── SCENE 2 — Clear the noise ───────────────────────────
 export const Scene02 = () => {
   const localTime = useLocal()
+  // All bubble y values pushed below the 2-line headline (which fills
+  // y≈200-410). Spread evenly across the 1920px width with a slight
+  // alternating tilt for a noisy-talk feel — fills the previously-empty
+  // middle band (0:18 feedback) and removes the headline overlap (0:10).
   const bubbles = [
-    { t: 0.5, x: 200,  y: 280, text: '“AI will replace us.”',         color: W.clay, rot: -3, w: 480 },
-    { t: 2.0, x: 780,  y: 220, text: '“Just use it, it’s magic.”',     color: W.sage, rot:  2, w: 520 },
-    { t: 3.5, x: 1340, y: 350, text: '“Don’t trust any of it.”',       color: W.sky,  rot: -4, w: 460 },
-    { t: 5.0, x: 300,  y: 660, text: '“It knows everything.”',         color: W.sage, rot:  3, w: 480 },
-    { t: 6.5, x: 1060, y: 680, text: '“It’s basically a human.”',      color: W.clay, rot: -2, w: 500 },
+    { t: 1.6, x: 160,  y: 460, text: '“AI will replace us.”',         color: W.clay, rot: -3, w: 460 },
+    { t: 2.6, x: 740,  y: 440, text: '“Just use it, it’s magic.”',     color: W.sage, rot:  2, w: 500 },
+    { t: 3.6, x: 1320, y: 480, text: '“Don’t trust any of it.”',       color: W.sky,  rot: -4, w: 440 },
+    { t: 5.0, x: 240,  y: 740, text: '“It knows everything.”',         color: W.sage, rot:  3, w: 460 },
+    { t: 6.2, x: 1080, y: 760, text: '“It’s basically a human.”',      color: W.clay, rot: -2, w: 500 },
   ]
   const head = clamp(localTime / 0.8, 0, 1)
   return (
@@ -167,8 +171,11 @@ export const Scene04 = () => {
       <div style={headlineStyle(head, TYPE.headline)}>
         AI doesn’t think the way you do.
       </div>
+      {/* Circles pulled up to top:420 and captions pushed further away so the
+          "Understanding. Intention. Feeling." line doesn't touch the circle
+          (review feedback at 0:46-0:48). */}
       <div style={{
-        position: 'absolute', left: 360, top: 480, width: 380, height: 380,
+        position: 'absolute', left: 360, top: 420, width: 380, height: 380,
         opacity: brainIn, transform: `scale(${0.7 + 0.3 * brainIn})`,
       }}>
         <div style={{
@@ -177,12 +184,12 @@ export const Scene04 = () => {
           fontFamily: W.display, fontSize: 90, color: W.cream,
           boxShadow: '0 12px 40px rgba(42,38,32,0.12)',
         }}>Human</div>
-        <div style={{ position: 'absolute', bottom: -64, left: 0, right: 0, textAlign: 'center', fontFamily: W.sans, fontSize: 36, color: W.muted }}>
+        <div style={{ position: 'absolute', bottom: -90, left: -40, right: -40, textAlign: 'center', fontFamily: W.sans, fontSize: 34, color: W.muted, lineHeight: 1.3 }}>
           Understanding. Intention. Feeling.
         </div>
       </div>
       <div style={{
-        position: 'absolute', left: 880, top: 620, width: 160, height: 160,
+        position: 'absolute', left: 880, top: 560, width: 160, height: 160,
         opacity: x, transform: `scale(${0.3 + 0.7 * Easing.easeOutBack(x)}) rotate(${x * 90}deg)`,
       }}>
         <svg width="160" height="160" viewBox="0 0 160 160">
@@ -191,7 +198,7 @@ export const Scene04 = () => {
         </svg>
       </div>
       <div style={{
-        position: 'absolute', left: 1180, top: 480, width: 380, height: 380,
+        position: 'absolute', left: 1180, top: 420, width: 380, height: 380,
         opacity: mathIn, transform: `scale(${0.7 + 0.3 * mathIn})`,
       }}>
         <div style={{
@@ -200,7 +207,7 @@ export const Scene04 = () => {
           fontFamily: W.display, fontSize: 90, color: W.cream,
           boxShadow: '0 12px 40px rgba(42,38,32,0.12)',
         }}>AI</div>
-        <div style={{ position: 'absolute', bottom: -64, left: 0, right: 0, textAlign: 'center', fontFamily: W.sans, fontSize: 36, color: W.muted }}>
+        <div style={{ position: 'absolute', bottom: -90, left: -40, right: -40, textAlign: 'center', fontFamily: W.sans, fontSize: 34, color: W.muted, lineHeight: 1.3 }}>
           Statistical patterns. Math.
         </div>
       </div>
@@ -234,19 +241,25 @@ export const Scene05 = () => {
       <div style={headlineStyle(head, TYPE.headline)}>
         The things <span style={{ color: W.sage }}>really</span> worth using it for.
       </div>
-      <div style={{ position: 'absolute', left: 160, right: 160, top: 420, display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gap: 32 }}>
+      {/* Cards constrained to the safe-area below the headline and above the
+          frame bottom — fixes "1:06-1:08 odrezan tekst na dnu ekrana". */}
+      <div style={{
+        position: 'absolute', left: 160, right: 160, top: 400, bottom: 60,
+        display: 'grid', gridTemplateColumns: '1fr 1fr 1fr', gridAutoRows: '1fr', gap: 28,
+      }}>
         {caps.map((c, i) => {
           const t = clamp((localTime - 1 - i * 0.7) / 0.6, 0, 1)
           const e = Easing.easeOutBack(t)
           return (
             <div key={i} style={{
-              background: W.cream, borderRadius: 24, padding: '36px 40px', minHeight: 240,
+              background: W.cream, borderRadius: 24, padding: '32px 36px',
               opacity: t, transform: `translateY(${(1 - e) * 30}px)`,
               border: `2px solid ${W.sage}22`,
+              overflow: 'hidden', display: 'flex', flexDirection: 'column',
             }}>
-              <div style={{ width: 44, height: 44, borderRadius: 12, background: W.sage, marginBottom: 24 }} />
+              <div style={{ width: 40, height: 40, borderRadius: 10, background: W.sage, marginBottom: 18 }} />
               <div style={{ fontFamily: W.sans, fontSize: TYPE.cardTitle, fontWeight: 600, color: W.ink, marginBottom: 10, lineHeight: 1.15 }}>{c[0]}</div>
-              <div style={{ fontFamily: W.sans, fontSize: 38, color: W.muted, lineHeight: 1.35 }}>{c[1]}</div>
+              <div style={{ fontFamily: W.sans, fontSize: 36, color: W.muted, lineHeight: 1.35 }}>{c[1]}</div>
             </div>
           )
         })}
@@ -271,18 +284,22 @@ export const Scene06 = () => {
       <div style={headlineStyle(head, TYPE.headline)}>
         And the limits, honestly.
       </div>
-      <div style={{ position: 'absolute', left: 160, right: 160, top: 440, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 32 }}>
+      <div style={{
+        position: 'absolute', left: 160, right: 160, top: 420, bottom: 60,
+        display: 'grid', gridTemplateColumns: '1fr 1fr', gridAutoRows: '1fr', gap: 28,
+      }}>
         {items.map((c, i) => {
           const t = clamp((localTime - 1 - i * 2.5) / 0.6, 0, 1)
           const e = Easing.easeOutBack(t)
           return (
             <div key={i} style={{
-              background: W.cream, borderRadius: 24, padding: '42px 48px', minHeight: 220, position: 'relative',
+              background: W.cream, borderRadius: 24, padding: '38px 44px', position: 'relative',
               opacity: t, transform: `translateY(${(1 - e) * 30}px)`,
               border: `2px solid ${W.clay}33`,
+              overflow: 'hidden', display: 'flex', flexDirection: 'column',
             }}>
-              <div style={{ position: 'absolute', top: 26, right: 32, fontFamily: W.display, fontSize: 40, color: W.clay }}>✕</div>
-              <div style={{ fontFamily: W.sans, fontSize: TYPE.cardTitle, fontWeight: 600, color: W.ink, marginBottom: 14, lineHeight: 1.15 }}>{c[0]}</div>
+              <div style={{ position: 'absolute', top: 22, right: 28, fontFamily: W.display, fontSize: 40, color: W.clay }}>✕</div>
+              <div style={{ fontFamily: W.sans, fontSize: TYPE.cardTitle, fontWeight: 600, color: W.ink, marginBottom: 12, lineHeight: 1.15, paddingRight: 60 }}>{c[0]}</div>
               <div style={{ fontFamily: W.sans, fontSize: 38, color: W.muted, lineHeight: 1.35 }}>{c[1]}</div>
             </div>
           )
@@ -310,26 +327,35 @@ export const Scene07 = () => {
       </div>
       <div style={{ position: 'absolute', left: 160, right: 160, top: 440 }}>
         {myths.map((m, i) => {
-          const t = clamp((localTime - 0.8 - i * 5.5) / 0.6, 0, 1)
+          // Stagger paced to the audio (≈ 25s for 3 myths + intro). Was 5.5s
+          // → all myths shown by 11.8s while audio still talking → "tagline se
+          // pojavljuje prerano" (review feedback 1:50, 1:56, 2:01). 7s pacing
+          // keeps each rebuttal aligned with its narration.
+          const stagger = 7
+          const t = clamp((localTime - 0.8 - i * stagger) / 0.6, 0, 1)
           const e = Easing.easeOutBack(t)
-          const stamp = clamp((localTime - 0.8 - i * 5.5 - 1.5) / 0.5, 0, 1)
+          const stamp = clamp((localTime - 0.8 - i * stagger - 1.5) / 0.5, 0, 1)
           return (
             <div key={i} style={{
               display: 'flex', alignItems: 'stretch', gap: 24, marginBottom: 24,
               opacity: t, transform: `translateY(${(1 - e) * 20}px)`,
             }}>
+              {/* Strike via CSS text-decoration so it crosses all lines of a
+                  wrapping myth (the old absolute-positioned line at top:52%
+                  read as an underline on the 2-line myths). */}
               <div style={{
                 background: W.clay, color: W.cream, padding: '28px 36px', borderRadius: 24,
                 fontFamily: W.display, fontStyle: 'italic', fontSize: TYPE.myth,
-                minWidth: 620, position: 'relative',
+                minWidth: 620, lineHeight: 1.2,
+                textDecorationLine: 'line-through',
+                textDecorationColor: `rgba(250, 246, 237, ${Easing.easeOutQuart(stamp)})`,
+                textDecorationStyle: 'solid',
+                textDecorationThickness: '6px',
+                WebkitTextDecorationLine: 'line-through',
+                WebkitTextDecorationColor: `rgba(250, 246, 237, ${Easing.easeOutQuart(stamp)})`,
+                WebkitTextDecorationStyle: 'solid',
               }}>
                 “{m.q}”
-                <div style={{
-                  position: 'absolute', left: -6, right: -6, top: '52%',
-                  height: 5, background: W.cream, borderRadius: 3,
-                  transformOrigin: 'left center',
-                  transform: `scaleX(${Easing.easeOutQuart(stamp)})`,
-                }} />
               </div>
               <div style={{
                 flex: 1, background: W.cream, padding: '28px 36px', borderRadius: 24,
@@ -396,13 +422,16 @@ export const Scene08 = () => {
 export const Scene09 = () => {
   const localTime = useLocal()
   const head = clamp(localTime / 0.8, 0, 1)
+  // Chips laid out via flex so the last three never crash into each other
+  // (the old hand-tuned x positions had Recommend overrunning Transcribe —
+  // review feedback "2:37-2:41 zadnja tri se dodiruju/preklapaju").
   const chips = [
-    { t: 1.5, x: 200,  y: 400, text: 'Write',      color: W.clay },
-    { t: 2.2, x: 420,  y: 460, text: 'Translate',  color: W.sage },
-    { t: 2.9, x: 720,  y: 400, text: 'Summarize',  color: W.sky  },
-    { t: 3.6, x: 1020, y: 470, text: 'See images', color: W.clay },
-    { t: 4.3, x: 1310, y: 400, text: 'Recommend',  color: W.sage },
-    { t: 5.0, x: 1570, y: 460, text: 'Transcribe', color: W.sky  },
+    { t: 1.5, text: 'Write',      color: W.clay },
+    { t: 2.2, text: 'Translate',  color: W.sage },
+    { t: 2.9, text: 'Summarize',  color: W.sky  },
+    { t: 3.6, text: 'See images', color: W.clay },
+    { t: 4.3, text: 'Recommend',  color: W.sage },
+    { t: 5.0, text: 'Transcribe', color: W.sky  },
   ]
   const agi = clamp((localTime - 7) / 0.8, 0, 1)
   return (
@@ -411,21 +440,27 @@ export const Scene09 = () => {
       <div style={headlineStyle(head, TYPE.headline)}>
         Every tool is a <span style={{ fontStyle: 'italic', color: W.clay }}>specialist</span>.
       </div>
-      {chips.map((c, i) => {
-        const t = clamp((localTime - c.t) / 0.4, 0, 1)
-        const e = Easing.easeOutBack(t)
-        return (
-          <div key={i} style={{
-            position: 'absolute', left: c.x, top: c.y,
-            background: c.color, color: W.cream, padding: '24px 38px', borderRadius: 999,
-            fontFamily: W.sans, fontSize: TYPE.pill, fontWeight: 500,
-            boxShadow: '0 6px 18px rgba(42,38,32,0.12)',
-            opacity: t, transform: `scale(${0.5 + 0.5 * e})`,
-          }}>{c.text}</div>
-        )
-      })}
       <div style={{
-        position: 'absolute', left: 160, right: 160, top: 760,
+        position: 'absolute', left: 160, right: 160, top: 460,
+        display: 'flex', flexWrap: 'wrap', justifyContent: 'center',
+        rowGap: 28, columnGap: 24,
+      }}>
+        {chips.map((c, i) => {
+          const t = clamp((localTime - c.t) / 0.4, 0, 1)
+          const e = Easing.easeOutBack(t)
+          return (
+            <div key={i} style={{
+              background: c.color, color: W.cream, padding: '24px 40px', borderRadius: 999,
+              fontFamily: W.sans, fontSize: TYPE.pill, fontWeight: 500,
+              boxShadow: '0 6px 18px rgba(42,38,32,0.12)',
+              opacity: t, transform: `scale(${0.5 + 0.5 * e})`,
+              whiteSpace: 'nowrap',
+            }}>{c.text}</div>
+          )
+        })}
+      </div>
+      <div style={{
+        position: 'absolute', left: 160, right: 160, top: 780,
         fontFamily: W.display, fontSize: TYPE.callout, color: W.muted, opacity: agi, lineHeight: 1.3,
       }}>
         A general AI — one thing that does them all, like a human —
@@ -439,13 +474,14 @@ export const Scene09 = () => {
 export const Scene10 = () => {
   const localTime = useLocal()
   const head = clamp(localTime / 0.8, 0, 1)
-  // Reduced from 10 to 8 — at larger pill font (44px) more than 8 don't fit
-  // cleanly. Removed DeepL (overlaps with Google Translate) and YouTube (less
-  // pedagogically specific than the others).
+  // 9 chips. "YouTube recommendations" was removed when reducing to 8 but
+  // the Sal narration still mentions it at 3:02 — review feedback flagged the
+  // mismatch. Added back as a pill; dense layout below keeps everything on
+  // screen.
   const tools = [
     'Khan Academy', 'Duolingo', 'Google Translate',
     'Grammarly', 'ChatGPT', 'Claude', 'Gemini',
-    'Autograders',
+    'Autograders', 'YouTube recommendations',
   ]
   return (
     <>
@@ -453,17 +489,22 @@ export const Scene10 = () => {
       <div style={headlineStyle(head, TYPE.headline)}>
         You’ve used it for years.
       </div>
-      <div style={{ position: 'absolute', left: 160, right: 160, top: 420, display: 'flex', flexWrap: 'wrap', gap: 24 }}>
+      <div style={{
+        position: 'absolute', left: 160, right: 160, top: 440, bottom: 80,
+        display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start',
+        justifyContent: 'center', rowGap: 28, columnGap: 22,
+      }}>
         {tools.map((tname, i) => {
           const t = clamp((localTime - 1 - i * 0.25) / 0.4, 0, 1)
           const e = Easing.easeOutBack(t)
           const color = i % 3 === 0 ? W.clay : i % 3 === 1 ? W.sage : W.sky
           return (
             <div key={i} style={{
-              background: W.cream, color: W.ink, padding: '30px 44px', borderRadius: 999,
-              fontFamily: W.sans, fontSize: TYPE.pill, fontWeight: 500,
+              background: W.cream, color: W.ink, padding: '24px 38px', borderRadius: 999,
+              fontFamily: W.sans, fontSize: 38, fontWeight: 500,
               border: `3px solid ${color}`,
               opacity: t, transform: `scale(${0.6 + 0.4 * e})`,
+              whiteSpace: 'nowrap',
             }}>{tname}</div>
           )
         })}

@@ -48,6 +48,15 @@ const Headline = ({ children, t = 1, size = TYPE.headline }) => (
 // ─── TEMPLATE: TitleScene ───────────────────────────────
 // Big title with two background blobs growing in from corners.
 // Used by lesson openers.
+//
+// Auto-shrinks the hero font based on title char count so long titles stay on
+// one line, and recomputes subtitle/kicker positions accordingly — fixes the
+// "title overlaps subtitle at 0:03" bug previously reported on 15 lessons.
+//
+// Decorative blobs are anchored deep in the corners (small radius) so they
+// never overlap the centered title text — fixes the "orange italic letter on
+// orange blob" contrast bug (C2L08, C3L05-08). The italic emphasis word now
+// uses sage instead of clay for the same reason.
 export const TitleScene = ({ title, subtitle, kicker, accentLeft = W.clay, accentRight = W.sage, italicWord }) => {
   const localTime = useLocal()
   const blob1 = Easing.easeOutCubic(clamp(localTime / 1.2, 0, 1))
@@ -55,39 +64,54 @@ export const TitleScene = ({ title, subtitle, kicker, accentLeft = W.clay, accen
   const t = Easing.easeOutCubic(clamp((localTime - 0.8) / 1.2, 0, 1))
   const sub = clamp((localTime - 2.2) / 1, 0, 1)
 
-  // Optionally render an italic emphasis word
+  // Heuristic: pick a hero size that keeps the title to one line (≈1700px
+  // usable width, Fraunces avg char width ≈ 0.55× fontSize).
+  const len = title.length
+  const heroSize = len <= 15 ? 200 : len <= 19 ? 170 : len <= 25 ? 140 : len <= 32 ? 115 : 95
+  const lineH = 0.95
+  // Assume single-line for all but extreme cases. Conservative buffer below.
+  const titleBlock = heroSize * lineH * 1.0
+  const titleTop = 290
+  const subtitleTop = Math.round(titleTop + titleBlock + 50)
+  const kickerTop = subtitle ? subtitleTop + 110 : Math.round(titleTop + titleBlock + 90)
+
+  // Italic emphasis word — sage by default so it doesn't blend into the clay
+  // corner blob (and vice versa). Stays italic regardless. Highlights EVERY
+  // occurrence — the previous single-split version silently dropped text after
+  // a second occurrence (eg "Right tool. Right student." with italicWord
+  // "Right" rendered only as "Right tool.").
+  const italicColor = accentLeft === W.clay ? W.sage : W.clay
   const renderTitle = () => {
     if (!italicWord) return title
     const parts = title.split(italicWord)
-    return (
-      <>
-        {parts[0]}
-        <span style={{ fontStyle: 'italic', color: W.clay }}>{italicWord}</span>
-        {parts[1]}
-      </>
-    )
+    return parts.flatMap((p, i) => (
+      i < parts.length - 1
+        ? [p, <span key={i} style={{ fontStyle: 'italic', color: italicColor }}>{italicWord}</span>]
+        : [p]
+    ))
   }
 
   return (
     <>
-      <Blob cx={300} cy={280} r={blob1 * 200} color={accentLeft} opacity={0.85} />
-      <Blob cx={1650} cy={820} r={blob2 * 240} color={accentRight} opacity={0.8} />
+      {/* Blobs pushed deep into corners — out of the title text rectangle */}
+      <Blob cx={200} cy={190} r={blob1 * 150} color={accentLeft} opacity={0.85} />
+      <Blob cx={1720} cy={890} r={blob2 * 170} color={accentRight} opacity={0.8} />
       <div style={{
-        position: 'absolute', left: 0, right: 0, top: 320, textAlign: 'center',
-        fontFamily: W.display, fontSize: TYPE.hero, fontWeight: 500, color: W.ink,
-        letterSpacing: '-0.04em', lineHeight: 0.95,
+        position: 'absolute', left: 80, right: 80, top: titleTop, textAlign: 'center',
+        fontFamily: W.display, fontSize: heroSize, fontWeight: 500, color: W.ink,
+        letterSpacing: '-0.04em', lineHeight: lineH,
         opacity: t, transform: `translateY(${(1 - t) * 30}px)`,
       }}>{renderTitle()}</div>
       {subtitle && (
         <div style={{
-          position: 'absolute', left: 0, right: 0, top: 620, textAlign: 'center',
-          fontFamily: W.sans, fontSize: 44, color: W.muted, fontWeight: 400,
+          position: 'absolute', left: 120, right: 120, top: subtitleTop, textAlign: 'center',
+          fontFamily: W.sans, fontSize: 40, color: W.muted, fontWeight: 400, lineHeight: 1.3,
           opacity: sub, transform: `translateY(${(1 - sub) * 16}px)`,
         }}>{subtitle}</div>
       )}
       {kicker && (
         <div style={{
-          position: 'absolute', left: '50%', top: 800, transform: 'translateX(-50%)',
+          position: 'absolute', left: '50%', top: kickerTop, transform: 'translateX(-50%)',
           fontFamily: W.mono, fontSize: 28, letterSpacing: '0.25em', color: W.muted,
           opacity: sub * 0.7, fontWeight: 600,
         }}>{kicker}</div>
@@ -221,13 +245,11 @@ export const DefinitionScene = ({ kicker, headline, italicTerm, flow, tagline, a
   const renderHeadline = () => {
     if (!italicTerm) return headline
     const parts = headline.split(italicTerm)
-    return (
-      <>
-        {parts[0]}
-        <span style={{ fontStyle: 'italic', color: W.clay }}>{italicTerm}</span>
-        {parts[1]}
-      </>
-    )
+    return parts.flatMap((p, i) => (
+      i < parts.length - 1
+        ? [p, <span key={i} style={{ fontStyle: 'italic', color: W.clay }}>{italicTerm}</span>]
+        : [p]
+    ))
   }
 
   return (
@@ -476,13 +498,11 @@ export const ClosingScene = ({ tagline, italicWord, kicker, accent = W.clay }) =
   const renderTagline = () => {
     if (!italicWord) return tagline
     const parts = tagline.split(italicWord)
-    return (
-      <>
-        {parts[0]}
-        <span style={{ fontStyle: 'italic', color: accent }}>{italicWord}</span>
-        {parts[1]}
-      </>
-    )
+    return parts.flatMap((p, i) => (
+      i < parts.length - 1
+        ? [p, <span key={i} style={{ fontStyle: 'italic', color: accent }}>{italicWord}</span>]
+        : [p]
+    ))
   }
 
   return (
@@ -527,32 +547,55 @@ export const CardGridScene = ({
   const head = clamp(localTime / 0.8, 0, 1)
   const stagger = 0.55
 
+  // Safe-area: grid is now bounded (top→bottom) so cards can never push beyond
+  // the visible frame. gridAutoRows: 1fr keeps rows equal-height. Cards that
+  // would overflow within their cell are visually clipped by overflow:hidden
+  // instead of pushing the next row off-screen (fixes the "odrezan donji dio"
+  // bug on C2L07, C2L08, C3L03, C4L01, C4L03, C4L04, C4L07).
+  //
+  // For dense grids (5+ items) we also drop title/body sizes so the body
+  // doesn't crop.
+  const count = items.length
+  const dense = count >= 5
+  const titleSize = dense ? 46 : TYPE.cardTitle
+  const bodySize  = dense ? 32 : 38
+  const pad       = dense ? '28px 32px' : '36px 40px'
+  const swatchMb  = dense ? 18 : 24
+
   return (
     <>
       <Kicker text={kicker} color={accentKicker || accent} t={head} />
       <Headline t={head} size={TYPE.headline}>{headline}</Headline>
 
       <div style={{
-        position: 'absolute', left: 160, right: 160, top: 430,
-        display: 'grid', gridTemplateColumns: `repeat(${columns}, 1fr)`, gap: 32,
+        position: 'absolute', left: 160, right: 160, top: 430, bottom: 60,
+        display: 'grid', gridTemplateColumns: `repeat(${columns}, 1fr)`,
+        gridAutoRows: '1fr', gap: 28, alignContent: 'stretch',
       }}>
         {items.map((c, i) => {
           const t = clamp((localTime - 1 - i * stagger) / 0.6, 0, 1)
           const e = Easing.easeOutBack(t)
           return (
             <div key={i} style={{
-              background: W.cream, borderRadius: 28, padding: '36px 40px', minHeight: 240,
+              background: W.cream, borderRadius: 28, padding: pad,
               opacity: t, transform: `translateY(${(1 - e) * 30}px)`,
               border: `2px solid ${accent}33`,
+              overflow: 'hidden', display: 'flex', flexDirection: 'column',
             }}>
               {swatch && (
                 <div style={{
-                  width: 44, height: 44, borderRadius: 12, background: accent, marginBottom: 24,
+                  width: 40, height: 40, borderRadius: 10, background: accent,
+                  marginBottom: swatchMb, flexShrink: 0,
                 }} />
               )}
-              <div style={{ fontFamily: W.sans, fontSize: TYPE.cardTitle, fontWeight: 600, color: W.ink, marginBottom: 12, lineHeight: 1.15 }}>{c.title}</div>
+              <div style={{
+                fontFamily: W.sans, fontSize: titleSize, fontWeight: 600, color: W.ink,
+                marginBottom: 12, lineHeight: 1.15,
+              }}>{c.title}</div>
               {c.body && (
-                <div style={{ fontFamily: W.sans, fontSize: 38, color: W.muted, lineHeight: 1.35 }}>{c.body}</div>
+                <div style={{
+                  fontFamily: W.sans, fontSize: bodySize, color: W.muted, lineHeight: 1.35,
+                }}>{c.body}</div>
               )}
             </div>
           )
@@ -589,18 +632,23 @@ export const MythBustScene = ({ kicker, headline, myths, accentKicker = W.clay }
               display: 'flex', alignItems: 'stretch', gap: 24, marginBottom: 20,
               opacity: t, transform: `translateY(${(1 - e) * 20}px)`,
             }}>
+              {/* Strike-through via CSS text-decoration so it correctly crosses
+                  every line of multi-line myths (the previous absolute-positioned
+                  line at top:52% only struck the gap between lines on 2-line
+                  quotes — read as an underline in 11 of the rendered videos). */}
               <div style={{
                 background: W.clay, color: W.cream, padding: '24px 32px', borderRadius: 24,
                 fontFamily: W.display, fontStyle: 'italic', fontSize: mythSize,
-                minWidth: 560, position: 'relative', lineHeight: 1.2,
+                minWidth: 560, lineHeight: 1.2,
+                textDecorationLine: 'line-through',
+                textDecorationColor: `rgba(250, 246, 237, ${Easing.easeOutQuart(stamp)})`,
+                textDecorationStyle: 'solid',
+                textDecorationThickness: '6px',
+                WebkitTextDecorationLine: 'line-through',
+                WebkitTextDecorationColor: `rgba(250, 246, 237, ${Easing.easeOutQuart(stamp)})`,
+                WebkitTextDecorationStyle: 'solid',
               }}>
                 “{m.myth}”
-                <div style={{
-                  position: 'absolute', left: -6, right: -6, top: '52%',
-                  height: 5, background: W.cream, borderRadius: 3,
-                  transformOrigin: 'left center',
-                  transform: `scaleX(${Easing.easeOutQuart(stamp)})`,
-                }} />
               </div>
               <div style={{
                 flex: 1, background: W.cream, padding: '24px 32px', borderRadius: 24,
@@ -626,14 +674,25 @@ export const PillCloudScene = ({
   const head = clamp(localTime / 0.8, 0, 1)
   const palette = [W.clay, W.sage, W.sky]
 
+  // Tighter pills + bigger row gap for 6+ items so neighbours don't dodirnuti
+  // (fixes C1L01@2:37 "zadnja tri se dodiruju/preklapaju" issue on PillCloud).
+  const count = items.length
+  const dense = count >= 6
+  const pillPadV = dense ? 22 : 28
+  const pillPadH = dense ? 36 : 44
+  const fontSz   = dense ? 36 : TYPE.pill
+  const rowGap   = dense ? 28 : 24
+  const colGap   = dense ? 22 : 22
+
   return (
     <>
       <Kicker text={kicker} color={accentKicker || accent} t={head} />
       <Headline t={head} size={TYPE.headline}>{headline}</Headline>
 
       <div style={{
-        position: 'absolute', left: 160, right: 160, top: 440,
-        display: 'flex', flexWrap: 'wrap', gap: 24,
+        position: 'absolute', left: 160, right: 160, top: 440, bottom: 80,
+        display: 'flex', flexWrap: 'wrap', alignContent: 'flex-start',
+        rowGap, columnGap: colGap,
       }}>
         {items.map((label, i) => {
           const t = clamp((localTime - 1 - i * 0.28) / 0.4, 0, 1)
@@ -643,11 +702,12 @@ export const PillCloudScene = ({
             <div key={i} style={{
               background: filled ? color : W.cream,
               color: filled ? W.cream : W.ink,
-              padding: '30px 44px', borderRadius: 999,
-              fontFamily: W.sans, fontSize: TYPE.pill, fontWeight: 500,
+              padding: `${pillPadV}px ${pillPadH}px`, borderRadius: 999,
+              fontFamily: W.sans, fontSize: fontSz, fontWeight: 500,
               border: filled ? 'none' : `3px solid ${color}`,
               opacity: t, transform: `scale(${0.6 + 0.4 * e})`,
               boxShadow: filled ? '0 6px 18px rgba(42,38,32,0.12)' : 'none',
+              whiteSpace: 'nowrap',
             }}>{label}</div>
           )
         })}
@@ -668,15 +728,19 @@ export const BulletListScene = ({
   const head = clamp(localTime / 0.8, 0, 1)
 
   // Auto-scale font and gap to keep all items on screen regardless of count.
+  // For 4+ items with subs the per-item height grows fast, so we drop sizes
+  // more aggressively here to keep the bottom of the list within the canvas
+  // (fixes "odrezan donji dio slajda" on C4L04@1:10).
   const count = items.length
   const hasSubs = items.some(it => typeof it === 'object' && it.sub)
   const big = count <= 3
   const medium = count === 4
-  const mainSize = big ? 52 : medium ? 46 : hasSubs ? 38 : 42
-  const subSize  = big ? 32 : medium ? 28 : 24
-  const gap      = big ? 32 : medium ? 24 : 18
-  const indSize  = big ? 38 : medium ? 32 : 28
-  const indWidth = big ? 84 : 64
+  const tight = (count >= 4 && hasSubs) || count >= 5
+  const mainSize = big ? 52 : tight ? 36 : medium ? 44 : 40
+  const subSize  = big ? 32 : tight ? 22 : medium ? 26 : 22
+  const gap      = big ? 28 : tight ? 16 : medium ? 22 : 16
+  const indSize  = big ? 38 : tight ? 26 : medium ? 32 : 28
+  const indWidth = big ? 84 : tight ? 56 : 64
 
   return (
     <>
@@ -684,8 +748,9 @@ export const BulletListScene = ({
       <Headline t={head} size={TYPE.headline}>{headline}</Headline>
 
       <div style={{
-        position: 'absolute', left: 200, right: 200, top: 430, bottom: 60,
+        position: 'absolute', left: 200, right: 200, top: 420, bottom: 50,
         display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', gap,
+        overflow: 'hidden',
       }}>
         {items.map((item, i) => {
           const t = clamp((localTime - 1 - i * 0.7) / 0.5, 0, 1)
@@ -780,9 +845,11 @@ export const ConceptCirclesScene = ({
       <Kicker text={kicker} color={accentKicker} t={head} />
       <Headline t={head} size={TYPE.headline}>{headline}</Headline>
 
-      {/* Left circle */}
+      {/* Left circle — pulled up + caption pushed further below so multi-line
+          captions don't dotaknu the circle (C1L01@0:46, C1L04, C1L08@0:46,
+          C3L07@0:20-24 in the review feedback). */}
       <div style={{
-        position: 'absolute', left: 320, top: 480, width: 400, height: 400,
+        position: 'absolute', left: 320, top: 420, width: 400, height: 400,
         opacity: leftIn, transform: `scale(${0.7 + 0.3 * leftIn})`,
       }}>
         <div style={{
@@ -795,15 +862,15 @@ export const ConceptCirclesScene = ({
         }}>{left.label}</div>
         {left.caption && (
           <div style={{
-            position: 'absolute', bottom: -68, left: 0, right: 0, textAlign: 'center',
-            fontFamily: W.sans, fontSize: 36, color: W.muted,
+            position: 'absolute', bottom: -100, left: -40, right: -40, textAlign: 'center',
+            fontFamily: W.sans, fontSize: 34, color: W.muted, lineHeight: 1.3,
           }}>{left.caption}</div>
         )}
       </div>
 
       {/* Connector in middle */}
       <div style={{
-        position: 'absolute', left: 880, top: 640, width: 160, height: 160,
+        position: 'absolute', left: 880, top: 580, width: 160, height: 160,
         display: 'flex', alignItems: 'center', justifyContent: 'center',
         opacity: conn, transform: `scale(${0.4 + 0.6 * Easing.easeOutBack(conn)})`,
       }}>
@@ -812,7 +879,7 @@ export const ConceptCirclesScene = ({
 
       {/* Right circle */}
       <div style={{
-        position: 'absolute', left: 1200, top: 480, width: 400, height: 400,
+        position: 'absolute', left: 1200, top: 420, width: 400, height: 400,
         opacity: rightIn, transform: `scale(${0.7 + 0.3 * rightIn})`,
       }}>
         <div style={{
@@ -825,8 +892,8 @@ export const ConceptCirclesScene = ({
         }}>{right.label}</div>
         {right.caption && (
           <div style={{
-            position: 'absolute', bottom: -68, left: 0, right: 0, textAlign: 'center',
-            fontFamily: W.sans, fontSize: 36, color: W.muted,
+            position: 'absolute', bottom: -100, left: -40, right: -40, textAlign: 'center',
+            fontFamily: W.sans, fontSize: 34, color: W.muted, lineHeight: 1.3,
           }}>{right.caption}</div>
         )}
       </div>
@@ -863,9 +930,11 @@ export const TimelineScene = ({ kicker, headline, events, accentKicker = W.clay 
       <Kicker text={kicker} color={accentKicker} t={head} />
       <Headline t={head} size={TYPE.headlineSm}>{headline}</Headline>
 
-      {/* Horizontal baseline */}
+      {/* Horizontal baseline — lowered so it doesn't cut into the
+          above-labels' bottom edge (C1L08@1:01-1:04 had labels touching the
+          line). */}
       <div style={{
-        position: 'absolute', left: startX, top: 620, height: 4,
+        position: 'absolute', left: startX, top: 640, height: 4,
         background: W.ink, opacity: 0.25,
         width: span,
         transformOrigin: 'left center',
@@ -883,7 +952,7 @@ export const TimelineScene = ({ kicker, headline, events, accentKicker = W.clay 
         const color = palette[i % palette.length]
         return (
           <div key={i} style={{
-            position: 'absolute', left: xPos - 8, top: 612, width: 16, height: 16,
+            position: 'absolute', left: xPos - 8, top: 632, width: 16, height: 16,
             background: color, borderRadius: '50%',
             opacity: t, transform: `scale(${0.4 + 0.6 * e})`,
             boxShadow: `0 0 0 6px ${W.bg}`,
@@ -891,7 +960,8 @@ export const TimelineScene = ({ kicker, headline, events, accentKicker = W.clay 
         )
       })}
 
-      {/* Event labels */}
+      {/* Event labels — moved further away from the baseline so the year +
+          label + sub block doesn't run into the line on alternating sides. */}
       {events.map((evt, i) => {
         const eventT = 1.5 + i * 0.8
         const t = clamp((localTime - eventT) / 0.6, 0, 1)
@@ -902,7 +972,7 @@ export const TimelineScene = ({ kicker, headline, events, accentKicker = W.clay 
         return (
           <div key={`label-${i}`} style={{
             position: 'absolute', left: xPos - 130, width: 260,
-            top: above ? 430 : 680,
+            top: above ? 400 : 720,
             textAlign: 'center', opacity: t,
             transform: `translateY(${above ? -(1 - t) * 12 : (1 - t) * 12}px)`,
           }}>

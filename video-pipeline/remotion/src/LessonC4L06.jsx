@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c4-l06'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 6.1, component: () => (
     <TitleScene
       title="Intellectual Disabilities"
       subtitle="A fundamentally different approach to AI"
       kicker="AI4TEACHERS · 06"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 14.3, component: () => (
     <TwoColumnScene
       kicker="THE LAYERED APPROACH"
       headline="Who works with whom."
@@ -43,13 +43,13 @@ const SCENES = [
       rightColor={W.sage}
     />
   )},
-  { dur: 14, component: () => (
+  { dur: 13.6, component: () => (
     <QuoteScene
       kicker="THE PRINCIPLE"
       quote="AI may adapt the method of learning — never the goal."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 11.8, component: () => (
     <CardGridScene
       kicker="THREE CORE USES"
       headline="What the mentor uses AI for."
@@ -62,7 +62,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 14.3, component: () => (
     <PillCloudScene
       kicker="THE TOOLKIT"
       headline="In the mentor's hand — not the student's."
@@ -73,7 +73,7 @@ const SCENES = [
       accent={W.sky}
     />
   )},
-  { dur: 21, component: () => (
+  { dur: 13.6, component: () => (
     <BulletListScene
       kicker="THE RULES"
       headline="Strict — and for good reason."
@@ -87,14 +87,14 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 11.6, component: () => (
     <QuoteScene
       kicker="A SAFETY RULE"
       quote="If the device pulls attention from the activity — turn it off."
       attribution="The relationship comes first"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.8, component: () => (
     <BulletListScene
       kicker="PRIVACY"
       headline="Heightened obligations. Always."
@@ -107,7 +107,7 @@ const SCENES = [
       numbered={false}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.5, component: () => (
     <ClosingScene
       tagline="AI in the mentor's hand."
       italicWord="mentor's"

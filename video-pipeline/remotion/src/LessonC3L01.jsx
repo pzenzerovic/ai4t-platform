@@ -84,9 +84,16 @@ const SCENES = [
     />
   )},
   { dur: 9.3, component: () => (
-    <BulletListScene
+    <QuoteScene
       kicker="THE TEACHER'S NEW ROLE"
-      headline="Design the conditions for learning."
+      quote="Design the conditions under which AI deepens learning instead of bypassing it."
+      attribution="Not policing. Designing."
+    />
+  )},
+  { dur: 11.8, component: () => (
+    <BulletListScene
+      kicker="THREE PRACTICES"
+      headline="What to do next."
       items={[
         { text: 'Teach AI as a process tool, not a product tool' },
         { text: 'Design assignments that value drafts and reasoning' },
@@ -96,7 +103,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 12.9, component: () => (
+  { dur: 5.1, component: () => (
     <ClosingScene
       tagline="Build understanding. Don't bypass it."
       italicWord="Build"

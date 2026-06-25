@@ -3,7 +3,7 @@ import { AbsoluteFill, Sequence, Audio, staticFile } from 'remotion'
 import { WARM as W } from './theme.js'
 import {
   TitleScene, BulletListScene, BeforeAfterScene, CardGridScene,
-  ProcessFlowScene, QuoteScene, ClosingScene,
+  ClosingScene,
 } from './Templates.jsx'
 
 export const FPS = 30
@@ -40,6 +40,19 @@ const SCENES = [
     />
   )},
   { dur: 12.2, component: () => (
+    <BulletListScene
+      kicker="WHAT CHANGED — MATH"
+      headline="Same model. Different context."
+      items={[
+        { text: 'A role',                sub: 'You are a Year 1 maths teacher.' },
+        { text: 'A precise count',       sub: '20 exercises.' },
+        { text: 'A maths constraint',    sub: 'Sums no greater than 10.' },
+        { text: 'A finished format',     sub: 'Name and date fields.' },
+      ]}
+      accent={W.sage}
+    />
+  )},
+  { dur: 18.4, component: () => (
     <BeforeAfterScene
       kicker="EXAMPLE 2 — LANGUAGE"
       headline="Year 6 Present Simple story exercises."
@@ -48,7 +61,20 @@ const SCENES = [
       tagline="Receptive → productive → free production."
     />
   )},
-  { dur: 18.4, component: () => (
+  { dur: 14.5, component: () => (
+    <BulletListScene
+      kicker="WHY THE STRUCTURE WORKS"
+      headline="Pedagogy mirrored in the prompt."
+      items={[
+        { text: 'Receptive first',       sub: 'True/false and gap-fill.' },
+        { text: 'Then productive',       sub: 'Question formation.' },
+        { text: 'Then free writing',     sub: 'The student creates.' },
+      ]}
+      accent={W.sky}
+      numbered={true}
+    />
+  )},
+  { dur: 18.5, component: () => (
     <BeforeAfterScene
       kicker="EXAMPLE 3 — HISTORY"
       headline="Inventions 1800-2000 review."
@@ -57,10 +83,10 @@ const SCENES = [
       tagline="Constraints make it pedagogical."
     />
   )},
-  { dur: 14.5, component: () => (
+  { dur: 13.9, component: () => (
     <CardGridScene
-      kicker="WHAT EVERY STRONG PROMPT HAS"
-      headline="Four ingredients that always help."
+      kicker="THE PATTERN"
+      headline="What every strong prompt has."
       columns={2}
       accent={W.sage}
       items={[
@@ -69,24 +95,6 @@ const SCENES = [
         { title: 'Constraints',  body: 'Count, length, format, scope.' },
         { title: 'Final form',   body: 'Answer keys, fields, rubrics.' },
       ]}
-    />
-  )},
-  { dur: 18.5, component: () => (
-    <ProcessFlowScene
-      kicker="THE WORKFLOW"
-      headline="From idea to classroom-ready."
-      steps={[
-        { title: 'Design',  sub: 'Pedagogy comes first' },
-        { title: 'Specify', sub: 'Role, audience, format' },
-        { title: 'Refine',  sub: 'Iterate on output' },
-      ]}
-      tagline="AI handles production. You handle design."
-    />
-  )},
-  { dur: 13.9, component: () => (
-    <QuoteScene
-      kicker="THE TAKEAWAY"
-      quote="The AI is a production tool. The pedagogy comes from you."
     />
   )},
   { dur: 4.7, component: () => (

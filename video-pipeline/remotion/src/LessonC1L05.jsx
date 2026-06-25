@@ -47,6 +47,8 @@ const SCENES = [
         { title: 'Factual precision',   body: 'Dates, statistics, citations.' },
         { title: 'Math reasoning',      body: 'Multi-step problems.' },
         { title: 'Current events',      body: 'Anything after training cutoff.' },
+        { title: 'Nuanced judgment',    body: 'Weighing teacher-level trade-offs.' },
+        { title: 'Consistency',         body: 'Same prompt — different answers.' },
       ]}
     />
   )},

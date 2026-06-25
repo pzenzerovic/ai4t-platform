@@ -19,8 +19,15 @@ const SCENES = [
     />
   )},
   { dur: 10.4, component: () => (
+    <QuoteScene
+      kicker="THE WRONG QUESTION"
+      quote="A tool that separates real student work from AI-generated work — does not exist."
+      attribution="And likely never will."
+    />
+  )},
+  { dur: 13.9, component: () => (
     <MythBustScene
-      kicker="THE FALSE PROMISE"
+      kicker="DETECTORS"
       headline="The detector myth."
       myths={[
         { myth: 'AI detectors reliably separate student work from AI work.', reality: 'They miss AI content and falsely flag genuine student writing.' },
@@ -28,7 +35,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 13.9, component: () => (
+  { dur: 13.5, component: () => (
     <BulletListScene
       kicker="FALSE POSITIVES"
       headline="Who gets wrongly accused."
@@ -40,14 +47,14 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 13.5, component: () => (
+  { dur: 12.7, component: () => (
     <QuoteScene
       kicker="ON INTUITION"
       quote="A reason to look more carefully is not evidence of misconduct."
       attribution="Conversation comes before accusation."
     />
   )},
-  { dur: 12.7, component: () => (
+  { dur: 9.2, component: () => (
     <BeforeAfterScene
       kicker="THE SHIFT"
       headline="Stop trying to catch. Start designing differently."
@@ -56,14 +63,14 @@ const SCENES = [
       tagline="From surveillance to pedagogy."
     />
   )},
-  { dur: 9.2, component: () => (
+  { dur: 16.2, component: () => (
     <QuoteScene
       kicker="KEY INSIGHT"
       quote="AI is a forcing function for better assessment design."
       attribution="The vulnerable assessments are the weak ones."
     />
   )},
-  { dur: 16.2, component: () => (
+  { dur: 18.7, component: () => (
     <BulletListScene
       kicker="THE PRACTICAL PROGRAMME"
       headline="What to do instead of detecting."
@@ -73,21 +80,10 @@ const SCENES = [
         { text: 'Ask for context-specific, classroom-anchored tasks' },
         { text: 'Use iterative feedback cycles, not single submissions' },
         { text: 'Make AI-use rules explicit for every task' },
+        { text: 'Treat the situation as shared, not adversarial' },
       ]}
       accent={W.sage}
       numbered={true}
-    />
-  )},
-  { dur: 18.7, component: () => (
-    <BulletListScene
-      kicker="WORK WITH STUDENTS"
-      headline="Shared problem, not adversarial."
-      items={[
-        { text: 'Transparent rules about permitted AI use per task' },
-        { text: 'Conversation about misuse, not immediate prosecution' },
-        { text: 'Address the conditions that drive misuse — overload, unclear expectations' },
-      ]}
-      accent={W.sky}
     />
   )},
   { dur: 5.1, component: () => (

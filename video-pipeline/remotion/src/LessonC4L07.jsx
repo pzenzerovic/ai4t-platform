@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c4-l07'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 7.7, component: () => (
     <TitleScene
       title="Accessibility Tools"
       subtitle="A practical reference — what helps, and how"
       kicker="AI4TEACHERS · 07"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.5, component: () => (
     <CardGridScene
       kicker="THREE CATEGORIES"
       headline="Effective support combines them."
@@ -30,7 +30,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 14.6, component: () => (
     <CardGridScene
       kicker="GENERAL-PURPOSE AI"
       headline="The most versatile starting point."
@@ -43,7 +43,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 20, component: () => (
+  { dur: 14.4, component: () => (
     <CardGridScene
       kicker="SPECIALISED TOOLS"
       headline="One job — done extremely well."
@@ -57,7 +57,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 16.3, component: () => (
     <CardGridScene
       kicker="VISUAL & SYMBOLIC"
       headline="Where text alone is not enough."
@@ -69,7 +69,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 16.9, component: () => (
     <PillCloudScene
       kicker="THE FULL INVENTORY"
       headline="More than a teacher needs."
@@ -82,7 +82,7 @@ const SCENES = [
       filled={true}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 12.1, component: () => (
     <BulletListScene
       kicker="HOW TO SELECT"
       headline="Start simple. Add tools gradually."
@@ -95,7 +95,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 15.8, component: () => (
     <BulletListScene
       kicker="PRACTICAL CONSIDERATIONS"
       headline="Beyond what the tool does."
@@ -108,7 +108,7 @@ const SCENES = [
       numbered={false}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.7, component: () => (
     <ClosingScene
       tagline="Right tool. Right student."
       italicWord="Right"

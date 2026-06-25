@@ -34,6 +34,13 @@ const SCENES = [
     />
   )},
   { dur: 11.8, component: () => (
+    <QuoteScene
+      kicker="A STAFFROOM ANALOGY"
+      quote="Make me a worksheet. You'd ask back: what subject? What grade? How many questions?"
+      attribution="AI can't ask. So you tell it."
+    />
+  )},
+  { dur: 13.9, component: () => (
     <BeforeAfterScene
       kicker="THIN vs RICH"
       headline="Same task. Very different results."
@@ -42,7 +49,7 @@ const SCENES = [
       tagline="Difference isn't in the model. It's in the context."
     />
   )},
-  { dur: 13.9, component: () => (
+  { dur: 11.4, component: () => (
     <NumberedPillsScene
       kicker="WHAT CONTEXT HELPS MOST"
       headline="Five things that change every output."
@@ -55,7 +62,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 11.4, component: () => (
+  { dur: 15.1, component: () => (
     <TwoColumnScene
       kicker="TWO COMMON MISTAKES"
       headline="What goes wrong with context."
@@ -79,18 +86,6 @@ const SCENES = [
       }}
       leftColor={W.clay}
       rightColor={W.clay}
-    />
-  )},
-  { dur: 15.1, component: () => (
-    <BulletListScene
-      kicker="WORKING MEMORY"
-      headline="Large — but finite."
-      items={[
-        { text: 'Tens of thousands of words at once' },
-        { text: 'Older parts can fall out in long chats' },
-        { text: 'Restate key requirements periodically' },
-      ]}
-      accent={W.sky}
     />
   )},
   { dur: 11, component: () => (

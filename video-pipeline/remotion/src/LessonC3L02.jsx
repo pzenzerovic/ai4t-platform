@@ -56,7 +56,7 @@ const SCENES = [
   { dur: 14.1, component: () => (
     <BulletListScene
       kicker="EXAMPLE · MATHS"
-      headline="A Year 6 student solves 2x + 3 = 11."
+      headline="A Year 6 student is solving 2x + 3 = 11."
       items={[
         { text: 'AI asks: what is preventing x from being alone?' },
         { text: 'Student identifies the +3' },
@@ -88,7 +88,7 @@ const SCENES = [
   { dur: 12.1, component: () => (
     <BulletListScene
       kicker="THE TEACHER'S ROLE"
-      headline="The AI is the tool. You are the architect."
+      headline="The AI is the tool. You are the designer."
       items={[
         { text: 'Teach students how to prompt for guided learning' },
         { text: 'Design the learning context and objectives' },
@@ -100,8 +100,8 @@ const SCENES = [
   )},
   { dur: 4.5, component: () => (
     <ClosingScene
-      tagline="Patient tutor. Human architect."
-      italicWord="architect"
+      tagline="Patient tutor. Human designer."
+      italicWord="designer"
       kicker="AI4TEACHERS · NEXT LESSON →"
     />
   )},

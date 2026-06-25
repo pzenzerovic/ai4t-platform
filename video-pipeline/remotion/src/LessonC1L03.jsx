@@ -32,12 +32,13 @@ const SCENES = [
   )},
   { dur: 25.5, component: () => (
     <TimelineScene
-      kicker="FIVE TURNING POINTS"
+      kicker="SEVEN TURNING POINTS"
       headline="The shape of seven decades of AI."
       events={[
         { year: '1950',  label: 'The Turing question', sub: 'Can machines think?' },
         { year: '1960s', label: 'Symbolic AI',         sub: 'ELIZA, early reasoning' },
         { year: '1970s', label: 'First AI winter',     sub: 'Funding collapses' },
+        { year: '1980s', label: 'Expert systems',      sub: 'Rule-based revival' },
         { year: '1997',  label: 'Deep Blue',           sub: 'Beats Kasparov at chess' },
         { year: '2010s', label: 'Deep learning',       sub: 'Neural networks scale' },
         { year: '2022',  label: 'ChatGPT',             sub: 'AI for everyone' },

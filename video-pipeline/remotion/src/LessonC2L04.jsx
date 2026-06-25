@@ -2,7 +2,7 @@
 import { AbsoluteFill, Sequence, Audio, staticFile } from 'remotion'
 import { WARM as W } from './theme.js'
 import {
-  TitleScene, QuoteScene, DefinitionScene, TwoColumnScene,
+  TitleScene, QuoteScene, DefinitionScene,
   CycleStepsScene, CardGridScene, BulletListScene, ClosingScene,
 } from './Templates.jsx'
 
@@ -45,30 +45,32 @@ const SCENES = [
     />
   )},
   { dur: 15.3, component: () => (
-    <TwoColumnScene
-      kicker="TWO VERSIONS"
-      headline="Both useful — for different moments."
-      left={{
-        label: '1.0',
-        title: 'Improve a draft',
-        bullets: [
-          'You have a prompt already',
-          'Ask: how could I improve this?',
-          'Rewrite using suggestions',
-        ],
-      }}
-      right={{
-        label: '2.0',
-        title: 'Explore options',
-        bullets: [
-          'You only have a problem',
-          'Ask: what are my options?',
-          'Then write the real prompt',
-        ],
-      }}
+    <BulletListScene
+      kicker="VERSION 1.0"
+      headline="Improving an existing prompt."
+      items={[
+        { text: 'You have a draft prompt' },
+        { text: 'Ask: how could I improve this for a more precise result?' },
+        { text: 'Rewrite using the suggestions' },
+      ]}
+      accent={W.clay}
+      numbered={true}
     />
   )},
   { dur: 14.3, component: () => (
+    <BulletListScene
+      kicker="VERSION 2.0"
+      headline="Exploring options before you commit."
+      items={[
+        { text: 'Start with no prompt — just the problem' },
+        { text: 'Ask: what are my options?' },
+        { text: 'Pick an approach — then write the prompt' },
+      ]}
+      accent={W.sage}
+      numbered={true}
+    />
+  )},
+  { dur: 12.3, component: () => (
     <CycleStepsScene
       kicker="THE META-PROMPTING CYCLE"
       headline="Four moves before the final ask."
@@ -81,7 +83,7 @@ const SCENES = [
       tagline="The dialogue does the thinking."
     />
   )},
-  { dur: 12.3, component: () => (
+  { dur: 12.2, component: () => (
     <CardGridScene
       kicker="WHEN TO USE IT"
       headline="Four good moments."
@@ -91,14 +93,8 @@ const SCENES = [
         { title: 'Problem, not solution', body: 'You don\'t yet know the form.' },
         { title: 'Complex task',          body: 'Multiple components to plan.' },
         { title: 'Compare approaches',    body: 'Before committing time.' },
-        { title: 'Learning to prompt',    body: 'The dialogue teaches you.' },
+        { title: 'Simple, well-defined',  body: 'Skip it — direct prompting is enough.' },
       ]}
-    />
-  )},
-  { dur: 12.2, component: () => (
-    <QuoteScene
-      kicker="THE LIMIT"
-      quote="For simple, well-defined tasks — direct prompting is enough."
     />
   )},
   { dur: 4.2, component: () => (

@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c4-l05'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 8.1, component: () => (
     <TitleScene
       title="Multilingual Classrooms"
       subtitle="When language is the barrier"
       kicker="AI4TEACHERS · 05"
     />
   )},
-  { dur: 17, component: () => (
+  { dur: 14.4, component: () => (
     <PillCloudScene
       kicker="EVERY SUBJECT, EVERY MOMENT"
       headline="Language locks content away."
@@ -28,7 +28,7 @@ const SCENES = [
       accent={W.clay}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 14.1, component: () => (
     <BeforeAfterScene
       kicker="THE SHIFT"
       headline="From waiting — to access in seconds."
@@ -37,7 +37,7 @@ const SCENES = [
       tagline="A bilingual assistant — available for every student, every subject."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 12.7, component: () => (
     <CardGridScene
       kicker="MORE THAN TRANSLATION"
       headline="Three levels of language support."
@@ -50,7 +50,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 14.4, component: () => (
     <DefinitionScene
       kicker="VOICE MODE"
       headline="Speak in one language. Hear the other."
@@ -59,7 +59,7 @@ const SCENES = [
       tagline="Instruction lands. The new language gets heard in context."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 12.7, component: () => (
     <CardGridScene
       kicker="TECHNICAL VOCABULARY"
       headline="Translate the text. Keep the key terms."
@@ -71,7 +71,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.9, component: () => (
     <CardGridScene
       kicker="THE LIMITS"
       headline="Linguistic equivalence is not cultural equivalence."
@@ -83,7 +83,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 14.2, component: () => (
     <BulletListScene
       kicker="MULTILINGUALISM AS ASSET"
       headline="Use AI for access — and for celebration."
@@ -96,7 +96,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 5.1, component: () => (
     <ClosingScene
       tagline="Different language. Same content."
       italicWord="Same"

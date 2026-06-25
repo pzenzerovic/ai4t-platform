@@ -10,14 +10,14 @@ export const FPS = 30
 export const LESSON_ID = 'c4-l03'
 
 const SCENES = [
-  { dur: 10, component: () => (
+  { dur: 6.5, component: () => (
     <TitleScene
       title="AI for Hearing Impairments"
       subtitle="When the lesson is spoken — and speech is a barrier"
       kicker="AI4TEACHERS · 03"
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.1, component: () => (
     <BulletListScene
       kicker="THE INVISIBLE BARRIER"
       headline="Teaching is mostly spoken."
@@ -31,7 +31,7 @@ const SCENES = [
       numbered={false}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.9, component: () => (
     <DefinitionScene
       kicker="REAL-TIME TRANSCRIPTION"
       headline="Speech becomes permanent, reviewable text."
@@ -40,7 +40,7 @@ const SCENES = [
       tagline="The student can go back to what was said five minutes ago."
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.5, component: () => (
     <CardGridScene
       kicker="THE TOOLKIT"
       headline="Capture during. Process after."
@@ -53,7 +53,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13.2, component: () => (
     <CardGridScene
       kicker="FROM RAW TRANSCRIPT"
       headline="Four prompts that turn text into study material."
@@ -67,7 +67,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 13.9, component: () => (
     <ProcessFlowScene
       kicker="THE WORKFLOW"
       headline="Two stages. Two strengths."
@@ -79,7 +79,7 @@ const SCENES = [
       tagline="Fast capture, intelligent processing."
     />
   )},
-  { dur: 19, component: () => (
+  { dur: 13.7, component: () => (
     <BulletListScene
       kicker="IMPROVE ACCURACY"
       headline="Small habits that lift transcription quality."
@@ -93,7 +93,7 @@ const SCENES = [
       numbered={true}
     />
   )},
-  { dur: 18, component: () => (
+  { dur: 12.2, component: () => (
     <CardGridScene
       kicker="LIMITS AND PRIVACY"
       headline="Use the tool well — and lawfully."
@@ -106,7 +106,7 @@ const SCENES = [
       ]}
     />
   )},
-  { dur: 5, component: () => (
+  { dur: 4.7, component: () => (
     <ClosingScene
       tagline="Spoken lesson. Reviewable text."
       italicWord="Reviewable"

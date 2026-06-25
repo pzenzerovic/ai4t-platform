@@ -3,7 +3,7 @@ import { AbsoluteFill, Sequence, Audio, staticFile } from 'remotion'
 import { WARM as W } from './theme.js'
 import {
   TitleScene, DefinitionScene, ToolWalkthroughScene, PillCloudScene,
-  CycleStepsScene, BulletListScene, MythBustScene, ClosingScene,
+  CycleStepsScene, BulletListScene, ClosingScene,
 } from './Templates.jsx'
 
 export const FPS = 30
@@ -96,16 +96,28 @@ const SCENES = [
     />
   )},
   { dur: 9.2, component: () => (
-    <MythBustScene
-      kicker="PUBLISH & PRIVACY"
-      headline="Two non-negotiables before class."
-      myths={[
-        { myth: 'If it works in preview, it works on the school network.', reality: 'Test the published link on student devices, on your school Wi-Fi.' },
-        { myth: 'Students can log in to Lovable to use my app.', reality: 'Lovable is for adults. Teachers build — students just open the link.' },
+    <BulletListScene
+      kicker="PUBLISH & TEST"
+      headline="Before the lesson, twice."
+      items={[
+        { text: 'Click publish', sub: 'Lovable gives you a shareable link.' },
+        { text: 'Test on school network', sub: 'And on the actual student device.' },
       ]}
+      accent={W.clay}
     />
   )},
-  { dur: 10.6, component: () => (
+  { dur: 9.5, component: () => (
+    <BulletListScene
+      kicker="PRIVACY"
+      headline="Adults build. Students open."
+      items={[
+        { text: 'Lovable is for adults', sub: 'Teachers build. Students just open the published link.' },
+        { text: 'No real student data', sub: 'Names, emails, work — keep it out of the app. Ever.' },
+      ]}
+      accent={W.sage}
+    />
+  )},
+  { dur: 4.7, component: () => (
     <ClosingScene
       tagline="Words in. Apps out."
       italicWord="out"
