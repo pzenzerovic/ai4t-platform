@@ -17,6 +17,7 @@ Thessalonikis (GR), OŠ Horvati (HR), Asociatia Adfaber (RO, București), EDUKA 
 - Git remote: `https://github.com/pzenzerovic/ai4t-platform.git`
 - Vercel: auto-deploys on push to `main`
 - Project memory dir for Claude: `~/.claude/projects/-Users-paolo-Desktop-Claude-Cowork-radni-folder-AI4T-platforma/memory/`
+  ⚠️ **Stale path** — named after the old Desktop location, see [Housekeeping](#housekeeping--migration-2026-08-05).
 
 ## Repo layout
 
@@ -76,7 +77,8 @@ Awaiting feedback (free-form Excel table: video name | comments).
 
 ## Working conventions
 
-- Workbench root: `/Users/paolo/Desktop/Claude Cowork radni folder/AI4T platforma/`
+- Workbench root: see [Housekeeping](#housekeeping--migration-2026-08-05) — moved off the Desktop
+  on 2026-08-05. Old path was `/Users/paolo/Desktop/Claude Cowork radni folder/AI4T platforma/`.
 - Working dir for code: `ai4t-platform/`
 - User's primary language: **Croatian** (Paolo communicates in HR; respond in HR
   unless asked otherwise). Technical terms (React, Remotion, frontmatter, commit,
@@ -109,6 +111,54 @@ Awaiting feedback (free-form Excel table: video name | comments).
 4. **About page** — design + implement.
 5. **HR / EL translations** — coordinate with OŠ Cankara/Horvati and Thessaloniki.
 6. **Curated links** for Cat 2-4 could grow beyond current floor (current 10/10/10/8).
+
+## Housekeeping / migration (2026-08-05)
+
+Context: Paolo is moving to a new MacBook Air M4; the M1 becomes a home server. The old
+`Claude Cowork radni folder` on the Desktop (a defensive copy from early Claude Code days) was
+emptied and its subfolders filed into their proper Google Drive project trees.
+
+### What changed for this repo
+
+- **Moved.** Repo now lives at
+  `~/odrive/Paolo Google Drive/Poslovni projekti/6_Veći projekti/Erasmus - AI4T - Cankarica/Claude radni folderi/AI4T platforma/ai4t-platform/`
+  (was under `~/Desktop/Claude Cowork radni folder/`). It is now inside odrive/Drive sync.
+- **`node_modules/` deleted** — both the root one and `video-pipeline/remotion/node_modules/`
+  (478 MB, incl. a headless-Chrome binary). They were syncing tens of thousands of tiny files to
+  Google Drive. Restore with `npm install` in each location; nothing authored was lost.
+- **Nothing was committed, pushed, or deployed** in this session.
+
+### ⚠️ Open decision — 3 uncommitted files
+
+Paolo deferred this deliberately: decide when next working on the project, not before.
+
+```
+?? audio/                            ← probably generated TTS output; likely should be gitignored
+?? generate-narration.js             ← looks like real source, probably should be committed
+?? video-pipeline/src/vimeo-upload.mjs   ← looks like real source, probably should be committed
+```
+
+Note `video-pipeline/audio/` is already gitignored but a root-level `audio/` is not — worth
+checking whether the root one is a stray duplicate before deciding.
+
+### ⚠️ 1 unpushed commit — pushing DEPLOYS TO PRODUCTION
+
+```
+0f7936a  Apply review feedback fixes to video lesson pipeline
+```
+
+`main` auto-deploys to **ai4teachers.app** via Vercel. Per the standing rule in
+[Working conventions](#working-conventions), pushes need explicit authorization each time.
+Do not push this as an incidental step in some other task.
+
+### Planned (not done yet)
+
+Move the code out of Drive to `~/Projects/ai4t-platform/` — cloud sync can corrupt `.git` if it
+uploads a partially-written commit. Large gitignored assets (`video-pipeline/out/`, ~482 MB of
+rendered MP4s) stay in Drive, since GitHub rejects files over 100 MB. When that move happens,
+the stale `~/.claude/projects/-Users-paolo-Desktop-...` memory dir should be renamed too.
+
+Until then: **consider pausing odrive during `npm install` or heavy builds.**
 
 ## Things to remember
 
