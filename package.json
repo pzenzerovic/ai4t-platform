@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vercel/analytics": "^2.0.1",
     "gray-matter": "^4.0.3",
     "html2pdf.js": "^0.10.2",
     "i18next": "^23.16.4",
