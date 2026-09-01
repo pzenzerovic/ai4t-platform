@@ -4,6 +4,7 @@ import Layout from './components/Layout/Layout'
 import HomePage from './components/Home/HomePage'
 import LessonList from './components/Lessons/LessonList'
 import LessonPage from './components/Lessons/LessonPage'
+import CommunityPage from './components/Community/CommunityPage'
 import KASWizard from './components/KAS/KASWizard'
 
 export default function App() {
@@ -18,6 +19,7 @@ export default function App() {
         <Route path="resources" element={<LessonList />} />
         <Route path="resources/:categorySlug" element={<LessonList />} />
         <Route path="lesson/:categorySlug/:lessonSlug" element={<LessonPage />} />
+        <Route path="community" element={<CommunityPage />} />
         <Route path="assessment" element={<KASWizard />} />
       </Route>
       <Route path="*" element={<Navigate to={`/${lang}/`} replace />} />

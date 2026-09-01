@@ -2,6 +2,7 @@
   "nav": {
     "home": "Acasă",
     "resources": "Resurse",
+    "community": "Comunitate",
     "assessment": "Evaluare",
     "about": "Despre",
     "myResults": "Rezultatele mele"
@@ -58,7 +59,25 @@
     "relatedResources": "Resurse Conexe",
     "previousLesson": "Lecția Anterioară",
     "nextLesson": "Lecția Următoare",
-    "backToCategory": "Înapoi la {{category}}"
+    "backToCategory": "Înapoi la {{category}}",
+    "discussWithColleagues": "Discutați această lecție cu colegii"
+  },
+  "community": {
+    "title": "Comunitate",
+    "intro": "AI4Teachers este locul unde citiți. Discuția are loc alături — pe European School Education Platform, unde eTwinning reunește profesori din toată Europa.",
+    "esepTitle": "Unde are loc discuția",
+    "esepBody": "Grupurile eTwinning sunt spații virtuale pentru cadrele didactice pe European School Education Platform (ESEP). Sunt folosite pentru networking, pentru schimb de idei, materiale și planuri de lecție și pentru discuții despre practică cu colegi care se confruntă cu aceleași întrebări. Unele grupuri sunt conduse de eTwinneri cu experiență, care moderează discuțiile și susțin ateliere.",
+    "esepCta": "Deschideți eTwinning pe ESEP",
+    "groupsTitle": "Grupurile eTwinning ale proiectului",
+    "groupsIntro": "Grupurile sunt deschise profesorilor din toată Europa. Aduceți o întrebare dintr-o lecție, împărtășiți ce a funcționat la clasă sau citiți ce încearcă colegii din alte țări.",
+    "featuredBadge": "Începeți aici",
+    "featuredNote": "Suzana Delić, ambasadoare eTwinning și partener în proiectul AI4Teachers, a prezentat proiectul și a împărtășit rezultatele acestuia în acest grup.",
+    "accountNote": "Deschiderea unui grup necesită un cont ESEP gratuit, disponibil personalului școlar din țările participante.",
+    "groups": {
+      "mediaLiteracy": "Alfabetizare digitală, vizuală, textuală și a datelor — și cum învață elevii să evalueze critic media și să se orienteze în lumea digitală.",
+      "creativeClassrooms": "Metodologie didactică și practică zilnică la clasă: învățare prin joc, STEM, povestire, cetățenie digitală și sustenabilitate.",
+      "innovationEducation": "Inovația atât ca metodă de predare, cât și ca subiect în sine, cu profesorii ca promotori — creativitate, vocații și competențe antreprenoriale."
+    }
   },
   "quiz": {
     "title": "Verificați-vă cunoștințele",

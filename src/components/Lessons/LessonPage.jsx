@@ -158,6 +158,17 @@ export default function LessonPage() {
       {/* End-of-lesson self-check — renders nothing when the lesson has no quiz */}
       <Quiz key={`${categorySlug}/${lessonSlug}`} categorySlug={categorySlug} lessonSlug={lessonSlug} />
 
+      {/* Discreet pointer to where the conversation about this material happens */}
+      <div className="mt-6 text-center">
+        <Link
+          to={`/${lang}/community`}
+          className="inline-flex items-center gap-1.5 text-sm text-gray-500 hover:text-primary transition-colors no-underline"
+        >
+          {t('lesson.discussWithColleagues')}
+          <ChevronRightIcon className="w-4 h-4" />
+        </Link>
+      </div>
+
       {/* Navigation */}
       <nav className="mt-10 pt-8 border-t border-gray-200">
         <div className="flex justify-between items-center gap-4">

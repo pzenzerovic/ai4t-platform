@@ -2,6 +2,7 @@
   "nav": {
     "home": "Naslovnica",
     "resources": "Materijali",
+    "community": "Zajednica",
     "assessment": "Procjena",
     "about": "O projektu",
     "myResults": "Moji rezultati"
@@ -58,7 +59,25 @@
     "relatedResources": "Povezani resursi",
     "previousLesson": "Prethodna lekcija",
     "nextLesson": "Sljedeća lekcija",
-    "backToCategory": "Natrag na {{category}}"
+    "backToCategory": "Natrag na {{category}}",
+    "discussWithColleagues": "Razgovarajte o ovoj lekciji s kolegama"
+  },
+  "community": {
+    "title": "Zajednica",
+    "intro": "AI4Teachers je mjesto za čitanje. Razgovor se vodi na European School Education Platformi, gdje eTwinning okuplja učitelje iz cijele Europe.",
+    "esepTitle": "Gdje se vodi rasprava",
+    "esepBody": "eTwinning grupe virtualni su prostori za odgojno-obrazovne djelatnike na European School Education Platformi (ESEP). Služe za umrežavanje, za razmjenu ideja, materijala i priprema te za raspravu o praksi s kolegama koji se susreću s istim pitanjima. Neke grupe vode iskusni eTwinneri koji moderiraju rasprave i drže radionice.",
+    "esepCta": "Otvorite eTwinning na ESEP-u",
+    "groupsTitle": "eTwinning grupe projekta",
+    "groupsIntro": "Grupe su otvorene učiteljima iz cijele Europe. Donesite pitanje iz lekcije, podijelite što vam je u razredu upalilo ili pročitajte što pokušavaju kolege drugdje.",
+    "featuredBadge": "Počnite ovdje",
+    "featuredNote": "Suzana Delić, eTwinning ambasadorica i partnerica na projektu AI4Teachers, predstavila je projekt i podijelila njegove rezultate u ovoj grupi.",
+    "accountNote": "Za otvaranje grupe potreban je besplatan ESEP račun, dostupan školskom osoblju u zemljama sudionicama.",
+    "groups": {
+      "mediaLiteracy": "Digitalna, vizualna, tekstualna i podatkovna pismenost — i kako učenici uče kritički procjenjivati medije i snalaziti se u digitalnom svijetu.",
+      "creativeClassrooms": "Metodika i svakodnevna razredna praksa: učenje kroz igru, STEM, pripovijedanje, digitalno građanstvo i održivost.",
+      "innovationEducation": "Inovacija i kao metoda poučavanja i kao tema za sebe, s učiteljima kao njezinim nositeljima — kreativnost, vokacije i poduzetničke kompetencije."
+    }
   },
   "quiz": {
     "title": "Provjerite svoje znanje",

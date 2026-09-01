@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "resources": "Resources",
+    "community": "Community",
     "assessment": "Assessment",
     "about": "About",
     "myResults": "My Results"
@@ -58,7 +59,25 @@
     "relatedResources": "Related Resources",
     "previousLesson": "Previous Lesson",
     "nextLesson": "Next Lesson",
-    "backToCategory": "Back to {{category}}"
+    "backToCategory": "Back to {{category}}",
+    "discussWithColleagues": "Discuss this lesson with colleagues"
+  },
+  "community": {
+    "title": "Community",
+    "intro": "AI4Teachers is where you read. The conversation happens next door — on the European School Education Platform, where eTwinning brings together teachers from across Europe.",
+    "esepTitle": "Where the discussion happens",
+    "esepBody": "eTwinning groups are virtual spaces for educators on the European School Education Platform (ESEP). They are used for networking, for exchanging ideas, materials and lesson plans, and for discussing practice with colleagues facing the same questions. Some groups are led by experienced eTwinners who moderate the discussions and run workshops.",
+    "esepCta": "Open eTwinning on ESEP",
+    "groupsTitle": "Project eTwinning groups",
+    "groupsIntro": "These groups are open to teachers across Europe. Bring a question from a lesson, share what worked in your classroom, or read what colleagues elsewhere are trying.",
+    "featuredBadge": "Start here",
+    "featuredNote": "Suzana Delić, eTwinning ambassador and AI4Teachers project partner, presented the project and shared its results in this group.",
+    "accountNote": "Opening a group requires a free ESEP account, available to school staff in participating countries.",
+    "groups": {
+      "mediaLiteracy": "Digital, visual, textual and data literacy — and how students learn to judge media critically and find their way around the digital world.",
+      "creativeClassrooms": "Teaching methodology and everyday classroom practice: game-based learning, STEM, storytelling, digital citizenship and sustainability.",
+      "innovationEducation": "Innovation both as a teaching method and as a subject in its own right, with teachers as its drivers — creativity, vocations and entrepreneurship competences."
+    }
   },
   "quiz": {
     "title": "Check your knowledge",

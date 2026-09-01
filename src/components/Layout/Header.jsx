@@ -19,6 +19,7 @@ export default function Header() {
   const navLinks = [
     { to: `/${lang}/`, label: t('nav.home') },
     { to: `/${lang}/resources`, label: t('nav.resources') },
+    { to: `/${lang}/community`, label: t('nav.community') },
     { to: `/${lang}/assessment`, label: t('nav.assessment') },
   ]
 
