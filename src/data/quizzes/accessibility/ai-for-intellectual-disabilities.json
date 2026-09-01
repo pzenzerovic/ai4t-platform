@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-intellectual-disabilities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "In mentor-guided work with students with intellectual disabilities, AI is never used to assess the student's progress or produce reports on their performance.",
+      "correct": ["true"],
+      "explanation": "The lesson states this as a firm rule: assessment requires the nuanced observation of a human professional who understands the student's individual context, history and developmental trajectory, which AI has no capacity for."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "What does the principle \"AI adapts the method, not the goal\" mean in practice?",
+      "options": [
+        { "id": "a", "text": "The learning objective stays the same and AI changes only the pathway, for example by simplifying an instruction or splitting a task into steps." },
+        { "id": "b", "text": "The learning objective is adjusted downwards while the method of teaching stays as it was." },
+        { "id": "c", "text": "AI sets a new objective for each session based on the student's previous results." },
+        { "id": "d", "text": "AI completes the hardest part of the task so that the student can finish the rest." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson is explicit that the objective never changes: AI may simplify language, decompose a task or add explanation, but it may not complete work on the student's behalf or supply ready-made answers that bypass the student's own effort."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which rules does the lesson set for how AI is used in this mentor-guided context?",
+      "options": [
+        { "id": "a", "text": "The mentor formulates the prompts; the student does not interact with the AI tool directly." },
+        { "id": "b", "text": "The mentor reviews, shortens or discards every AI output before it reaches the student." },
+        { "id": "c", "text": "One tool per activity and one purpose per interaction, in short focused use." },
+        { "id": "d", "text": "The student's name and diagnosis should be entered so that the AI can tailor its output precisely." },
+        { "id": "e", "text": "Once started, an AI session should be finished even if the student's attention has shifted to the device." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The mentor conducts all AI interaction, filters every output, and keeps use minimal. Personal data must never be entered, and if the device begins competing with the activity for the student's attention the tool is switched off immediately."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "A mentor wants to build a pictogram-based visual sequence for a classroom routine. What role does the lesson give AI here?",
+      "options": [
+        { "id": "a", "text": "AI cannot produce the pictograms, but it can generate the numbered step structure that the mentor pairs with symbols from a library such as ARASAAC." },
+        { "id": "b", "text": "AI generates the pictograms directly, so a separate symbol library is no longer needed." },
+        { "id": "c", "text": "Visual supports should be set aside here, because simplified text is always clearer than symbols." },
+        { "id": "d", "text": "The sequence should be rebuilt in a different format each time so that the routine stays varied." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson notes that pictogram creation belongs to specialised libraries such as ARASAAC, while AI contributes text-based structure such as numbered step lists and schedules. It also stresses that keeping that structure consistent is itself a support, because predictability reduces anxiety."
+    }
+  ]
+}

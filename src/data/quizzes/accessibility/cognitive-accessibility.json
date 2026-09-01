@@ -1,0 +1,52 @@
+{
+  "slug": "cognitive-accessibility",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "AI text adaptation is useful for any student who finds a particular text too dense in the moment, not only for students with a formal diagnosis.",
+      "correct": ["true"],
+      "explanation": "The lesson stresses that adaptation benefits a much wider range of students than those with diagnosed difficulties, and that making it ordinary reduces the stigma attached to needing adapted materials."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Why does a request such as \"Make this simpler\" tend to produce disappointing results?",
+      "options": [
+        { "id": "a", "text": "A vague request gives unpredictable output, while a prompt naming the audience, the format and what must be preserved gives consistent results." },
+        { "id": "b", "text": "Language models cannot simplify text at all; they can only shorten it." },
+        { "id": "c", "text": "Simplification works only after the text has first been converted into a table or a numbered list." },
+        { "id": "d", "text": "The model always reduces text to the lowest possible reading level unless a year group is stated." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson states that the effectiveness of cognitive adaptation depends heavily on the specificity of the prompt, and gives examples such as asking for short sentences, everyday vocabulary and concrete examples for a named reader."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which pairings of learning need and AI adaptation does the lesson describe?",
+      "options": [
+        { "id": "a", "text": "For students with dyslexia — shorter sentences, clearer paragraph breaks and simpler vocabulary, optionally alongside the same text read aloud" },
+        { "id": "b", "text": "For students with ADHD — content broken into small labelled sections and tasks structured into sequential steps with checkpoints" },
+        { "id": "c", "text": "For students on the autism spectrum — making implicit information explicit and restructuring content into a predictable, systematic format" },
+        { "id": "d", "text": "For students who process information more slowly — increasing the volume of text so that every point is repeated several times" },
+        { "id": "e", "text": "For students with dyscalculia — removing all numerical content and replacing it with descriptive text" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The lesson matches each type of processing difficulty to a different adaptation. For students who work more slowly it recommends reducing the volume of text while preserving the essential content, for example condensing a ten-page chapter into a two-page summary."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Why does the lesson insist that the teacher review AI-adapted material rather than leaving the process entirely to the student?",
+      "options": [
+        { "id": "a", "text": "The tool simplifies as far as it is instructed and cannot judge whether the result still meets the curriculum standard." },
+        { "id": "b", "text": "The tool refuses to keep technical vocabulary, so specialist terms always have to be added back by hand." },
+        { "id": "c", "text": "Simplifying a text always removes the learning objective, which the teacher then has to restore." },
+        { "id": "d", "text": "The tool can only adapt texts in language and literature, so other subjects must be adapted manually." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson contrasts an appropriate simplification, which keeps the scientific concepts intact, with one that strips out essential terminology. The tool cannot tell the difference, so the teacher defines the boundaries and checks the result."
+    }
+  ]
+}

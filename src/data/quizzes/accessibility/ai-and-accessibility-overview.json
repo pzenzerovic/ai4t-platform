@@ -1,0 +1,52 @@
+{
+  "slug": "ai-and-accessibility-overview",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "What does the lesson identify as the distinctive contribution AI makes to accessibility in the classroom?",
+      "options": [
+        { "id": "a", "text": "It removes the need for teaching assistants, specialised aids and professional support staff." },
+        { "id": "b", "text": "It adapts content at the moment a barrier appears, without requiring specialised equipment or advance preparation." },
+        { "id": "c", "text": "It makes the advance preparation of adapted materials unnecessary." },
+        { "id": "d", "text": "It guarantees that adapted materials are accurate, so the teacher does not need to review them." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson describes AI as a bridge between the moment a barrier appears and the moment professional help arrives. Its distinctive value is real-time adaptation, which complements rather than replaces existing support and advance planning."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Which of the following does the lesson place beyond the reach of AI in an accessibility context?",
+      "options": [
+        { "id": "a", "text": "Assessing an individual student's needs" },
+        { "id": "b", "text": "Producing a simplified version of a complex text in seconds" },
+        { "id": "c", "text": "Judging whether a particular level of adaptation is pedagogically appropriate" },
+        { "id": "d", "text": "Providing the emotional support and human connection a student needs" },
+        { "id": "e", "text": "Transcribing a teacher's spoken explanation into text" }
+      ],
+      "correct": ["a", "c", "d"],
+      "explanation": "Simplifying text and transcribing speech are named among AI's practical capabilities, while assessing needs, judging pedagogical appropriateness and offering human support are listed as things AI cannot do."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Using AI for accessibility requires teachers to first master specialised assistive technology platforms.",
+      "correct": ["false"],
+      "explanation": "The lesson states that most of the tools it describes run on the same general-purpose AI platforms teachers may already use for other purposes. What differs is how they are prompted and what they are asked to do."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "The lesson describes three functions the teacher performs in AI-supported accessibility. Which one is the role of the quality controller?",
+      "options": [
+        { "id": "a", "text": "Reviewing AI-adapted content before it reaches the student, or teaching the student to review it critically." },
+        { "id": "b", "text": "Deciding at which moments AI assistance is appropriate and at which it is not." },
+        { "id": "c", "text": "Integrating AI accessibility tools into the wider pedagogical framework and the standard curriculum." },
+        { "id": "d", "text": "Recording which students in the school make the most use of AI adaptations." }
+      ],
+      "correct": ["a"],
+      "explanation": "Deciding when AI is appropriate is the gatekeeper function and integrating the tools into the curriculum is the learning designer function. The quality controller checks the output, because a simplification that loses essential meaning is a distortion rather than an adaptation."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-multilingual-classrooms",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "A student who is still learning the language of instruction receives a reading passage. What is the \"bridge\" approach the lesson recommends?",
+      "options": [
+        { "id": "a", "text": "Read the original text first, establish what is already understood, then use AI only for the parts that remain unclear." },
+        { "id": "b", "text": "Translate every text in full before the student attempts the original version." },
+        { "id": "c", "text": "Work only in the mother tongue until a language test confirms the student is ready for the original." },
+        { "id": "d", "text": "Let the student guess the meaning first and check the translation only after the lesson has ended." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson describes the bridge as engaging with the original text first and translating only what blocks comprehension, which keeps the student in contact with the language of instruction while still giving access to the content."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Which statements about AI language tools in a multilingual classroom does the lesson support?",
+      "options": [
+        { "id": "a", "text": "They can be prompted to keep subject-specific technical terms in the language of instruction while translating the surrounding text." },
+        { "id": "b", "text": "They can rewrite content at a stated language level, such as a B1 version of a text." },
+        { "id": "c", "text": "They remove the need for the student to learn the language of instruction." },
+        { "id": "d", "text": "In voice mode they let a student ask about spoken classroom instructions in their mother tongue." },
+        { "id": "e", "text": "They work only on material the teacher has translated or prepared in advance." }
+      ],
+      "correct": ["a", "b", "d"],
+      "explanation": "Preserving technical vocabulary, rewriting at a stated level and voice-mode interaction are all named as practical uses. The lesson is explicit that these tools do not replace language learning, and that their advantage is working in real time without advance preparation."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "AI translation delivers cultural equivalence as reliably as it delivers linguistic equivalence.",
+      "correct": ["false"],
+      "explanation": "The lesson states that AI provides linguistic equivalence but not necessarily cultural equivalence, which is why teachers should review translated material for culturally embedded content and supply the missing context themselves."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "A teacher can ask a multilingual student to use AI simply to translate a text, or to show the class how the same concept is expressed in their language. What does the lesson say the second framing adds?",
+      "options": [
+        { "id": "a", "text": "Enrichment for the whole class alongside accessibility, positioning the student's multilingualism as a strength." },
+        { "id": "b", "text": "A faster route to fluency in the language of instruction." },
+        { "id": "c", "text": "Relief for the teacher, who then needs to prepare less adapted material." },
+        { "id": "d", "text": "A way to assess the student's literacy in their mother tongue." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson contrasts the two invitations directly: the first provides accessibility, while the second provides accessibility and enrichment, affirms the student's identity and makes the classroom culture more inclusive for everyone."
+    }
+  ]
+}

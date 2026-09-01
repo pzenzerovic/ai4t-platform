@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-hearing-impairments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "Which adjustments to a teacher's own practice does the lesson say measurably improve transcription accuracy?",
+      "options": [
+        { "id": "a", "text": "Speaking clearly and at a moderate pace" },
+        { "id": "b", "text": "Facing the class rather than the board while speaking" },
+        { "id": "c", "text": "Repeating student questions before answering them" },
+        { "id": "d", "text": "Switching the transcription tool off during class discussions, since several speakers confuse it" },
+        { "id": "e", "text": "Leaving background noise as it is, since it makes no measurable difference to accuracy" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Clear speech, a moderate pace, facing the class and repeating student questions are the adjustments the lesson names, alongside minimising background noise. In discussions the lesson asks teachers to supplement the transcript with written summaries, not to abandon the tool."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Which workflow does the lesson present as the most effective for a student with a hearing impairment?",
+      "options": [
+        { "id": "a", "text": "Capture the lesson with real-time transcription, then process the transcript with an AI tool afterwards." },
+        { "id": "b", "text": "Take handwritten notes during the lesson while lip-reading, and use AI only when the notes turn out to be incomplete." },
+        { "id": "c", "text": "Study from the raw transcript as it is, since AI processing adds little to it." },
+        { "id": "d", "text": "Keep the audio recording as the main study material and skip the written transcript." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson describes a two-stage approach that plays to the strengths of each technology: the transcription tool captures everything in real time, and the AI tool organises, summarises and adapts it afterwards. This also frees the student from taking notes while trying to hear and lip-read at the same time."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "A practical way to balance accessibility with data protection is to delete the audio recording once the transcript has been produced and retain only the text.",
+      "correct": ["true"],
+      "explanation": "The lesson recommends distinguishing between the recording and the transcript: the audio may need to be deleted after the transcript is generated, while the transcript, which contains no voice data, can be kept as a study resource."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Why does the lesson recommend processing a raw transcript with a language model rather than studying from it directly?",
+      "options": [
+        { "id": "a", "text": "Spoken language is full of false starts, repetitions and digressions, which make the raw transcript long and hard to study from." },
+        { "id": "b", "text": "The transcription tool records only isolated key words, so the sentences have to be reconstructed by AI." },
+        { "id": "c", "text": "Processing by a language model removes every transcription error and guarantees an accurate record." },
+        { "id": "d", "text": "Data protection rules forbid keeping a raw transcript, so it must be replaced by a summary." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson calls a raw transcript valuable but messy, because the informal phrasing of live speech makes a poor written document. Targeted prompts turn it into key points, structured notes, a glossary of specialised terms or a simplified explanation."
+    }
+  ]
+}

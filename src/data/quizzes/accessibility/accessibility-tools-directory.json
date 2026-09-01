@@ -1,0 +1,52 @@
+{
+  "slug": "accessibility-tools-directory",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "A student cannot hear the teacher during lessons. Which combination of tools does the lesson map to that need?",
+      "options": [
+        { "id": "a", "text": "A dedicated transcription tool such as Otter.ai, with a general-purpose AI tool used afterwards to summarise and restructure the transcript." },
+        { "id": "b", "text": "Goblin Tools for the lesson notes, supported by ARASAAC pictograms." },
+        { "id": "c", "text": "Microsoft Immersive Reader on its own, because it reads the text aloud." },
+        { "id": "d", "text": "Canva for visual summaries, supported by Read&Write for screen masking." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson pairs a dedicated transcription tool, which produces a continuous real-time transcript with speaker identification, with a general-purpose AI tool that turns that transcript into organised study material."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "A teacher is setting up accessibility support for a student for the first time. What starting point does the lesson recommend?",
+      "options": [
+        { "id": "a", "text": "One general-purpose AI tool plus one specialised tool matched to the student's primary need, adding more only once the routine is working." },
+        { "id": "b", "text": "The full set of relevant tools at once, so that the student can choose whichever suits them." },
+        { "id": "c", "text": "Specialised tools only, since general-purpose AI is too broad for accessibility work." },
+        { "id": "d", "text": "No tools at all until the school has bought paid subscriptions for the whole set." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson warns that adding too many tools at once creates its own form of cognitive overload, for the teacher as well as the student, and advises starting simple and establishing routines before adding anything else."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which descriptions match what the lesson says these specialised tools actually do?",
+      "options": [
+        { "id": "a", "text": "Goblin Tools breaks a complex task into a step-by-step checklist without requiring prompt engineering skills." },
+        { "id": "b", "text": "ARASAAC provides a free, open library of pictograms and symbols for communication support." },
+        { "id": "c", "text": "Microsoft Immersive Reader reads text aloud with word-by-word highlighting and can break words into syllables." },
+        { "id": "d", "text": "Otter.ai converts pictograms into spoken instructions for students with reading difficulties." },
+        { "id": "e", "text": "Choiceworks translates worksheets into the student's mother tongue." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Task decomposition, a pictogram library and reading support are the stated purposes of those three tools. Otter.ai is a transcription tool, and Choiceworks is a visual support for daily routines, transitions and choices, not a translation tool."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "text": "Once a teacher has confirmed that an accessibility tool is free and working well, it can be treated as a settled part of practice with no need to check it again.",
+      "correct": ["false"],
+      "explanation": "The lesson warns that the tool landscape changes rapidly — a tool that is free today may require a subscription tomorrow — so teachers should periodically verify that the tools they recommend are still available, affordable and functioning as expected."
+    }
+  ]
+}
