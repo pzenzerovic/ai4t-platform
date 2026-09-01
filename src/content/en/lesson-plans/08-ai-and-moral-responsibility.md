@@ -13,7 +13,7 @@ school: "OŠ Horvati, Zagreb"
 country: "HR"
 sourceLanguage: "hr"
 implemented: true
-implementationNote: "Workshop held at OŠ Horvati, Zagreb, in the digital classroom, 12:00–16:00, with classes 8.a, 8.b and 4.a, led by Suzana Delić. The source document dates it 29 November 2026 — a date that has not yet passed, so the year must be confirmed before publication. The number of students is not stated."
+implementationNote: "Workshop held at OŠ Horvati, Zagreb, in the digital classroom, 12:00–16:00, with classes 8.a, 8.b and 4.a, led by Suzana Delić. Held on 29 November 2025. The number of students is not stated."
 evidence: "Workshop record \"RADIONICA 1 – TIME PROJEKT\" (OŠ Horvati) with place, time, classes, workshop leader and the sequence of work; annexes listed as photographs, the compiled questions, and a certificate of participation with 5th place worldwide."
 sourceCandidate: "A3"
 status: "draft — pending review and author consent"
