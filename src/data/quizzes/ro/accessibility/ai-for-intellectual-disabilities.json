@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-intellectual-disabilities",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "În munca ghidată de mentor cu elevi cu dizabilități intelectuale, AI nu este niciodată folosit pentru a evalua progresul elevului sau pentru a produce rapoarte despre performanța sa.",
+      "correct": ["true"],
+      "explanation": "Lecția enunță aceasta ca regulă fermă: evaluarea necesită observarea nuanțată a unui profesionist uman care înțelege contextul individual al elevului, istoricul și traiectoria de dezvoltare — capacitate pe care AI nu o are."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Ce înseamnă în practică principiul „AI adaptează metoda, nu scopul”?",
+      "options": [
+        { "id": "a", "text": "Obiectivul de învățare rămâne același, iar AI schimbă doar calea — de exemplu, simplificând o instrucțiune sau împărțind o sarcină în pași." },
+        { "id": "b", "text": "Obiectivul de învățare este coborât, în timp ce metoda de predare rămâne neschimbată." },
+        { "id": "c", "text": "AI stabilește un obiectiv nou pentru fiecare sesiune, pe baza rezultatelor anterioare ale elevului." },
+        { "id": "d", "text": "AI completează partea cea mai grea a sarcinii, astfel încât elevul să poată termina restul." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția spune explicit că obiectivul nu se schimbă niciodată: AI poate simplifica limbajul, poate descompune o sarcină sau poate adăuga explicații, dar nu poate completa sarcini în numele elevului și nu poate furniza răspunsuri gata pregătite care ocolesc efortul propriu al elevului."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce reguli stabilește lecția pentru modul în care este folosit AI în acest context ghidat de mentor?",
+      "options": [
+        { "id": "a", "text": "Mentorul formulează formulele; elevul nu interacționează direct cu instrumentul AI." },
+        { "id": "b", "text": "Mentorul revizuiește, scurtează sau respinge fiecare rezultat AI înainte ca acesta să ajungă la elev." },
+        { "id": "c", "text": "Un instrument per activitate și un scop per interacțiune, în utilizare scurtă și concentrată." },
+        { "id": "d", "text": "Numele și diagnosticul elevului ar trebui introduse, pentru ca AI să își poată adapta cu precizie rezultatul." },
+        { "id": "e", "text": "Odată începută, o sesiune cu AI ar trebui dusă până la capăt, chiar dacă atenția elevului s-a mutat spre dispozitiv." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Mentorul conduce toate interacțiunile cu AI, filtrează fiecare rezultat și menține utilizarea la minimum. Datele personale nu trebuie introduse niciodată, iar dacă dispozitivul începe să concureze cu activitatea pentru atenția elevului, instrumentul este oprit imediat."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Un mentor vrea să construiască o secvență vizuală bazată pe pictograme pentru o rutină din clasă. Ce rol îi atribuie lecția AI aici?",
+      "options": [
+        { "id": "a", "text": "AI nu poate genera pictogramele, dar poate genera structura de pași numerotați pe care mentorul o asociază cu simboluri dintr-o bibliotecă precum ARASAAC." },
+        { "id": "b", "text": "AI generează direct pictogramele, așa că nu mai este nevoie de o bibliotecă separată de simboluri." },
+        { "id": "c", "text": "Suporturile vizuale ar trebui lăsate deoparte aici, deoarece textul simplificat este întotdeauna mai clar decât simbolurile." },
+        { "id": "d", "text": "Secvența ar trebui reconstruită de fiecare dată într-un format diferit, pentru ca rutina să rămână variată." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția observă că generarea pictogramelor aparține bibliotecilor specializate precum ARASAAC, în timp ce AI contribuie cu structură bazată pe text, precum liste de pași numerotate și programe. Aceasta subliniază, de asemenea, că menținerea consecventă a acelei structuri este ea însăși un suport, deoarece predictibilitatea reduce anxietatea."
+    }
+  ]
+}

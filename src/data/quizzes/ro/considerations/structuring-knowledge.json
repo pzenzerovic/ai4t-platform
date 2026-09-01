@@ -1,0 +1,52 @@
+{
+  "slug": "structuring-knowledge",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Ce utilizare a AI în rezumare numește lecția drept cea mai puternică din punct de vedere pedagogic?",
+      "options": [
+        { "id": "a", "text": "Elevul cere mai întâi AI să producă rezumatul, ca să aibă un model corect după care să studieze." },
+        { "id": "b", "text": "Elevul scrie singur rezumatul, apoi cere AI să îl compare cu originalul și să îi spună ce a ratat sau a înțeles greșit." },
+        { "id": "c", "text": "Elevul cere AI să rezume același text de două ori și compară cele două versiuni." },
+        { "id": "d", "text": "Elevul cere AI să îi scurteze rezumatul, ca să îi fie mai ușor să repete din el." }
+      ],
+      "correct": ["b"],
+      "explanation": "Când AI generează rezumatul, elevul are un document de referință util, dar nu s-a angajat în munca cognitivă a rezumării; când AI evaluează rezumatul scris de elev, acesta își descoperă propriile lacune în înțelegere, ceea ce lecția numește o experiență de învățare mult mai puternică."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Lecția menționează un instrument care poate transforma flashcard-urile generate în ceva ce elevul poate folosi imediat. Ce descrie ea?",
+      "options": [
+        { "id": "a", "text": "Funcția Artifacts a Claude poate produce o aplicație web funcțională de flashcard-uri, cu o interfață de întoarcere a cardurilor, utilizabilă direct în browser." },
+        { "id": "b", "text": "ChatGPT exportă seturile de flashcard-uri direct în programe de repetiție la intervale spațiate." },
+        { "id": "c", "text": "AI produce un PDF gata de tipărire cu carduri pe care elevul le decupează." },
+        { "id": "d", "text": "AI programează în calendarul elevului memento-uri pentru revizuire." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția numește Artifacts drept exemplu în care AI merge dincolo de o listă de carduri: generează o aplicație interactivă de flashcard-uri cu care elevul poate practica imediat, eliminând nevoia unei aplicații externe de flashcard-uri."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce activități de clasă sugerează lecția pentru a-i ajuta pe elevi să structureze ceea ce au învățat?",
+      "options": [
+        { "id": "a", "text": "La sfârșitul unei lecții, elevii scriu un rezumat de cinci propoziții, apoi folosesc AI pentru a identifica ce au ratat." },
+        { "id": "b", "text": "Înainte de un test, elevii își creează propriul set de flashcard-uri, apoi cer AI carduri suplimentare care acoperă punctele oarbe." },
+        { "id": "c", "text": "După citirea unui text complex, elevii creează propria schiță structurată, apoi o compară cu una generată de AI și discută diferențele." },
+        { "id": "d", "text": "Profesorul distribuie notițe generate de AI, astfel încât toată clasa să lucreze după o singură consemnare corectă, în loc ca elevii să își ia propriile notițe." },
+        { "id": "e", "text": "Fiecare subiect este rezumat o singură dată, la începutul anului, iar acel rezumat este păstrat neschimbat ca versiune definitivă." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Toate cele trei activități sugerate pun pe primul loc munca proprie a elevului și folosesc AI ca verificare. Lecția respinge înlocuirea propriei luări de notițe cu notițele altcuiva și descrie structurarea cunoștințelor ca pe un ciclu recurent, nu ca pe un document scris o singură dată."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "text": "O schiță sau un tabel de comparație generat de AI este cel mai util atunci când elevul îl tratează ca pe organizarea finală a materialului și îl memorează ca atare.",
+      "correct": ["false"],
+      "explanation": "Lecția recomandă tratarea structurilor generate de AI ca puncte de plecare: elevii ar trebui să le revizuiască, să nu fie de acord cu ele acolo unde este cazul, să rearanjeze elementele și să adauge conexiuni și exemple proprii, deoarece scopul este să construiască propriul model mental al elevului."
+    }
+  ]
+}

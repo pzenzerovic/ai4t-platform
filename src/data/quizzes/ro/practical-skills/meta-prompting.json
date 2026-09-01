@@ -1,0 +1,52 @@
+{
+  "slug": "meta-prompting",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "Meta-prompting-ul înlocuiește ingineria formulelor: odată ce puteți purta un dialog de planificare cu AI, scrierea unei formule specifice și bine structurate nu mai este necesară.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă explicit că meta-prompting-ul este un pas preliminar, nu un înlocuitor. Mai întâi îl folosiți pentru a clarifica ce vreți, apoi scrieți o formulă specifică pentru a obține acel lucru, așa cum demonstrează exemplul complet de la clasa a 3-a."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Ce descrie lecția drept Meta-prompting 1.0?",
+      "options": [
+        { "id": "a", "text": "Prezentarea unei formule ciornă către AI și întrebarea cum ar putea fi îmbunătățită, înainte de a o trimite efectiv ca sarcină." },
+        { "id": "b", "text": "Începerea fără nicio formulă și explorarea abordărilor posibile prin dialog." },
+        { "id": "c", "text": "Cererea adresată AI de a evalua calitatea outputului pe care tocmai l-a produs." },
+        { "id": "d", "text": "Scrierea mai multor versiuni ale aceleiași formule și compararea rezultatelor una lângă alta." }
+      ],
+      "correct": ["a"],
+      "explanation": "Meta-prompting 1.0 este forma cea mai simplă: îi arătați AI ciorna dumneavoastră și întrebați ce lipsește. Pornirea de la o problemă în loc de o formulă și explorarea opțiunilor prin conversație este forma mai avansată, Meta-prompting 2.0."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "În ce situații spune lecția că meta-prompting-ul este cel mai valoros?",
+      "options": [
+        { "id": "a", "text": "Când știți problema, dar nu și forma pe care ar trebui să o ia soluția." },
+        { "id": "b", "text": "Când o sarcină complexă are mai multe componente și structura trebuie planificată înainte de generarea conținutului." },
+        { "id": "c", "text": "Când vreți să cântăriți diferite abordări înainte de a vă angaja la una." },
+        { "id": "d", "text": "Când sarcina este simplă și bine definită, cum ar fi zece exerciții la tabla înmulțirii cu 6." },
+        { "id": "e", "text": "Când vreți un singur produs finit, fără nicio conversație ulterioară." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lecția enumeră explorarea formei unei soluții, planificarea unei sarcini cu mai multe componente și evaluarea alternativelor printre situațiile în care meta-prompting-ul se dovedește util. Pentru o cerere simplă și bine definită, lecția spune că meta-prompting-ul este inutil, și pune în contrast modul colaborativ cu cel tranzacțional, dintr-un singur pas."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce rol joacă AI în timpul unei conversații de meta-prompting?",
+      "options": [
+        { "id": "a", "text": "Prezintă opțiuni, structuri și posibilități pe care profesorul le acceptă, le respinge sau le modifică pe baza judecății sale profesionale." },
+        { "id": "b", "text": "Selectează opțiunea cea mai adecvată pedagogic, pe care profesorul o pune apoi în practică." },
+        { "id": "c", "text": "Preia etapa de planificare, astfel încât profesorul să poată trece direct la predare." },
+        { "id": "d", "text": "Stochează preferințele profesorului, astfel încât formulele ulterioare să devină inutile." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția afirmă că AI nu ia decizii într-o conversație de meta-prompting — oferă posibilități, iar expertiza profesorului este exercitată în evaluarea lor și în dirijarea dialogului spre un rezultat util."
+    }
+  ]
+}

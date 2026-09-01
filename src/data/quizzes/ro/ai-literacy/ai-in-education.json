@@ -1,0 +1,52 @@
+{
+  "slug": "ai-in-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "AI a ajuns în educație abia recent, odată cu lansarea unor instrumente precum ChatGPT.",
+      "correct": ["false"],
+      "explanation": "AI era deja în școli prin verificatoare ortografice, algoritmi de recomandare, instrumente de traducere și platforme de învățare adaptivă — ceea ce s-a schimbat recent este că AI a devenit vizibil."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Ce aplicație descrie lecția drept cea mai matură utilizare a AI în educație?",
+      "options": [
+        { "id": "a", "text": "Platformele de învățare adaptivă" },
+        { "id": "b", "text": "Generarea de imagini cu AI" },
+        { "id": "c", "text": "Agenții autonomi de predare" },
+        { "id": "d", "text": "Monitorizarea în timp real a comportamentului în clasă" }
+      ],
+      "correct": ["a"],
+      "explanation": "Platformele de învățare adaptivă sunt în uz de ani de zile și sunt numite aplicația cea mai matură a AI în educație — eficiente atunci când completează instrucțiunea condusă de profesor, nu când o înlocuiesc."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce limitări atribuie lecția evaluării automate?",
+      "options": [
+        { "id": "a", "text": "Nu poate evalua creativitatea sau originalitatea." },
+        { "id": "b", "text": "Nu poate corecta testele cu răspunsuri multiple." },
+        { "id": "c", "text": "Nu poate evalua calitatea gândirii unui elev — doar dacă rezultatul corespunde tiparelor așteptate." },
+        { "id": "d", "text": "Nu poate înlocui judecata profesională a unui profesor care își cunoaște elevii." },
+        { "id": "e", "text": "Nu poate semnala plagiatul potențial." }
+      ],
+      "correct": ["a", "c", "d"],
+      "explanation": "Corectarea testelor cu răspunsuri multiple și semnalarea plagiatului sunt enumerate printre lucrurile pe care evaluarea automată le face bine; creativitatea, calitatea gândirii și judecata profesională sunt cele la care nu poate ajunge."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce recomandă lecția drept punct de plecare pentru un profesor care abia începe să folosească AI?",
+      "options": [
+        { "id": "a", "text": "Înlocuirea unei unități întregi din curriculum cu materiale generate de AI." },
+        { "id": "b", "text": "Alegerea unei singure sarcini de rutină, încercarea AI pentru aceasta și evaluarea onestă a rezultatului." },
+        { "id": "c", "text": "Așteptarea până când școala adoptă o platformă AI oficială." },
+        { "id": "d", "text": "Studierea teoriei ingineriei formulelor înainte de a atinge vreun instrument." }
+      ],
+      "correct": ["b"],
+      "explanation": "Prima sugestie practică a lecției este să încercați cu AI o singură sarcină de rutină care consumă timp și apoi să judecați onest dacă rezultatul a fost util și unde a necesitat îmbunătățiri."
+    }
+  ]
+}

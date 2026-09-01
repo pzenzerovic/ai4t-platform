@@ -1,0 +1,52 @@
+{
+  "slug": "ethics-of-ai-in-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "De ce spune lecția că AI amplifică efectul oracle în comparație cu manualele sau profesorii?",
+      "options": [
+        { "id": "a", "text": "AI prezintă toate informațiile cu aceeași încredere și este disponibil pentru utilizare nesupravegheată în afara clasei." },
+        { "id": "b", "text": "AI este prima tehnologie în care elevii au fost înclinați să aibă încredere fără să o pună la îndoială." },
+        { "id": "c", "text": "AI semnalează când este nesigur, iar elevii citesc acel semnal ca pe un semn de autoritate." },
+        { "id": "d", "text": "AI este folosit în cele mai multe clase mai des decât manualele." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția numește doi amplificatori: AI nu oferă niciun echivalent al bibliografiei unui manual sau al admiterii incertitudinii de către profesor și poate fi folosit fără niciun profesor prezent care să prindă erorile. Tendința de a te încrede în autoritate nu este nouă — elevii au avut întotdeauna încredere și în manuale, și în profesori."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Conform lecției, care dintre acestea sunt exemple de prejudecată algoritmică apărută în AI educațional?",
+      "options": [
+        { "id": "a", "text": "Un instrument de generare a textului care folosește implicit pronume masculine când descrie oameni de știință sau ingineri" },
+        { "id": "b", "text": "Un instrument de evaluare ale cărui tipare de limbaj dezavantajează sistematic elevii care scriu într-o a doua limbă" },
+        { "id": "c", "text": "Un instrument de generare a imaginilor care subreprezintă anumite grupuri etnice sau produce reprezentări stereotipate" },
+        { "id": "d", "text": "Un model care afirmă un fapt inventat cu deplină încredere" },
+        { "id": "e", "text": "O platformă care înregistrează textul fiecărei interacțiuni pe un server extern" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Pronumele stereotipate, evaluarea cu limbaj deformator și generarea nereprezentativă de imagini sunt exemplele proprii ale lecției pentru prejudecata moștenită din datele de antrenament. Fabricarea sigură de sine ține de efectul oracle, iar înregistrarea interacțiunilor ține de secțiunea despre confidențialitatea datelor."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Cele mai multe instrumente AI stochează doar conversațiile pe care utilizatorul alege să le salveze, așa că interacțiunile obișnuite din clasă nu lasă nicio înregistrare pe serverele furnizorului.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă că cele mai multe instrumente AI înregistrează textul fiecărei interacțiuni și că datele stocate pot fi folosite pentru a îmbunătăți modelul, partajate cu terțe părți sau reținute pe termen indefinit."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce îi cere principiul agenției umane unui profesor care folosește AI?",
+      "options": [
+        { "id": "a", "text": "Deciziile pedagogice finale rămân la profesor, astfel încât planurile și evaluările generate de AI sunt revizuite și adaptate înainte de utilizare." },
+        { "id": "b", "text": "AI poate lua deciziile de rutină, cum ar fi notarea, cu condiția ca profesorul să se ocupe de cazurile excepționale." },
+        { "id": "c", "text": "Evaluările AI despre performanța unui elev ar trebui acceptate ca definitive când se bazează pe mai multe date decât poate revizui un profesor." },
+        { "id": "d", "text": "AI ar trebui limitat la sarcini administrative și niciodată folosit pentru a produce materiale didactice." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția cere ca AI să furnizeze informații, sugestii și instrumente, în timp ce educatorul uman decide: planurile de lecție sunt revizuite și adaptate, evaluările sunt verificate pentru acuratețe și adecvare, iar recomandările AI despre elevi contează ca un input printre mulți."
+    }
+  ]
+}

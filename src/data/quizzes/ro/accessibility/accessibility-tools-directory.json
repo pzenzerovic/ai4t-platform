@@ -1,0 +1,52 @@
+{
+  "slug": "accessibility-tools-directory",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Un elev nu poate auzi profesorul în timpul lecțiilor. Ce combinație de instrumente asociază lecția acestei nevoi?",
+      "options": [
+        { "id": "a", "text": "Un instrument dedicat de transcriere precum Otter.ai, cu un instrument AI de uz general folosit ulterior pentru a rezuma și restructura transcrierea." },
+        { "id": "b", "text": "Goblin Tools pentru notițele de la lecție, sprijinit de pictogramele ARASAAC." },
+        { "id": "c", "text": "Microsoft Immersive Reader singur, deoarece citește textul cu voce tare." },
+        { "id": "d", "text": "Canva pentru rezumate vizuale, sprijinit de Read&Write pentru mascarea ecranului." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția asociază un instrument dedicat de transcriere, care produce o transcriere curentă în timp real cu identificarea vorbitorului, cu un instrument AI de uz general care transformă acea transcriere în material de studiu organizat."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Un profesor configurează pentru prima dată sprijinul de accesibilitate pentru un elev. Ce punct de plecare recomandă lecția?",
+      "options": [
+        { "id": "a", "text": "Un instrument AI de uz general plus un instrument specializat potrivit nevoii principale a elevului, adăugând altele abia după ce rutina funcționează." },
+        { "id": "b", "text": "Setul complet de instrumente relevante deodată, pentru ca elevul să îl poată alege pe cel care i se potrivește." },
+        { "id": "c", "text": "Doar instrumente specializate, deoarece AI de uz general este prea larg pentru munca de accesibilitate." },
+        { "id": "d", "text": "Niciun instrument până când școala nu cumpără abonamente plătite pentru întregul set." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția avertizează că adăugarea prea multor instrumente simultan creează propria sa formă de suprasolicitare cognitivă, atât pentru profesor, cât și pentru elev, și recomandă să se înceapă simplu și să se stabilească rutine înainte de a adăuga altceva."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce descrieri corespund cu ceea ce spune lecția că fac de fapt aceste instrumente specializate?",
+      "options": [
+        { "id": "a", "text": "Goblin Tools împarte o sarcină complexă într-o listă de verificare pas cu pas, fără a necesita abilități de formulare." },
+        { "id": "b", "text": "ARASAAC oferă o bibliotecă gratuită și deschisă de pictograme și simboluri pentru sprijinul comunicării." },
+        { "id": "c", "text": "Microsoft Immersive Reader citește textul cu voce tare cu evidențierea cuvânt-cu-cuvânt și poate împărți cuvintele în silabe." },
+        { "id": "d", "text": "Otter.ai convertește pictogramele în instrucțiuni vorbite pentru elevii cu dificultăți de citire." },
+        { "id": "e", "text": "Choiceworks traduce fișele în limba maternă a elevului." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Descompunerea sarcinilor, o bibliotecă de pictograme și sprijinul pentru citire sunt scopurile declarate ale acestor trei instrumente. Otter.ai este un instrument de transcriere, iar Choiceworks este un instrument de sprijin vizual pentru rutine zilnice, tranziții și alegeri, nu un instrument de traducere."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "text": "Odată ce un profesor a confirmat că un instrument de accesibilitate este gratuit și funcționează bine, acesta poate fi considerat o parte stabilă a practicii, fără a mai fi nevoie să fie verificat din nou.",
+      "correct": ["false"],
+      "explanation": "Lecția avertizează că peisajul instrumentelor se schimbă rapid — un instrument care este gratuit astăzi poate necesita mâine un abonament — așa că profesorii ar trebui să verifice periodic dacă instrumentele pe care le recomandă sunt încă disponibile, accesibile ca preț și funcționează conform așteptărilor."
+    }
+  ]
+}

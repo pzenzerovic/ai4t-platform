@@ -1,0 +1,52 @@
+{
+  "slug": "cognitive-accessibility",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "Adaptarea textului prin AI este utilă pentru orice elev care găsește un anumit text prea dens în acel moment, nu doar pentru elevii cu un diagnostic formal.",
+      "correct": ["true"],
+      "explanation": "Lecția subliniază că adaptarea beneficiază o gamă mult mai largă de elevi decât cei cu dificultăți diagnosticate și că normalizarea ei reduce stigmatul asociat cu nevoia de materiale adaptate."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "De ce o cerere precum „Fă asta mai simplu” tinde să producă rezultate dezamăgitoare?",
+      "options": [
+        { "id": "a", "text": "O cerere vagă produce rezultate imprevizibile, în timp ce o formulă care numește publicul, formatul și ce trebuie păstrat produce rezultate consistente." },
+        { "id": "b", "text": "Modelele de limbaj nu pot simplifica deloc textul; îl pot doar scurta." },
+        { "id": "c", "text": "Simplificarea funcționează doar după ce textul a fost convertit mai întâi într-un tabel sau într-o listă numerotată." },
+        { "id": "d", "text": "Modelul reduce întotdeauna textul la cel mai scăzut nivel de citire posibil, dacă nu este precizat un an de studiu." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția afirmă că eficacitatea adaptării cognitive depinde în mare măsură de specificitatea formulei și oferă exemple precum cererea de propoziții scurte, vocabular cotidian și exemple concrete pentru un cititor precizat."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce asocieri între nevoia de învățare și adaptarea AI descrie lecția?",
+      "options": [
+        { "id": "a", "text": "Pentru elevii cu dislexie — propoziții mai scurte, paragrafe mai clar delimitate și vocabular mai simplu, opțional alături de același text citit cu voce tare" },
+        { "id": "b", "text": "Pentru elevii cu ADHD — conținut împărțit în secțiuni mici cu etichete și sarcini structurate în pași secvențiali cu puncte de verificare" },
+        { "id": "c", "text": "Pentru elevii din spectrul autist — transformarea informațiilor implicite în informații explicite și restructurarea conținutului într-un format predictibil și sistematic" },
+        { "id": "d", "text": "Pentru elevii care procesează informațiile mai lent — creșterea volumului de text, astfel încât fiecare idee să fie repetată de mai multe ori" },
+        { "id": "e", "text": "Pentru elevii cu discalculie — eliminarea întregului conținut numeric și înlocuirea lui cu text descriptiv" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lecția asociază fiecare tip de dificultate de procesare cu o adaptare diferită. Pentru elevii care lucrează mai lent recomandă reducerea volumului de text, păstrând conținutul esențial — de exemplu, condensarea unui capitol de zece pagini într-un rezumat de două pagini."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "De ce insistă lecția ca profesorul să verifice materialul adaptat de AI, în loc să lase procesul complet în seama elevului?",
+      "options": [
+        { "id": "a", "text": "Instrumentul simplifică atât cât i se cere și nu poate judeca dacă rezultatul îndeplinește în continuare standardul curricular." },
+        { "id": "b", "text": "Instrumentul refuză să păstreze vocabularul tehnic, așa că termenii specializați trebuie întotdeauna adăugați manual la loc." },
+        { "id": "c", "text": "Simplificarea unui text elimină întotdeauna obiectivul de învățare, pe care profesorul trebuie apoi să îl restabilească." },
+        { "id": "d", "text": "Instrumentul poate adapta doar texte de limbă și literatură, așa că celelalte materii trebuie adaptate manual." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția pune în contrast o simplificare adecvată, care păstrează intacte conceptele științifice, cu una care elimină terminologia esențială. Instrumentul nu poate face diferența, așa că profesorul definește limitele și verifică rezultatul."
+    }
+  ]
+}

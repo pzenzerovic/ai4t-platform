@@ -1,0 +1,51 @@
+{
+  "slug": "layers-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Ce deosebește Stratul 5 (Agenții) de Straturile 1-4?",
+      "options": [
+        { "id": "a", "text": "Agenții lucrează doar cu imagini și audio." },
+        { "id": "b", "text": "Definiți scopul, iar agentul planifică și execută pașii necesari pentru a-l atinge." },
+        { "id": "c", "text": "Agenții funcționează fără nicio conexiune la internet." },
+        { "id": "d", "text": "Agenții sunt singurul strat disponibil astăzi pe scară largă profesorilor." }
+      ],
+      "correct": ["b"],
+      "explanation": "În Straturile 1-4 profesorul este șoferul și dă o instrucțiune după alta. Cu agenții, definiți destinația, iar AI planifică singur ruta."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Cadrul cu șase straturi din această lecție este o clasificare tehnică oficială a sistemelor AI.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă explicit că aceasta nu este o clasificare tehnică oficială, ci un cadru didactic — o hartă mentală a ceea ce poate și ce nu poate face AI."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Conform hărții straturilor, ce straturi sunt descrise ca fiind deja disponibile pe scară largă?",
+      "options": [
+        { "id": "a", "text": "Stratul 1 — chatbot de bază" },
+        { "id": "b", "text": "Stratul 2 — modele multimodale" },
+        { "id": "c", "text": "Stratul 4 — AI care folosește computere" },
+        { "id": "d", "text": "Stratul 6 — sisteme de agenți" }
+      ],
+      "correct": ["a", "b"],
+      "explanation": "Harta straturilor marchează Straturile 1 și 2 ca fiind disponibile pe scară largă, în timp ce AI care folosește computere și agenții sunt enumerați ca fiind în curs de apariție, iar sistemele de agenți ca fiind în dezvoltare timpurie."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce spune lecția că se întâmplă cu rolul profesorului pe măsură ce AI devine mai capabil?",
+      "options": [
+        { "id": "a", "text": "Devine mai puțin important, deoarece AI preia o parte mai mare din muncă." },
+        { "id": "b", "text": "Devine mai important — stabilirea scopurilor, furnizarea contextului, supravegherea și judecata." },
+        { "id": "c", "text": "Rămâne exact același la fiecare strat." },
+        { "id": "d", "text": "Se mută în întregime spre întreținerea tehnică a instrumentelor." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția susține că rolul profesorului devine mai central, nu mai puțin: pe măsură ce AI câștigă autonomie, calitatea scopului pe care îl stabiliți și revizuirea pe care o faceți rezultatului contează enorm."
+    }
+  ]
+}

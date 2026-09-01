@@ -1,0 +1,52 @@
+{
+  "slug": "brief-history-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Cine a pus în 1950 întrebarea „Pot mașinile să gândească?”, punând bazele domeniului AI?",
+      "options": [
+        { "id": "a", "text": "Alan Turing" },
+        { "id": "b", "text": "Herbert Simon" },
+        { "id": "c", "text": "Garry Kasparov" },
+        { "id": "d", "text": "Echipa care a construit ELIZA la MIT" }
+      ],
+      "correct": ["a"],
+      "explanation": "Povestea începe în 1950 cu matematicianul Alan Turing, a cărui întrebare filosofică a dat cercetătorilor o direcție care avea să ducă decenii de muncă."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Lecția descrie progresul AI din ultimii șaptezeci de ani ca fiind constant și liniar.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă contrariul: progresul nu a fost niciodată liniar, ci s-a mișcat în valuri de entuziasm și dezamăgire, incluzând două perioade cunoscute ca iernile AI."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Care dintre aceste afirmații corespund liniei de timp prezentate în lecție?",
+      "options": [
+        { "id": "a", "text": "Deep Blue al IBM l-a înfrânt pe campionul mondial de șah Garry Kasparov în 1997." },
+        { "id": "b", "text": "ELIZA a fost creată la MIT în 1966 și imita un psihoterapeut." },
+        { "id": "c", "text": "Arhitectura Transformer a fost inventată în 2017." },
+        { "id": "d", "text": "ChatGPT a fost lansat publicului în 2016." },
+        { "id": "e", "text": "Prima iarnă AI a venit deoarece sistemele simbolice deveniseră prea precise pentru a mai fi finanțate." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Deep Blue (1997), ELIZA (1966) și Transformer (2017) apar toate în linia de timp; ChatGPT a fost lansat în noiembrie 2022, iar prima iarnă a venit deoarece primele sisteme nu au reușit să se extindă dincolo de probleme de jucărie."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Conform lecției, ce face din ultimii ani un punct de cotitură autentic pentru educație?",
+      "options": [
+        { "id": "a", "text": "AI a trecut în sfârșit Testul Turing în condiții de laborator." },
+        { "id": "b", "text": "AI a devenit accesibil — profesorii îl pot folosi pur și simplu tastând o întrebare în limbaj natural." },
+        { "id": "c", "text": "Guvernele au făcut obligatorie formarea profesorilor în domeniul AI." },
+        { "id": "d", "text": "AI a devenit suficient de ieftin încât școlile să îl ruleze pe propriile servere." }
+      ],
+      "correct": ["b"],
+      "explanation": "Ideea cheie a lecției este că revoluția reală nu constă doar în faptul că AI a devenit mai bun, ci în faptul că a devenit accesibil — utilizabil fără cunoștințe de programare, ceea ce l-a transformat dintr-un concept abstract într-un instrument cotidian."
+    }
+  ]
+}

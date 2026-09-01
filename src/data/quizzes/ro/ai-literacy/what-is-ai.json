@@ -1,0 +1,52 @@
+{
+  "slug": "what-is-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Care este relația dintre un chatbot și un model de limbaj de mari dimensiuni?",
+      "options": [
+        { "id": "a", "text": "Chatbotul este AI-ul în sine, iar modelul de limbaj este doar site-ul web care îl găzduiește." },
+        { "id": "b", "text": "Chatbotul este o interfață de utilizator; modelul de limbaj de mari dimensiuni din spatele lui este sistemul AI real care procesează și generează text." },
+        { "id": "c", "text": "Sunt două denumiri pentru exact același lucru." },
+        { "id": "d", "text": "Chatbotul antrenează puțin mai mult modelul de limbaj de fiecare dată când îi trimiteți un mesaj." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția compară chatbotul cu un telefon — dispozitivul pe care îl folosiți pentru a comunica — în timp ce modelul de limbaj de mari dimensiuni este sistemul de la celălalt capăt care procesează intrarea dumneavoastră și generează răspunsul."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Conform lecției, care dintre acestea sunt lucruri pe care AI nu le poate face?",
+      "options": [
+        { "id": "a", "text": "Să înțeleagă cu adevărat sensul sau contextul așa cum o fac oamenii" },
+        { "id": "b", "text": "Să genereze text care sună uman în zeci de limbi" },
+        { "id": "c", "text": "Să simtă emoții sau să aibă opinii autentice" },
+        { "id": "d", "text": "Să garanteze acuratețea rezultatului său" },
+        { "id": "e", "text": "Să traducă între limbi în timp real" }
+      ],
+      "correct": ["a", "c", "d"],
+      "explanation": "Generarea de text și traducerea sunt enumerate printre capacitățile reale ale AI, în timp ce înțelegerea autentică, emoția autentică și acuratețea garantată sunt numite lucruri pe care AI nu le poate oferi."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Toate instrumentele AI pe care profesorii le folosesc astăzi sunt AI specializat — puternic în sarcini specifice, dar incapabil să generalizeze așa cum o fac oamenii.",
+      "correct": ["true"],
+      "explanation": "Lecția afirmă că toate instrumentele AI actuale sunt AI specializat și că Inteligența Artificială Generală — care ar putea îndeplini orice sarcină intelectuală pe care o poate face un om — nu există încă."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "De ce este greșit mitul „AI știe totul”?",
+      "options": [
+        { "id": "a", "text": "Modelele AI sunt antrenate pe date până la o anumită dată-limită și generează tipare plauzibile în loc să știe fapte." },
+        { "id": "b", "text": "AI ascunde în mod deliberat informațiile pe care dezvoltatorii săi le consideră sensibile." },
+        { "id": "c", "text": "AI poate răspunde doar la întrebările care apar cuvânt cu cuvânt undeva în datele sale de antrenament." },
+        { "id": "d", "text": "AI stochează doar subiectele pe care dezvoltatorii săi le-au selectat manual pentru el." }
+      ],
+      "correct": ["a"],
+      "explanation": "Modelele învață tipare statistice din date până la o dată-limită de antrenament, ceea ce explică exact de ce pot prezenta o citare fabricată sau o dată greșită cu deplină încredere."
+    }
+  ]
+}

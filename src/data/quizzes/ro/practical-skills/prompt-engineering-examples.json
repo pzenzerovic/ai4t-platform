@@ -1,0 +1,52 @@
+{
+  "slug": "prompt-engineering-examples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "În toate exemplele prezentate, ce tipare identifică lecția drept producând în mod constant un output mai bun?",
+      "options": [
+        { "id": "a", "text": "Fiecare formulă eficientă începe cu un rol clar și cu un public definit." },
+        { "id": "b", "text": "Constrângerile specifice de format, lungime și structură produc rezultate mai bune decât cererile deschise." },
+        { "id": "c", "text": "Formulele eficiente anticipează ce trebuie să conțină produsul final — chei de răspunsuri, câmpuri pentru numele elevilor, tabele de referință, liste de verificare — și cer acele elemente de la bun început." },
+        { "id": "d", "text": "Designul pedagogic este cel mai bine delegat AI, care a văzut mai multe materiale didactice decât ar putea vedea un singur profesor." },
+        { "id": "e", "text": "Formulele din exemple sunt șabloane fixe și funcționează cel mai bine când sunt reutilizate cuvânt cu cuvânt." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Secțiunea finală numește rolul și publicul, constrângerile explicite și anticiparea cerințelor produsului final drept tiparele recurente. Ea insistă totodată că designul pedagogic vine de la profesor și că exemplele sunt puncte de plecare care se adaptează, nu șabloane rigide."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "În exemplul de literatură, profesorul cere o fișă cu ghidare structurală, exemple model contrastante și o listă de autoevaluare, nu eseul în sine. Ce concluzie mai largă trage lecția din aceasta?",
+      "options": [
+        { "id": "a", "text": "Generarea de materiale de schelet, care îi ajută pe elevi să producă singuri o muncă mai bună, are adesea un impact pedagogic mai mare decât generarea de produse finite." },
+        { "id": "b", "text": "Literatura este singura materie în care AI nu ar trebui pus să scrie textul final." },
+        { "id": "c", "text": "Eseurile analitice sunt prea lungi pentru ca instrumentele AI actuale să le poată produce în mod fiabil." },
+        { "id": "d", "text": "Elevii ar trebui să lucreze cu o listă de verificare generată de AI deschisă în fața lor în timpul lecției." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția evidențiază acest exemplu pentru a formula o afirmație generală: formulele care cer rubrici, liste de verificare, exemple model și ghidare structurată au adesea un impact educațional mai mare decât formulele care cer conținut finit, orientat spre elevi."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Când generați exerciții matematice, merită să specificați operația, domeniul numerelor și orice cerințe metodologice, deoarece altfel modelele AI tind să se grupeze în jurul anumitor combinații de numere și produc un set dezechilibrat.",
+      "correct": ["true"],
+      "explanation": "Exact acesta este sfatul atașat exemplului de adunare pentru clasa 1: fără astfel de constrângeri, outputul nu este echilibrat pedagogic, motiv pentru care formula cere și ca fiecare cifră să apară cel puțin o dată în set."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "De ce consideră lecția că formula pentru engleză la clasa a 6-a este una deosebit de eficientă?",
+      "options": [
+        { "id": "a", "text": "Urmează o secvență pedagogică coerentă, trecând de la exerciții receptive prin producție ghidată la scriere liberă." },
+        { "id": "b", "text": "Este cea mai scurtă și cea mai puțin prescriptivă dintre formulele prezentate." },
+        { "id": "c", "text": "Cere o cheie de răspunsuri pentru fiecare exercițiu, inclusiv pentru sarcina de scriere liberă." },
+        { "id": "d", "text": "Lasă alegerea timpului verbal în seama AI, pentru ca outputul să fie mai puțin previzibil." }
+      ],
+      "correct": ["a"],
+      "explanation": "Formula oglindește modul în care un profesor de limbă construiește o lecție în jurul unui text — Adevărat/Fals și completare, apoi formarea de întrebări, apoi elevii scriu despre propria rutină. Ea solicită în mod deliberat chei de răspunsuri doar pentru exercițiile obiective, deoarece scrierea deschisă nu poate fi redusă la un singur răspuns corect."
+    }
+  ]
+}

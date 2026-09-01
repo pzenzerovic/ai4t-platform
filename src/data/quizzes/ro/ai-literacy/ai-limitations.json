@@ -1,0 +1,53 @@
+{
+  "slug": "ai-limitations",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "De ce apar halucinațiile?",
+      "options": [
+        { "id": "a", "text": "Modelul verifică dacă rezultatul său este statistic plauzibil, nu dacă este adevărat." },
+        { "id": "b", "text": "Modelul rămâne fără memorie și inventează text de umplutură." },
+        { "id": "c", "text": "Utilizatorii scriu formule prea scurte." },
+        { "id": "d", "text": "Un bug în software-ul de antrenament, pe care furnizorii sunt aproape să îl remedieze." }
+      ],
+      "correct": ["a"],
+      "explanation": "Modelul prezice ce text este probabil să urmeze, în loc să verifice faptele, așa că un tipar care arată corect — de exemplu o citare care sună plauzibil — va fi produs indiferent dacă corespunde realității."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Halucinațiile sunt un bug temporar care va fi eliminat în următoarea generație de modele.",
+      "correct": ["false"],
+      "explanation": "Lecția numește halucinațiile o consecință fundamentală a modului în care funcționează modelele de limbaj: atât timp cât textul este generat prin predicție statistică, nu prin verificare factuală, ele rămân o posibilitate."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce sarcini enumeră lecția drept puncte forte reale ale AI?",
+      "options": [
+        { "id": "a", "text": "Generarea primelor ciorne de planuri de lecție, fișe sau emailuri" },
+        { "id": "b", "text": "Brainstormingul și generarea rapidă a multor idei" },
+        { "id": "c", "text": "Garantarea faptului că citările sunt corecte" },
+        { "id": "d", "text": "Explicarea unui concept în moduri diferite și la niveluri diferite" },
+        { "id": "e", "text": "Reformatarea și restructurarea conținutului existent" },
+        { "id": "f", "text": "Raționamentul matematic în mai mulți pași" }
+      ],
+      "correct": ["a", "b", "d", "e"],
+      "explanation": "Primele ciorne, brainstormingul, explicațiile alternative, reformatarea și traducerea sunt numite puncte forte, în timp ce citările specifice și calculele în mai mulți pași sunt enumerate printre lucrurile cu care AI se confruntă în mod constant."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce sfat practic dă lecția pentru sarcinile complexe, în mai mulți pași?",
+      "options": [
+        { "id": "a", "text": "Furnizați toate informațiile critice într-un singur mesaj bine organizat." },
+        { "id": "b", "text": "Răspândiți informația în cât mai multe mesaje scurte." },
+        { "id": "c", "text": "Puneți aceeași întrebare de mai multe ori și faceți media răspunsurilor." },
+        { "id": "d", "text": "Cereți modelului să memoreze sarcina permanent." }
+      ],
+      "correct": ["a"],
+      "explanation": "Deoarece fereastra de context este limitată, informațiile critice ar trebui furnizate de la început, în loc să vă bazați pe model că își va aminti detalii din mesaje de mult mai devreme."
+    }
+  ]
+}

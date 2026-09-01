@@ -1,0 +1,52 @@
+{
+  "slug": "multimodal-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Ce înseamnă „multimodal” când descrie un sistem AI?",
+      "options": [
+        { "id": "a", "text": "AI poate fi folosit de mai multe persoane în același timp." },
+        { "id": "b", "text": "AI lucrează cu mai multe tipuri de date — text, imagini, audio și video." },
+        { "id": "c", "text": "AI poate fi comutat între personalități diferite." },
+        { "id": "d", "text": "AI rulează pe mai multe computere simultan." }
+      ],
+      "correct": ["b"],
+      "explanation": "„Multimodal” înseamnă pur și simplu mai multe moduri de informare — la fel cum un profesor combină un desen pe tablă, o explicație verbală și o activitate practică într-o singură lecție."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Deoarece AI multimodal poate vedea cu adevărat o imagine, analiza sa vizuală nu trebuie verificată.",
+      "correct": ["false"],
+      "explanation": "Se aplică aceeași precauție ca în cazul textului: modelul recunoaște tipare, nu înțeles, și poate identifica greșit obiecte, citi greșit scrisul de mână sau interpreta greșit contextul — așa că analiza vizuală ar trebui verificată întotdeauna, mai ales în contexte de evaluare."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce limitări ale AI multimodal enumeră lecția?",
+      "options": [
+        { "id": "a", "text": "Acuratețea nu este garantată — poate identifica greșit obiecte sau poate genera imagini cu erori." },
+        { "id": "b", "text": "Biasul din datele de antrenament poate produce reprezentări stereotipice ale oamenilor sau profesiilor." },
+        { "id": "c", "text": "Nu poate procesa deloc text scris." },
+        { "id": "d", "text": "Întrebările privind drepturile de autor și atribuirea imaginilor generate rămân nerezolvate." },
+        { "id": "e", "text": "Încărcarea fotografiilor cu elevi ridică preocupări de confidențialitate." }
+      ],
+      "correct": ["a", "b", "d", "e"],
+      "explanation": "Acuratețea, biasul, drepturile de autor, valoarea de neînlocuit a observației reale și confidențialitatea sunt numite toate limitări; lucrul cu textul rămâne o capacitate de bază, nu o limitare."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce funcție multimodală sugerează lecția să încercați mai întâi?",
+      "options": [
+        { "id": "a", "text": "Generarea unui videoclip complet pentru o lecție." },
+        { "id": "b", "text": "Compunerea muzicii de fundal cu AI." },
+        { "id": "c", "text": "Încărcarea unei singure imagini și punerea unei întrebări despre aceasta." },
+        { "id": "d", "text": "Construirea unui asistent de clasă controlat prin voce." }
+      ],
+      "correct": ["c"],
+      "explanation": "Lecția recomandă să începeți simplu: încărcarea unei singure imagini și punerea unei întrebări despre aceasta relevă atât puterea, cât și limitele AI multimodal, într-un mod imediat util."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "ai-and-accessibility-overview",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Care este, potrivit lecției, contribuția distinctivă pe care AI o aduce accesibilității în clasă?",
+      "options": [
+        { "id": "a", "text": "Elimină nevoia de asistenți didactici, echipamente specializate și personal de sprijin profesional." },
+        { "id": "b", "text": "Adaptează conținutul în momentul în care apare o barieră, fără a necesita echipamente specializate sau pregătire prealabilă." },
+        { "id": "c", "text": "Face inutilă pregătirea prealabilă a materialelor adaptate." },
+        { "id": "d", "text": "Garantează că materialele adaptate sunt corecte, astfel încât profesorul nu mai trebuie să le verifice." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția descrie AI ca un pod între momentul în care apare o barieră și momentul în care ajunge ajutorul profesional. Valoarea sa distinctivă este adaptarea în timp real, care completează, dar nu înlocuiește sprijinul existent și planificarea prealabilă."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Pe care dintre următoarele le plasează lecția dincolo de capacitățile AI într-un context de accesibilitate?",
+      "options": [
+        { "id": "a", "text": "Evaluarea nevoilor individuale ale unui elev" },
+        { "id": "b", "text": "Producerea unei versiuni simplificate a unui text complex în câteva secunde" },
+        { "id": "c", "text": "Judecarea faptului dacă un anumit nivel de adaptare este pedagogic adecvat" },
+        { "id": "d", "text": "Oferirea sprijinului emoțional și a conexiunii umane de care un elev are nevoie" },
+        { "id": "e", "text": "Transcrierea în text a explicației vorbite a profesorului" }
+      ],
+      "correct": ["a", "c", "d"],
+      "explanation": "Simplificarea textului și transcrierea vorbirii sunt menționate printre capacitățile practice ale AI, în timp ce evaluarea nevoilor, judecarea adecvării pedagogice și oferirea sprijinului uman sunt enumerate printre lucrurile pe care AI nu le poate face."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Utilizarea AI pentru accesibilitate le cere profesorilor să stăpânească mai întâi platforme specializate de tehnologie asistivă.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă că majoritatea instrumentelor descrise funcționează prin aceleași platforme AI de uz general pe care profesorii le pot folosi deja în alte scopuri. Diferența constă în modul în care le sunt formulate cererile și în ceea ce li se cere să facă."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Lecția descrie trei funcții pe care profesorul le îndeplinește în accesibilitatea sprijinită de AI. Care dintre ele este rolul de controlor al calității?",
+      "options": [
+        { "id": "a", "text": "Verificarea conținutului adaptat de AI înainte ca acesta să ajungă la elev sau învățarea elevului să îl verifice critic." },
+        { "id": "b", "text": "Decizia privind momentele în care asistența AI este adecvată și cele în care nu este." },
+        { "id": "c", "text": "Integrarea instrumentelor AI de accesibilitate în cadrul pedagogic mai larg și în curriculumul standard." },
+        { "id": "d", "text": "Înregistrarea elevilor din școală care folosesc cel mai mult adaptările AI." }
+      ],
+      "correct": ["a"],
+      "explanation": "Decizia privind momentul în care AI este adecvat aparține funcției de gardian, iar integrarea instrumentelor în curriculum aparține funcției de designer al învățării. Controlorul calității verifică rezultatul, deoarece o simplificare care pierde semnificația esențială este o distorsiune, nu o adaptare."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "from-answers-to-learning",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Doi elevi folosesc același chatbot pentru a lucra la aceeași problemă cu fracții. Ce îl deosebește pe cel care învață de cel care nu învață?",
+      "options": [
+        { "id": "a", "text": "Unul dintre ei folosește o versiune plătită, mai performantă, a instrumentului." },
+        { "id": "b", "text": "Unul cere soluția și o copiază; celălalt cere instrumentului să nu îi dea răspunsul, ci să îl ghideze prin proces cu întrebări." },
+        { "id": "c", "text": "Unul lucrează singur, în timp ce celălalt lucrează alături de un coleg." },
+        { "id": "d", "text": "Unul verifică ulterior în manual răspunsul primit de la instrument." }
+      ],
+      "correct": ["b"],
+      "explanation": "În exemplul din lecție, primul elev tastează „Rezolvă 2/3 + 1/4” și copiază rezultatul, în timp ce al doilea cere să fie ghidat pas cu pas, fără să primească răspunsul. Tehnologia este identică; pedagogia nu."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Lupta cu o problemă, greșeala și încercarea din nou sunt obstacole în calea învățării, pe care un instrument bun ar trebui să le elimine ori de câte ori este posibil.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă contrariul: frustrarea, incertitudinea și încercarea-și-eroarea nu sunt obstacole în calea învățării — ele sunt învățarea, deoarece fiecare încercare construiește înțelegerea."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce practici recomandă lecția profesorilor care doresc ca AI să susțină învățarea, nu să o ocolească?",
+      "options": [
+        { "id": "a", "text": "Să îi învețe pe elevi să formuleze cereri pentru îndrumare și întrebări, nu pentru produse finite" },
+        { "id": "b", "text": "Să proiecteze sarcini care necesită ciorne, reflecții sau explicații ale raționamentului, astfel încât procesul să fie vizibil și valorizat" },
+        { "id": "c", "text": "Să le spună explicit elevilor ce capacitate urmărește să dezvolte o activitate, în loc să lase scopul neexprimat" },
+        { "id": "d", "text": "Să interzică AI în clasă până când elevii pot finaliza munca fără el" },
+        { "id": "e", "text": "Să evalueze doar produsul final, pentru ca elevii să se concentreze pe calitate" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lecția numește aceste trei practici concrete și respinge alternativele: schimbarea de paradigmă nu înseamnă interzicerea AI, iar evaluarea exclusivă a produsului final le dă elevilor tot stimulentul de a lăsa AI să îl producă."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Lecția identifică un mit: „Elevii învață citind răspunsuri corecte.” Ce afirmă ea în schimb?",
+      "options": [
+        { "id": "a", "text": "Primirea pasivă de informații corecte este una dintre cele mai puțin eficiente forme de învățare; înțelegerea este construită prin angajament activ." },
+        { "id": "b", "text": "Citirea răspunsurilor corecte funcționează, cu condiția ca elevul să citească fiecare răspuns de mai multe ori." },
+        { "id": "c", "text": "Citirea răspunsurilor corecte este eficientă la materiile factuale, dar nu și la cele analitice." },
+        { "id": "d", "text": "Citirea răspunsurilor corecte este eficientă atât timp cât răspunsurile vin de la un profesor, nu de la AI." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția numește primirea pasivă de informații corecte una dintre cele mai puțin eficiente forme de învățare și spune că înțelegerea se construiește prin întrebare, aplicare, greșeli și corectarea lor."
+    }
+  ]
+}

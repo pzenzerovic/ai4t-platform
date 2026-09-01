@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-hearing-impairments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "Ce ajustări ale propriei practici a profesorului fac, potrivit lecției, o diferență măsurabilă în precizia transcrierii?",
+      "options": [
+        { "id": "a", "text": "Vorbirea clară și cu un ritm moderat" },
+        { "id": "b", "text": "Înfruntarea clasei, mai degrabă decât a tablei, în timp ce vorbește" },
+        { "id": "c", "text": "Repetarea întrebărilor elevilor înainte de a răspunde" },
+        { "id": "d", "text": "Oprirea instrumentului de transcriere în timpul discuțiilor din clasă, deoarece mai mulți vorbitori îl derutează" },
+        { "id": "e", "text": "Lăsarea zgomotului de fond așa cum este, deoarece nu face nicio diferență măsurabilă pentru precizie" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Vorbirea clară, ritmul moderat, înfruntarea clasei și repetarea întrebărilor elevilor sunt ajustările pe care le numește lecția, alături de minimizarea zgomotului de fond. Pentru discuții, lecția le cere profesorilor să completeze transcrierea cu rezumate scrise, nu să renunțe la instrument."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Ce flux de lucru prezintă lecția drept cel mai eficient pentru un elev cu deficiențe de auz?",
+      "options": [
+        { "id": "a", "text": "Captarea lecției prin transcriere în timp real, apoi procesarea transcrierii cu un instrument AI după lecție." },
+        { "id": "b", "text": "Luarea de notițe de mână în timpul lecției, în paralel cu citirea buzelor, și folosirea AI doar când notițele se dovedesc incomplete." },
+        { "id": "c", "text": "Studiul direct din transcrierea brută, așa cum este, deoarece procesarea AI îi adaugă puțin." },
+        { "id": "d", "text": "Păstrarea înregistrării audio ca material principal de studiu și renunțarea la transcrierea scrisă." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția descrie o abordare în două etape care valorifică punctele forte ale fiecărei tehnologii: instrumentul de transcriere captează totul în timp real, iar instrumentul AI îl organizează, rezumă și adaptează după lecție. Aceasta îl scutește totodată pe elev de a lua notițe în timp ce încearcă simultan să audă și să citească pe buze."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "O modalitate practică de a echilibra accesibilitatea cu protecția datelor este ștergerea înregistrării audio după ce transcrierea a fost generată și păstrarea doar a textului.",
+      "correct": ["true"],
+      "explanation": "Lecția recomandă să se facă distincție între înregistrare și transcriere: înregistrarea audio poate trebui ștearsă după generarea transcrierii, în timp ce transcrierea, care nu conține date vocale, poate fi păstrată ca resursă de studiu."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "De ce recomandă lecția procesarea unei transcrieri brute cu un model de limbaj, în loc de studiul direct din ea?",
+      "options": [
+        { "id": "a", "text": "Limbajul vorbit este plin de false începuturi, repetări și digresiuni, care fac transcrierea brută lungă și dificil de studiat." },
+        { "id": "b", "text": "Instrumentul de transcriere înregistrează doar cuvinte cheie izolate, așa că propozițiile trebuie reconstruite de AI." },
+        { "id": "c", "text": "Procesarea printr-un model de limbaj elimină orice eroare de transcriere și garantează o înregistrare precisă." },
+        { "id": "d", "text": "Regulile de protecție a datelor interzic păstrarea unei transcrieri brute, așa că aceasta trebuie înlocuită cu un rezumat." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția numește transcrierea brută valoroasă, dar dezordonată, deoarece frazele informale ale vorbirii live formează un document scris de slabă calitate. Formulele direcționate o transformă în puncte cheie, notițe structurate, un glosar de termeni specializați sau o explicație simplificată."
+    }
+  ]
+}

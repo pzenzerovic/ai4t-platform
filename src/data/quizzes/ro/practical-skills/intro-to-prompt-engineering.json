@@ -1,0 +1,52 @@
+{
+  "slug": "intro-to-prompt-engineering",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "De ce descrie lecția ingineria formulelor ca pe o abilitate pedagogică, nu ca pe una tehnică?",
+      "options": [
+        { "id": "a", "text": "Deoarece se sprijină pe comunicarea clară și structurată pe care profesorii o folosesc deja când scriu cerințe pentru sarcini, obiective și criterii de evaluare." },
+        { "id": "b", "text": "Deoarece necesită cunoștințe de programare pe care profesorii le dobândesc în formarea inițială." },
+        { "id": "c", "text": "Deoarece instrumentele AI în discuție au fost proiectate special pentru școli." },
+        { "id": "d", "text": "Deoarece poate fi învățată doar prin încercare și eroare, cu o clasă de față." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția susține că scrierea unei formule bune este foarte aproape de scrierea unei cerințe clare pentru elevi — abilitatea de bază, comunicarea intenționată și structurată, este aceeași, iar singura schimbare este publicul: un model de limbaj în locul unei clase de elevi."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Nevoia de a rafina un răspuns AI prin instrucțiuni ulterioare este un semn că formula originală a fost prost scrisă.",
+      "correct": ["false"],
+      "explanation": "Lecția prezintă rafinarea iterativă ca modul normal în care funcționează procesul: prima formulă stabilește direcția, iar formulele ulterioare rafinează rezultatul. Se afirmă explicit că nevoia de revizuire nu este un semn că formula originală a fost proastă."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Care dintre afirmațiile despre tehnicile de formulare acoperite în această lecție sunt corecte?",
+      "options": [
+        { "id": "a", "text": "Atribuirea unui rol, de exemplu „Ești profesor de biologie la clasa a 7-a”, transmite publicul, nivelul de vocabular, tonul și abordarea pedagogică în câteva cuvinte." },
+        { "id": "b", "text": "Few-shot prompting înseamnă furnizarea unuia sau mai multor exemple de output dorit, pe care AI le folosește ca șablon." },
+        { "id": "c", "text": "Chain-of-thought prompting înseamnă a cere AI să își parcurgă raționamentul pas cu pas, ceea ce face și verificarea muncii sale mai ușoară." },
+        { "id": "d", "text": "Constrângerea sferei înseamnă păstrarea formulei în sine cât mai scurtă posibil." },
+        { "id": "e", "text": "Furnizarea de exemple este o tehnică ce funcționează doar pentru sarcinile de matematică." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Atribuirea rolului este prezentată ca o modalitate eficientă de a împacheta simultan mai multe straturi de context, few-shot prompting ca arătarea, nu descrierea outputului dorit, iar chain-of-thought prompting ca modalitate de a face raționamentul suficient de transparent pentru a putea fi verificat. Constrângerea sferei privește limitele outputului — lungime, număr de itemi, nivel de dificultate, domeniu de subiect — nu lungimea formulei."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Care este principalul beneficiu practic al declarării așteptărilor și criteriilor — format, structură, elemente necesare — chiar în formula originală?",
+      "options": [
+        { "id": "a", "text": "Elimină necesitatea unor cereri ulterioare complet evitabile, cum ar fi cererea, după aceea, a unei chei de răspunsuri sau a unui câmp pentru nume." },
+        { "id": "b", "text": "Face ca AI să genereze răspunsul vizibil mai repede." },
+        { "id": "c", "text": "Garantează că informațiile pe care le produce AI sunt corecte din punct de vedere factual." },
+        { "id": "d", "text": "Permite AI să aplice automat aceleași preferințe în conversațiile dumneavoastră viitoare." }
+      ],
+      "correct": ["a"],
+      "explanation": "Exemplul cu fișa din lecție arată că descrierea precisă a modului în care arată un rezultat bun elimină runda de cereri de tipul „Poți adăuga o cheie de răspunsuri?” — cu cât declarați mai precis așteptările, cu atât mai puțin va trebui să revizuiți ulterior."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "ai-as-a-tutor",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Cum intră un instrument AI în modul de tutoriat, în care ghidează cu întrebări în loc să furnizeze răspunsuri?",
+      "options": [
+        { "id": "a", "text": "Sistemele moderne recunosc singure că utilizatorul este elev și trec la explicație ghidată." },
+        { "id": "b", "text": "Trebuie solicitat explicit — printr-o funcție integrată sau, mai fiabil, printr-un prompt care cere îndrumare pas cu pas în locul răspunsului." },
+        { "id": "c", "text": "Numai instrumentele care oferă un produs educațional dedicat pot face acest lucru." },
+        { "id": "d", "text": "Apare după ce elevul a pus suficiente întrebări ulterioare în aceeași conversație." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția subliniază că instrumentele AI nu intră automat într-un mod de tutoriat. Funcțiile integrate precum modul Study and Learn al ChatGPT sau stilul Learning al Claude ajută, dar un prompt explicit care solicită învățare ghidată funcționează în toate instrumentele AI moderne."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Ce limitări ale tutoriatului AI numește lecția?",
+      "options": [
+        { "id": "a", "text": "Nu poate citi limbajul corpului și nu poate detecta frustrarea din tonul vocii elevului." },
+        { "id": "b", "text": "Nu poate distinge dacă un elev este anxios legat de un test sau pur și simplu are o zi proastă." },
+        { "id": "c", "text": "Poate oferi îndrumare incorectă, deoarece produce răspunsuri statistic adecvate, fără a înțelege cu adevărat materia." },
+        { "id": "d", "text": "Nu poate schimba dificultatea unei sarcini după ce conversația a început." },
+        { "id": "e", "text": "Poate explica un concept într-un singur mod, așa că un elev care nu înțelege prima explicație rămâne blocat." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lecția enumeră lipsa intuiției pedagogice, incapacitatea de a citi contextul emoțional și riscul de îndrumare incorectă ca limitări reale, în timp ce ajustarea dificultății în timp real și explicarea aceluiași concept în multe moduri diferite sunt numite puncte forte."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Când un elev face un pas greșit în timpul rezolvării ghidate de AI, în exemplul din lecție AI furnizează imediat pasul corect, pentru a nu se pierde timp.",
+      "correct": ["false"],
+      "explanation": "În exemplul rezolvat, elevul sugerează să împartă la 8 în loc de 2, iar AI nu corectează pur și simplu eroarea — face o pauză și întreabă ce operație inversează înmulțirea, lăsând gândirea în seama elevului."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "De ce recomandă lecția profesorilor să revizuiască periodic transcrierile sesiunilor de tutoriat elev-AI?",
+      "options": [
+        { "id": "a", "text": "Pentru a confirma că elevii nu au obținut răspunsuri finite la lucrările notate." },
+        { "id": "b", "text": "Deoarece transcrierile dezvăluie concepții greșite frecvente, dificultăți recurente și domenii în care îndrumarea AI a fost inadecvată, iar aceste informații se întorc apoi în instrucțiunea din clasă." },
+        { "id": "c", "text": "Pentru a construi o bibliotecă comună de formule pe care clasa să le poată refolosi." },
+        { "id": "d", "text": "Pentru a înregistra cât timp a lucrat fiecare elev cu instrumentul." }
+      ],
+      "correct": ["b"],
+      "explanation": "Monitorizarea și evaluarea este al treilea rol al profesorului din lecție: tiparele vizibile în transcrieri se întorc în predarea din clasă, creând un ciclu de îmbunătățire pe care nici AI, nici elevul nu l-ar putea realiza singuri."
+    }
+  ]
+}

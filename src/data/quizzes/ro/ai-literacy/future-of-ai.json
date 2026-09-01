@@ -1,0 +1,52 @@
+{
+  "slug": "future-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Cum distinge lecția între context și memorie?",
+      "options": [
+        { "id": "a", "text": "Contextul durează de-a lungul mai multor conversații, în timp ce memoria durează doar în cadrul uneia singure." },
+        { "id": "b", "text": "Contextul este informația pe care modelul o deține în timpul unei conversații; memoria reține informații între conversații și în timp." },
+        { "id": "c", "text": "Sunt două denumiri pentru aceeași funcție." },
+        { "id": "d", "text": "Memoria este disponibilă doar dezvoltatorilor, nu utilizatorilor obișnuiți." }
+      ],
+      "correct": ["b"],
+      "explanation": "Contextul funcționează ca o memorie de lucru în cadrul unei singure conversații și se pierde când aceasta se termină. Memoria face un pas mai departe și duce preferințele, stilul de lucru și obiectivele în interacțiunile viitoare."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Inteligența Artificială Generală există deja în cele mai avansate instrumente AI de astăzi.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă că AGI nu există încă, că tot ceea ce se folosește astăzi este AI îngust și că nu există consens despre când — sau dacă — va fi atins AGI."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce rezerve privind memoria AI enumeră lecția?",
+      "options": [
+        { "id": "a", "text": "Este selectivă — sistemul nu reține totul." },
+        { "id": "b", "text": "Este limitată tehnic în privința cantității care poate fi stocată și a duratei de stocare." },
+        { "id": "c", "text": "Este gestionabilă — puteți vizualiza, edita și șterge ceea ce reține AI despre dumneavoastră." },
+        { "id": "d", "text": "Odată stocată, o informație din memorie este permanentă și nu poate fi modificată de utilizator." },
+        { "id": "e", "text": "Poate greși — AI poate reține ceva incorect sau îl poate aplica în contextul greșit." }
+      ],
+      "correct": ["a", "b", "c", "e"],
+      "explanation": "Memoria este descrisă ca selectivă, limitată tehnic, gestionabilă și supusă erorii — iar faptul că o puteți vizualiza, edita și șterge este subliniat ca fiind important pentru confidențialitate."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Cum descrie lecția ASI (Superinteligența Artificială)?",
+      "options": [
+        { "id": "a", "text": "Un sistem deja în uz la unele universități." },
+        { "id": "b", "text": "Un sistem ipotetic care ar depăși semnificativ inteligența umană, aparținând discuției teoretice." },
+        { "id": "c", "text": "O altă denumire pentru un model multimodal." },
+        { "id": "d", "text": "Următoarea versiune programată a ChatGPT." }
+      ],
+      "correct": ["b"],
+      "explanation": "ASI este prezentată ca un concept speculativ — un AI mai inteligent decât orice om în orice domeniu — fără relevanță pentru instrumentele pe care profesorii le vor folosi în viitorul previzibil."
+    }
+  ]
+}

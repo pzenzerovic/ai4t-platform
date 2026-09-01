@@ -1,0 +1,52 @@
+{
+  "slug": "magicschool-for-teachers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "Deoarece platforma are certificări solide de conformitate și o evaluare ridicată de confidențialitate, profesorii pot introduce nume reale și detalii reale ale elevilor atunci când generează materiale.",
+      "correct": ["false"],
+      "explanation": "Protecțiile sunt reale, dar lecția păstrează neschimbată practica standard: folosiți placeholder-e precum „Elevul A\" sau nume fictive, în loc de nume reale, diagnostice specifice sau informații sensibile despre familie."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Ce schimbă Raina, asistentul de chat încorporat, în privința revizuirii unei ciorne generate?",
+      "options": [
+        { "id": "a", "text": "Puteți cere o modificare specifică la o singură parte a outputului, în loc să regenerați totul." },
+        { "id": "b", "text": "Aplică automat fiecărui output brandul și ghidul de stil al școlii dumneavoastră." },
+        { "id": "c", "text": "Înlocuiește formularele ghidate, astfel încât fiecare sarcină începe apoi de la o casetă de chat goală." },
+        { "id": "d", "text": "Stochează răspunsurile dumneavoastră anterioare, astfel încât un formular nu trebuie completat niciodată de două ori." }
+      ],
+      "correct": ["a"],
+      "explanation": "Raina transformă un generator cu o singură lovitură într-o conversație iterativă — în exemplul prezentat, a adăugat o versiune mai simplă, tăiere-lipire, a unei activități, lăsând neatins restul planului de lecție."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Pe care dintre acestea arată lecția că platforma le face efectiv?",
+      "options": [
+        { "id": "a", "text": "Produce un plan de lecție care respectă constrângerile enunțate, precum echipamentul de laborator limitat și o perioadă de 45 de minute" },
+        { "id": "b", "text": "Generează întrebări de comprehensiune din transcrierea unui video, însoțite de chei de răspunsuri" },
+        { "id": "c", "text": "Produce conținut în alte limbi decât engleza, atunci când limba este specificată" },
+        { "id": "d", "text": "Înregistrează și transcrie automat lecțiile dumneavoastră de la clasă" },
+        { "id": "e", "text": "Verifică dacă faptele din outputul său sunt corecte înainte ca dumneavoastră să le vedeți" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Exemplele prezentate arată un plan de lecție diferențiat, care ține cont de constrângeri, și un quiz bazat pe un video, cu chei de răspunsuri, iar lecția notează că se poate genera conținut în croată, greacă sau română; verificarea acurateței este lăsată explicit în seama profesorului."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Lecția compară un asistent de uz general cu o bucătărie bine aprovizionată, iar această platformă cu o aplicație de rețete. Ce vrea să spună comparația?",
+      "options": [
+        { "id": "a", "text": "Platforma vă pune exact întrebările la care are nevoie de răspuns și structurează cererea în locul dumneavoastră, în timp ce, la un asistent de uz general, întreaga formulă rămâne în sarcina dumneavoastră." },
+        { "id": "b", "text": "Platforma scrie o proză mai bună decât un asistent de uz general la orice sarcină i-ați da." },
+        { "id": "c", "text": "Platforma este menită să înlocuiască complet asistenții de uz general în fluxul de lucru al unui profesor." },
+        { "id": "d", "text": "Platforma nu are nevoie de informații despre clasa dumneavoastră, deoarece instrumentele ei știu deja de ce au nevoie profesorii." }
+      ],
+      "correct": ["a"],
+      "explanation": "Un formular ghidat oferă structura cererii, astfel încât dumneavoastră contribuiți cu detaliile despre clasă în loc să compuneți o formulă de la zero; lecția spune explicit că ambele abordări au locul lor și că, cu cât puneți mai mult în câmpul „Additional Context\", cu atât outputul este mai bun."
+    }
+  ]
+}

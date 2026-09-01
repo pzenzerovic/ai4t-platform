@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { getQuiz } from '../../utils/quizLoader'
 
@@ -19,7 +20,9 @@ function sameSet(a, b) {
 // Click-only, no text input, and nothing is stored — reloading starts over.
 export default function Quiz({ categorySlug, lessonSlug }) {
   const { t } = useTranslation()
-  const quiz = getQuiz(categorySlug, lessonSlug)
+  // The quiz follows the language of the route, like the lesson text above it.
+  const { lang } = useParams()
+  const quiz = getQuiz(categorySlug, lessonSlug, lang || 'en')
   const [answers, setAnswers] = useState({})
   const [checked, setChecked] = useState(false)
 

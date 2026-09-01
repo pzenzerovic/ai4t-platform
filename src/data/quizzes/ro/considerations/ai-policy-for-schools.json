@@ -1,0 +1,52 @@
+{
+  "slug": "ai-policy-for-schools",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "Lecția evidențiază trei principii GDPR ca fiind deosebit de relevante când o școală ia în considerare instrumente AI. Care sunt acestea?",
+      "options": [
+        { "id": "a", "text": "Limitarea scopului — datele colectate pentru un scop nu pot fi folosite pentru un scop fără legătură fără o bază legală" },
+        { "id": "b", "text": "Minimizarea datelor — doar datele strict necesare pentru un scop dat ar trebui procesate" },
+        { "id": "c", "text": "Limitarea stocării — datele personale nu ar trebui păstrate mai mult decât este necesar" },
+        { "id": "d", "text": "Clasificarea riscului — fiecare sistem AI trebuie încadrat într-o categorie de risc înainte ca o școală să îl poată folosi" },
+        { "id": "e", "text": "Divulgarea continuă — părinții trebuie notificați de fiecare dată când un instrument AI este folosit într-o lecție" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Limitarea scopului, minimizarea datelor și limitarea stocării sunt cele trei principii pe care lecția le evidențiază. Clasificarea riscului ține de Actul UE privind AI, pe care lecția îl prezintă ca un al doilea strat, iar divulgarea este o componentă a politicii proprii a școlii, nu un principiu GDPR."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Un profesor vrea să folosească un asistent AI de uz general pentru a pregăti materiale diferențiate. Care este poziția implicită a lecției?",
+      "options": [
+        { "id": "a", "text": "Adecvat pentru munca de pregătire a profesorului folosind material anonimizat sau non-personal și neadecvat pentru procesarea datelor identificabile despre elevi." },
+        { "id": "b", "text": "Adecvat pentru orice scop școlar, deoarece profesorul, nu furnizorul, decide cum este folosit outputul." },
+        { "id": "c", "text": "Niciodată adecvat într-o școală, deoarece aceste instrumente sunt construite de companii din afara controlului școlii." },
+        { "id": "d", "text": "Adecvat și pentru datele identificabile despre elevi, cu condiția ca profesorul să șteargă conversația ulterior." }
+      ],
+      "correct": ["a"],
+      "explanation": "Poziția implicită a lecției este că asistenții AI de uz general servesc pregătirii de către profesor pe material anonimizat. Trimiterea de date identificabile despre elevi către un furnizor extern constituie un transfer către un procesator extern și necesită o bază legală, măsuri de siguranță adecvate și, în multe cazuri, un Acord de Procesare a Datelor semnat."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Deoarece școlile folosesc sisteme AI în loc să le construiască, obligațiile Actului UE privind AI pentru utilizările cu risc ridicat nu se aplică școlilor.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă că aceste obligații se aplică chiar și școlilor care nu dezvoltă ele însele sisteme AI, ci le folosesc în contexte clasificate ca risc ridicat, cum ar fi admiterile, notarea examenelor cu miză mare sau detectarea necinstei academice."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce recomandă lecția ca setare implicită pentru elevii de gimnaziu?",
+      "options": [
+        { "id": "a", "text": "Utilizarea supravegheată în cadrul lecțiilor specifice, cu obiective pedagogice clare și fără introducerea de date personale." },
+        { "id": "b", "text": "Utilizarea individuală structurată pentru pregătire, practică și reflecție metacognitivă." },
+        { "id": "c", "text": "Aceeași poziție ca pentru elevii din învățământul primar: nicio utilizare directă a instrumentelor de uz general." },
+        { "id": "d", "text": "Utilizarea individuală nerestricționată, cu condiția ca școala să fi aprobat instrumentul." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția calibrează utilizarea de către elevi la stadiul de dezvoltare — restricționată în învățământul primar, supravegheată în cadrul lecțiilor în gimnaziu, utilizare individuală structurată în liceu — și adaugă că utilizarea individuală directă în afara contextelor supravegheate nu este de obicei adecvată la nivel de gimnaziu."
+    }
+  ]
+}

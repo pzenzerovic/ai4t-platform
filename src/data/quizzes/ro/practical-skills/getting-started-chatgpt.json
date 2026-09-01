@@ -1,0 +1,52 @@
+{
+  "slug": "getting-started-chatgpt",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Când tastați o întrebare în ChatGPT, ce face de fapt instrumentul?",
+      "options": [
+        { "id": "a", "text": "Generează text nou în timp real, prezicând o secvență de cuvinte plauzibilă și relevantă." },
+        { "id": "b", "text": "Caută răspunsul într-o bază de date de răspunsuri verificate." },
+        { "id": "c", "text": "Extrage cele mai relevante pasaje din cărțile și articolele pe care a fost antrenat și le citează." },
+        { "id": "d", "text": "Consultă notițe pe care le-a salvat din conversațiile dumneavoastră anterioare." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția descrie ChatGPT ca generând text, nu ca și cum ar căuta într-o bază de date de răspunsuri, și exact acest lucru explică atât fluența sa, cât și capacitatea sa de a suna sigur pe sine în timp ce greșește."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Pe care dintre acestea le recomandă lecția drept fluxuri de lucru inițiale pentru un profesor care începe cu ChatGPT?",
+      "options": [
+        { "id": "a", "text": "Redactarea unei schițe de lecție în primă ciornă, pe care apoi o ajustați ca ritm, exemple și obiective." },
+        { "id": "b", "text": "Transformarea unui text scurt în mai multe versiuni, la niveluri de lectură diferite, pentru o clasă cu abilități mixte." },
+        { "id": "c", "text": "Rescrierea propriului material — o scrisoare către părinți sau un set de instrucțiuni pentru clasă — pentru claritate sau pentru un anumit public." },
+        { "id": "d", "text": "Lipirea listei clasei, pentru ca materialele să poată fi personalizate pentru fiecare elev, cu numele lui." },
+        { "id": "e", "text": "Cererea de a confirma care dintre informațiile dintr-un capitol de manual sunt corecte." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Schițele de lecție, versiunile diferențiate ale unui text și rescrierea propriului material se numără printre cele patru fluxuri de lucru inițiale pe care le propune lecția. Introducerea numelor elevilor este exclusă din motive de protecție a datelor, iar instrumentul nu poate fi folosit pentru verificarea faptelor, deoarece nu știe dacă propriul său output este corect."
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "text": "Ce recomandă lecția să faceți de fiecare dată când o formulă produce un rezultat cu adevărat util?",
+      "options": [
+        { "id": "a", "text": "Să o salvați, cu o scurtă descriere a momentului când a funcționat, astfel încât să devină parte dintr-o bibliotecă personală pe care o adaptați mai târziu." },
+        { "id": "b", "text": "Să o rulați de încă câteva ori, pentru a verifica dacă outputul rămâne stabil." },
+        { "id": "c", "text": "Să cereți ChatGPT să o rețină și să o aplice în conversațiile viitoare." },
+        { "id": "d", "text": "Să o publicați, pentru ca profesori din alte școli să o poată reutiliza direct." }
+      ],
+      "correct": ["a"],
+      "explanation": "Construirea unei biblioteci personale de formule este una dintre cele două alegeri deliberate pe care lecția le numește pentru a transforma o primă încercare în practică regulată: următoarea dată când aveți nevoie de un output similar, adaptați o formulă care a funcționat deja, în loc să porniți de la zero."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "text": "Tot ce este tastat în ChatGPT este trimis pe serverele OpenAI și poate fi folosit pentru a le îmbunătăți modelele, cu excepția cazului în care renunțați din setări, așa că materialele care ar identifica în mod normal un elev ar trebui anonimizate în prealabil.",
+      "correct": ["true"],
+      "explanation": "Lecția afirmă ambele lucruri direct și recomandă înlocuirea numelor cu „Elev A”, „Elev B” și eliminarea oricărui detaliu care ar putea identifica o persoană reală: tratați instrumentul ca pe un canal nesecurizat, deoarece tot ce tastați părăsește dispozitivul dumneavoastră."
+    }
+  ]
+}

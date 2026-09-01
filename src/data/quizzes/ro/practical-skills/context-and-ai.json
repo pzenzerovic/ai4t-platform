@@ -1,0 +1,52 @@
+{
+  "slug": "context-and-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "În termeni AI, la ce se referă „contextul”?",
+      "options": [
+        { "id": "a", "text": "Cunoașterea generală pe care modelul a absorbit-o despre materia dumneavoastră în timpul antrenamentului." },
+        { "id": "b", "text": "Setul complet de informații disponibile AI la momentul în care generează un răspuns, incluzând tot ceea ce a fost scris în conversația curentă." },
+        { "id": "c", "text": "Un set de preferințe pe care le configurați o singură dată în cont și pe care instrumentul le aplică de atunci înainte." },
+        { "id": "d", "text": "Profilul pe care AI l-a construit despre dumneavoastră din conversațiile anterioare." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția definește contextul ca tot ceea ce este disponibil modelului în momentul în care răspunde — întrebările dumneavoastră, instrucțiunile, detaliile pe care le-ați furnizat și propriile răspunsuri anterioare ale AI — și subliniază că acesta nu este același lucru cu cunoașterea generală dobândită în timpul antrenamentului."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Ce afirmații face lecția despre fereastra de context?",
+      "options": [
+        { "id": "a", "text": "Funcționează ca o memorie de lucru — mare în modelele moderne, dar nu nelimitată." },
+        { "id": "b", "text": "Într-o conversație foarte lungă, porțiunile mai vechi ale schimbului pot cădea în afara a ceea ce modelul poate procesa activ." },
+        { "id": "c", "text": "Când un instrument AI pare să uite o instrucțiune dată mai devreme, este vorba despre o defecțiune care ar trebui raportată furnizorului." },
+        { "id": "d", "text": "Cele mai multe sarcini educaționale — o fișă, un plan de lecție, un set de întrebări de evaluare — este puțin probabil să atingă această limită." },
+        { "id": "e", "text": "Limita este atinsă atât de repede încât fiecare sarcină ar trebui împărțită în mai multe conversații scurte." }
+      ],
+      "correct": ["a", "b", "d"],
+      "explanation": "Lecția descrie fereastra de context ca o memorie de lucru mare, dar finită, ale cărei conținuturi cele mai vechi ies din domeniul de procesare activă în conversațiile lungi, și notează că sarcinile obișnuite de la clasă rareori se apropie de acea limită. Uitarea aparentă este numită explicit o limitare tehnică, nu un bug."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Cu cât dați AI mai mult text, cu atât contextul este mai bun — așadar, lipirea unui întreg document curricular este preferabilă rezumării părții de care aveți nevoie.",
+      "correct": ["false"],
+      "explanation": "Lecția avertizează că mai mult text nu înseamnă automat un context mai bun: lipirea unui întreg document curricular când aveți nevoie doar de obiectivele unei singure lecții poate reduce calitatea outputului, deoarece modelul trebuie să determine care părți sunt relevante. Un context focalizat, de câteva propoziții, depășește adesea unul lung și nefocalizat."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Conform lecției, ce se întâmplă când un profesor furnizează puțin context specific sau deloc?",
+      "options": [
+        { "id": "a", "text": "AI generează implicit răspunsul cel mai statistic mediu, care rareori este ceea ce necesită o clasă anume." },
+        { "id": "b", "text": "AI pune întrebările clarificatoare pe care le-ar pune un coleg înainte de a începe." },
+        { "id": "c", "text": "AI refuză să răspundă până când detaliile lipsă îi sunt furnizate." },
+        { "id": "d", "text": "AI completează golurile cu ceea ce i-ați spus în conversațiile anterioare." }
+      ],
+      "correct": ["a"],
+      "explanation": "Contextul bogat ghidează predicțiile modelului spre tipul de rezultat de care aveți nevoie; fără acea ghidare, AI produce cel mai generic răspuns disponibil. Lecția subliniază și că, spre deosebire de un coleg din cancelarie, AI nu poate pune de la sine întrebările clarificatoare."
+    }
+  ]
+}

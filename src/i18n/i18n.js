@@ -18,11 +18,19 @@ i18n
       ro: { translation: ro },
     },
     fallbackLng: 'en',
+    supportedLngs: ['en', 'hr', 'el', 'ro'],
     interpolation: {
       escapeValue: false,
     },
     detection: {
-      order: ['localStorage', 'navigator'],
+      // The URL is the source of truth for language: every route is /<lang>/...,
+      // so the path is checked first. Without this, someone opening a shared
+      // /ro/ link for the first time got Romanian lesson text inside English
+      // navigation and footer — the detector had only their browser language and
+      // a stale cache to go on, and the language switch that Layout performs
+      // afterwards did not reach the already-rendered header and footer.
+      order: ['path', 'localStorage', 'navigator'],
+      lookupFromPathIndex: 0,
       caches: ['localStorage'],
     },
   })

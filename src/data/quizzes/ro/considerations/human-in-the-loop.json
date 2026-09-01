@@ -1,0 +1,52 @@
+{
+  "slug": "human-in-the-loop",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "Prinderea erorilor factuale ale AI este doar unul dintre cele trei argumente pe care lecția le oferă pentru supravegherea profesorului, iar fiecare dintre cele trei este tratat ca suficient în sine.",
+      "correct": ["true"],
+      "explanation": "Lecția prezintă trei argumente suficiente independent: AI face erori, AI nu are cunoaștere contextuală despre elevii individuali, iar educația depinde de o relație umană pe care AI o poate simula în conversație, dar nu o experimentează."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Elevii lucrează direct și independent cu un tutor AI în timpul unei lecții. Ce nivel de supraveghere tratează lecția ca fiind cel mai important în această situație?",
+      "options": [
+        { "id": "a", "text": "Monitorizarea în timp real — circulând în timpul activității sau revizuind ulterior transcrierile conversațiilor." },
+        { "id": "b", "text": "Revizuirea pre-utilizare, deoarece răspunsurile tutorului pot fi verificate înainte de începerea lecției." },
+        { "id": "c", "text": "Evaluarea post-utilizare în sine, deoarece orice problemă va apărea în rezultatele învățării." },
+        { "id": "d", "text": "Nicio supraveghere suplimentară, cu condiția ca școala să fi aprobat deja instrumentul." }
+      ],
+      "correct": ["a"],
+      "explanation": "Revizuirea pre-utilizare se aplică conținutului înainte ca elevii să îl vadă, iar evaluarea post-utilizare se aplică rezultatelor de după; lecția numește monitorizarea în timp real ca fiind cea mai importantă tocmai atunci când elevii interacționează cu AI direct și independent, în special elevii mai mici sau cei care sunt noi în utilizarea instrumentelor."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Pe care dintre acestea le numește lecția funcții ale profesorului care nu pot fi delegate AI?",
+      "options": [
+        { "id": "a", "text": "Sintonia emoțională — observarea frustrării, a confuziei sau a dezangajării, adesea înainte ca elevul să le numească" },
+        { "id": "b", "text": "Judecata etică despre riscuri precum prejudecata sau confidențialitatea datelor într-un context specific" },
+        { "id": "c", "text": "Integrarea curriculumului — a ști ce a venit înainte, ce urmează și de ce are nevoie acest grup" },
+        { "id": "d", "text": "Producerea unei prime ciorne a unei fișe sau a unui plan de lecție" },
+        { "id": "e", "text": "Generarea de întrebări de practică pe o temă" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Sintonia emoțională, judecata etică, integrarea curriculumului și responsabilitatea sunt cele patru funcții pe care lecția le descrie ca fiind unic umane. Redactarea materialelor și generarea itemilor de evaluare sunt exact sarcinile despre care lecția spune că AI le poate îndeplini, motiv pentru care revizuirea profesorului le urmează."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Cum răspunde lecția preocupării că supravegherea AI adaugă la o sarcină de lucru deja grea?",
+      "options": [
+        { "id": "a", "text": "Integrarea revizuirii în fluxurile de lucru existente și revizuirea unui eșantion de conversații elev-AI, în loc de citirea fiecăreia." },
+        { "id": "b", "text": "Revizuirea fiecărei interacțiuni AI, dar concentrată într-un interval de timp fix în fiecare săptămână." },
+        { "id": "c", "text": "Folosirea AI doar pentru tipurile de material care nu au nevoie de revizuire." },
+        { "id": "d", "text": "Punerea unui al doilea instrument AI să verifice outputul primului, astfel încât profesorul să revizuiască doar ceea ce este semnalat." }
+      ],
+      "correct": ["a"],
+      "explanation": "Verificarea unui quiz generat de AI face parte din pregătirea evaluării, nu este o sarcină suplimentară, iar abordarea prin eșantionare a lecției — citirea unei selecții de conversații elev-AI în fiecare săptămână — este prezentată ca suficient de temeinică pentru a prinde probleme și suficient de eficientă pentru a fi sustenabilă."
+    }
+  ]
+}

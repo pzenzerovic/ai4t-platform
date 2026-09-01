@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-visual-impairments",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Prin ce diferă analiza imaginilor bazată pe AI de recunoașterea optică a caracterelor, care există de decenii?",
+      "options": [
+        { "id": "a", "text": "Îndeplinesc aceeași sarcină, iar analiza imaginilor bazată pe AI este pur și simplu o versiune mai rapidă a acesteia." },
+        { "id": "b", "text": "OCR extrage text brut dintr-o imagine, în timp ce analiza imaginilor bazată pe AI poate și să descrie diagrame, să explice aspectul și să organizeze conținutul în notițe structurate." },
+        { "id": "c", "text": "OCR interpretează diagramele și le explică sensul, în timp ce analiza imaginilor bazată pe AI doar enumeră cuvintele pe care le detectează." },
+        { "id": "d", "text": "OCR poate citi fotografia unei table, în timp ce analiza imaginilor bazată pe AI funcționează doar pe fișiere create digital." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția descrie analiza imaginilor bazată pe AI ca înțelegere a conținutului, nu ca simplă recunoaștere de text: dintr-o singură fotografie poate citi textul, descrie diagrama și explica cum se raportează elementele unele la altele."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Interacțiunea vocală AI este în esență același lucru cu un instrument text-to-speech care citește conținutul cu voce tare.",
+      "correct": ["false"],
+      "explanation": "Lecția le consideră fundamental diferite. Text-to-speech convertește textul scris în audio, în timp ce interacțiunea vocală AI este o conversație în care elevul poate cere o explicație mai simplă, un exemplu sau o verificare a înțelegerii."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Care dintre afirmațiile despre limitele practice ale analizei imaginilor și ale interacțiunii vocale AI corespund celor spuse în lecție?",
+      "options": [
+        { "id": "a", "text": "O fotografie făcută de la distanță, în unghi sau în lumină slabă produce rezultate mai puțin precise." },
+        { "id": "b", "text": "Textul scris de mână și diagramele complexe pot fi interpretate greșit, așa că descrierile pot necesita corectare." },
+        { "id": "c", "text": "Școlile au nevoie de reguli clare privind fotografia în clasă, deoarece o fotografie a tablei poate surprinde și colegi." },
+        { "id": "d", "text": "Odată ce fotografia este clară, descrierea făcută de AI poate fi tratată ca o transcriere garantat precisă." },
+        { "id": "e", "text": "Răspunsurile vorbite ale AI nu deranjează într-o clasă comună, așa că nu sunt necesare căști." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Calitatea imaginii, citirea greșită a scrisului de mână și a diagramelor și confidențialitatea în clasă sunt limitările pe care le numește lecția. Aceasta avertizează, de asemenea, că orice descriere AI a conținutului vizual este o aproximație și că răspunsurile vocale necesită căști într-o sală aglomerată."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Potrivit lecției, de ce are nevoie de fapt un profesor pentru a începe să folosească AI cu un elev cu deficiențe de vedere?",
+      "options": [
+        { "id": "a", "text": "Un smartphone cu acces la un instrument AI de uz general, permisiunea ca elevul să îl folosească în timpul lecțiilor și verificarea ocazională a rezultatelor." },
+        { "id": "b", "text": "Un dispozitiv dedicat de tehnologie asistivă cumpărat pentru elev și un curs de formare specializat pentru profesor." },
+        { "id": "c", "text": "Un plan de lecție restructurat în care conținutul vizual este eliminat și înlocuit cu descriere vorbită." },
+        { "id": "d", "text": "Un serviciu de transcriere Braille care convertește fiecare fotografie făcută de elev." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția afirmă că nu este nevoie de tehnologie asistivă specializată, deoarece un smartphone cu o platformă AI modernă oferă deja atât analiza imaginilor, cât și interacțiunea vocală. Ajustările cerute profesorului sunt conștientizarea, permisiunea și supravegherea ocazională, nu restructurarea predării."
+    }
+  ]
+}

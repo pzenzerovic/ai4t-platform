@@ -1,0 +1,52 @@
+{
+  "slug": "getting-started-claude",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Ce problemă rezolvă funcția Projects pentru un profesor?",
+      "options": [
+        { "id": "a", "text": "Păstrează documentele de referință — precum curriculumul dumneavoastră și exemple de formate de lecție — disponibile în fiecare conversație din acel spațiu de lucru, astfel încât contextul nu mai trebuie lipit din nou." },
+        { "id": "b", "text": "Permite mai multor profesori să scrie în aceeași conversație în același timp." },
+        { "id": "c", "text": "Antrenează modelul pe materialele dumneavoastră didactice, astfel încât răspunsurile sale se îmbunătățesc în timp." },
+        { "id": "d", "text": "Transformă conversațiile finalizate în fișe și prezentări gata de tipărit." }
+      ],
+      "correct": ["a"],
+      "explanation": "Un proiect este un spațiu de lucru persistent care conține documentele dumneavoastră de referință, ceea ce rezolvă problema „conversației noi\": fiecare conversație nouă din interiorul proiectului pornește deja cu acel context."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Pe care dintre acestea le propune lecția drept fluxuri de lucru de început pentru un profesor care abia începe să folosească Claude?",
+      "options": [
+        { "id": "a", "text": "Lipirea unei lecturi lungi și solicitarea, într-o singură conversație, a unui rezumat, a unor întrebări de comprehensiune la mai multe niveluri de dificultate și a unui prompt de scriere" },
+        { "id": "b", "text": "Descrierea subiectului, a grupei de vârstă, a timpului de lecție disponibil și a obiectivelor, urmată de solicitarea unei secvențe de lecții pe care să o revizuiți și să o rearanjați" },
+        { "id": "c", "text": "Descrierea unei sarcini de evaluare și a nivelurilor de performanță pe care doriți să le distingeți, urmată de solicitarea unei rubrici cu criterii și indicatori" },
+        { "id": "d", "text": "Încărcarea listei clasei, astfel încât răspunsurile să fie adaptate fiecărui elev menționat cu numele" },
+        { "id": "e", "text": "Trimiterea unui set de eseuri ale elevilor și solicitarea notelor finale" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Procesarea unei lecturi lungi, redactarea unui plan de unitate secvențiat și redactarea unei rubrici sunt trei dintre cele patru fluxuri de lucru de început recomandate; orice implică materiale reale, identificabile, ale elevilor este exclus de orientările privind confidențialitatea din aceeași lecție."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Lecția recomandă să dezvoltați mai întâi o familiaritate autentică cu un singur asistent AI și abia apoi să încercați un al doilea pe aceleași sarcini.",
+      "correct": ["true"],
+      "explanation": "Abordarea recomandată este să lucrați cu un singur instrument până când obțineți în mod regulat rezultate utile la trei sau patru sarcini recurente de predare, apoi să treceți aceleași sarcini printr-un al doilea instrument pentru a vedea care se potrivește cu ce tip de muncă."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Cum descrie lecția diferența practică dintre Claude și ChatGPT?",
+      "options": [
+        { "id": "a", "text": "Claude se potrivește adesea muncii susținute, de text lung, în timp ce ChatGPT se simte adesea mai mult ca un instrument pentru întrebări rapide — deși acest lucru este prezentat ca o generalizare, nu ca o regulă." },
+        { "id": "b", "text": "Claude este construit pe un alt tip de tehnologie și nu este un model lingvistic." },
+        { "id": "c", "text": "Claude este conceput pentru utilizarea de către elevi, iar ChatGPT pentru pregătirea profesorilor." },
+        { "id": "d", "text": "Outputurile lor sunt practic identice, așa că alegerea ține doar de preferința pentru interfață." }
+      ],
+      "correct": ["a"],
+      "explanation": "Ambele sunt construite pe aceeași categorie de tehnologie, dar outputurile lor diferă observabil la aceeași sarcină — de aceea lecția respinge mitul că sunt practic același instrument și sugerează să îi încercați pe fiecare pe muncă reală din propria săptămână."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "canva-ai-for-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Ce face Magic Write într-un design la care lucrați deja?",
+      "options": [
+        { "id": "a", "text": "Generează sau rescrie text — de exemplu simplifică un pasaj pentru un nivel de lectură mai mic sau redactează întrebări de discuție și instrucțiuni pentru activități." },
+        { "id": "b", "text": "Construiește o prezentare completă, cu diapozitive și elemente vizuale, pornind de la o singură descriere scurtă." },
+        { "id": "c", "text": "Elimină fundalul dintr-o fotografie pe care ați încărcat-o." },
+        { "id": "d", "text": "Aranjează automat elementele de pe o pagină într-un layout echilibrat vizual." }
+      ],
+      "correct": ["a"],
+      "explanation": "Magic Write este generatorul de text pe care îl folosiți în interiorul unui design; generarea unei prezentări întregi dintr-o descriere scurtă este Magic Design, iar eliminarea fundalului și sugestiile de layout sunt funcții separate din același set de instrumente."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "O prezentare produsă de Magic Design este gata pentru clasă așa cum este și nu necesită nicio revizuire pedagogică.",
+      "correct": ["false"],
+      "explanation": "Prezentarea generată este descrisă ca o primă ciornă solidă: aproape întotdeauna va trebui să simplificați limbajul pe unele diapozitive, să eliminați sau să înlocuiți diapozitivele care nu se potrivesc planului dumneavoastră de lecție și să adăugați exemple legate de ceea ce au învățat elevii."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Pe care dintre acestea le numește lecția drept probleme la care să fiți atent într-un material Canva finalizat?",
+      "options": [
+        { "id": "a", "text": "Elemente decorative care concurează cu materialul de învățare" },
+        { "id": "b", "text": "Text prea mic pentru a fi citit confortabil pe dispozitivele pe care elevii le vor folosi efectiv" },
+        { "id": "c", "text": "Conținut generic, fără un scop pedagogic clar" },
+        { "id": "d", "text": "Pornirea de la un șablon gata făcut în loc de la o pagină goală" },
+        { "id": "e", "text": "Adăugarea propriilor exemple alături de conținutul generat de AI" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Supraîncărcarea vizuală, textul care nu se poate citi și conținutul generic fără scop sunt enumerate printre problemele frecvente; alegerea unui șablon este primul pas al fluxului de lucru recomandat, iar adăugarea propriilor elemente este al patrulea, deci niciuna nu este o greșeală."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Pentru ce fel de muncă spune lecția că un profesor ar trebui să folosească alt instrument decât Canva?",
+      "options": [
+        { "id": "a", "text": "Fișe, flashcard-uri și postere pentru copii între 6 și 10 ani" },
+        { "id": "b", "text": "Sisteme complexe de evaluare, notare automată sau interacțiune în timp real cu clasa" },
+        { "id": "c", "text": "Postere pentru proiecte și infografice pe care elevii le proiectează ei înșiși" },
+        { "id": "d", "text": "Rescrierea unei explicații la un nivel de lectură mai simplu" }
+      ],
+      "correct": ["b"],
+      "explanation": "Canva este prezentat ca un instrument pentru crearea de materiale didactice vizuale, iar lecția trimite către platforme dedicate pentru evaluare, notare și interacțiune în timp real cu clasa; celelalte trei opțiuni sunt utilizări pe care lecția le recomandă activ."
+    }
+  ]
+}

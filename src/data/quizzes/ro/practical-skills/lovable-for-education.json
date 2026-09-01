@@ -1,0 +1,52 @@
+{
+  "slug": "lovable-for-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "În ce situații spune lecția că rezultatul ar trebui tratat ca un prototip, nu ca un instrument finalizat?",
+      "options": [
+        { "id": "a", "text": "Când instrumentul ar avea nevoie de mai multe roluri de utilizator, ar trebui să îndeplinească cerințe stricte de găzduire instituțională sau ar trebui să gestioneze date personale sensibile" },
+        { "id": "b", "text": "Când aplicația va fi folosită pe telefoane, nu pe laptopuri" },
+        { "id": "c", "text": "Când aplicația a fost construită fără cel puțin trei runde de iterare" },
+        { "id": "d", "text": "Când link-ul publicat va fi partajat dincolo de propria clasă" }
+      ],
+      "correct": ["a"],
+      "explanation": "Acele trei cazuri ies din ceea ce este potrivit pentru platformă, iar lecția spune să implicați suportul tehnic și juridic al școlii înainte de orice implementare reală."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Ce schimbă modul Visual edit în felul în care cereți o modificare?",
+      "options": [
+        { "id": "a", "text": "Selectați elementul specific de pe ecran și dați o instrucțiune țintită pentru el, în loc să descrieți modificarea în chat." },
+        { "id": "b", "text": "Editați direct codul din spate, în browser." },
+        { "id": "c", "text": "Modificarea cerută se aplică deodată tuturor ecranelor aplicației." },
+        { "id": "d", "text": "Aplicația este transformată într-un set de diapozitive pe care îl editați ca pe o prezentare." }
+      ],
+      "correct": ["a"],
+      "explanation": "În exemplul prezentat, butonul Start a fost selectat în modul Visual edit și i s-a dat o singură instrucțiune despre culoarea fundalului, în loc ca modificarea să fie descrisă de la zero în chat."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Când ceva din aplicație nu funcționează, lecția recomandă să descrieți ce ați observat, în loc să diagnosticați cauza tehnică.",
+      "correct": ["true"],
+      "explanation": "Este suficient să spuneți că ecranul pare tăiat când rotiți telefonul sau că textul de feedback este prea mic pentru a fi citit — AI determină soluția tehnică pornind de la descrierea pe care o dați problemei."
+    },
+    {
+      "id": "q4",
+      "type": "multi",
+      "text": "Pe care dintre acestea le recomandă lecția înainte de a folosi una dintre aplicațiile dumneavoastră cu o clasă?",
+      "options": [
+        { "id": "a", "text": "Testați link-ul publicat pe rețeaua școlii și pe dispozitivele pe care elevii le vor folosi efectiv" },
+        { "id": "b", "text": "Stabiliți ce date vor fi introduse, dacă vor fi introduse — ideal, proiectați activitatea astfel încât să nu aibă nevoie de niciunele" },
+        { "id": "c", "text": "Stabiliți cine va folosi aplicația: doar dumneavoastră sau și elevii" },
+        { "id": "d", "text": "Adăugați un câmp de text liber, în care elevii să poată descrie problemele pe care le întâlnesc" },
+        { "id": "e", "text": "Puneți fiecare elev să își creeze un cont propriu, ca să poată deschide aplicația" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Acele trei formează lista de verificare dinaintea lecției; câmpurile de text liber sunt excluse pentru că elevii ar putea tasta în ele informații personale, iar elevii nu au niciodată nevoie de conturi proprii, deoarece deschid pur și simplu link-ul publicat într-un browser."
+    }
+  ]
+}

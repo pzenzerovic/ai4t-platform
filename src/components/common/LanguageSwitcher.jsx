@@ -15,6 +15,7 @@ export default function LanguageSwitcher() {
   const navigate = useNavigate()
   const location = useLocation()
   const { lang } = useParams()
+  const current = (i18n.resolvedLanguage || i18n.language || '').split('-')[0]
 
   const handleChange = (newLang) => {
     const newPath = location.pathname.replace(`/${lang}`, `/${newLang}`)
@@ -25,7 +26,9 @@ export default function LanguageSwitcher() {
   return (
     <div className="flex items-center gap-1">
       {languages.map(l => {
-        const isActive = i18n.language === l.code
+        // Compare the base code: a detected "en-GB" still means the EN button is
+        // the active one, and previously neither button was marked in that case.
+        const isActive = current === l.code
         return (
           <button
             key={l.code}

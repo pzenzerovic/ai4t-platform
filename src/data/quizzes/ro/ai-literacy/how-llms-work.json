@@ -1,0 +1,51 @@
+{
+  "slug": "how-llms-work",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "În esență, cum generează text un model de limbaj de mari dimensiuni?",
+      "options": [
+        { "id": "a", "text": "Caută răspunsul într-o bază de date cu fapte verificate." },
+        { "id": "b", "text": "Caută pe internet text existent și îl rescrie." },
+        { "id": "c", "text": "Prezice următorul token, unul pe rând, pe baza a tot ceea ce a venit înainte." },
+        { "id": "d", "text": "Planifică mai întâi întregul răspuns, apoi îl scrie." }
+      ],
+      "correct": ["c"],
+      "explanation": "Lecția descrie un LLM ca pe o mașinărie de predicție a next-token: construiește răspunsul un token pe rând și nu își planifică răspunsul în avans."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Modelele de limbaj de mari dimensiuni procesează cuvinte întregi în același mod în care o face un cititor uman.",
+      "correct": ["false"],
+      "explanation": "LLM-urile lucrează cu tokeni — bucăți care pot fi cuvinte întregi, părți de cuvinte sau caractere individuale — motiv pentru care uneori greșesc când numără literele dintr-un cuvânt."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Care afirmații despre modul în care sunt antrenate LLM-urile sunt corecte?",
+      "options": [
+        { "id": "a", "text": "Pre-antrenamentul înseamnă citirea unor cantități enorme de text de pe internet, din cărți, articole și depozite de cod." },
+        { "id": "b", "text": "Fine-tuningul și alinierea folosesc feedback uman pentru ca modelul să fie util, sigur și mai bun la urmarea instrucțiunilor." },
+        { "id": "c", "text": "Antrenarea unui model mare poate costa zeci de milioane de dolari și poate dura luni pe hardware specializat." },
+        { "id": "d", "text": "După antrenament, modelul păstrează o copie a fiecărui document sursă, pentru a le putea cita exact." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Antrenamentul se desfășoară în două faze — pre-antrenament pe cantități vaste de text, apoi fine-tuning cu feedback uman — și consumă multe resurse; dar rezultatul este o mașinărie de tipare, nu o bibliotecă păstrată a surselor sale."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce este „fereastra de context” a unui model de limbaj?",
+      "options": [
+        { "id": "a", "text": "Zona de pe ecran unde este afișată conversația." },
+        { "id": "b", "text": "Informația pe care modelul o deține în timpul unei conversații — memoria sa de lucru." },
+        { "id": "c", "text": "Limita de timp după care o conversație expiră." },
+        { "id": "d", "text": "Lista site-urilor web pe care modelul are voie să le viziteze." }
+      ],
+      "correct": ["b"],
+      "explanation": "Contextul funcționează ca o memorie de lucru a conversației. Este mare, dar nu nelimitat, așa că în conversații foarte lungi cele mai vechi părți încep să fie abandonate, iar modelul pare că le-a uitat."
+    }
+  ]
+}

@@ -159,7 +159,7 @@ export default function LessonPage() {
       </article>
 
       {/* End-of-lesson self-check — renders nothing when the lesson has no quiz */}
-      <Quiz key={`${categorySlug}/${lessonSlug}`} categorySlug={categorySlug} lessonSlug={lessonSlug} />
+      <Quiz key={`${lang}/${categorySlug}/${lessonSlug}`} categorySlug={categorySlug} lessonSlug={lessonSlug} />
 
       {/* Discreet pointer to where the conversation about this material happens */}
       <div className="mt-6 text-center">

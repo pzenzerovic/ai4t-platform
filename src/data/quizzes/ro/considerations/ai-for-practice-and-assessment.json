@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-practice-and-assessment",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "Lecția susține că valoarea sistemelor de practică AI nu constă în generarea exercițiilor. Ce elemente numește ea drept sursă a acestei valori?",
+      "options": [
+        { "id": "a", "text": "Feedback-ul care vine imediat după fiecare răspuns" },
+        { "id": "b", "text": "Dificultatea care se ajustează la fiecare elev în parte" },
+        { "id": "c", "text": "O cantitate efectiv nelimitată de material de practică" },
+        { "id": "d", "text": "Producerea exercițiilor în sine, lucru pe care un profesor nu îl poate face" },
+        { "id": "e", "text": "Garanția că fiecare explicație oferită de sistem este corectă" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lecția numește feedback-ul imediat, ajustarea personalizată a dificultății și cantitatea nelimitată de material de practică drept combinația greu de realizat la scară; spune explicit că și un profesor poate crea exerciții și avertizează că feedback-ul generat de AI nu este infailibil."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Cum compară lecția o funcție integrată de quiz cu practica desfășurată sub formă de conversație?",
+      "options": [
+        { "id": "a", "text": "Quiz-ul integrat este opțiunea mai bogată, deoarece notarea este consecventă și imediată." },
+        { "id": "b", "text": "Practica conversațională produce adesea o învățare mai bogată, deoarece AI poate pune întrebări ulterioare, poate solicita explicații ale raționamentului elevului și își poate adapta feedback-ul la eroarea specifică." },
+        { "id": "c", "text": "Cele două sunt echivalente, așa că alegerea ține de preferința elevului." },
+        { "id": "d", "text": "Quiz-urile integrate ar trebui evitate, deoarece nu pot explica răspunsurile greșite." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția numește quiz-ul pre-formatat util pentru revizuirea vocabularului, reamintirea faptelor și recunoașterea conceptelor — el oferă explicații pentru răspunsurile incorecte — dar spune că forma de dialog produce adesea o învățare mai bogată, deoarece feedback-ul se poate adapta naturii erorii elevului."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Dacă un elev adună în mod repetat numitorii atunci când adună fracții, AI poate trata aceasta ca pe o concepție greșită sistematică, nu ca pe o greșeală aleatorie, și poate genera probleme concepute specific pentru a o aborda.",
+      "correct": ["true"],
+      "explanation": "Lecția folosește exact acest exemplu — 1/3 + 1/4 scris ca 2/7 — pentru a ilustra feedback-ul diagnostic: AI identifică tiparul, explică procedura corectă, oferă o analogie vizuală și direcționează practica ulterioară către acea concepție greșită."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Lecția pune în contrast promptul „Pune-mă la curent cu istoria” cu o cerere care numește subiectul, accentul și nivelul de clasă. Ce este greșit la primul prompt?",
+      "options": [
+        { "id": "a", "text": "Cere mai multe întrebări decât poate produce instrumentul într-un singur răspuns." },
+        { "id": "b", "text": "Nu îi dă AI niciun subiect, accent sau nivel, așa că practica primită este generică și nefocalizată." },
+        { "id": "c", "text": "Este formulat ca o instrucțiune, nu ca o întrebare." },
+        { "id": "d", "text": "Istoria este o materie la care practica generată de AI nu este fiabilă." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția spune că profesorii ar trebui să îi ajute pe elevi să își proiecteze sesiunile de practică: o cerere care numește cauzele Primului Război Mondial, sistemul de alianțe și nivelul unui examen de clasa a 9-a aduce practică direct relevantă pentru obiectivul de învățare."
+    }
+  ]
+}

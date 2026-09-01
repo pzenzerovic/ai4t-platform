@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-multilingual-classrooms",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Un elev care încă învață limba de predare primește un pasaj de lectură. Care este abordarea „pod” pe care o recomandă lecția?",
+      "options": [
+        { "id": "a", "text": "Citirea mai întâi a textului original, identificarea a ceea ce se înțelege deja, apoi folosirea AI doar pentru părțile care rămân neclare." },
+        { "id": "b", "text": "Traducerea integrală a fiecărui text înainte ca elevul să încerce versiunea originală." },
+        { "id": "c", "text": "Lucrul exclusiv în limba maternă până când un test de limbă confirmă că elevul este pregătit pentru original." },
+        { "id": "d", "text": "Lăsarea elevului să ghicească mai întâi sensul și verificarea traducerii abia după terminarea lecției." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția descrie podul ca angajare mai întâi cu textul original și traducerea doar a ceea ce blochează înțelegerea, ceea ce îl menține pe elev în contact cu limba de predare, oferindu-i totodată acces la conținut."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Ce afirmații despre instrumentele lingvistice AI într-o clasă multilingvă susține lecția?",
+      "options": [
+        { "id": "a", "text": "Pot fi formulate astfel încât să păstreze termenii tehnici specifici materiei în limba de predare, traducând textul înconjurător." },
+        { "id": "b", "text": "Pot rescrie conținutul la un nivel de limbă precizat, de exemplu o versiune B1 a unui text." },
+        { "id": "c", "text": "Elimină nevoia ca elevul să învețe limba de predare." },
+        { "id": "d", "text": "În modul vocal, permit elevului să întrebe în limba maternă despre instrucțiunile verbale date în clasă." },
+        { "id": "e", "text": "Funcționează doar pe materiale pe care profesorul le-a tradus sau pregătit în prealabil." }
+      ],
+      "correct": ["a", "b", "d"],
+      "explanation": "Păstrarea vocabularului tehnic, rescrierea la un nivel precizat și interacțiunea în modul vocal sunt menționate toate ca utilizări practice. Lecția spune explicit că aceste instrumente nu înlocuiesc învățarea limbii și că avantajul lor este că funcționează în timp real, fără pregătire prealabilă."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Traducerea AI oferă echivalență culturală la fel de fiabil cum oferă echivalență lingvistică.",
+      "correct": ["false"],
+      "explanation": "Lecția afirmă că AI oferă echivalență lingvistică, dar nu neapărat echivalență culturală, motiv pentru care profesorii ar trebui să revizuiască materialele traduse pentru conținut înrădăcinat cultural și să ofere ei înșiși contextul care lipsește."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Un profesor poate cere unui elev multilingv fie să folosească AI pur și simplu pentru a traduce un text, fie să arate clasei cum este exprimat același concept în limba lui. Ce spune lecția că adaugă a doua invitație?",
+      "options": [
+        { "id": "a", "text": "Îmbogățire pentru întreaga clasă, pe lângă accesibilitate, poziționând multilingvismul elevului ca un punct forte." },
+        { "id": "b", "text": "O cale mai rapidă spre fluența în limba de predare." },
+        { "id": "c", "text": "O ușurare pentru profesor, care are apoi de pregătit mai puțin material adaptat." },
+        { "id": "d", "text": "O modalitate de a evalua nivelul de alfabetizare al elevului în limba maternă." }
+      ],
+      "correct": ["a"],
+      "explanation": "Lecția pune în contrast direct cele două invitații: prima oferă accesibilitate, în timp ce a doua oferă atât accesibilitate, cât și îmbogățire, afirmă identitatea elevului și face cultura clasei mai incluzivă pentru toți."
+    }
+  ]
+}

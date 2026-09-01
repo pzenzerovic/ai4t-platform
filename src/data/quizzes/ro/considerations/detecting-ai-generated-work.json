@@ -1,0 +1,52 @@
+{
+  "slug": "detecting-ai-generated-work",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "De ce concluzionează lecția că instrumentele de detectare AI nu pot fi făcute fiabile?",
+      "options": [
+        { "id": "a", "text": "Ele citesc caracteristici statistice ale textului, dar outputul AI este antrenat pe scrierea umană pentru a fi indistinguibil statistic de aceasta, iar elevii pot edita sau rescrie orice semnătură rămâne." },
+        { "id": "b", "text": "Ele compară fiecare trimitere cu o bază de date de texte AI generate anterior, care nu poate ține pasul cu outputul nou." },
+        { "id": "c", "text": "Ele funcționează pe eseuri lungi, dar nu pot procesa trimiteri scurte." },
+        { "id": "d", "text": "Ele tratează cu acuratețe textul AI needitat și eșuează doar când un elev schimbă câteva cuvinte." }
+      ],
+      "correct": ["a"],
+      "explanation": "Detectoarele măsoară lucruri precum predictibilitatea alegerilor de cuvinte, variația în structura propoziției și tiparele de punctuație, în timp ce fiecare generație de modele îngustează acel decalaj statistic. Lecția descrie cursa înarmărilor dintre detectare și evitare ca pe una pe care detectarea o pierde."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Chiar și un detector cu acuratețe de 99% ar fi o bază incorectă pentru disciplina academică, deoarece la scara unei școli o rată de fals pozitive de 1% înseamnă zeci de acuzații greșite pe an.",
+      "correct": ["true"],
+      "explanation": "Lecția parcurge calculul: într-o clasă de 100 de elevi care predau două teme pe semestru, o rată de fals pozitive de 1% acuză pe nedrept aproximativ doi elevi pe semestru, iar acest lucru se înmulțește la nivelul unei școli. Nicio rată de acuratețe care poate fi atinsă în practică nu face din detectare o bază corectă pentru disciplină."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce schimbări în evaluare prezintă lecția ca răspuns durabil la utilizarea abuzivă a AI?",
+      "options": [
+        { "id": "a", "text": "Evaluarea procesului — ciorne, note, versiuni intermediare — alături de produsul finalizat" },
+        { "id": "b", "text": "Adăugarea unei componente în clasă, cum ar fi o apărare orală sau o reflecție scrisă scurtă" },
+        { "id": "c", "text": "Darea de sarcini care depind de material specific din clasă, de discuții sau de exemple locale" },
+        { "id": "d", "text": "Cerința ca fiecare sarcină pentru acasă să treacă printr-un instrument de detectare înainte de a fi notată" },
+        { "id": "e", "text": "Înlocuirea muncii pe etape cu o singură trimitere cu miză mare la sfârșitul semestrului" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lecția mută răspunsul de la supraveghere la design: dovezi de proces, confirmare în clasă, întrebări specifice contextului și cicluri iterative de feedback. Respinge rezultatul detectorului ca dovadă de conduită necorespunzătoare și recomandă împărțirea sarcinilor mari în etape, în loc de concentrarea lor într-o singură trimitere."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Trimiterea unui elev este mult mai lustruită decât munca lui anterioară. Ce recomandă lecția?",
+      "options": [
+        { "id": "a", "text": "Să fie tratată ca un motiv pentru a privi mai atent și să se deschidă o conversație neacuzatoare în care elevul își explică gândirea." },
+        { "id": "b", "text": "Schimbarea de stil să fie tratată ca dovadă suficientă a utilizării AI, deoarece profesorii experimentați rareori o judecă greșit." },
+        { "id": "c", "text": "Textul să fie trimis unui instrument de detectare, iar rezultatul returnat să fie pus în aplicare." },
+        { "id": "d", "text": "Să nu se facă nimic, deoarece nimic observabil în scrierea elevilor nu poate justifica vreodată o privire mai atentă." }
+      ],
+      "correct": ["a"],
+      "explanation": "O schimbare bruscă de stil este un motiv legitim pentru a privi mai atent, dar nu este o dovadă în sine — elevul poate să fi studiat mai mult sau să fi citit înainte. Dacă elevul își poate parcurge munca, lucrarea rezistă; dacă nu, acest lucru în sine este informație despre învățarea lui, independent de cum a fost produs textul."
+    }
+  ]
+}

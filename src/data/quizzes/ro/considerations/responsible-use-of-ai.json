@@ -1,0 +1,52 @@
+{
+  "slug": "responsible-use-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "O activitate asistată de AI, proiectată responsabil, ar trebui să se încheie cu o fază în care elevul articulează sau demonstrează ce a învățat fără asistența AI.",
+      "correct": ["true"],
+      "explanation": "Acesta este al patrulea pas al cadrului din lecție — reflecția fără AI — iar scopul său este să asigure că cunoașterea aparține elevului, nu instrumentului."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Lecția spune că asistența AI ar trebui potrivită cu faza de învățare. Ce afirmație reflectă acest principiu?",
+      "options": [
+        { "id": "a", "text": "Cantitatea de asistență AI ar trebui să scadă constant pe măsură ce subiectul avansează, până când dispare." },
+        { "id": "b", "text": "Tipul de utilizare a AI ar trebui să se schimbe de la o fază la alta — explicație în timpul expunerii inițiale, feedback în timpul practicii, organizare în timpul consolidării — iar în timpul evaluării AI ar trebui să fie absent." },
+        { "id": "c", "text": "AI ar trebui introdus doar după ce elevul poate stăpâni deja materialul fără ajutor." },
+        { "id": "d", "text": "Faza nu contează, cu condiția ca elevul să verifice ceea ce produce AI." }
+      ],
+      "correct": ["b"],
+      "explanation": "Lecția afirmă explicit că principiul nu este că utilizarea AI scade pe măsură ce învățarea progresează, ci că tipul de utilizare se schimbă — evaluarea fiind momentul în care AI ar trebui să fie absent."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Ce riscuri atribuie lecția utilizării AI fără intenție pedagogică clară?",
+      "options": [
+        { "id": "a", "text": "Evitarea luptei productive care este o parte naturală a învățării" },
+        { "id": "b", "text": "Dependența de asistența externă" },
+        { "id": "c", "text": "Înțelegerea superficială fără procesare profundă" },
+        { "id": "d", "text": "Pierderea feedback-ului profesorului, deoarece AI preia rolul de evaluare" },
+        { "id": "e", "text": "O scădere vizibilă a calității tehnice a lucrărilor pe care elevii le predau" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lecția enumeră consumul pasiv de răspunsuri gata făcute, efortul cognitiv redus, evitarea luptei productive, dependența și înțelegerea superficială. Ea observă și că o astfel de muncă este adesea corectă din punct de vedere tehnic și lustruită, iar rolul profesorului este redefinit, nu înlocuit."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Ce caracterizează utilizarea metacognitivă a AI, pe care lecția o numește cea mai valoroasă aplicație educațională a sa?",
+      "options": [
+        { "id": "a", "text": "AI furnizează conținut pe care elevul nu l-ar găsi altundeva, precum exemple rezolvate avansate." },
+        { "id": "b", "text": "AI nu furnizează conținut — îl stimulează pe elev să își examineze propriile puncte slabe, prioritățile și strategiile de studiu." },
+        { "id": "c", "text": "AI corectează munca elevului și îi atribuie un nivel." },
+        { "id": "d", "text": "AI preia sarcinile de rutină, pentru ca elevul să petreacă mai mult timp cu cele dificile." }
+      ],
+      "correct": ["b"],
+      "explanation": "În exemplele metacognitive din lecție — a întreba unde este slabă propria înțelegere, ce subiecte să prioritizezi înaintea unui test sau cum să studiezi mai eficient un anumit tip de material — AI stimulează reflecția asupra propriului proces de învățare al elevului, în loc să livreze conținut."
+    }
+  ]
+}
