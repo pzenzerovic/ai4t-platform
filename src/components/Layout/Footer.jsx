@@ -1,4 +1,18 @@
 import { useTranslation } from 'react-i18next'
+import { useParams } from 'react-router-dom'
+
+// Official EU emblem, "Co-funded by the European Union" horizontal lockup,
+// NEG variant (white wording, flag keeps its white keyline) because this footer
+// is dark. Sources and provenance: EU-EMBLEM-SOURCES.md in the repo root.
+// hr is not exposed in the language switcher yet, but the asset is in place.
+// Intrinsic sizes are carried so the browser reserves the box and the footer
+// does not shift while the image loads. Widths differ because the wording does.
+const EMBLEMS = {
+  en: { src: '/images/eu-emblem/en.png', w: 645, h: 144 },
+  hr: { src: '/images/eu-emblem/hr.png', w: 549, h: 144 },
+  ro: { src: '/images/eu-emblem/ro.png', w: 643, h: 144 },
+  el: { src: '/images/eu-emblem/el.png', w: 767, h: 144 },
+}
 
 const partners = [
   { name: 'OS Ivana Cankara', location: 'Zagreb, Croatia', role: 'Coordinator' },
@@ -10,6 +24,8 @@ const partners = [
 
 export default function Footer() {
   const { t } = useTranslation()
+  const { lang } = useParams()
+  const emblem = EMBLEMS[lang] || EMBLEMS.en
 
   return (
     <footer className="bg-gray-900 text-gray-300">
@@ -22,25 +38,30 @@ export default function Footer() {
                 <li key={p.name} className="text-sm">
                   <span className="text-gray-100">{p.name}</span>
                   <span className="text-gray-400"> — {p.location}</span>
-                  {p.role && <span className="text-accent text-xs ml-2">({p.role})</span>}
+                  {/* accent-light, not accent: this footer is dark, so the
+                      orange has to go lighter here, not darker (7.44:1). */}
+                  {p.role && <span className="text-accent-light text-xs ml-2">({p.role})</span>}
                 </li>
               ))}
             </ul>
           </div>
 
           <div>
-            {/* EU emblem with the short funding statement required alongside it.
-                This is the badge-length wording; the long EACEA paragraph below is
-                a separate, prescribed text and must not be merged into this one. */}
-            <div className="flex items-center gap-4 mb-4 flex-wrap">
-              <div className="flex items-center gap-2.5">
-                <div className="flex-shrink-0 w-12 h-8 bg-blue-800 rounded flex items-center justify-center">
-                  <span className="text-yellow-400 text-xs font-bold">EU</span>
-                </div>
-                <span className="text-sm font-medium text-gray-100">
-                  {t('footer.euFunding')}
-                </span>
-              </div>
+            {/* The official emblem carries the short funding statement as set
+                type inside the artwork, so the separate text line that used to
+                sit beside the placeholder is gone -- it would print the same
+                sentence twice, on screen and again to a screen reader. The
+                wording survives verbatim as the alt text. The long EACEA
+                paragraph below is a different, prescribed text and must not be
+                merged into this one. */}
+            <div className="flex items-center gap-5 mb-4 flex-wrap">
+              <img
+                src={emblem.src}
+                width={emblem.w}
+                height={emblem.h}
+                alt={t('footer.euFunding')}
+                className="h-12 w-auto flex-shrink-0"
+              />
               <span className="flex-shrink-0 px-3 py-1 bg-blue-700 rounded text-white text-xs font-semibold">
                 Erasmus+
               </span>

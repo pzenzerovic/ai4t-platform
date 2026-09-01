@@ -123,8 +123,9 @@ project folder as additional Croatian material for the report.
 | Lesson plans section | 📝 Draft published | 13 EN plans at `/<lang>/lesson-plans` — see section above |
 | End-of-lesson self-check quizzes | ✅ Final version | All 33 lessons, EN + RO — see section above |
 | Vercel Web Analytics | ✅ Final version | Anonymous page-view counting, no cookies |
-| Footer with partner info + EU disclaimer | 📝 Draft published | Short emblem statement now reads "Co-funded by the European Union"; the long EACEA paragraph is the prescribed template. **Open:** the emblem itself is still a placeholder box, not the official EU flag artwork |
-| Accessibility quick wins | ✅ Final version | Page language follows the route, page titles per route, skip link, quiz result announced to screen readers, translated ARIA labels, contrast of secondary text raised. **Open:** brand orange `#E8732A` at 3.04:1 — awaiting a decision |
+| Footer with partner info + EU disclaimer | ✅ Final version | Official EU emblem artwork, NEG variant, switching on the route language (EN/RO live, HR/EL ready). The separate "Co-funded by the European Union" text line was dropped as a duplicate — the emblem sets that wording as type and carries it as alt text. The long EACEA paragraph is the prescribed template and stays. Provenance: [EU-EMBLEM-SOURCES.md](EU-EMBLEM-SOURCES.md) |
+| Accessibility quick wins | ✅ Final version | Page language follows the route, page titles per route, skip link, quiz result announced to screen readers, translated ARIA labels, contrast of secondary text raised |
+| Brand orange passes AA | ✅ Final version | `accent` moved `#E8732A` → `#AB4D13` (3.04:1 → 5.52:1 on white). Same hue and saturation, lightness lowered — one axis. Because WCAG contrast is symmetric, that single shade covers orange text on light *and* white text on orange, so no component picks a token by direction. `accent-dark` `#893E0F` (7.61:1) for hover and emphasis; `accent-light` `#F09050` (7.44:1) on the dark footer; `accent-vivid` keeps the original `#E8732A` for decoration only — the hero glow, where nothing sits on top |
 | Language switcher | ✅ Final version | Active in header — EN + RO live; HR + EL commented out until translations land |
 | Search functionality | ✅ Final version | Implemented, hidden for now |
 | About page | 📋 Planned | |
