@@ -61,6 +61,46 @@ terminology matches what the partner used, and still await partner review.
 
 ---
 
+## Lesson plans
+
+Classroom lesson plans contributed by the project's schools, published as a section
+of their own at `/<lang>/lesson-plans`. They are not part of the 33-lesson course and
+are counted separately: the course teaches teachers about AI, the plans show what
+teachers then did with it in front of a class.
+
+| Item | Count | Status |
+|---|---|---|
+| Lesson plans (EN) | 13 | 📝 Draft published |
+| — documented as taught in a classroom | 4 | 📝 Draft published |
+| — published as teaching material, ready for delivery | 9 | 📝 Draft published |
+| Lesson plans (RO) | 0 | 📋 Planned — the English plans are served on the RO route |
+
+Contributing schools: OŠ Ivana Cankara, Zagreb (12) and OŠ Horvati, Zagreb (1).
+
+Each plan carries an 18-key frontmatter block: subject, age group, duration, the AI
+tools used, **how** the AI was used, author, school, and an `implemented` flag. The
+"Implemented in classroom" badge appears only where `implemented: true` — that is,
+only where a school report documents the lesson actually being taught. The remaining
+plans are honest teaching material with no classroom record yet, and the interface
+does not blur the difference.
+
+Plan files live in `src/content/<lang>/lesson-plans/<NN>-<slug>.md`, alongside the
+lesson categories but loaded separately by `src/utils/lessonPlanLoader.js`; the course
+loader skips that folder so plans never leak into the Resources library. Plans render
+through the same `MarkdownArticle` component as the lessons, so the two read identically.
+
+**Language fallback:** a language with no plans of its own falls back to English —
+the same rule the quizzes use. `/ro/lesson-plans` therefore shows the 13 English plans
+inside Romanian navigation, with a visible note saying the plans are English-only for
+now. When Romanian plans are added under `src/content/ro/lesson-plans/`, they take over
+automatically and the note disappears; no code change is needed.
+
+Croatian versions exist for 12 of the 13 plans but are **not** published here — the
+platform serves EN and RO, and the HR locale is switched off. They are kept in the
+project folder as additional Croatian material for the report.
+
+---
+
 ## Platform Features
 
 | Feature | Status | Notes |
@@ -80,6 +120,7 @@ terminology matches what the partner used, and still await partner review.
 | Responsive mobile layout | ✅ Final version | |
 | Vercel deployment | ✅ Final version | Auto-deploys on push |
 | Community page | ✅ Final version | Points to the project's three eTwinning groups on ESEP |
+| Lesson plans section | 📝 Draft published | 13 EN plans at `/<lang>/lesson-plans` — see section above |
 | End-of-lesson self-check quizzes | ✅ Final version | All 33 lessons, EN + RO — see section above |
 | Vercel Web Analytics | ✅ Final version | Anonymous page-view counting, no cookies |
 | Footer with partner info + EU disclaimer | 📝 Draft published | Short emblem statement now reads "Co-funded by the European Union"; the long EACEA paragraph is the prescribed template. **Open:** the emblem itself is still a placeholder box, not the official EU flag artwork |

@@ -4,6 +4,8 @@ import Layout from './components/Layout/Layout'
 import HomePage from './components/Home/HomePage'
 import LessonList from './components/Lessons/LessonList'
 import LessonPage from './components/Lessons/LessonPage'
+import LessonPlanList from './components/LessonPlans/LessonPlanList'
+import LessonPlanPage from './components/LessonPlans/LessonPlanPage'
 import CommunityPage from './components/Community/CommunityPage'
 import KASWizard from './components/KAS/KASWizard'
 
@@ -19,6 +21,8 @@ export default function App() {
         <Route path="resources" element={<LessonList />} />
         <Route path="resources/:categorySlug" element={<LessonList />} />
         <Route path="lesson/:categorySlug/:lessonSlug" element={<LessonPage />} />
+        <Route path="lesson-plans" element={<LessonPlanList />} />
+        <Route path="lesson-plans/:planSlug" element={<LessonPlanPage />} />
         <Route path="community" element={<CommunityPage />} />
         <Route path="assessment" element={<KASWizard />} />
       </Route>

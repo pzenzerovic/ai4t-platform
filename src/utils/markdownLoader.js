@@ -78,6 +78,12 @@ export function getAllLessons(lang = 'en') {
 
   for (const [path, raw] of Object.entries(markdownFiles)) {
     if (!path.startsWith(prefix)) continue
+    // Lesson plans live at /src/content/<lang>/lesson-plans/ and are a separate
+    // collection with different frontmatter — see lessonPlanLoader.js. The glob
+    // above is deliberately broad, so without this guard the plans would land in
+    // the course catalogue, belonging to no category and rendering with neither a
+    // level badge nor a description.
+    if (path.startsWith(`${prefix}lesson-plans/`)) continue
 
     const { metadata, content } = parseFrontmatter(raw)
     if (!metadata.title) continue

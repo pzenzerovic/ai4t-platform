@@ -2,6 +2,7 @@
   "nav": {
     "home": "Acasă",
     "resources": "Resurse",
+    "lessonPlans": "Planuri de lecție",
     "community": "Comunitate",
     "assessment": "Evaluare",
     "about": "Despre",
@@ -61,6 +62,29 @@
     "nextLesson": "Lecția Următoare",
     "backToCategory": "Înapoi la {{category}}",
     "discussWithColleagues": "Discutați această lecție cu colegii"
+  },
+  "lessonPlans": {
+    "title": "Planuri de lecție din clasă",
+    "intro": "Planuri gata de folosit, scrise de profesori din școlile proiectului. Fiecare precizează cui se adresează, cât durează, ce instrument AI a fost folosit și — partea care contează — dacă instrumentul a fost folosit de profesor pentru pregătirea materialului sau de elevi în timpul lecției.",
+    "countSummary": "{{total}} planuri · {{implemented}} dintre ele documentate ca predate la clasă",
+    "englishNotice": "Aceste planuri de lecție sunt momentan disponibile doar în engleză. Traducerile sunt în pregătire.",
+    "implementedBadge": "Implementat la clasă",
+    "ageGroup": "Grupa de vârstă",
+    "duration": "Durată",
+    "aiTools": "Instrumente AI",
+    "noAiTools": "În această activitate nu se folosește niciun instrument AI",
+    "aiUse": "Cum a fost folosit AI",
+    "author": "Autor",
+    "school": "Școală",
+    "classroomUse": "Consemnare la clasă",
+    "previousPlan": "Planul anterior",
+    "nextPlan": "Planul următor",
+    "backToList": "Înapoi la planurile de lecție",
+    "notFound": "Planul de lecție nu a fost găsit",
+    "discussWithColleagues": "Discutați acest plan cu colegii",
+    "homeTitle": "Planuri de lecție din clasă",
+    "homeDesc": "Planuri scrise de profesori din școlile proiectului — cu grupa de vârstă, durata și instrumentul AI menționate pentru fiecare.",
+    "homeCta": "Răsfoiți planurile"
   },
   "community": {
     "title": "Comunitate",

@@ -2,6 +2,7 @@
   "nav": {
     "home": "Naslovnica",
     "resources": "Materijali",
+    "lessonPlans": "Pripreme za nastavu",
     "community": "Zajednica",
     "assessment": "Procjena",
     "about": "O projektu",
@@ -61,6 +62,29 @@
     "nextLesson": "Sljedeća lekcija",
     "backToCategory": "Natrag na {{category}}",
     "discussWithColleagues": "Razgovarajte o ovoj lekciji s kolegama"
+  },
+  "lessonPlans": {
+    "title": "Pripreme za nastavu iz učionice",
+    "intro": "Gotove pripreme koje su napisali učitelji u školama projekta. Uz svaku piše za koga je, koliko traje, koji je AI alat korišten i — što je ovdje najvažnije — je li alat koristio učitelj pri izradi materijala ili učenici na satu.",
+    "countSummary": "{{total}} priprema · njih {{implemented}} dokumentirano je kao izvedeno u razredu",
+    "englishNotice": "Ove su pripreme zasad dostupne samo na engleskom. Prijevodi su u pripremi.",
+    "implementedBadge": "Izvedeno u razredu",
+    "ageGroup": "Uzrast",
+    "duration": "Trajanje",
+    "aiTools": "AI alati",
+    "noAiTools": "U ovoj se aktivnosti ne koristi nijedan AI alat",
+    "aiUse": "Kako je AI korišten",
+    "author": "Autor",
+    "school": "Škola",
+    "classroomUse": "Zapis o izvedbi",
+    "previousPlan": "Prethodna priprema",
+    "nextPlan": "Sljedeća priprema",
+    "backToList": "Natrag na pripreme",
+    "notFound": "Priprema nije pronađena",
+    "discussWithColleagues": "Razgovarajte o ovoj pripremi s kolegama",
+    "homeTitle": "Pripreme za nastavu iz učionice",
+    "homeDesc": "Pripreme koje su napisali učitelji u školama projekta — uz uzrast, trajanje i imenovani AI alat za svaku.",
+    "homeCta": "Pregledajte pripreme"
   },
   "community": {
     "title": "Zajednica",

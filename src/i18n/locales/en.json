@@ -2,6 +2,7 @@
   "nav": {
     "home": "Home",
     "resources": "Resources",
+    "lessonPlans": "Lesson plans",
     "community": "Community",
     "assessment": "Assessment",
     "about": "About",
@@ -61,6 +62,29 @@
     "nextLesson": "Next Lesson",
     "backToCategory": "Back to {{category}}",
     "discussWithColleagues": "Discuss this lesson with colleagues"
+  },
+  "lessonPlans": {
+    "title": "Lesson plans from the classroom",
+    "intro": "Ready-to-use plans written by teachers in the project's schools. Each one says who it is for, how long it takes, which AI tool was used and — this is the part that matters — whether the AI was used by the teacher to prepare the material or by the students during the lesson.",
+    "countSummary": "{{total}} plans · {{implemented}} of them documented as taught in a classroom",
+    "englishNotice": "These lesson plans are currently available in English only. Translations are in preparation.",
+    "implementedBadge": "Implemented in classroom",
+    "ageGroup": "Age group",
+    "duration": "Duration",
+    "aiTools": "AI tools",
+    "noAiTools": "No AI tool is operated during this activity",
+    "aiUse": "How AI was used",
+    "author": "Author",
+    "school": "School",
+    "classroomUse": "Classroom record",
+    "previousPlan": "Previous plan",
+    "nextPlan": "Next plan",
+    "backToList": "Back to lesson plans",
+    "notFound": "Lesson plan not found",
+    "discussWithColleagues": "Discuss this plan with colleagues",
+    "homeTitle": "Lesson plans from the classroom",
+    "homeDesc": "Plans written by teachers in the project's schools — with the age group, the timing and the AI tool named for each one.",
+    "homeCta": "Browse the plans"
   },
   "community": {
     "title": "Community",

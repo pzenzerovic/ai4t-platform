@@ -19,6 +19,7 @@ export default function Header() {
   const navLinks = [
     { to: `/${lang}/`, label: t('nav.home') },
     { to: `/${lang}/resources`, label: t('nav.resources') },
+    { to: `/${lang}/lesson-plans`, label: t('nav.lessonPlans') },
     { to: `/${lang}/community`, label: t('nav.community') },
     { to: `/${lang}/assessment`, label: t('nav.assessment') },
   ]
@@ -34,7 +35,9 @@ export default function Header() {
             <span className="font-bold text-xl text-primary hidden sm:inline">AI4Teachers</span>
           </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
+          {/* gap tightens at md: a fifth nav item ("Lesson plans") pushed the row
+              past the language switcher on tablet widths at the old gap-8. */}
+          <nav className="hidden md:flex items-center gap-5 lg:gap-8">
             {navLinks.map(link => (
               <Link
                 key={link.to}

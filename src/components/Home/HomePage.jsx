@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next'
 import Hero from './Hero'
 import ChooseYourPath from './ChooseYourPath'
 import CategoryCard from './CategoryCard'
+import LessonPlansBand from './LessonPlansBand'
 import categories from '../../data/categories.json'
 import usePageTitle from '../../hooks/usePageTitle'
 
@@ -34,6 +35,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* 4. Lesson plans — a quiet pointer to the classroom material, sitting
+          below the course rather than competing with it */}
+      <LessonPlansBand />
     </div>
   )
 }
