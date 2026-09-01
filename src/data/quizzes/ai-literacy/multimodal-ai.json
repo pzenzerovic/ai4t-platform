@@ -1,0 +1,52 @@
+{
+  "slug": "multimodal-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "What does \"multimodal\" mean when describing an AI system?",
+      "options": [
+        { "id": "a", "text": "The AI can be used by several people at the same time." },
+        { "id": "b", "text": "The AI works with several types of data — text, images, audio and video." },
+        { "id": "c", "text": "The AI can be switched between different personalities." },
+        { "id": "d", "text": "The AI runs on several computers at once." }
+      ],
+      "correct": ["b"],
+      "explanation": "\"Multimodal\" simply means multiple modes of information — much as a teacher combines a whiteboard drawing, a verbal explanation and a hands-on activity in one lesson."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Because multimodal AI can actually see an image, its visual analysis does not need to be verified.",
+      "correct": ["false"],
+      "explanation": "The same caution applies as with text: the model recognises patterns, not meaning, and can misidentify objects, misread handwriting or misinterpret context — so visual analysis should always be checked, especially in assessment."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which limitations of multimodal AI does the lesson list?",
+      "options": [
+        { "id": "a", "text": "Accuracy is not guaranteed — it can misidentify objects or generate images with errors." },
+        { "id": "b", "text": "Bias in training data can produce stereotypical representations of people or professions." },
+        { "id": "c", "text": "It cannot process written text at all." },
+        { "id": "d", "text": "Copyright and attribution questions around generated images are still unresolved." },
+        { "id": "e", "text": "Uploading photographs of students raises privacy concerns." }
+      ],
+      "correct": ["a", "b", "d", "e"],
+      "explanation": "Accuracy, bias, copyright, the irreplaceable value of real observation and privacy are all named as limitations; working with text remains a core capability, not a limitation."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Which multimodal feature does the lesson suggest trying first?",
+      "options": [
+        { "id": "a", "text": "Generating a full video for a lesson." },
+        { "id": "b", "text": "Composing background music with AI." },
+        { "id": "c", "text": "Uploading a single image and asking a question about it." },
+        { "id": "d", "text": "Building a voice-controlled classroom assistant." }
+      ],
+      "correct": ["c"],
+      "explanation": "The lesson advises starting simple: uploading one image and asking a question about it reveals both the power and the limits of multimodal AI in a way that is immediately useful."
+    }
+  ]
+}

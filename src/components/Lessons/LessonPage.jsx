@@ -4,6 +4,7 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { useLesson, useLessonsByCategory } from '../../hooks/useContent'
 import LevelBadge from './LevelBadge'
+import Quiz from './Quiz'
 import { ChevronLeftIcon, ChevronRightIcon } from '../common/Icons'
 import categories from '../../data/categories.json'
 
@@ -153,6 +154,9 @@ export default function LessonPage() {
           {lesson.content}
         </ReactMarkdown>
       </article>
+
+      {/* End-of-lesson self-check — renders nothing when the lesson has no quiz */}
+      <Quiz key={`${categorySlug}/${lessonSlug}`} categorySlug={categorySlug} lessonSlug={lessonSlug} />
 
       {/* Navigation */}
       <nav className="mt-10 pt-8 border-t border-gray-200">

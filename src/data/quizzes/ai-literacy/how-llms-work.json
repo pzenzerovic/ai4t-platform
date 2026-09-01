@@ -1,0 +1,51 @@
+{
+  "slug": "how-llms-work",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "At its core, how does a large language model generate text?",
+      "options": [
+        { "id": "a", "text": "It looks the answer up in a database of verified facts." },
+        { "id": "b", "text": "It searches the internet for existing text and rewrites it." },
+        { "id": "c", "text": "It predicts the next token one at a time, based on everything that came before it." },
+        { "id": "d", "text": "It plans the whole response first, then writes it out." }
+      ],
+      "correct": ["c"],
+      "explanation": "The lesson describes an LLM as a next-token prediction machine: it builds the response one token at a time and does not plan its answer in advance."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Large language models process whole words in the same way a human reader does.",
+      "correct": ["false"],
+      "explanation": "LLMs work with tokens — chunks that may be whole words, parts of words or single characters — which is why they sometimes miscount the letters in a word."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which statements about how LLMs are trained are accurate?",
+      "options": [
+        { "id": "a", "text": "Pre-training means reading enormous amounts of text from the internet, books, articles and code repositories." },
+        { "id": "b", "text": "Fine-tuning and alignment use human feedback to make the model helpful, safe and better at following instructions." },
+        { "id": "c", "text": "Training a large model can cost tens of millions of dollars and take months on specialised hardware." },
+        { "id": "d", "text": "After training, the model keeps a copy of every source document so it can quote them exactly." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Training happens in two phases — pre-training on vast text, then fine-tuning with human feedback — and it is resource-intensive; but the result is a pattern machine, not a stored library of its sources."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What is the \"context window\" of a language model?",
+      "options": [
+        { "id": "a", "text": "The area of the screen where the chat is displayed." },
+        { "id": "b", "text": "The information the model holds during a conversation — its working memory." },
+        { "id": "c", "text": "The time limit before a conversation expires." },
+        { "id": "d", "text": "The list of websites the model is allowed to visit." }
+      ],
+      "correct": ["b"],
+      "explanation": "Context works like a working memory for the conversation. It is large but not unlimited, so in very long conversations the earliest parts start to drop out and the model appears to forget them."
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "slug": "brief-history-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Who asked the question \"Can machines think?\" in 1950, laying the foundation for the field of AI?",
+      "options": [
+        { "id": "a", "text": "Alan Turing" },
+        { "id": "b", "text": "Herbert Simon" },
+        { "id": "c", "text": "Garry Kasparov" },
+        { "id": "d", "text": "The team that built ELIZA at MIT" }
+      ],
+      "correct": ["a"],
+      "explanation": "The story begins in 1950 with mathematician Alan Turing, whose philosophical question gave researchers a direction that would drive decades of work."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "The lesson describes the progress of AI over the past seventy years as steady and linear.",
+      "correct": ["false"],
+      "explanation": "The lesson says the opposite: progress has never been linear, moving in waves of excitement and disappointment, including two periods known as AI winters."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which of these statements match the timeline given in the lesson?",
+      "options": [
+        { "id": "a", "text": "IBM's Deep Blue defeated world chess champion Garry Kasparov in 1997." },
+        { "id": "b", "text": "ELIZA was created at MIT in 1966 and mimicked a psychotherapist." },
+        { "id": "c", "text": "The Transformer architecture was invented in 2017." },
+        { "id": "d", "text": "ChatGPT was released to the public in 2016." },
+        { "id": "e", "text": "The first AI winter came because symbolic systems had become too accurate to keep funding." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Deep Blue (1997), ELIZA (1966) and the Transformer (2017) all appear in the timeline; ChatGPT was released in November 2022, and the first winter came because early systems failed to scale beyond toy problems."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "According to the lesson, what makes the last few years a genuine turning point for education?",
+      "options": [
+        { "id": "a", "text": "AI finally passed the Turing Test under laboratory conditions." },
+        { "id": "b", "text": "AI became accessible — teachers can use it by simply typing a question in natural language." },
+        { "id": "c", "text": "Governments made AI training mandatory for teachers." },
+        { "id": "d", "text": "AI became cheap enough for schools to run on their own servers." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson's key insight is that the real revolution is not just that AI got better, but that it became accessible — usable without programming knowledge, which turned it from an abstract concept into an everyday tool."
+    }
+  ]
+}

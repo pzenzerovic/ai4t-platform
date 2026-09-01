@@ -60,6 +60,22 @@
     "nextLesson": "Next Lesson",
     "backToCategory": "Back to {{category}}"
   },
+  "quiz": {
+    "title": "Check your knowledge",
+    "subtitle": "A few questions to see what stayed with you. Nothing is saved.",
+    "questionOf": "Question {{current}} of {{total}}",
+    "hintSingle": "Choose one answer",
+    "hintMulti": "Choose all that apply",
+    "hintTrueFalse": "True or false?",
+    "true": "True",
+    "false": "False",
+    "check": "Check answers",
+    "tryAgain": "Try again",
+    "correct": "Correct",
+    "incorrect": "Not quite",
+    "score": "{{correct}} of {{total}} correct",
+    "answerAllFirst": "Answer every question to check your results."
+  },
   "kas": {
     "title": "Knowledge Assessment",
     "description": "This assessment will evaluate your current knowledge across 4 areas of AI in education and create a personalized learning path for you. It takes approximately 10 minutes.",

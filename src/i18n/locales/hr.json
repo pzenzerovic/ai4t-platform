@@ -60,6 +60,22 @@
     "nextLesson": "Sljedeća lekcija",
     "backToCategory": "Natrag na {{category}}"
   },
+  "quiz": {
+    "title": "Provjerite svoje znanje",
+    "subtitle": "Nekoliko pitanja da vidite što vam je ostalo. Ništa se ne sprema.",
+    "questionOf": "Pitanje {{current}} od {{total}}",
+    "hintSingle": "Odaberite jedan odgovor",
+    "hintMulti": "Odaberite sve točne odgovore",
+    "hintTrueFalse": "Točno ili netočno?",
+    "true": "Točno",
+    "false": "Netočno",
+    "check": "Provjeri odgovore",
+    "tryAgain": "Pokušajte ponovno",
+    "correct": "Točno",
+    "incorrect": "Nije točno",
+    "score": "Točnih odgovora: {{correct}} od {{total}}",
+    "answerAllFirst": "Odgovorite na sva pitanja za provjeru rezultata."
+  },
   "kas": {
     "title": "Procjena znanja",
     "description": "Ova procjena će ocijeniti vaše trenutno znanje u 4 područja AI u obrazovanju i stvoriti personalizirani put učenja. Traje približno 10 minuta.",

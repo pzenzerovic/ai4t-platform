@@ -1,0 +1,52 @@
+{
+  "slug": "future-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "How does the lesson distinguish context from memory?",
+      "options": [
+        { "id": "a", "text": "Context lasts across conversations, while memory lasts only within a single one." },
+        { "id": "b", "text": "Context is what the model holds during one conversation; memory retains information across conversations and over time." },
+        { "id": "c", "text": "They are two names for the same feature." },
+        { "id": "d", "text": "Memory is available only to developers, not to ordinary users." }
+      ],
+      "correct": ["b"],
+      "explanation": "Context works like working memory within a single conversation and is lost when it ends. Memory goes a step further, carrying preferences, working style and goals into future interactions."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Artificial General Intelligence already exists in today's most advanced AI tools.",
+      "correct": ["false"],
+      "explanation": "The lesson states that AGI does not exist yet, that everything in use today is narrow AI, and that there is no consensus on when — or whether — AGI will be achieved."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which caveats about AI memory does the lesson list?",
+      "options": [
+        { "id": "a", "text": "It is selective — the system does not remember everything." },
+        { "id": "b", "text": "It is technically limited in how much can be stored and for how long." },
+        { "id": "c", "text": "It is manageable — you can view, edit and delete what the AI remembers about you." },
+        { "id": "d", "text": "Once stored, a memory is permanent and cannot be changed by the user." },
+        { "id": "e", "text": "It can be wrong — the AI may remember something incorrectly or apply it in the wrong context." }
+      ],
+      "correct": ["a", "b", "c", "e"],
+      "explanation": "Memory is described as selective, technically limited, manageable and fallible — and the fact that you can view, edit and delete it is highlighted as important for privacy."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "How does the lesson describe ASI (Artificial Superintelligence)?",
+      "options": [
+        { "id": "a", "text": "A system already in use at some universities." },
+        { "id": "b", "text": "A hypothetical system that would significantly surpass human intelligence, belonging to theoretical discussion." },
+        { "id": "c", "text": "Another name for a multimodal model." },
+        { "id": "d", "text": "The next scheduled version of ChatGPT." }
+      ],
+      "correct": ["b"],
+      "explanation": "ASI is presented as a speculative concept — an AI smarter than any human at everything — with no bearing on the tools teachers will use in the foreseeable future."
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "slug": "layers-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "What distinguishes Layer 5 (Agents) from Layers 1 to 4?",
+      "options": [
+        { "id": "a", "text": "Agents work only with images and audio." },
+        { "id": "b", "text": "You define the goal, and the agent plans and executes the steps needed to reach it." },
+        { "id": "c", "text": "Agents run without any internet connection." },
+        { "id": "d", "text": "Agents are the only layer widely available to teachers today." }
+      ],
+      "correct": ["b"],
+      "explanation": "In Layers 1 to 4 the teacher drives, giving one instruction after another. With agents you define the destination and the AI plans the route itself."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "The six-layer framework in this lesson is an official technical classification of AI systems.",
+      "correct": ["false"],
+      "explanation": "The lesson states explicitly that this is not an official technical classification but a didactic framework — a mental map of what AI can and cannot do."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "According to the layer map, which layers are described as already widely available?",
+      "options": [
+        { "id": "a", "text": "Layer 1 — basic chatbot" },
+        { "id": "b", "text": "Layer 2 — multimodal models" },
+        { "id": "c", "text": "Layer 4 — AI that uses computers" },
+        { "id": "d", "text": "Layer 6 — agent systems" }
+      ],
+      "correct": ["a", "b"],
+      "explanation": "The layer map marks Layers 1 and 2 as widely available, while computer-using AI and agents are listed as emerging and agent systems as being in early development."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What does the lesson say happens to the teacher's role as AI becomes more capable?",
+      "options": [
+        { "id": "a", "text": "It becomes less important, because AI takes over more of the work." },
+        { "id": "b", "text": "It becomes more important — setting goals, providing context, overseeing and judging." },
+        { "id": "c", "text": "It stays exactly the same at every layer." },
+        { "id": "d", "text": "It shifts entirely to technical maintenance of the tools." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson argues the teacher's role becomes more central, not less: as AI gains autonomy, the quality of the goal you set and the review you give the output matter enormously."
+    }
+  ]
+}

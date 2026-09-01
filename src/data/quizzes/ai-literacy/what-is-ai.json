@@ -1,0 +1,52 @@
+{
+  "slug": "what-is-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "What is the relationship between a chatbot and a large language model?",
+      "options": [
+        { "id": "a", "text": "The chatbot is the AI itself, and the language model is just the website that hosts it." },
+        { "id": "b", "text": "The chatbot is a user interface; the large language model behind it is the actual AI system that processes and generates text." },
+        { "id": "c", "text": "They are two names for exactly the same thing." },
+        { "id": "d", "text": "The chatbot trains the language model a little more every time you send it a message." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson compares a chatbot to a phone — the device you use to communicate — while the large language model is the system on the other end that processes your input and generates the response."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "According to the lesson, which of these are things AI cannot do?",
+      "options": [
+        { "id": "a", "text": "Truly understand meaning or context the way humans do" },
+        { "id": "b", "text": "Generate human-like text in dozens of languages" },
+        { "id": "c", "text": "Feel emotions or hold genuine opinions" },
+        { "id": "d", "text": "Guarantee that its output is accurate" },
+        { "id": "e", "text": "Translate between languages in real time" }
+      ],
+      "correct": ["a", "c", "d"],
+      "explanation": "Generating text and translating are listed among AI's real capabilities, while genuine understanding, genuine emotion and guaranteed accuracy are named as things AI cannot deliver."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Every AI tool teachers use today is narrow AI — powerful within specific tasks, but unable to generalise the way humans do.",
+      "correct": ["true"],
+      "explanation": "The lesson states that all current AI tools are narrow AI, and that Artificial General Intelligence — which could handle any intellectual task a human can — does not yet exist."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Why is the myth \"AI knows everything\" wrong?",
+      "options": [
+        { "id": "a", "text": "AI models are trained on data up to a cutoff date and generate plausible patterns rather than knowing facts." },
+        { "id": "b", "text": "AI deliberately withholds information its developers consider sensitive." },
+        { "id": "c", "text": "AI can only answer questions that appear word-for-word somewhere in its training data." },
+        { "id": "d", "text": "AI stores only the topics its developers selected for it by hand." }
+      ],
+      "correct": ["a"],
+      "explanation": "Models learn statistical patterns from data up to a training cutoff, which is exactly why they can present a fabricated citation or a wrong date with complete confidence."
+    }
+  ]
+}

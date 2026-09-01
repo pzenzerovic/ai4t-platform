@@ -1,0 +1,52 @@
+{
+  "slug": "ai-in-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "AI only arrived in education recently, with the release of tools like ChatGPT.",
+      "correct": ["false"],
+      "explanation": "AI was already in schools through spell-checkers, recommendation systems, translation tools and adaptive learning platforms — what changed recently is that AI became visible."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Which application does the lesson describe as the most mature use of AI in education?",
+      "options": [
+        { "id": "a", "text": "Adaptive learning platforms" },
+        { "id": "b", "text": "AI image generation" },
+        { "id": "c", "text": "Autonomous teaching agents" },
+        { "id": "d", "text": "Real-time classroom behaviour monitoring" }
+      ],
+      "correct": ["a"],
+      "explanation": "Adaptive learning platforms have been in use for years and are called the most mature application of AI in education — effective when they supplement, rather than replace, teacher-led instruction."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which limitations does the lesson attribute to automated assessment?",
+      "options": [
+        { "id": "a", "text": "It cannot assess creativity or originality." },
+        { "id": "b", "text": "It cannot grade multiple-choice tests." },
+        { "id": "c", "text": "It cannot evaluate the quality of a student's thinking — only whether the output matches expected patterns." },
+        { "id": "d", "text": "It cannot replace the professional judgement of a teacher who knows their students." },
+        { "id": "e", "text": "It cannot flag potential plagiarism." }
+      ],
+      "correct": ["a", "c", "d"],
+      "explanation": "Grading multiple-choice tests and flagging plagiarism are listed among the things automated assessment does well; creativity, quality of thinking and professional judgement are what it cannot reach."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What does the lesson recommend as a starting point for a teacher new to AI?",
+      "options": [
+        { "id": "a", "text": "Replace a whole unit of the curriculum with AI-generated materials." },
+        { "id": "b", "text": "Choose one routine task, try AI for it, and evaluate the result honestly." },
+        { "id": "c", "text": "Wait until the school adopts an official AI platform." },
+        { "id": "d", "text": "Study prompt-engineering theory before touching any tool." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson's first practical suggestion is to try a single time-consuming routine task with AI and then judge honestly whether the result was useful and where it needed improvement."
+    }
+  ]
+}

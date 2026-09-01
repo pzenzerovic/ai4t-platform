@@ -60,6 +60,22 @@
     "nextLesson": "Lecția Următoare",
     "backToCategory": "Înapoi la {{category}}"
   },
+  "quiz": {
+    "title": "Verificați-vă cunoștințele",
+    "subtitle": "Câteva întrebări pentru a vedea ce ați reținut. Nimic nu se salvează.",
+    "questionOf": "Întrebarea {{current}} din {{total}}",
+    "hintSingle": "Alegeți un singur răspuns",
+    "hintMulti": "Alegeți toate răspunsurile corecte",
+    "hintTrueFalse": "Adevărat sau fals?",
+    "true": "Adevărat",
+    "false": "Fals",
+    "check": "Verifică răspunsurile",
+    "tryAgain": "Încercați din nou",
+    "correct": "Corect",
+    "incorrect": "Nu chiar",
+    "score": "{{correct}} din {{total}} corecte",
+    "answerAllFirst": "Răspundeți la toate întrebările pentru a vedea rezultatele."
+  },
   "kas": {
     "title": "Evaluarea Cunoștințelor",
     "description": "Această evaluare va analiza cunoștințele dvs. actuale în 4 domenii ale AI în educație. Durează aproximativ 10 minute.",
