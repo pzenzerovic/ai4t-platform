@@ -1,5 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import { ExternalLinkIcon } from '../common/Icons'
+import usePageTitle from '../../hooks/usePageTitle'
 
 const ESEP_URL = 'https://school-education.ec.europa.eu/en/etwinning'
 
@@ -27,6 +28,7 @@ const groups = [
 
 export default function CommunityPage() {
   const { t } = useTranslation()
+  usePageTitle(t('community.title'))
 
   const featured = groups.find(g => g.featured)
   const rest = groups.filter(g => !g.featured)

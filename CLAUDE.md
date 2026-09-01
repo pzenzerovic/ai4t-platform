@@ -6,7 +6,9 @@ Project-specific context for Claude when working in this repository.
 
 ## What this is
 
-**AI4Teachers (AI4T)** — Erasmus+ KA210-SCH-86126A35 project (`2024-1-HR01-KA210-SCH-000256076`).
+**AI4Teachers (AI4T)** — Erasmus+ project `2025-1-HR01-KA210-SCH-000356497`.
+(The form ID `KA210-SCH-86126A35` previously recorded here belonged to the superseded
+2024 grant number and has not been re-verified against the current one — do not quote it.)
 Educational web platform for K-12 teachers learning to use AI in their classroom.
 Coordinator: **OŠ Ivana Cankara, Zagreb**. Partners: 105 Dimotiko Scholio
 Thessalonikis (GR), OŠ Horvati (HR), Asociatia Adfaber (RO, București), EDUKA (HR).

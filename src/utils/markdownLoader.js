@@ -101,6 +101,24 @@ export function getLessonsByCategory(categorySlug, lang = 'en') {
   return getAllLessons(lang).filter(l => l.category === categorySlug)
 }
 
+// How many lessons each category actually contains, counted from the files on disk.
+// English is the canonical catalogue — it defines the course structure and every
+// other language is a translation of it — so the count is the same on every route.
+// Deriving it here (rather than hardcoding it in categories.json) is what keeps the
+// homepage from drifting away from the lessons that really exist.
+let lessonCounts = null
+
+export function getLessonCounts() {
+  if (!lessonCounts) {
+    lessonCounts = {}
+    for (const lesson of getAllLessons('en')) {
+      if (!lesson.category) continue
+      lessonCounts[lesson.category] = (lessonCounts[lesson.category] || 0) + 1
+    }
+  }
+  return lessonCounts
+}
+
 export function getLesson(categorySlug, lessonSlug, lang = 'en') {
   return getAllLessons(lang).find(
     l => l.category === categorySlug && l.slug === lessonSlug

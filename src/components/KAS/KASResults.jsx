@@ -88,10 +88,10 @@ export default function KASResults({ results, onRetake }) {
                 <div className="flex items-center gap-2 mt-1">
                   <span className="text-xs text-gray-500">{item.category}</span>
                   {item.readingTime && (
-                    <span className="text-xs text-gray-400">{item.readingTime} {t('resources.readTime')}</span>
+                    <span className="text-xs text-gray-500">{item.readingTime} {t('resources.readTime')}</span>
                   )}
                   {item.provider && (
-                    <span className="text-xs text-gray-400">{item.provider}</span>
+                    <span className="text-xs text-gray-500">{item.provider}</span>
                   )}
                 </div>
               </div>

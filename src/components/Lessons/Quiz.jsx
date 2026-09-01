@@ -74,7 +74,7 @@ export default function Quiz({ categorySlug, lessonSlug }) {
               key={q.id}
               className="bg-white border border-gray-200 rounded-lg p-4 sm:p-5"
             >
-              <p className="text-xs font-medium text-gray-400 uppercase tracking-wide mb-2">
+              <p className="text-xs font-medium text-gray-500 uppercase tracking-wide mb-2">
                 {t('quiz.questionOf', { current: index + 1, total: questions.length })}
                 <span className="normal-case tracking-normal"> — {t(HINT_KEYS[q.type] || HINT_KEYS.single)}</span>
               </p>
@@ -145,6 +145,7 @@ export default function Quiz({ categorySlug, lessonSlug }) {
 
               {checked && (
                 <div
+                  aria-live="polite"
                   className={`mt-4 p-3 sm:p-4 rounded-r-lg border-l-4 ${
                     questionCorrect ? 'bg-green-50 border-green-600' : 'bg-amber-50 border-accent'
                   }`}
@@ -176,19 +177,22 @@ export default function Quiz({ categorySlug, lessonSlug }) {
             )}
           </>
         ) : (
-          <>
-            <button
-              type="button"
-              onClick={reset}
-              className="px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg font-medium transition-colors"
-            >
-              {t('quiz.tryAgain')}
-            </button>
-            <p className="text-sm font-medium text-gray-700">
-              {t('quiz.score', { correct: score, total: questions.length })}
-            </p>
-          </>
+          <button
+            type="button"
+            onClick={reset}
+            className="px-6 py-3 bg-primary hover:bg-primary-dark text-white rounded-lg font-medium transition-colors"
+          >
+            {t('quiz.tryAgain')}
+          </button>
         )}
+
+        {/* The score lives in a live region that is present from the first render and
+            empty until the quiz is checked. A live region inserted into the DOM
+            together with its text is usually not announced at all, so mounting it
+            up front is what makes "Check answers" audible (AIT-16, finding 7). */}
+        <p role="status" aria-live="polite" className="text-sm font-medium text-gray-700">
+          {checked ? t('quiz.score', { correct: score, total: questions.length }) : ''}
+        </p>
       </div>
     </section>
   )

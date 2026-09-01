@@ -13,7 +13,7 @@ export default function LessonCard({ lesson }) {
     >
       <div className="flex items-center gap-2 mb-3">
         <LevelBadge level={lesson.level} />
-        <span className="text-xs text-gray-400">
+        <span className="text-xs text-gray-500">
           {lesson.readingTime} {t('resources.readTime')}
         </span>
       </div>

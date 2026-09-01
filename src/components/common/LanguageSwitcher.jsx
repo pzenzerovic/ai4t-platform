@@ -11,7 +11,7 @@ const languages = [
 ]
 
 export default function LanguageSwitcher() {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation()
   const navigate = useNavigate()
   const location = useLocation()
   const { lang } = useParams()
@@ -24,20 +24,27 @@ export default function LanguageSwitcher() {
 
   return (
     <div className="flex items-center gap-1">
-      {languages.map(l => (
-        <button
-          key={l.code}
-          onClick={() => handleChange(l.code)}
-          className={`px-2 py-1 text-sm rounded transition-colors ${
-            i18n.language === l.code
-              ? 'bg-primary text-white font-semibold'
-              : 'text-gray-500 hover:bg-gray-100 hover:text-gray-700'
-          }`}
-          aria-label={`Switch to ${l.label}`}
-        >
-          {l.label}
-        </button>
-      ))}
+      {languages.map(l => {
+        const isActive = i18n.language === l.code
+        return (
+          <button
+            key={l.code}
+            onClick={() => handleChange(l.code)}
+            className={`px-2 py-1 text-sm rounded transition-colors ${
+              isActive
+                ? 'bg-primary text-white font-semibold'
+                : 'text-gray-500 hover:bg-gray-100 hover:text-gray-700'
+            }`}
+            // Label goes through t() so it is spoken in the language of the page,
+            // and aria-pressed says which language is currently on — colour alone
+            // did not (AIT-16, finding 10).
+            aria-label={t('a11y.switchLanguage', { lang: l.label })}
+            aria-pressed={isActive}
+          >
+            {l.label}
+          </button>
+        )
+      })}
     </div>
   )
 }

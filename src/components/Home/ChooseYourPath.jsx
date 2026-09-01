@@ -68,7 +68,7 @@ export default function ChooseYourPath() {
               <ArrowRightIcon className="w-5 h-5 ml-2" />
             </Link>
 
-            <p className="text-xs text-gray-400 mt-3 text-center">
+            <p className="text-xs text-gray-500 mt-3 text-center">
               {t('home.pathNewTime')}
             </p>
           </div>

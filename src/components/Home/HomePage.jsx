@@ -3,9 +3,11 @@ import Hero from './Hero'
 import ChooseYourPath from './ChooseYourPath'
 import CategoryCard from './CategoryCard'
 import categories from '../../data/categories.json'
+import usePageTitle from '../../hooks/usePageTitle'
 
 export default function HomePage() {
   const { t } = useTranslation()
+  usePageTitle(null) // homepage keeps the bare site name
 
   return (
     <div>

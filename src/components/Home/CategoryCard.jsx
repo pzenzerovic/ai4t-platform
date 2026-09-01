@@ -1,10 +1,13 @@
 import { Link, useParams } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { CategoryIcon } from '../common/Icons'
+import { getLessonCounts } from '../../utils/markdownLoader'
 
 export default function CategoryCard({ category }) {
   const { t } = useTranslation()
   const { lang } = useParams()
+  // Counted from the lesson files themselves, never hardcoded — see getLessonCounts.
+  const lessonCount = getLessonCounts()[category.slug] || 0
 
   return (
     <Link
@@ -37,7 +40,7 @@ export default function CategoryCard({ category }) {
 
         <div className="flex items-center justify-between">
           <span className="text-xs font-medium text-gray-500 bg-gray-100 px-2.5 py-1 rounded-full">
-            {category.lessonCount} {t('home.lessons')}
+            {lessonCount} {t('home.lessons')}
           </span>
           <span className="text-accent font-semibold text-sm group-hover:translate-x-1 transition-transform inline-flex items-center gap-1">
             {t('home.explore')} &rarr;

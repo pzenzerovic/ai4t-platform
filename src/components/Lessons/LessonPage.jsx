@@ -7,6 +7,7 @@ import LevelBadge from './LevelBadge'
 import Quiz from './Quiz'
 import { ChevronLeftIcon, ChevronRightIcon } from '../common/Icons'
 import categories from '../../data/categories.json'
+import usePageTitle from '../../hooks/usePageTitle'
 
 // Extract YouTube video ID from various URL formats
 function getYouTubeId(url) {
@@ -104,6 +105,8 @@ export default function LessonPage() {
   const { lang, categorySlug, lessonSlug } = useParams()
   const lesson = useLesson(categorySlug, lessonSlug)
   const categoryLessons = useLessonsByCategory(categorySlug)
+  // Called before the early return below so the hook order stays stable.
+  usePageTitle(lesson?.title)
 
   if (!lesson) {
     return (

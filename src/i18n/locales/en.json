@@ -115,7 +115,13 @@
     "learningPathDesc": "Based on your results, we recommend starting with these materials:",
     "selectAnswer": "Please select an answer to continue"
   },
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "toggleMenu": "Toggle menu",
+    "switchLanguage": "Switch to {{lang}}"
+  },
   "footer": {
+    "euFunding": "Co-funded by the European Union",
     "disclaimer": "Funded by the European Union. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or the European Education and Culture Executive Agency (EACEA). Neither the European Union nor EACEA can be held responsible for them.",
     "projectNumber": "Project number: 2025-1-HR01-KA210-SCH-000356497",
     "partners": "Partners"

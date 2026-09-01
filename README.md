@@ -1,6 +1,6 @@
 # AI4Teachers Platform
 
-An educational web platform developed as part of the **Erasmus+ AI4T project** (2024-1-HR01-KA210-SCH-000256076). The platform provides K-12 teachers with structured learning resources about Artificial Intelligence and includes a Knowledge Assessment System (KAS) to evaluate understanding and generate personalized learning paths.
+An educational web platform developed as part of the **Erasmus+ AI4T project** (2025-1-HR01-KA210-SCH-000356497). The platform provides K-12 teachers with structured learning resources about Artificial Intelligence and includes a Knowledge Assessment System (KAS) to evaluate understanding and generate personalized learning paths.
 
 ## Features
 

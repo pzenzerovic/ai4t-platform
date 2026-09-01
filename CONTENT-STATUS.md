@@ -136,4 +136,4 @@ When a lesson is written or translated, update the relevant table:
 
 ---
 
-*AI4T Project (2024-1-HR01-KA210-SCH-000256076) — Co-funded by the European Union through the Erasmus+ programme.*
+*AI4T Project (2025-1-HR01-KA210-SCH-000356497) — Co-funded by the European Union through the Erasmus+ programme.*

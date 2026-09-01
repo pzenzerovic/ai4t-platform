@@ -1,11 +1,15 @@
 # AI4Teachers — Platform & Feature Status
 
-> **Last updated:** 2026-05-12
+> **Last updated:** 2026-09-01
 >
 > This document tracks the status of platform features and the Knowledge Assessment System.
 > Partners can use this to see what is built, what needs refinement, and what is planned.
 >
 > See also: [CONTENT-STATUS.md](CONTENT-STATUS.md) for educational content and translation status.
+
+**The course is 33 lessons in four categories: 8 + 9 + 9 + 7.** The homepage counts
+these from the lesson files themselves rather than from a stored number, so the
+figure shown to visitors cannot drift away from what is actually published.
 
 ### Status Legend
 
@@ -34,6 +38,29 @@
 
 ---
 
+## End-of-lesson self-check quizzes
+
+Every lesson ends with a short self-check: 4 questions mixing single-choice,
+multiple-choice and true/false, with an explanation revealed after checking.
+Nothing is stored and nothing is graded — reloading the page starts over.
+
+| Category | Lessons | Quizzes (EN) | Quizzes (RO) | Status |
+|---|---|---|---|---|
+| AI Literacy | 8 | 8 | 8 | ✅ Final version |
+| Practical AI Skills | 9 | 9 | 9 | ✅ Final version |
+| Considerations on AI | 9 | 9 | 9 | ✅ Final version |
+| AI for All Learners | 7 | 7 | 7 | ✅ Final version |
+| **Total** | **33** | **33** | **33** | |
+
+Quiz files live in `src/data/quizzes/<lang>/<category>/<lesson-slug>.json`, mirroring
+how `src/content/<lang>/` is organised. Adding a language means adding a folder — no
+code changes. A lesson with no quiz in the current language falls back to English.
+
+Romanian questions were translated against the Romanian lesson text so the
+terminology matches what the partner used, and still await partner review.
+
+---
+
 ## Platform Features
 
 | Feature | Status | Notes |
@@ -52,7 +79,11 @@
 | Multi-language UI | ✅ Final version | EN, HR, EL, RO |
 | Responsive mobile layout | ✅ Final version | |
 | Vercel deployment | ✅ Final version | Auto-deploys on push |
-| Footer with partner info + EU disclaimer | 📝 Draft published | Review needed — add info from formal Erasmus+ requirements |
+| Community page | ✅ Final version | Points to the project's three eTwinning groups on ESEP |
+| End-of-lesson self-check quizzes | ✅ Final version | All 33 lessons, EN + RO — see section above |
+| Vercel Web Analytics | ✅ Final version | Anonymous page-view counting, no cookies |
+| Footer with partner info + EU disclaimer | 📝 Draft published | Short emblem statement now reads "Co-funded by the European Union"; the long EACEA paragraph is the prescribed template. **Open:** the emblem itself is still a placeholder box, not the official EU flag artwork |
+| Accessibility quick wins | ✅ Final version | Page language follows the route, page titles per route, skip link, quiz result announced to screen readers, translated ARIA labels, contrast of secondary text raised. **Open:** brand orange `#E8732A` at 3.04:1 — awaiting a decision |
 | Language switcher | ✅ Final version | Active in header — EN + RO live; HR + EL commented out until translations land |
 | Search functionality | ✅ Final version | Implemented, hidden for now |
 | About page | 📋 Planned | |
@@ -68,4 +99,4 @@ When a feature or component status changes:
 
 ---
 
-*AI4T Project (2024-1-HR01-KA210-SCH-000256076) — Co-funded by the European Union through the Erasmus+ programme.*
+*AI4T Project (2025-1-HR01-KA210-SCH-000356497) — Co-funded by the European Union through the Erasmus+ programme.*

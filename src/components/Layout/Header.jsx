@@ -49,7 +49,7 @@ export default function Header() {
                 to={`/${lang}/assessment?view=results`}
                 className="flex items-center gap-1.5 px-3 py-1.5 bg-accent/10 text-accent hover:bg-accent/20 rounded-lg text-sm font-medium transition-colors no-underline"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 {t('nav.myResults')}
@@ -61,9 +61,11 @@ export default function Header() {
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
             className="md:hidden p-2 text-gray-600 hover:text-primary"
-            aria-label="Toggle menu"
+            aria-label={t('a11y.toggleMenu')}
+            aria-expanded={mobileOpen}
+            aria-controls="mobile-nav"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
               {mobileOpen ? (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               ) : (
@@ -74,7 +76,7 @@ export default function Header() {
         </div>
 
         {mobileOpen && (
-          <nav className="md:hidden pb-4 border-t border-gray-100 pt-2">
+          <nav id="mobile-nav" className="md:hidden pb-4 border-t border-gray-100 pt-2">
             {navLinks.map(link => (
               <Link
                 key={link.to}
@@ -91,7 +93,7 @@ export default function Header() {
                 onClick={() => setMobileOpen(false)}
                 className="flex items-center gap-1.5 py-2 text-accent font-medium no-underline"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
+                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2} aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
                 {t('nav.myResults')}

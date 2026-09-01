@@ -22,7 +22,7 @@ export default function Hero() {
           <p className="text-xl sm:text-2xl text-blue-100 mb-4 font-medium">
             {t('hero.titleSub')}
           </p>
-          <p className="text-base sm:text-lg text-blue-200/90 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg text-blue-100 max-w-2xl mx-auto leading-relaxed">
             {t('hero.subtitle')}
           </p>
 

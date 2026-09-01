@@ -12,6 +12,10 @@ export default function KASQuestion({ question, selectedAnswer, onSelect }) {
             <button
               key={option.id}
               onClick={() => onSelect(question.id, option.id)}
+              // Without this the selected answer is signalled by border colour and a
+              // dot only — nothing a screen reader can read (AIT-16, finding 6).
+              // Same pattern the end-of-lesson quiz already uses.
+              aria-pressed={isSelected}
               className={`w-full text-left p-4 rounded-lg border-2 transition-all ${
                 isSelected
                   ? 'border-primary bg-primary/5 ring-1 ring-primary/20'

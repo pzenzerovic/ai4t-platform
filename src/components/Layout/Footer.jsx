@@ -21,7 +21,7 @@ export default function Footer() {
               {partners.map(p => (
                 <li key={p.name} className="text-sm">
                   <span className="text-gray-100">{p.name}</span>
-                  <span className="text-gray-500"> — {p.location}</span>
+                  <span className="text-gray-400"> — {p.location}</span>
                   {p.role && <span className="text-accent text-xs ml-2">({p.role})</span>}
                 </li>
               ))}
@@ -29,24 +29,32 @@ export default function Footer() {
           </div>
 
           <div>
-            <div className="flex items-start gap-4 mb-4">
-              <div className="flex-shrink-0 w-12 h-8 bg-blue-800 rounded flex items-center justify-center">
-                <div className="text-yellow-400 text-xs font-bold">EU</div>
+            {/* EU emblem with the short funding statement required alongside it.
+                This is the badge-length wording; the long EACEA paragraph below is
+                a separate, prescribed text and must not be merged into this one. */}
+            <div className="flex items-center gap-4 mb-4 flex-wrap">
+              <div className="flex items-center gap-2.5">
+                <div className="flex-shrink-0 w-12 h-8 bg-blue-800 rounded flex items-center justify-center">
+                  <span className="text-yellow-400 text-xs font-bold">EU</span>
+                </div>
+                <span className="text-sm font-medium text-gray-100">
+                  {t('footer.euFunding')}
+                </span>
               </div>
-              <div className="flex-shrink-0 px-3 py-1 bg-blue-700 rounded">
-                <span className="text-white text-xs font-semibold">Erasmus+</span>
-              </div>
+              <span className="flex-shrink-0 px-3 py-1 bg-blue-700 rounded text-white text-xs font-semibold">
+                Erasmus+
+              </span>
             </div>
             <p className="text-xs text-gray-400 leading-relaxed mb-3">
               {t('footer.disclaimer')}
             </p>
-            <p className="text-xs text-gray-500">
+            <p className="text-xs text-gray-400">
               {t('footer.projectNumber')}
             </p>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-6 text-center text-xs text-gray-500">
+        <div className="border-t border-gray-800 pt-6 text-center text-xs text-gray-400">
           <p>AI4Teachers — Erasmus+ KA210-SCH</p>
         </div>
       </div>

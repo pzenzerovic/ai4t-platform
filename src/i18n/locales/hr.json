@@ -115,7 +115,13 @@
     "learningPathDesc": "Na temelju vaših rezultata, preporučujemo da započnete s ovim materijalima:",
     "selectAnswer": "Odaberite odgovor za nastavak"
   },
+  "a11y": {
+    "skipToContent": "Prijeđi na glavni sadržaj",
+    "toggleMenu": "Otvori ili zatvori izbornik",
+    "switchLanguage": "Prebaci na {{lang}}"
+  },
   "footer": {
+    "euFunding": "Sufinancira Europska unija",
     "disclaimer": "Financira Europska unija. Izneseni stavovi i mišljenja isključivo su stavovi autora i ne odražavaju nužno stavove Europske unije ili Europske izvršne agencije za obrazovanje i kulturu (EACEA). Ni Europska unija ni EACEA ne mogu se smatrati odgovornima za njih.",
     "projectNumber": "Broj projekta: 2025-1-HR01-KA210-SCH-000356497",
     "partners": "Partneri"
