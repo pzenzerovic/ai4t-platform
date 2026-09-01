@@ -1,0 +1,52 @@
+{
+  "slug": "responsible-use-of-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "A responsibly designed AI-assisted activity should finish with a phase in which the student articulates or demonstrates what they learned without AI assistance.",
+      "correct": ["true"],
+      "explanation": "This is the fourth step of the lesson's framework — reflection without AI — and its purpose is to ensure that the knowledge belongs to the student rather than to the tool."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "The lesson says AI assistance should be matched to the phase of learning. Which statement reflects that principle?",
+      "options": [
+        { "id": "a", "text": "The amount of AI assistance should fall steadily as the topic progresses, until it disappears." },
+        { "id": "b", "text": "The type of AI use should change across the phases — explanation during initial exposure, feedback during practice, organisation during consolidation — and AI should be absent during assessment." },
+        { "id": "c", "text": "AI should be introduced only once the student can already handle the material unaided." },
+        { "id": "d", "text": "The phase makes no difference, provided the student verifies whatever the AI produces." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson states explicitly that the principle is not that AI use decreases as learning progresses, but that the type of use changes — with assessment as the point where AI should be absent."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which risks does the lesson attribute to AI used without clear pedagogical intention?",
+      "options": [
+        { "id": "a", "text": "Avoidance of the productive struggle that is a natural part of learning" },
+        { "id": "b", "text": "Dependence on external assistance" },
+        { "id": "c", "text": "Superficial understanding without deep processing" },
+        { "id": "d", "text": "The loss of teacher feedback, because AI takes over the assessment role" },
+        { "id": "e", "text": "A visible drop in the technical quality of the work students hand in" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The lesson lists passive consumption of ready-made answers, reduced cognitive effort, avoidance of productive struggle, dependence and superficial understanding. It also notes that such work is often technically correct and polished, and that the teacher's role is redefined rather than replaced."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What characterises the metacognitive use of AI that the lesson calls its most educationally valuable application?",
+      "options": [
+        { "id": "a", "text": "The AI supplies content the student could not find elsewhere, such as advanced worked examples." },
+        { "id": "b", "text": "The AI provides no content — it prompts the student to examine their own weak points, priorities and study strategies." },
+        { "id": "c", "text": "The AI marks the student's work and assigns a level." },
+        { "id": "d", "text": "The AI takes over routine tasks so the student can spend more time on difficult ones." }
+      ],
+      "correct": ["b"],
+      "explanation": "In the lesson's metacognitive examples — asking where one's understanding is weak, what to prioritise before a test, or how to study a type of material more effectively — the AI is prompting reflection on the student's own learning process rather than delivering content."
+    }
+  ]
+}

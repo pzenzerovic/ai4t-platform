@@ -1,0 +1,52 @@
+{
+  "slug": "from-answers-to-learning",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Two students use the same chatbot to work on the same fractions problem. What separates the one who learns from the one who does not?",
+      "options": [
+        { "id": "a", "text": "One of them is using a more capable paid version of the tool." },
+        { "id": "b", "text": "One asks for the solution and copies it; the other asks the tool to withhold the answer and guide them through the process with questions." },
+        { "id": "c", "text": "One works alone, while the other works alongside a classmate." },
+        { "id": "d", "text": "One checks the tool's answer against the textbook afterwards." }
+      ],
+      "correct": ["b"],
+      "explanation": "In the lesson's example the first student types \"Solve 2/3 + 1/4\" and copies the result, while the second asks to be guided step by step without being given the answer. The technology is identical; the pedagogy is not."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Struggling with a problem, getting it wrong and trying again are obstacles to learning that a good tool should remove wherever possible.",
+      "correct": ["false"],
+      "explanation": "The lesson states the opposite: frustration, uncertainty and trial and error are not obstacles to learning — they are learning, because each attempt builds understanding."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which practices does the lesson recommend to teachers who want AI to support learning rather than bypass it?",
+      "options": [
+        { "id": "a", "text": "Teaching students to prompt for guidance and questions rather than for finished products" },
+        { "id": "b", "text": "Designing assignments that require drafts, reflections or explanations of reasoning, so the process is visible and valued" },
+        { "id": "c", "text": "Telling students explicitly what capability an activity is meant to develop, rather than leaving the purpose unstated" },
+        { "id": "d", "text": "Banning AI from the classroom until students can complete the work without it" },
+        { "id": "e", "text": "Evaluating only the finished product, so that students concentrate on quality" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The lesson names these three concrete practices and rejects the alternatives: the paradigm shift does not mean banning AI, and evaluating only the final product gives students every incentive to let AI produce it."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "The lesson identifies a myth: \"Students learn by reading correct answers.\" What does it say instead?",
+      "options": [
+        { "id": "a", "text": "Passively receiving correct information is one of the least effective forms of learning; understanding is constructed through active engagement." },
+        { "id": "b", "text": "Reading correct answers works, provided the student reads each one several times." },
+        { "id": "c", "text": "Reading correct answers is effective in factual subjects, but not in analytical ones." },
+        { "id": "d", "text": "Reading correct answers is effective as long as the answers come from a teacher rather than from AI." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson calls passive receipt of correct information one of the least effective forms of learning, and says understanding is built by questioning, applying, making errors and correcting them."
+    }
+  ]
+}

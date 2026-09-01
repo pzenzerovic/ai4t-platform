@@ -1,0 +1,52 @@
+{
+  "slug": "detecting-ai-generated-work",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Why does the lesson conclude that AI detection tools cannot be made reliable?",
+      "options": [
+        { "id": "a", "text": "They read statistical features of text, but AI output is trained on human writing to be statistically indistinguishable from it, and students can edit or rewrite whatever signature remains." },
+        { "id": "b", "text": "They compare each submission against a database of previously generated AI texts, which cannot keep pace with new output." },
+        { "id": "c", "text": "They work on long essays but cannot process short submissions." },
+        { "id": "d", "text": "They handle unedited AI text accurately, and fail only once a student changes a few words." }
+      ],
+      "correct": ["a"],
+      "explanation": "Detectors measure things such as the predictability of word choices, variation in sentence structure and punctuation patterns, while each generation of models narrows that statistical gap. The lesson describes the arms race between detection and evasion as one that detection is losing."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Even a detector that was 99% accurate would be an unfair basis for academic discipline, because at the scale of a school a 1% false-positive rate means dozens of wrongful accusations a year.",
+      "correct": ["true"],
+      "explanation": "The lesson works the arithmetic through: in a class of 100 students handing in two assignments a term, a 1% false-positive rate wrongly accuses roughly two students per term, and this multiplies across a school. No accuracy rate achievable in practice makes detection a fair basis for discipline."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which changes to assessment does the lesson present as the durable response to AI misuse?",
+      "options": [
+        { "id": "a", "text": "Assessing the process — drafts, notes, intermediate versions — alongside the finished product" },
+        { "id": "b", "text": "Adding an in-class component, such as an oral defence or a short written reflection" },
+        { "id": "c", "text": "Setting work that depends on specific classroom material, discussions or local examples" },
+        { "id": "d", "text": "Requiring every take-home task to pass through a detection tool before it is marked" },
+        { "id": "e", "text": "Replacing staged work with a single high-stakes submission at the end of the term" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The lesson shifts the response from surveillance to design: process evidence, in-class confirmation, context-specific questions and iterative feedback cycles. It rejects detector output as evidence of misconduct, and recommends breaking large tasks into stages rather than concentrating them into one submission."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "A student's submission is far more polished than their previous work. What does the lesson advise?",
+      "options": [
+        { "id": "a", "text": "Treat it as a reason to look more carefully, and open a non-accusatory conversation in which the student explains their thinking." },
+        { "id": "b", "text": "Treat the change in style as sufficient evidence of AI use, since experienced teachers rarely misjudge it." },
+        { "id": "c", "text": "Submit the text to a detection tool and act on whatever result it returns." },
+        { "id": "d", "text": "Do nothing, since nothing observable in student writing can ever justify a closer look." }
+      ],
+      "correct": ["a"],
+      "explanation": "A sudden change in style is a legitimate reason to look more carefully but not evidence on its own — the student may have studied harder or read ahead. If the student can walk through their work, it stands; if not, that is information about their learning, independent of how the text was produced."
+    }
+  ]
+}

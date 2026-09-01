@@ -1,0 +1,52 @@
+{
+  "slug": "meta-prompting",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "Meta-prompting replaces prompt engineering: once you can hold a planning dialogue with the AI, writing a specific, well-structured prompt is no longer necessary.",
+      "correct": ["false"],
+      "explanation": "The lesson is explicit that meta-prompting is a preliminary step, not a replacement. First you use it to clarify what you want; then you write a specific prompt to get it, as the worked Year 3 example demonstrates."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "What does the lesson describe as Meta-prompting 1.0?",
+      "options": [
+        { "id": "a", "text": "Presenting a draft prompt to the AI and asking how it could be improved before submitting it as a task." },
+        { "id": "b", "text": "Beginning with no prompt at all and exploring possible approaches through dialogue." },
+        { "id": "c", "text": "Asking the AI to assess the quality of the output it has just produced." },
+        { "id": "d", "text": "Writing several versions of the same prompt and comparing the results side by side." }
+      ],
+      "correct": ["a"],
+      "explanation": "Meta-prompting 1.0 is the simplest form: you show the AI your draft and ask what is missing. Starting from a problem rather than a prompt and exploring options through conversation is the more advanced form, Meta-prompting 2.0."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "In which situations does the lesson say meta-prompting is most valuable?",
+      "options": [
+        { "id": "a", "text": "When you know the problem but not what form the solution should take." },
+        { "id": "b", "text": "When a complex task has several components and the structure needs planning before content is generated." },
+        { "id": "c", "text": "When you want to weigh up different approaches before committing to one." },
+        { "id": "d", "text": "When the task is simple and well defined, such as ten exercises on the 6 times table." },
+        { "id": "e", "text": "When you want a single finished product and no further conversation." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The lesson lists exploring the form of a solution, planning a multi-part task and evaluating alternatives among the situations where meta-prompting pays off. For a simple, well-defined request it says meta-prompting is unnecessary, and it contrasts the collaborative mode with the one-shot transactional one."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What role does the AI play during a meta-prompting conversation?",
+      "options": [
+        { "id": "a", "text": "It presents options, structures and possibilities that the teacher accepts, rejects or modifies using professional judgement." },
+        { "id": "b", "text": "It selects the most pedagogically appropriate option, which the teacher then implements." },
+        { "id": "c", "text": "It takes over the planning stage so the teacher can move straight to delivery." },
+        { "id": "d", "text": "It stores the teacher's preferences so that later prompts become unnecessary." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson states that the AI is not making decisions in a meta-prompting conversation — it offers possibilities, and the teacher's expertise is exercised in evaluating them and steering the dialogue towards a useful outcome."
+    }
+  ]
+}

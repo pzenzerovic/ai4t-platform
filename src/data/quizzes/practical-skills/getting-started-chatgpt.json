@@ -1,0 +1,52 @@
+{
+  "slug": "getting-started-chatgpt",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "When you type a question into ChatGPT, what is the tool actually doing?",
+      "options": [
+        { "id": "a", "text": "Generating new text in real time by predicting a plausible, relevant sequence of words." },
+        { "id": "b", "text": "Looking the answer up in a database of verified responses." },
+        { "id": "c", "text": "Retrieving the most relevant passages from the books and articles it was trained on and quoting them." },
+        { "id": "d", "text": "Consulting notes it saved from your previous conversations." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson describes ChatGPT as generating text rather than searching a database of answers, and this is precisely what explains both its fluency and its capacity to sound confident while being wrong."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Which of these does the lesson recommend as starter workflows for a teacher new to ChatGPT?",
+      "options": [
+        { "id": "a", "text": "Producing a first-draft lesson outline that you then adjust for pacing, examples and objectives." },
+        { "id": "b", "text": "Turning one short text into several versions at different reading levels for a mixed-ability class." },
+        { "id": "c", "text": "Rewriting your own material — a parent letter or a set of classroom instructions — for clarity or a particular audience." },
+        { "id": "d", "text": "Pasting your class list so that materials can be personalised for each named student." },
+        { "id": "e", "text": "Asking it to confirm which facts in a textbook chapter are correct." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Lesson outlines, differentiated versions of a text and rewriting your own material are among the four starter workflows the lesson proposes. Entering student names is ruled out on data-protection grounds, and the tool cannot be used as a fact-checker because it does not know whether its own output is correct."
+    },
+    {
+      "id": "q3",
+      "type": "single",
+      "text": "What does the lesson recommend doing whenever a prompt produces a genuinely useful result?",
+      "options": [
+        { "id": "a", "text": "Save it with a short note about when it worked, so it becomes part of a personal library you adapt later." },
+        { "id": "b", "text": "Run it several more times to check that the output stays stable." },
+        { "id": "c", "text": "Ask ChatGPT to remember it and apply it in future conversations." },
+        { "id": "d", "text": "Publish it so that colleagues in other schools can reuse it directly." }
+      ],
+      "correct": ["a"],
+      "explanation": "Building a personal prompt library is one of the two deliberate choices the lesson names for turning a first try into regular practice: next time you need similar output you adapt a prompt that already worked rather than starting from scratch."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "text": "Anything typed into ChatGPT is sent to OpenAI's servers and may be used to improve their models unless you opt out, so material that would normally identify a student should be anonymised first.",
+      "correct": ["true"],
+      "explanation": "The lesson makes both points directly and advises replacing names with \"Student A\", \"Student B\" and removing any detail that could identify a real person: treat the tool as an unsecured channel, since everything you type leaves your device."
+    }
+  ]
+}

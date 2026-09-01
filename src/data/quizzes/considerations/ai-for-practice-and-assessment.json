@@ -1,0 +1,52 @@
+{
+  "slug": "ai-for-practice-and-assessment",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "The lesson argues that the value of AI practice systems does not lie in generating the exercises. Which elements does it name as the source of that value?",
+      "options": [
+        { "id": "a", "text": "Feedback that arrives immediately after each response" },
+        { "id": "b", "text": "Difficulty that adjusts to the individual student" },
+        { "id": "c", "text": "An effectively unlimited supply of practice material" },
+        { "id": "d", "text": "The production of the exercises themselves, which a teacher cannot do" },
+        { "id": "e", "text": "A guarantee that every explanation the system gives is correct" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The lesson names immediate feedback, personalised difficulty adjustment and an unlimited supply of practice material as the combination that is hard to achieve at scale; it says explicitly that a teacher can create exercises too, and warns that AI feedback is not infallible."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "How does the lesson compare a built-in quiz function with practice conducted as a conversation?",
+      "options": [
+        { "id": "a", "text": "The built-in quiz is the richer option, because scoring is consistent and immediate." },
+        { "id": "b", "text": "Conversational practice often produces richer learning, because the AI can ask follow-up questions, request the student's reasoning and adapt its feedback to the specific error." },
+        { "id": "c", "text": "The two are equivalent, so the choice is a matter of student preference." },
+        { "id": "d", "text": "Built-in quizzes should be avoided, because they cannot explain wrong answers." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson calls the pre-formatted quiz useful for vocabulary review, factual recall and concept recognition — it does offer explanations for incorrect responses — but says the dialogue form often produces richer learning because feedback can adapt to the nature of the student's error."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "If a student keeps adding the denominators when adding fractions, AI can treat this as a systematic misconception rather than a random slip and generate problems built specifically to address it.",
+      "correct": ["true"],
+      "explanation": "The lesson uses exactly this example — 1/3 + 1/4 written as 2/7 — to illustrate diagnostic feedback: the AI identifies the pattern, explains the correct procedure, offers a visual analogy and targets further practice at that misconception."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "The lesson contrasts the prompt \"Quiz me on history\" with a request that names the topic, the focus and the year level. What is wrong with the first prompt?",
+      "options": [
+        { "id": "a", "text": "It asks for more questions than the tool can produce in a single response." },
+        { "id": "b", "text": "It gives the AI no topic, focus or level, so the practice that comes back is generic and unfocused." },
+        { "id": "c", "text": "It is phrased as an instruction rather than as a question." },
+        { "id": "d", "text": "History is a subject in which AI-generated practice is unreliable." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson says teachers should help students design their practice sessions: a request naming the causes of World War I, the alliance system and a Year 9 exam level returns practice that is directly relevant to the learning goal."
+    }
+  ]
+}

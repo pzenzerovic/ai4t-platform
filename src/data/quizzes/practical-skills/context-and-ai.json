@@ -1,0 +1,52 @@
+{
+  "slug": "context-and-ai",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "In AI terms, what does \"context\" refer to?",
+      "options": [
+        { "id": "a", "text": "The general knowledge the model absorbed about your subject during training." },
+        { "id": "b", "text": "The complete set of information available to the AI at the moment it generates a response, including everything written in the current conversation." },
+        { "id": "c", "text": "A set of preferences you configure once in your account and the tool applies from then on." },
+        { "id": "d", "text": "The profile the AI has built up about you from your previous conversations." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson defines context as everything available to the model when it answers — your questions, your instructions, the details you supplied and the AI's own earlier replies — and stresses that this is not the same as the general knowledge it gained in training."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Which statements about the context window does the lesson make?",
+      "options": [
+        { "id": "a", "text": "It works like a working memory — large in modern models, but not unlimited." },
+        { "id": "b", "text": "In a very long conversation, earlier parts of the exchange may fall outside what the model can actively process." },
+        { "id": "c", "text": "When an AI appears to forget an earlier instruction, this is a malfunction that should be reported to the vendor." },
+        { "id": "d", "text": "Most educational tasks — a worksheet, a lesson plan, a set of assessment questions — are unlikely to reach the limit." },
+        { "id": "e", "text": "The limit is reached so quickly that every task should be split across several short conversations." }
+      ],
+      "correct": ["a", "b", "d"],
+      "explanation": "The lesson describes the context window as a large but finite working memory whose earliest content drops out of range in long conversations, and it notes that ordinary classroom tasks rarely come close to that limit. Apparent forgetting is explicitly called a technical limitation rather than a bug."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "The more text you give the AI, the better the context — so pasting an entire curriculum document is preferable to summarising the part you need.",
+      "correct": ["false"],
+      "explanation": "The lesson warns that quantity is not quality: pasting a whole curriculum document when you need one lesson's objectives can reduce output quality, because the model must work out which parts are relevant. A focused context of a few sentences often performs better."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "According to the lesson, what happens when a teacher provides little or no specific context?",
+      "options": [
+        { "id": "a", "text": "The AI defaults to the most statistically average response, which is rarely what a particular classroom needs." },
+        { "id": "b", "text": "The AI asks the clarifying questions a colleague would ask before starting." },
+        { "id": "c", "text": "The AI declines to answer until the missing details are supplied." },
+        { "id": "d", "text": "The AI fills the gaps from what you told it in earlier conversations." }
+      ],
+      "correct": ["a"],
+      "explanation": "Rich context steers the model's predictions towards what you need; without that steering it produces the most generic answer available. The lesson also makes the point that, unlike a colleague in the staffroom, the AI cannot ask the clarifying questions on its own."
+    }
+  ]
+}

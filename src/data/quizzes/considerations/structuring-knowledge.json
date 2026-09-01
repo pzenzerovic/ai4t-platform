@@ -1,0 +1,52 @@
+{
+  "slug": "structuring-knowledge",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Which use of AI in summarisation does the lesson call the pedagogically stronger one?",
+      "options": [
+        { "id": "a", "text": "Asking AI to produce the summary first, so the student has a correct model to study from." },
+        { "id": "b", "text": "Writing the summary yourself, then asking AI to compare it with the original and say what you missed or misunderstood." },
+        { "id": "c", "text": "Asking AI to summarise the same text twice and comparing the two versions." },
+        { "id": "d", "text": "Asking AI to shorten the student's summary so that it is easier to revise from." }
+      ],
+      "correct": ["b"],
+      "explanation": "When AI generates the summary the student holds a useful reference but has done none of the cognitive work; when AI evaluates the student's own summary, the student discovers their own gaps, which the lesson calls a far more powerful learning experience."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "The lesson mentions one tool that can turn generated flashcards into something a student can use straight away. What does it describe?",
+      "options": [
+        { "id": "a", "text": "Claude's Artifacts feature can produce a working flashcard web application with a card-flipping interface, usable directly in the browser." },
+        { "id": "b", "text": "ChatGPT exports flashcard sets directly into spaced-repetition software." },
+        { "id": "c", "text": "The AI produces a print-ready PDF of cards for the student to cut out." },
+        { "id": "d", "text": "The AI schedules review reminders in the student's calendar." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson names Artifacts as an example of AI going beyond a list of cards: it generates an interactive flashcard application the student can practise with immediately, removing the need for a separate flashcard tool."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which classroom activities does the lesson suggest for helping students structure what they have learned?",
+      "options": [
+        { "id": "a", "text": "At the end of a lesson, students write a five-sentence summary and then use AI to identify what they missed." },
+        { "id": "b", "text": "Before a test, students build their own flashcard set and then ask AI for additional cards covering blind spots." },
+        { "id": "c", "text": "After a complex text, students create their own outline, then compare it with an AI-generated one and discuss the differences." },
+        { "id": "d", "text": "The teacher distributes AI-generated notes so that the whole class works from one accurate record instead of taking their own notes." },
+        { "id": "e", "text": "Each topic is summarised once at the start of the year and that summary is kept unchanged as the definitive record." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "All three suggested activities put the student's own work first and use AI as a check. The lesson rejects replacing students' note-taking with someone else's notes, and describes knowledge structuring as a recurring cycle rather than a document written once."
+    },
+    {
+      "id": "q4",
+      "type": "truefalse",
+      "text": "An AI-generated outline or comparison table is most useful when the student treats it as the finished organisation of the material and memorises it as it stands.",
+      "correct": ["false"],
+      "explanation": "The lesson advises treating AI-generated structures as starting points: students should review them, disagree where appropriate, rearrange elements and add their own connections and examples, because the goal is to build the student's own mental model."
+    }
+  ]
+}

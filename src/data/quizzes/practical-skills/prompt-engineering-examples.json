@@ -1,0 +1,52 @@
+{
+  "slug": "prompt-engineering-examples",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "Across the worked examples, which patterns does the lesson identify as consistently producing better output?",
+      "options": [
+        { "id": "a", "text": "Every effective prompt opens with a clear role and a defined audience." },
+        { "id": "b", "text": "Specific constraints on format, length and structure outperform open-ended requests." },
+        { "id": "c", "text": "Effective prompts anticipate what the finished product needs — answer keys, name fields, reference tables, checklists — and ask for it from the start." },
+        { "id": "d", "text": "The pedagogical design is best delegated to the AI, which has seen more teaching material than any one teacher." },
+        { "id": "e", "text": "The example prompts are fixed templates and work best when reused word for word." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The closing section names role and audience, explicit constraints, and anticipating the requirements of the final product as the recurring patterns. It also insists that the pedagogical design comes from the teacher and that the examples are starting points to adapt, not rigid templates."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "In the literature example the teacher asks for a worksheet with structural guidance, contrasting model examples and a self-assessment checklist, rather than for the essay itself. What broader point does the lesson draw from this?",
+      "options": [
+        { "id": "a", "text": "Generating scaffolding that helps students produce better work themselves often has more pedagogical impact than generating finished products." },
+        { "id": "b", "text": "Literature is the one subject in which AI should not be asked to write the final text." },
+        { "id": "c", "text": "Analytical essays are too long for current AI tools to produce reliably." },
+        { "id": "d", "text": "Students should work with an AI-generated checklist open in front of them during the lesson." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson highlights this example to make a general claim: prompts that ask for rubrics, checklists, model examples and structured guidance frequently do more educational good than prompts that ask for finished, student-facing content."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "When generating mathematical exercises it is worth specifying the operation, the number range and any methodological requirements, because otherwise AI models tend to cluster around certain number combinations and produce an unbalanced set.",
+      "correct": ["true"],
+      "explanation": "This is exactly the advice attached to the Year 1 addition example: without such constraints the output is not pedagogically balanced, which is why the prompt also asks for each digit to appear at least once across the set."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Why does the lesson consider the Year 6 English prompt a particularly effective one?",
+      "options": [
+        { "id": "a", "text": "It follows a coherent pedagogical sequence, moving from receptive exercises through guided production to free writing." },
+        { "id": "b", "text": "It is the shortest and least prescriptive of the prompts presented." },
+        { "id": "c", "text": "It requests an answer key for every exercise, including the free writing task." },
+        { "id": "d", "text": "It leaves the choice of grammatical tense to the AI so the output is less predictable." }
+      ],
+      "correct": ["a"],
+      "explanation": "The prompt mirrors how a language teacher builds a lesson around a text — true/false and gap-fill, then question formation, then students writing about their own routine. It deliberately requests keys only for the objective exercises, since open-ended writing has no single correct answer."
+    }
+  ]
+}

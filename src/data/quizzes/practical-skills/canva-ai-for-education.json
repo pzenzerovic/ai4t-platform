@@ -1,0 +1,52 @@
+{
+  "slug": "canva-ai-for-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "What does Magic Write do within a design you are already working on?",
+      "options": [
+        { "id": "a", "text": "It generates or rewrites text — for example simplifying a passage for a younger reading level, or drafting discussion questions and activity instructions." },
+        { "id": "b", "text": "It builds a complete presentation with slides and visuals from a single brief description." },
+        { "id": "c", "text": "It removes the background from a photograph you have uploaded." },
+        { "id": "d", "text": "It arranges the elements on a page into a visually balanced layout automatically." }
+      ],
+      "correct": ["a"],
+      "explanation": "Magic Write is the text generator you use inside a design; generating a whole presentation from a brief is Magic Design, while background removal and layout suggestions are separate features in the same toolset."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "A presentation produced by Magic Design is classroom-ready as it stands and needs no pedagogical review.",
+      "correct": ["false"],
+      "explanation": "The generated presentation is described as a solid first draft: you will almost always need to simplify language on some slides, remove or replace slides that do not fit your plan, and add examples connected to what your students have been learning."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which of these does the lesson name as problems to watch for in a finished Canva material?",
+      "options": [
+        { "id": "a", "text": "Decorative elements that compete with the learning material" },
+        { "id": "b", "text": "Text too small to read comfortably on the devices students will actually use" },
+        { "id": "c", "text": "Generic content with no clear pedagogical purpose" },
+        { "id": "d", "text": "Starting from a ready-made template rather than a blank page" },
+        { "id": "e", "text": "Adding your own examples alongside the AI-generated content" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Visual overload, unreadable text and purposeless generic content are listed among the common problems; choosing a template is the first step of the recommended workflow and adding your own elements is the fourth, so neither is a fault."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "For which kind of work does the lesson say a teacher should reach for a different tool than Canva?",
+      "options": [
+        { "id": "a", "text": "Worksheets, flashcards and posters for six- to ten-year-olds" },
+        { "id": "b", "text": "Complex assessment systems, automated grading, or real-time classroom interaction" },
+        { "id": "c", "text": "Project posters and infographics that students design themselves" },
+        { "id": "d", "text": "Rewriting an explanation at a simpler reading level" }
+      ],
+      "correct": ["b"],
+      "explanation": "Canva is positioned as a tool for creating visual learning materials, and the lesson points to dedicated platforms for assessment, grading and live classroom interaction; the other three options are all uses the lesson actively recommends."
+    }
+  ]
+}

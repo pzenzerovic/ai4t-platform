@@ -1,0 +1,52 @@
+{
+  "slug": "getting-started-claude",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "What problem does the Projects feature solve for a teacher?",
+      "options": [
+        { "id": "a", "text": "It keeps reference documents such as your curriculum and example lesson formats available to every conversation in that workspace, so the context does not have to be pasted in again." },
+        { "id": "b", "text": "It lets several teachers write into the same conversation at the same time." },
+        { "id": "c", "text": "It trains the model on your teaching materials so its answers improve over time." },
+        { "id": "d", "text": "It converts finished conversations into printable worksheets and slide decks." }
+      ],
+      "correct": ["a"],
+      "explanation": "A project is a persistent workspace holding your reference documents, which solves the \"fresh conversation\" problem: every new conversation inside the project already has that context."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Which of these does the lesson put forward as starter workflows for a teacher new to Claude?",
+      "options": [
+        { "id": "a", "text": "Pasting in a long reading and asking, in one conversation, for a summary, comprehension questions at several levels of difficulty, and a writing prompt" },
+        { "id": "b", "text": "Describing the topic, age group, available lesson time and objectives, then asking for a sequence of lessons to review and rearrange" },
+        { "id": "c", "text": "Describing an assessment task and the performance levels you want distinguished, then asking for a rubric with criteria and indicators" },
+        { "id": "d", "text": "Uploading a class list so that responses can be tailored to each named student" },
+        { "id": "e", "text": "Sending a set of student essays and asking for final grades to be returned" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Processing a long reading, drafting a sequenced unit plan and drafting a rubric are three of the four recommended starter workflows; anything involving real, identifiable student material is ruled out by the privacy guidance in the same lesson."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "The lesson advises building genuine familiarity with a single AI assistant first, and only then trying a second one on the same tasks.",
+      "correct": ["true"],
+      "explanation": "The recommended approach is to work with one tool until you can routinely get useful results on three or four recurring teaching tasks, then run those same tasks through a second tool to see which suits which kind of work."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "How does the lesson characterise the practical difference between Claude and ChatGPT?",
+      "options": [
+        { "id": "a", "text": "Claude often suits sustained, long-form work while ChatGPT often feels more like a quick-question tool — though this is offered as a generalisation, not a rule." },
+        { "id": "b", "text": "Claude is built on a different kind of technology and is not a language model." },
+        { "id": "c", "text": "Claude is designed for student use while ChatGPT is designed for teacher preparation." },
+        { "id": "d", "text": "Their outputs are effectively identical, so the choice comes down to interface preference alone." }
+      ],
+      "correct": ["a"],
+      "explanation": "Both are built on the same category of technology, but their outputs differ noticeably on the same task — which is why the lesson rejects the myth that they are basically the same tool and suggests testing each on real work from your own week."
+    }
+  ]
+}

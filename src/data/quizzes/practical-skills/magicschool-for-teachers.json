@@ -1,0 +1,52 @@
+{
+  "slug": "magicschool-for-teachers",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "Because the platform holds strong compliance credentials and a high privacy rating, teachers may enter real student names and details when generating materials.",
+      "correct": ["false"],
+      "explanation": "The protections are real, but the lesson keeps the standard practice unchanged: use placeholders such as \"Student A\" or fictional names rather than real names, specific diagnoses or sensitive family information."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "What does Raina, the built-in chat assistant, change about revising a generated draft?",
+      "options": [
+        { "id": "a", "text": "You can ask for a specific change to one part of the output instead of regenerating the whole thing." },
+        { "id": "b", "text": "It applies your school's branding and style guide to every output automatically." },
+        { "id": "c", "text": "It replaces the guided forms, so every task then starts from a blank chat box." },
+        { "id": "d", "text": "It stores your previous answers so a form never has to be filled in twice." }
+      ],
+      "correct": ["a"],
+      "explanation": "Raina turns a one-shot generator into an iterative conversation — in the worked example it added a simpler cut-and-paste version of one activity while leaving the rest of the lesson plan intact."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which of these does the lesson show the platform actually doing?",
+      "options": [
+        { "id": "a", "text": "Producing a lesson plan that respects stated constraints such as limited lab equipment and a 45-minute period" },
+        { "id": "b", "text": "Generating comprehension questions from the transcript of a video, complete with answer keys" },
+        { "id": "c", "text": "Producing content in languages other than English when the language is specified" },
+        { "id": "d", "text": "Recording and transcribing your classroom lessons automatically" },
+        { "id": "e", "text": "Verifying that the facts in its output are correct before you see them" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The worked examples show a constrained, differentiated lesson plan and a video-based quiz with answer keys, and the lesson notes that content can be generated in Croatian, Greek or Romanian; fact-checking is explicitly left to the teacher."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "The lesson compares a general assistant to a well-stocked kitchen and this platform to a recipe app. What point is the comparison making?",
+      "options": [
+        { "id": "a", "text": "The platform asks you the specific questions it needs answered and structures the request for you, whereas a general assistant leaves the whole prompt to you." },
+        { "id": "b", "text": "The platform writes better prose than a general assistant on any task you give it." },
+        { "id": "c", "text": "The platform is meant to replace general assistants entirely in a teacher's workflow." },
+        { "id": "d", "text": "The platform needs no information about your class, because its tools already know what teachers require." }
+      ],
+      "correct": ["a"],
+      "explanation": "A guided form supplies the structure of the request so you contribute the classroom detail instead of composing a prompt from scratch; the lesson is explicit that both approaches have their place, and that the more you put into the Additional Context field the better the output."
+    }
+  ]
+}

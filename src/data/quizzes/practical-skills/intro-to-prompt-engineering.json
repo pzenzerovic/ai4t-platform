@@ -1,0 +1,52 @@
+{
+  "slug": "intro-to-prompt-engineering",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Why does the lesson describe prompt engineering as a pedagogical skill rather than a technical one?",
+      "options": [
+        { "id": "a", "text": "Because it rests on the clear, structured communication teachers already use when writing assignment briefs, objectives and evaluation criteria." },
+        { "id": "b", "text": "Because it requires a background in programming that teachers acquire during initial teacher education." },
+        { "id": "c", "text": "Because the AI tools in question were designed specifically for schools." },
+        { "id": "d", "text": "Because it can only be learned through trial and error with a class present." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson argues that writing a good prompt is very close to writing a clear assignment brief — the underlying skill of purposeful, structured communication is identical, and only the audience changes from a class to a language model."
+    },
+    {
+      "id": "q2",
+      "type": "truefalse",
+      "text": "Having to refine an AI response through follow-up instructions is a sign that the original prompt was badly written.",
+      "correct": ["false"],
+      "explanation": "The lesson presents iteration as the normal way the process works: the first prompt sets the direction and follow-up prompts refine the result. It states explicitly that needing to revise is not a sign that the original prompt was bad."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which statements about the prompting techniques covered in this lesson are accurate?",
+      "options": [
+        { "id": "a", "text": "Assigning a role, such as \"You are a Year 7 biology teacher\", conveys audience, vocabulary level, tone and pedagogical approach in a few words." },
+        { "id": "b", "text": "Few-shot prompting means supplying one or more examples of the output you want so the AI can use them as a template." },
+        { "id": "c", "text": "Chain-of-thought prompting means asking the AI to work through its reasoning step by step, which also makes its work easier to check." },
+        { "id": "d", "text": "Constraining the scope means keeping the prompt itself as short as possible." },
+        { "id": "e", "text": "Providing examples is a technique that only works for mathematics tasks." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Role assignment is presented as an efficient way to package several layers of context at once, few-shot prompting as showing rather than describing the output you want, and chain-of-thought prompting as making the reasoning transparent enough to verify. Constraining the scope concerns limits on the output — length, number of items, difficulty, topic — not the length of the prompt."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What is the main practical benefit of stating your expectations and criteria — format, structure, required elements — in the original prompt?",
+      "options": [
+        { "id": "a", "text": "It removes the need for avoidable follow-up requests, such as asking afterwards for an answer key or a name field." },
+        { "id": "b", "text": "It makes the AI generate its response noticeably faster." },
+        { "id": "c", "text": "It guarantees that the content the AI produces is factually accurate." },
+        { "id": "d", "text": "It lets the AI apply the same preferences automatically in your future conversations." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson's worksheet example shows that describing precisely what a good result looks like eliminates the round of \"Can you add an answer key?\" requests — the more precisely you state expectations, the less revision is needed afterwards."
+    }
+  ]
+}

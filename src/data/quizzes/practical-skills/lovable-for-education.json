@@ -1,0 +1,52 @@
+{
+  "slug": "lovable-for-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "In which situations does the lesson say the result should be treated as a prototype rather than a finished tool?",
+      "options": [
+        { "id": "a", "text": "When the tool would need many user roles, meet strict institutional hosting requirements, or handle sensitive personal data" },
+        { "id": "b", "text": "When the app will be used on phones rather than on laptops" },
+        { "id": "c", "text": "When the app was built without at least three rounds of iteration" },
+        { "id": "d", "text": "When the published link will be shared beyond your own class" }
+      ],
+      "correct": ["a"],
+      "explanation": "Those three cases fall outside what the platform is suited to, and the lesson says to involve your school's technical and legal support before any real deployment."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "What does Visual edit mode change about the way you request a change?",
+      "options": [
+        { "id": "a", "text": "You select the specific element on the screen and give a targeted instruction for it, instead of describing the change in the chat." },
+        { "id": "b", "text": "You edit the underlying code directly in the browser." },
+        { "id": "c", "text": "Your requested change is applied to every screen of the app at once." },
+        { "id": "d", "text": "Your app is converted into a slide deck that you edit like a presentation." }
+      ],
+      "correct": ["a"],
+      "explanation": "In the worked example the Start button was selected in Visual edit mode and given one instruction about its background colour, rather than the change being described from scratch in the chat."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "When something in your app does not work, the lesson advises describing what you observed rather than diagnosing the technical cause.",
+      "correct": ["true"],
+      "explanation": "Saying that the screen looks cut off when you rotate the phone, or that the feedback text is too small to read, is enough — the AI works out the technical solution from your description of the problem."
+    },
+    {
+      "id": "q4",
+      "type": "multi",
+      "text": "Which of these does the lesson recommend doing before using one of your apps with a class?",
+      "options": [
+        { "id": "a", "text": "Test the published link on the school network and on the devices your students will actually use" },
+        { "id": "b", "text": "Decide what data, if any, will be entered — ideally designing the activity so it needs none" },
+        { "id": "c", "text": "Decide who will use the app: only you, or the students as well" },
+        { "id": "d", "text": "Add a free-text field so students can describe any problems they run into" },
+        { "id": "e", "text": "Have each student create their own account so they can open the app" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Those three form the pre-lesson checklist; free-text fields are ruled out because students might type personal information into them, and students never need accounts of their own since they simply open the published link in a browser."
+    }
+  ]
+}

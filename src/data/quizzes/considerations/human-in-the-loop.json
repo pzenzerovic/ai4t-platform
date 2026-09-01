@@ -1,0 +1,52 @@
+{
+  "slug": "human-in-the-loop",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "truefalse",
+      "text": "Catching AI's factual errors is only one of three arguments the lesson gives for teacher oversight, and each of the three is treated as sufficient on its own.",
+      "correct": ["true"],
+      "explanation": "The lesson presents three independently sufficient arguments: AI makes errors, AI lacks contextual knowledge about individual students, and education depends on a human relationship that AI can simulate in conversation but does not experience."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "Students are working directly and independently with an AI tutor during a lesson. Which level of oversight does the lesson treat as most important in that situation?",
+      "options": [
+        { "id": "a", "text": "Real-time monitoring — circulating during the activity, or reviewing the conversation transcripts afterwards." },
+        { "id": "b", "text": "Pre-use review, since the tutor's responses can be checked before the lesson begins." },
+        { "id": "c", "text": "Post-use evaluation on its own, since any problem will show up in the learning outcomes." },
+        { "id": "d", "text": "No further oversight, provided the school has already approved the tool." }
+      ],
+      "correct": ["a"],
+      "explanation": "Pre-use review applies to content before students see it and post-use evaluation to outcomes afterwards; the lesson names real-time monitoring as most important precisely when students interact with AI directly and independently, particularly younger students or those new to the tools."
+    },
+    {
+      "id": "q3",
+      "type": "multi",
+      "text": "Which of these does the lesson name as functions of the teacher that cannot be delegated to AI?",
+      "options": [
+        { "id": "a", "text": "Emotional attunement — noticing frustration, confusion or disengagement, often before the student names it" },
+        { "id": "b", "text": "Ethical judgement about risks such as bias or data privacy in a specific context" },
+        { "id": "c", "text": "Curriculum integration — knowing what came before, what comes next, and what this group needs" },
+        { "id": "d", "text": "Producing a first draft of a worksheet or lesson plan" },
+        { "id": "e", "text": "Generating practice questions on a topic" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Emotional attunement, ethical judgement, curriculum integration and accountability are the four functions the lesson describes as uniquely human. Drafting materials and generating assessment items are exactly the tasks it says AI can perform, which is why teacher review follows them."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "How does the lesson answer the concern that AI oversight adds to an already heavy workload?",
+      "options": [
+        { "id": "a", "text": "Build review into existing workflows, and sample student-AI conversations rather than reading every one." },
+        { "id": "b", "text": "Review every AI interaction, but concentrate it into one fixed block of time each week." },
+        { "id": "c", "text": "Use AI only for the kinds of material that do not need to be reviewed." },
+        { "id": "d", "text": "Have a second AI tool check the output of the first, so the teacher reviews only what it flags." }
+      ],
+      "correct": ["a"],
+      "explanation": "Checking an AI-generated quiz is part of assessment preparation rather than an extra task, and the lesson's sampling approach — reading a selection of student-AI conversations each week — is presented as thorough enough to catch problems and efficient enough to be sustainable."
+    }
+  ]
+}

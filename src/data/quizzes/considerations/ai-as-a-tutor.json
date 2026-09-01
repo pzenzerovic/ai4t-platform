@@ -1,0 +1,52 @@
+{
+  "slug": "ai-as-a-tutor",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "How does an AI tool enter tutoring mode, where it guides with questions instead of supplying answers?",
+      "options": [
+        { "id": "a", "text": "Modern systems recognise that the user is a student and switch to guided explanation on their own." },
+        { "id": "b", "text": "It has to be requested explicitly — through a built-in feature, or, more reliably, through a prompt asking for step-by-step guidance instead of the answer." },
+        { "id": "c", "text": "Only tools that offer a dedicated education product can do it." },
+        { "id": "d", "text": "It appears once the student has asked enough follow-up questions in the same conversation." }
+      ],
+      "correct": ["b"],
+      "explanation": "The lesson stresses that AI tools do not enter a tutoring mode automatically. Built-in features such as ChatGPT's Study and Learn mode or Claude's Learning style help, but an explicit prompt requesting guided learning works across all modern tools."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "Which limitations of AI tutoring does the lesson name?",
+      "options": [
+        { "id": "a", "text": "It cannot read body language or hear frustration in a student's voice." },
+        { "id": "b", "text": "It cannot tell whether a student is anxious about a test or simply having a bad day." },
+        { "id": "c", "text": "It can give incorrect guidance, because it produces statistically appropriate responses rather than genuinely understanding the subject." },
+        { "id": "d", "text": "It cannot change the difficulty of a task once the conversation has started." },
+        { "id": "e", "text": "It can explain a concept in only one way, so a student who does not follow the first explanation is stuck." }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "The lesson lists the absence of pedagogical intuition, the inability to read emotional context and the risk of incorrect guidance as genuine limits, while adjusting difficulty in real time and explaining the same concept in many different ways are named as strengths."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "When a student takes a wrong step during AI-guided problem solving, the lesson's example has the AI supply the correct step immediately so that no time is lost.",
+      "correct": ["false"],
+      "explanation": "In the worked example the student proposes dividing by 8 instead of 2, and the AI does not simply correct the error — it pauses and asks which operation undoes multiplication, leaving the thinking with the student."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "Why does the lesson advise teachers to review transcripts of student-AI tutoring sessions from time to time?",
+      "options": [
+        { "id": "a", "text": "To confirm that students did not obtain finished answers for graded work." },
+        { "id": "b", "text": "Because the transcripts reveal common misconceptions, recurring difficulties and places where the AI's guidance was inadequate, which then feeds back into classroom instruction." },
+        { "id": "c", "text": "To build a shared library of prompts that the class can reuse." },
+        { "id": "d", "text": "To record how much time each student spent working with the tool." }
+      ],
+      "correct": ["b"],
+      "explanation": "Monitoring and evaluation is the third of the teacher's roles in the lesson: the patterns visible in transcripts feed back into classroom teaching, creating a cycle of improvement that neither the AI nor the student could achieve alone."
+    }
+  ]
+}

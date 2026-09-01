@@ -1,0 +1,52 @@
+{
+  "slug": "ethics-of-ai-in-education",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "single",
+      "text": "Why does the lesson say AI amplifies the oracle effect compared with textbooks or teachers?",
+      "options": [
+        { "id": "a", "text": "AI presents all information with equal confidence, and it is available for unsupervised use outside the classroom." },
+        { "id": "b", "text": "AI is the first technology students have been inclined to trust without questioning it." },
+        { "id": "c", "text": "AI signals when it is uncertain, and students read that signal as a mark of authority." },
+        { "id": "d", "text": "AI is used more often in most classrooms than textbooks are." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson names two amplifiers: AI offers no equivalent of a textbook's bibliography or a teacher's admission of uncertainty, and it can be used with no teacher present to catch errors. The tendency to trust authority is not new — students have always trusted textbooks and teachers too."
+    },
+    {
+      "id": "q2",
+      "type": "multi",
+      "text": "According to the lesson, which of these are examples of algorithmic bias appearing in educational AI?",
+      "options": [
+        { "id": "a", "text": "A text tool that defaults to male pronouns when describing scientists or engineers" },
+        { "id": "b", "text": "An assessment tool whose language patterns systematically disadvantage students writing in a second language" },
+        { "id": "c", "text": "An image tool that underrepresents certain ethnic groups or produces stereotyped depictions" },
+        { "id": "d", "text": "A model that states an invented fact with complete confidence" },
+        { "id": "e", "text": "A platform that records the text of every interaction on an external server" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Stereotyped pronouns, linguistically biased assessment and unrepresentative image generation are the lesson's own examples of bias inherited from training data. Confident fabrication belongs to the oracle effect, and interaction logging belongs to the section on data privacy."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Most AI tools store only the conversations a user chooses to save, so ordinary classroom interactions leave no record on the provider's servers.",
+      "correct": ["false"],
+      "explanation": "The lesson states that most AI tools record the text of every interaction, and that stored data may be used to improve the model, shared with third parties, or retained indefinitely."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What does the principle of human agency require of a teacher using AI?",
+      "options": [
+        { "id": "a", "text": "Final pedagogical decisions stay with the teacher, so AI-generated plans and assessments are reviewed and adapted before use." },
+        { "id": "b", "text": "AI may make routine decisions such as marking, provided the teacher handles the exceptional cases." },
+        { "id": "c", "text": "AI judgements about a student's performance should be accepted as definitive when they draw on more data than a teacher can review." },
+        { "id": "d", "text": "AI should be limited to administrative tasks and never used to produce teaching materials." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson requires that AI provides information, suggestions and tools while the human educator decides: lesson plans are reviewed and adapted, assessments are checked for accuracy and appropriateness, and AI recommendations about students count as one input among many."
+    }
+  ]
+}

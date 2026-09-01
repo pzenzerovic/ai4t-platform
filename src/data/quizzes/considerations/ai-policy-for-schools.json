@@ -1,0 +1,52 @@
+{
+  "slug": "ai-policy-for-schools",
+  "questions": [
+    {
+      "id": "q1",
+      "type": "multi",
+      "text": "The lesson highlights three GDPR principles as especially relevant when a school considers AI tools. Which are they?",
+      "options": [
+        { "id": "a", "text": "Purpose limitation — data collected for one purpose may not be used for an unrelated one without a lawful basis" },
+        { "id": "b", "text": "Data minimisation — only the data strictly necessary for a given purpose should be processed" },
+        { "id": "c", "text": "Storage limitation — personal data should not be kept longer than necessary" },
+        { "id": "d", "text": "Risk classification — every AI system must be assigned to a risk tier before a school may use it" },
+        { "id": "e", "text": "Continuous disclosure — parents must be notified on each occasion an AI tool is used in a lesson" }
+      ],
+      "correct": ["a", "b", "c"],
+      "explanation": "Purpose limitation, data minimisation and storage limitation are the three principles the lesson singles out. Risk classification belongs to the EU AI Act, which the lesson presents as a second layer, and disclosure is a component of the school's own policy rather than a GDPR principle."
+    },
+    {
+      "id": "q2",
+      "type": "single",
+      "text": "A teacher wants to use a general-purpose AI assistant to prepare differentiated materials. What is the lesson's default position?",
+      "options": [
+        { "id": "a", "text": "Appropriate for teacher preparation using anonymised or non-personal material, and not appropriate for processing identifiable student data." },
+        { "id": "b", "text": "Appropriate for any school purpose, because the teacher rather than the provider decides how the output is used." },
+        { "id": "c", "text": "Never appropriate in a school, because these tools are built by companies outside the school's control." },
+        { "id": "d", "text": "Appropriate for identifiable student data as well, provided the teacher deletes the conversation afterwards." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson's default is that general-purpose assistants serve teacher preparation on anonymised material. Sending identifiable student data to an external provider is a transfer to an external processor, requiring a lawful basis, appropriate safeguards and in many cases a signed Data Processing Agreement."
+    },
+    {
+      "id": "q3",
+      "type": "truefalse",
+      "text": "Because schools use AI systems rather than build them, the EU AI Act's obligations for high-risk uses do not apply to schools.",
+      "correct": ["false"],
+      "explanation": "The lesson states that these obligations apply even to schools that develop no AI systems themselves but use them in contexts classified as high-risk, such as admissions, grading high-stakes examinations, or detecting academic dishonesty."
+    },
+    {
+      "id": "q4",
+      "type": "single",
+      "text": "What does the lesson recommend as the default for lower secondary students?",
+      "options": [
+        { "id": "a", "text": "Supervised use within specific lessons, with clear pedagogical objectives and no entry of personal data." },
+        { "id": "b", "text": "Structured individual use for preparation, practice and metacognitive reflection." },
+        { "id": "c", "text": "The same position as for primary students: no direct use of general-purpose tools." },
+        { "id": "d", "text": "Unrestricted individual use, provided the school has approved the tool." }
+      ],
+      "correct": ["a"],
+      "explanation": "The lesson calibrates student use to developmental stage — restricted at primary level, supervised within lessons at lower secondary, structured individual use at upper secondary — and adds that direct individual use outside supervised contexts is typically not appropriate at the lower secondary level."
+    }
+  ]
+}
