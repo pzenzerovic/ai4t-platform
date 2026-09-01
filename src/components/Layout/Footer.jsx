@@ -51,9 +51,11 @@ export default function Footer() {
                 type inside the artwork, so the separate text line that used to
                 sit beside the placeholder is gone -- it would print the same
                 sentence twice, on screen and again to a screen reader. The
-                wording survives verbatim as the alt text. The long EACEA
+                wording survives verbatim as the alt text. The long disclaimer
                 paragraph below is a different, prescribed text and must not be
-                merged into this one. */}
+                merged into this one -- it names AMPEU (our national agency,
+                the granting authority for this decentralised KA210 action),
+                not EACEA. See AIT-33 decision memo. */}
             <div className="flex items-center gap-5 mb-4 flex-wrap">
               <img
                 src={emblem.src}

@@ -47,7 +47,11 @@ ai4t-platform/
 - ✅ Core platform live: Homepage, Resources, Lesson page, KAS wizard, results,
   PDF export, responsive, multi-language UI, Language switcher (EN + RO active).
 - 📋 About page — planned, not done.
-- Footer EU disclaimer — draft, needs Erasmus+ formal review.
+- Footer EU disclaimer — ✅ settled 2026-09-01 (decision memo AIT-33). Emblem
+  statement is "Co-funded by the European Union" / "Sufinancira Europska unija";
+  the disclaimer names **AMPEU** (Agency for Mobility and EU Programmes), **not
+  EACEA** — KA210 is a decentralised action contracted by the national agency.
+  Do not regenerate the `footer.disclaimer` key from the EACEA boilerplate.
 
 ### Lesson content (English)
 - **33/33 lessons drafted** across 4 categories. All published on platform.
