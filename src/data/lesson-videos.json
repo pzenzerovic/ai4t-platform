@@ -1,0 +1,167 @@
+{
+  "ai-literacy/what-is-ai": {
+    "videoId": "1223235837",
+    "url": "https://vimeo.com/1223235837",
+    "embedUrl": "https://player.vimeo.com/video/1223235837?h=5252033427"
+  },
+  "ai-literacy/ai-in-education": {
+    "videoId": "1223235957",
+    "url": "https://vimeo.com/1223235957",
+    "embedUrl": "https://player.vimeo.com/video/1223235957?h=a4ea275b9e"
+  },
+  "ai-literacy/brief-history-of-ai": {
+    "videoId": "1223236071",
+    "url": "https://vimeo.com/1223236071",
+    "embedUrl": "https://player.vimeo.com/video/1223236071?h=929f236eeb"
+  },
+  "ai-literacy/how-llms-work": {
+    "videoId": "1223236243",
+    "url": "https://vimeo.com/1223236243",
+    "embedUrl": "https://player.vimeo.com/video/1223236243?h=3f6ccb18f2"
+  },
+  "ai-literacy/ai-limitations": {
+    "videoId": "1223236467",
+    "url": "https://vimeo.com/1223236467",
+    "embedUrl": "https://player.vimeo.com/video/1223236467?h=79cdbd3c90"
+  },
+  "ai-literacy/multimodal-ai": {
+    "videoId": "1223236597",
+    "url": "https://vimeo.com/1223236597",
+    "embedUrl": "https://player.vimeo.com/video/1223236597?h=8ba29c07e9"
+  },
+  "ai-literacy/layers-of-ai": {
+    "videoId": "1223236919",
+    "url": "https://vimeo.com/1223236919",
+    "embedUrl": "https://player.vimeo.com/video/1223236919?h=72c30c26b5"
+  },
+  "ai-literacy/future-of-ai": {
+    "videoId": "1223237028",
+    "url": "https://vimeo.com/1223237028",
+    "embedUrl": "https://player.vimeo.com/video/1223237028?h=7768a49204"
+  },
+  "practical-skills/context-and-ai": {
+    "videoId": "1223237171",
+    "url": "https://vimeo.com/1223237171",
+    "embedUrl": "https://player.vimeo.com/video/1223237171?h=deae9e7cfe"
+  },
+  "practical-skills/intro-to-prompt-engineering": {
+    "videoId": "1223237264",
+    "url": "https://vimeo.com/1223237264",
+    "embedUrl": "https://player.vimeo.com/video/1223237264?h=d639a43432"
+  },
+  "practical-skills/prompt-engineering-examples": {
+    "videoId": "1223238197",
+    "url": "https://vimeo.com/1223238197",
+    "embedUrl": "https://player.vimeo.com/video/1223238197?h=7469abc9b2"
+  },
+  "practical-skills/meta-prompting": {
+    "videoId": "1223238337",
+    "url": "https://vimeo.com/1223238337",
+    "embedUrl": "https://player.vimeo.com/video/1223238337?h=1e2f5078d4"
+  },
+  "practical-skills/getting-started-chatgpt": {
+    "videoId": "1223238432",
+    "url": "https://vimeo.com/1223238432",
+    "embedUrl": "https://player.vimeo.com/video/1223238432?h=1930a6c68c"
+  },
+  "practical-skills/getting-started-claude": {
+    "videoId": "1223238528",
+    "url": "https://vimeo.com/1223238528",
+    "embedUrl": "https://player.vimeo.com/video/1223238528?h=bc39d52ce2"
+  },
+  "practical-skills/canva-ai-for-education": {
+    "videoId": "1223238629",
+    "url": "https://vimeo.com/1223238629",
+    "embedUrl": "https://player.vimeo.com/video/1223238629?h=c46bcc4eab"
+  },
+  "practical-skills/magicschool-for-teachers": {
+    "videoId": "1223238745",
+    "url": "https://vimeo.com/1223238745",
+    "embedUrl": "https://player.vimeo.com/video/1223238745?h=a40ebec451"
+  },
+  "practical-skills/lovable-for-education": {
+    "videoId": "1223238895",
+    "url": "https://vimeo.com/1223238895",
+    "embedUrl": "https://player.vimeo.com/video/1223238895?h=702013f547"
+  },
+  "considerations/from-answers-to-learning": {
+    "videoId": "1223239048",
+    "url": "https://vimeo.com/1223239048",
+    "embedUrl": "https://player.vimeo.com/video/1223239048?h=b436fb1790"
+  },
+  "considerations/ai-as-a-tutor": {
+    "videoId": "1223239794",
+    "url": "https://vimeo.com/1223239794",
+    "embedUrl": "https://player.vimeo.com/video/1223239794?h=c6e8410dad"
+  },
+  "considerations/ai-for-practice-and-assessment": {
+    "videoId": "1223239922",
+    "url": "https://vimeo.com/1223239922",
+    "embedUrl": "https://player.vimeo.com/video/1223239922?h=9f435c2be0"
+  },
+  "considerations/structuring-knowledge": {
+    "videoId": "1223240035",
+    "url": "https://vimeo.com/1223240035",
+    "embedUrl": "https://player.vimeo.com/video/1223240035?h=d4931a6c6f"
+  },
+  "considerations/responsible-use-of-ai": {
+    "videoId": "1223240238",
+    "url": "https://vimeo.com/1223240238",
+    "embedUrl": "https://player.vimeo.com/video/1223240238?h=ffb74ca7ad"
+  },
+  "considerations/ethics-of-ai-in-education": {
+    "videoId": "1223240364",
+    "url": "https://vimeo.com/1223240364",
+    "embedUrl": "https://player.vimeo.com/video/1223240364?h=0fe910620f"
+  },
+  "considerations/human-in-the-loop": {
+    "videoId": "1223241581",
+    "url": "https://vimeo.com/1223241581",
+    "embedUrl": "https://player.vimeo.com/video/1223241581?h=72a7e55caa"
+  },
+  "considerations/ai-policy-for-schools": {
+    "videoId": "1223241703",
+    "url": "https://vimeo.com/1223241703",
+    "embedUrl": "https://player.vimeo.com/video/1223241703?h=88e510111b"
+  },
+  "considerations/detecting-ai-generated-work": {
+    "videoId": "1223241800",
+    "url": "https://vimeo.com/1223241800",
+    "embedUrl": "https://player.vimeo.com/video/1223241800?h=dda232679e"
+  },
+  "accessibility/ai-and-accessibility-overview": {
+    "videoId": "1223242633",
+    "url": "https://vimeo.com/1223242633",
+    "embedUrl": "https://player.vimeo.com/video/1223242633?h=58ba6b590f"
+  },
+  "accessibility/ai-for-visual-impairments": {
+    "videoId": "1223242719",
+    "url": "https://vimeo.com/1223242719",
+    "embedUrl": "https://player.vimeo.com/video/1223242719?h=3c3626da68"
+  },
+  "accessibility/ai-for-hearing-impairments": {
+    "videoId": "1223242904",
+    "url": "https://vimeo.com/1223242904",
+    "embedUrl": "https://player.vimeo.com/video/1223242904?h=7adc1e9bdf"
+  },
+  "accessibility/cognitive-accessibility": {
+    "videoId": "1223243688",
+    "url": "https://vimeo.com/1223243688",
+    "embedUrl": "https://player.vimeo.com/video/1223243688?h=04e447217d"
+  },
+  "accessibility/ai-for-multilingual-classrooms": {
+    "videoId": "1223244091",
+    "url": "https://vimeo.com/1223244091",
+    "embedUrl": "https://player.vimeo.com/video/1223244091?h=487fd4ea68"
+  },
+  "accessibility/ai-for-intellectual-disabilities": {
+    "videoId": "1223244222",
+    "url": "https://vimeo.com/1223244222",
+    "embedUrl": "https://player.vimeo.com/video/1223244222?h=e99b6472ec"
+  },
+  "accessibility/accessibility-tools-directory": {
+    "videoId": "1223244523",
+    "url": "https://vimeo.com/1223244523",
+    "embedUrl": "https://player.vimeo.com/video/1223244523?h=713b115d8b"
+  }
+}

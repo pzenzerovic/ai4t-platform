@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { useLesson, useLessonsByCategory } from '../../hooks/useContent'
 import LevelBadge from './LevelBadge'
+import LessonVideo from './LessonVideo'
 import Quiz from './Quiz'
 import MarkdownArticle from '../common/MarkdownArticle'
 import { ChevronLeftIcon, ChevronRightIcon } from '../common/Icons'
@@ -58,6 +59,9 @@ export default function LessonPage() {
           <p className="text-lg text-gray-600 mt-3">{lesson.description}</p>
         )}
       </header>
+
+      {/* Video version of the lesson, when published */}
+      <LessonVideo categorySlug={categorySlug} lessonSlug={lessonSlug} title={lesson.title} />
 
       {/* Content */}
       <MarkdownArticle>{lesson.content}</MarkdownArticle>

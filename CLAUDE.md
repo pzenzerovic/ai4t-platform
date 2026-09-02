@@ -77,9 +77,13 @@ Animated 2-3 min explainer videos for each lesson, generated via:
 - All 33 compositions registered in `Root.jsx`
 - Two render profiles: `review` (1080p CRF 23, ~5 MB) and `final` (native 4K CRF 14, ~17 MB)
 
-**Status: 33/33 review-quality MP4s rendered** (in `video-pipeline/out/review/`).
-**Sent for review to colleague via WeTransfer on 2026-06-20.**
-Awaiting feedback (free-form Excel table: video name | comments).
+**Status (2026-09-02): DONE — all 33 videos live on Vimeo** (public, Starter
+account), with exact-transcript English captions (VTT built from the narration
+scripts + Remotion scene timings; Vimeo's auto-generated ASR track deactivated
+per video). Review feedback was applied earlier (commit 0f7936a). Uploaded set:
+1080p web renders; `video-pipeline/src/vimeo-mapping.json` maps lesson → video
+id/URL and `src/data/lesson-videos.json` (committed) drives the on-platform
+players. Token lives in `.env.local` as `VIMEO_ACCESS_TOKEN` (gitignored).
 
 ## Working conventions
 
@@ -111,7 +115,8 @@ Awaiting feedback (free-form Excel table: video name | comments).
 1. **Awaiting video review feedback** from colleague (Excel: name | comments).
    When it arrives, group by lesson, fix in priority order. Re-render only the
    touched lessons via `node video-pipeline/src/render-all.mjs --only C{N}L{NN}-{Slug}`.
-2. **Final render + YouTube upload** (4K profile) once review feedback is in.
+2. ~~Final render + YouTube upload~~ — superseded: published on Vimeo instead
+   (1080p, public), embedded on lesson pages. 4K masters remain local/Drive.
 3. **RO partner review of the 4 AI-drafted Romanian translations** (cat2/05,
    cat2/06, cat3/08, cat3/09).
 4. **About page** — design + implement.
