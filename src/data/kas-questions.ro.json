@@ -1,0 +1,533 @@
+{
+  "categories": [
+    {
+      "id": "ai-literacy",
+      "name": "Alfabetizare AI",
+      "questions": [
+        {
+          "id": "al-q1",
+          "type": "self-assessment",
+          "text": "Cum ai descrie înțelegerea ta actuală despre ce este inteligența artificială și cum funcționează?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Am o înțelegere redusă sau deloc a AI",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Cunosc noțiunile de bază — AI folosește date și algoritmi",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Pot explica cum generează LLM-urile text și le înțeleg limitele",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "al-q2",
+          "type": "knowledge",
+          "text": "Când un model de limbaj de mari dimensiuni (precum ChatGPT) generează un răspuns, ce face de fapt?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Caută răspunsul pe internet",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Extrage informații dintr-o bază de date de fapte",
+              "score": 0
+            },
+            {
+              "id": "c",
+              "text": "Prezice cel mai probabil cuvânt următor pe baza tiparelor din datele de antrenament",
+              "score": 2
+            },
+            {
+              "id": "d",
+              "text": "Nu sunt sigur",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "al-q3",
+          "type": "knowledge",
+          "text": "Ce înseamnă termenul „halucinație\" în contextul AI?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Când AI devine conștient de sine",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Când AI generează informații care sună convingător, dar sunt incorecte",
+              "score": 2
+            },
+            {
+              "id": "c",
+              "text": "Când AI refuză să răspundă la o întrebare",
+              "score": 0
+            },
+            {
+              "id": "d",
+              "text": "Nu am auzit acest termen",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "al-q4",
+          "type": "scenario",
+          "text": "Un coleg îți spune: „AI înțelege de ce au nevoie elevii și poate înlocui tutoriatul.\" Cum ai răspunde?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sună corect — AI este foarte avansat acum",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "AI poate ajuta, dar nu înțelege cu adevărat — procesează tipare",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "AI simulează înțelegerea prin predicție statistică, ceea ce este util, dar fundamental diferit de înțelegerea umană",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "al-q5",
+          "type": "self-assessment",
+          "text": "Cât de familiar îți este conceptul de AI multimodal (AI care procesează împreună imagini, audio și text)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nu am auzit de acesta",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Știu că există, dar nu l-am folosit",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Am folosit funcții multimodale (de ex. încărcarea de imagini în ChatGPT) și înțeleg conceptul",
+              "score": 2
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "Ești la începutul drumului tău cu AI. Începe cu înțelegerea a ceea ce este AI și a modului în care funcționează modelele de limbaj — această fundație va face ca tot restul să aibă sens.",
+        "intermediate": "Ai o bună înțelegere a noțiunilor de bază despre AI. Aprofundează AI multimodal și diferitele straturi ale capacităților AI pentru a-ți completa înțelegerea.",
+        "advanced": "Înțelegere excelentă a conceptelor AI! Explorează materialele noastre avansate despre agenții AI și viitorul AI pentru a rămâne în avangardă."
+      }
+    },
+    {
+      "id": "practical-skills",
+      "name": "Abilități Practice AI",
+      "questions": [
+        {
+          "id": "ps-q1",
+          "type": "self-assessment",
+          "text": "Cât de des folosești în prezent instrumente AI (ChatGPT, Claude, Copilot sau similare) în practica ta didactică?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Niciodată sau aproape niciodată",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Ocazional — de câteva ori pe lună",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Regulat — cel puțin săptămânal, pentru pregătirea lecțiilor sau activități în clasă",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "ps-q2",
+          "type": "knowledge",
+          "text": "Ce este „ingineria prompturilor\" în contextul lucrului cu AI?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Programarea sistemelor AI folosind cod",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Abilitatea de a formula instrucțiuni clare și specifice pentru a obține outputuri AI mai bune",
+              "score": 2
+            },
+            {
+              "id": "c",
+              "text": "Un proces tehnic realizat de dezvoltatorii AI, nu de profesori",
+              "score": 0
+            },
+            {
+              "id": "d",
+              "text": "Nu sunt sigur ce înseamnă",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "ps-q3",
+          "type": "scenario",
+          "text": "Vrei să folosești AI pentru a crea o fișă de lucru despre fotosinteză pentru clasa a 6-a, la știință. Care abordare ar da rezultate mai bune?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Tastezi „fă o fișă despre fotosinteză\"",
+              "score": 1
+            },
+            {
+              "id": "b",
+              "text": "Tastezi „Creează o fișă de lucru despre fotosinteză pentru elevii de clasa a 6-a, cu 3 sarcini de etichetare a diagramelor și 5 întrebări cu variante multiple la nivel de înțelegere de bază, potrivită pentru o activitate de 20 de minute\"",
+              "score": 2
+            },
+            {
+              "id": "c",
+              "text": "Nu aș ști de unde să încep",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "ps-q4",
+          "type": "knowledge",
+          "text": "Ce este „contextul\" într-o conversație cu AI și de ce contează?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sunt informațiile de fundal pe care i le dai AI pentru a putea genera răspunsuri mai relevante",
+              "score": 1
+            },
+            {
+              "id": "b",
+              "text": "Este o setare tehnică de care nu ar trebui să mă preocup",
+              "score": 0
+            },
+            {
+              "id": "c",
+              "text": "Se referă la istoricul conversației, pe care AI îl folosește ca memorie de lucru",
+              "score": 1
+            },
+            {
+              "id": "d",
+              "text": "Atât A, cât și C sunt corecte",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "ps-q5",
+          "type": "self-assessment",
+          "text": "Ce instrumente educaționale bazate pe AI ai folosit? (Ne ajută să înțelegem cât de largă este experiența ta)",
+          "options": [
+            {
+              "id": "a",
+              "text": "Niciunul încă",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Am încercat 1-2 instrumente (de ex. ChatGPT sau Canva AI)",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Folosesc regulat 3 sau mai multe instrumente AI diferite pentru sarcini didactice diferite",
+              "score": 2
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "Abia începi cu instrumentele AI — și este perfect în regulă! Ghidurile noastre practice te vor conduce pas cu pas prin folosirea ChatGPT, Claude și a instrumentelor AI concepute pentru educație.",
+        "intermediate": "Ai început să folosești instrumente AI, ceea ce este excelent. Acum este momentul să îți rafinezi abilitățile de formulare și să explorezi platforme AI educaționale mai specializate.",
+        "advanced": "Ești un utilizator experimentat de instrumente AI! Explorează lecțiile noastre avansate despre meta-prompting și construirea de instrumente proprii pentru a-ți duce practica mai departe."
+      }
+    },
+    {
+      "id": "considerations",
+      "name": "Considerații despre AI",
+      "questions": [
+        {
+          "id": "co-q1",
+          "type": "self-assessment",
+          "text": "Cât de sigur te simți discutând implicațiile etice ale folosirii AI în educație cu colegii sau cu elevii?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nesigur — nu m-am gândit prea mult la asta",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Oarecum sigur — sunt conștient de unele probleme, precum confidențialitatea și prejudecățile",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Foarte sigur — pot discuta despre prejudecăți, confidențialitatea datelor, integritatea academică și implicațiile pedagogice",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "co-q2",
+          "type": "scenario",
+          "text": "Un elev predă un eseu despre care bănuiești că a fost scris în întregime de AI. Care este abordarea ta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Folosesc un instrument de detectare AI și confrunt elevul cu rezultatul",
+              "score": 1
+            },
+            {
+              "id": "b",
+              "text": "Mă concentrez pe procesul de învățare — port o discuție despre lucrare și îi cer elevului să își explice raționamentul",
+              "score": 2
+            },
+            {
+              "id": "c",
+              "text": "Nu sunt sigur cum aș gestiona această situație",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "co-q3",
+          "type": "knowledge",
+          "text": "De ce este important să revizuiești materialele educaționale generate de AI înainte de a le folosi la clasă?",
+          "options": [
+            {
+              "id": "a",
+              "text": "AI poate genera conținut factual incorect, părtinitor sau nepotrivit pentru grupa de vârstă",
+              "score": 2
+            },
+            {
+              "id": "b",
+              "text": "Este o cerință legală",
+              "score": 0
+            },
+            {
+              "id": "c",
+              "text": "Materialele generate de AI sunt de obicei în regulă și nu au nevoie de prea multă revizuire",
+              "score": 0
+            },
+            {
+              "id": "d",
+              "text": "Nu m-am gândit la asta",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "co-q4",
+          "type": "knowledge",
+          "text": "Ce înseamnă „omul în buclă\" în contextul AI în educație?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Un om trebuie să fie întotdeauna prezent când rulează AI",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Profesorii păstrează supravegherea și autoritatea deciziei finale asupra outputurilor și recomandărilor generate de AI",
+              "score": 2
+            },
+            {
+              "id": "c",
+              "text": "Elevii trebuie să lucreze întotdeauna în grup când folosesc AI",
+              "score": 0
+            },
+            {
+              "id": "d",
+              "text": "Nu cunosc acest termen",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "co-q5",
+          "type": "scenario",
+          "text": "Școala ta ia în considerare adoptarea unei platforme de învățare adaptivă bazată pe AI. Ce ar trebui evaluat mai întâi?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Costul platformei",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Conformitatea cu protecția datelor (GDPR), ce date despre elevi sunt colectate, cum sunt stocate și alinierea pedagogică cu curriculumul",
+              "score": 2
+            },
+            {
+              "id": "c",
+              "text": "Dacă elevilor le va plăcea să o folosească",
+              "score": 0
+            },
+            {
+              "id": "d",
+              "text": "Nu aș ști ce să evaluez",
+              "score": 0
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "Utilizarea etică și responsabilă a AI este esențială. Începe cu materialele noastre fundamentale despre etica AI, confidențialitate și rolul profesorului în învățarea asistată de AI.",
+        "intermediate": "Ești conștient de problemele-cheie. Aprofundează-ți înțelegerea conformității GDPR, a strategiilor pentru integritatea academică și a modului în care se dezvoltă politici AI la nivel de școală.",
+        "advanced": "Conștientizare etică solidă! Explorează materialele noastre avansate despre dezvoltarea politicilor AI și conducerea integrării AI la nivel de școală."
+      }
+    },
+    {
+      "id": "accessibility",
+      "name": "AI pentru Toți Elevii",
+      "questions": [
+        {
+          "id": "ac-q1",
+          "type": "self-assessment",
+          "text": "Cât de familiar îți este folosirea tehnologiei (inclusiv AI) pentru a sprijini elevii cu dizabilități sau cu nevoi educaționale speciale?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Deloc familiar — nu am explorat acest domeniu",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Oarecum familiar — știu că există unele instrumente, dar nu am folosit multe",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Foarte familiar — folosesc regulat tehnologie asistivă și/sau instrumente AI pentru instruire diferențiată",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "ac-q2",
+          "type": "knowledge",
+          "text": "Care dintre acestea este un exemplu de AI folosit pentru a sprijini un elev cu deficiențe de vedere?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Folosirea modului vocal din ChatGPT pentru a descrie imagini sau a citi textul cu voce tare",
+              "score": 2
+            },
+            {
+              "id": "b",
+              "text": "Folosirea unui verificator ortografic",
+              "score": 0
+            },
+            {
+              "id": "c",
+              "text": "Folosirea unei table digitale",
+              "score": 0
+            },
+            {
+              "id": "d",
+              "text": "Nu sunt sigur",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "ac-q3",
+          "type": "scenario",
+          "text": "Ai un elev sosit recent din altă țară, care vorbește foarte puțin limba de predare. Cum ar putea ajuta AI?",
+          "options": [
+            {
+              "id": "a",
+              "text": "AI nu prea poate ajuta cu barierele lingvistice",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Folosesc instrumente AI de traducere și text-to-speech pentru a oferi materiale în limba maternă a elevului cât timp învață",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Folosesc AI pentru a simplifica și adapta complexitatea textului, a oferi glosare bilingve și a crea suporturi vizuale alături de materialele traduse",
+              "score": 2
+            }
+          ]
+        },
+        {
+          "id": "ac-q4",
+          "type": "knowledge",
+          "text": "Ce este Microsoft Immersive Reader și cum poate sprijini elevii?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Un supliment plătit pentru Microsoft Office, pentru crearea de prezentări",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Un instrument gratuit care citește textul cu voce tare, împarte cuvintele în silabe, evidențiază părțile de vorbire și traduce — sprijinind elevii cu dislexie, deficiențe de vedere sau bariere lingvistice",
+              "score": 2
+            },
+            {
+              "id": "c",
+              "text": "O lupă de ecran pentru utilizatorii cu vedere slabă",
+              "score": 0
+            },
+            {
+              "id": "d",
+              "text": "Nu am auzit de el",
+              "score": 0
+            }
+          ]
+        },
+        {
+          "id": "ac-q5",
+          "type": "self-assessment",
+          "text": "Cum ți-ai evalua capacitatea de a adapta materialele didactice pentru elevii cu nevoi de învățare diferite folosind instrumente AI?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nu aș ști de unde să încep",
+              "score": 0
+            },
+            {
+              "id": "b",
+              "text": "Aș putea face adaptări de bază (de ex. simplificarea textului), dar nu mult mai mult",
+              "score": 1
+            },
+            {
+              "id": "c",
+              "text": "Pot folosi mai multe instrumente AI pentru a diferenția materialele pentru nevoi vizuale, auditive, cognitive și lingvistice",
+              "score": 2
+            }
+          ]
+        }
+      ],
+      "feedback": {
+        "beginner": "AI oferă instrumente puternice pentru sprijinirea elevilor cu nevoi diverse. Începe cu prezentarea noastră generală a instrumentelor de accesibilitate și află cum poate AI să ajute elevii cu nevoi diferite.",
+        "intermediate": "Ai o anumită familiaritate cu instrumentele de accesibilitate. Explorează ghidurile noastre specifice despre sprijinirea elevilor cu deficiențe de vedere, deficiențe de auz, nevoi cognitive și bariere lingvistice.",
+        "advanced": "Expertiză remarcabilă în accesibilitate! Explorează materialele noastre avansate despre construirea unor clase cu adevărat incluzive cu AI și directorul nostru de instrumente."
+      }
+    }
+  ]
+}

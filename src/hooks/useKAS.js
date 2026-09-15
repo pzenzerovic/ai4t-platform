@@ -1,8 +1,13 @@
 import { useState, useCallback } from 'react'
-import kasData from '../data/kas-questions.json'
+import { useParams } from 'react-router-dom'
+import kasDataEn from '../data/kas-questions.json'
+import kasDataRo from '../data/kas-questions.ro.json'
 import { calculateAllScores } from '../utils/scoring'
 
-const totalQuestions = kasData.categories.reduce((sum, cat) => sum + cat.questions.length, 0)
+// One file per translated language, same ids and scores as the English one;
+// languages without a translation (HR, EL) fall back to English, like lessons do.
+const KAS_DATA = { en: kasDataEn, ro: kasDataRo }
+const totalQuestions = kasDataEn.categories.reduce((sum, cat) => sum + cat.questions.length, 0)
 const STORAGE_KEY = 'ai4t-kas-results'
 
 function loadSavedResults() {
@@ -15,6 +20,8 @@ function loadSavedResults() {
 }
 
 export default function useKAS() {
+  const { lang } = useParams()
+  const kasData = KAS_DATA[lang] || kasDataEn
   const [phase, setPhase] = useState('welcome')
   const [currentQuestion, setCurrentQuestion] = useState(0)
   const [answers, setAnswers] = useState({})
@@ -62,7 +69,7 @@ export default function useKAS() {
       setPhase('results')
       localStorage.setItem(STORAGE_KEY, JSON.stringify(scores))
     }
-  }, [currentQuestion, answers])
+  }, [currentQuestion, answers, kasData])
 
   const back = useCallback(() => {
     if (currentQuestion > 0) {
