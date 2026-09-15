@@ -59,7 +59,7 @@ A doua greșeală frecventă este problema opusă — supraîncărcarea contextu
 
 ## Contextul ca Fundament pentru Tot Ceea Ce Urmează
 
-Înțelegerea contextului nu este doar o abilitate printre multe — este condiția prealabilă pentru fiecare altă abilitate pe care o vei dezvolta în această categorie. Lecțiile care urmează despre ingineria formulelor și meta-prompting sunt, în esența lor, tehnici pentru furnizarea unui context mai bun. Când înveți să scrii o formulă bine structurată, înveți să organizezi contextul într-un mod care ghidează eficient AI. Când înveți meta-prompting-ul, înveți să folosești dialogul cu AI pentru a construi context în colaborare înainte de a te angaja la o sarcină specifică.
+Înțelegerea contextului nu este doar o abilitate printre multe — este condiția prealabilă pentru fiecare altă abilitate pe care o vei dezvolta în această categorie. Lecțiile care urmează despre ingineria prompturilor și meta-prompting sunt, în esența lor, tehnici pentru furnizarea unui context mai bun. Când înveți să scrii o formulă bine structurată, înveți să organizezi contextul într-un mod care ghidează eficient AI. Când înveți meta-prompting-ul, înveți să folosești dialogul cu AI pentru a construi context în colaborare înainte de a te angaja la o sarcină specifică.
 
 În acest sens, contextul este pentru interacțiunea AI ceea ce planificarea lecției este pentru predare. Un profesor care intră în clasă fără un plan poate preda în continuare — dar rezultatul va fi inconsistent, nefocalizat și adesea sub standardul pe care profesorul este capabil să îl atingă. Același lucru este valabil pentru lucrul cu AI. Poți întotdeauna tasta rapid o întrebare și obține un răspuns. Dar dacă investești câteva momente în furnizarea unui context clar și relevant, calitatea acelui răspuns — și utilitatea sa în clasa ta reală — se îmbunătățește dramatic.
 
@@ -73,4 +73,4 @@ Vestea bună este că aceasta nu este o abilitate tehnică. Nu înveți un limba
 - Relația dintre calitatea contextului și calitatea răspunsului este directă și proporțională: contextul specific și relevant produce rezultate specifice și utile; contextul vag produce răspunsuri generice.
 - Cele mai valoroase informații contextuale pentru sarcinile educaționale includ vârsta elevilor, nivelul de cunoștințe anterioare, obiectivele de învățare, formatul dorit al rezultatului și rolul pe care ar trebui să îl adopte AI.
 - Două greșeli frecvente sunt presupunerea că AI va deduce cerințele nestipulate și supraîncărcarea contextului cu informații irelevante — ambele reduc calitatea rezultatului.
-- Contextul este fundația pentru toate celelalte abilități AI acoperite în această categorie, inclusiv ingineria formulelor și meta-prompting-ul.
+- Contextul este fundația pentru toate celelalte abilități AI acoperite în această categorie, inclusiv ingineria prompturilor și meta-prompting-ul.

@@ -43,7 +43,7 @@
         { "id": "a", "text": "Înlocuirea unei unități întregi din curriculum cu materiale generate de AI." },
         { "id": "b", "text": "Alegerea unei singure sarcini de rutină, încercarea AI pentru aceasta și evaluarea onestă a rezultatului." },
         { "id": "c", "text": "Așteptarea până când școala adoptă o platformă AI oficială." },
-        { "id": "d", "text": "Studierea teoriei ingineriei formulelor înainte de a atinge vreun instrument." }
+        { "id": "d", "text": "Studierea teoriei ingineriei prompturilor înainte de a atinge vreun instrument." }
       ],
       "correct": ["b"],
       "explanation": "Prima sugestie practică a lecției este să încercați cu AI o singură sarcină de rutină care consumă timp și apoi să judecați onest dacă rezultatul a fost util și unde a necesitat îmbunătățiri."

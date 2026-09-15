@@ -25,7 +25,7 @@ Lucrul critic de înțeles este că instrumentele AI nu intră automat într-un 
 
 Cu toate acestea, abordarea cea mai fiabilă — și cea care funcționează pentru toate instrumentele AI — este ca elevul să descrie explicit modul de învățare dorit. Un prompt precum „Învăț să rezolv ecuații liniare. Nu-mi da răspunsul. În schimb, ghidează-mă prin proces pas cu pas și pune-mi întrebări la fiecare etapă" va activa comportamentul de tutoriat în orice sistem AI modern, indiferent de instrumentul specific folosit.
 
-> **Idee Cheie**: Abilitățile de inginerie a formulelor din Categoria 2 sunt direct relevante aici. Un elev care a învățat să scrie formule clare și specifice poate activa modul de tutoriat în orice instrument AI — nu doar în cele cu funcții integrate de învățare. Abilitatea este transferabilă.
+> **Idee Cheie**: Abilitățile de inginerie a prompturilor din Categoria 2 sunt direct relevante aici. Un elev care a învățat să scrie formule clare și specifice poate activa modul de tutoriat în orice instrument AI — nu doar în cele cu funcții integrate de învățare. Abilitatea este transferabilă.
 
 ## Dialogul Interactiv ca Fundament al Învățării
 

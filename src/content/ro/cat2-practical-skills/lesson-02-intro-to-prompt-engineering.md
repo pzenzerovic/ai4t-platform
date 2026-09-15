@@ -1,17 +1,17 @@
 ---
-title: "Introducere în Ingineria Formulelor"
+title: "Introducere în Ingineria Prompturilor"
 slug: "intro-to-prompt-engineering"
 category: "practical-skills"
 level: "beginner"
-description: "Ingineria formulelor nu este o abilitate tehnică — este una pedagogică. Învață principiile fundamentale care fac diferența între un răspuns AI generic și unul pe care îl poți folosi cu adevărat în clasa ta."
+description: "Ingineria prompturilor nu este o abilitate tehnică — este una pedagogică. Învață principiile fundamentale care fac diferența între un răspuns AI generic și unul pe care îl poți folosi cu adevărat în clasa ta."
 order: 2
 ---
 
 ## De Ce Formularea Este o Abilitate Pedagogică, Nu una Tehnică
 
-Termenul *inginerie a formulelor* a devenit frecvent în discuțiile despre AI și creează adesea o impresie înșelătoare. Pentru mulți profesori, sună ca ceva care necesită cunoștințe de programare, pregătire tehnică sau un fundal în informatică. În realitate, ingineria formulelor este abilitatea de a comunica clar cu un sistem AI — și este construită pe abilități pe care profesorii le exercită deja în fiecare zi.
+Termenul *inginerie a prompturilor* a devenit frecvent în discuțiile despre AI și creează adesea o impresie înșelătoare. Pentru mulți profesori, sună ca ceva care necesită cunoștințe de programare, pregătire tehnică sau un fundal în informatică. În realitate, ingineria prompturilor este abilitatea de a comunica clar cu un sistem AI — și este construită pe abilități pe care profesorii le exercită deja în fiecare zi.
 
-Când scrii o cerință clară pentru elevii tăi, faci ceva foarte aproape de ingineria formulelor. Când specifici obiectivele de învățare, formatul așteptat, publicul și criteriile de evaluare pentru o sarcină, structurezi informațiile exact în modul care produce rezultate bune din AI. Diferența este că publicul tău este un model de limbaj, nu o clasă de elevi. Abilitatea de bază — comunicarea clară, structurată și intenționată — este aceeași.
+Când scrii o cerință clară pentru elevii tăi, faci ceva foarte aproape de ingineria prompturilor. Când specifici obiectivele de învățare, formatul așteptat, publicul și criteriile de evaluare pentru o sarcină, structurezi informațiile exact în modul care produce rezultate bune din AI. Diferența este că publicul tău este un model de limbaj, nu o clasă de elevi. Abilitatea de bază — comunicarea clară, structurată și intenționată — este aceeași.
 
 Această lecție introduce principiile fundamentale ale formulării eficiente. În lecția anterioară despre context, ai aflat că calitatea unui răspuns AI depinde direct de calitatea informațiilor pe care le furnizezi. Formularea este locul unde acel principiu devine un set concret și acționabil de practici. Principiile prezentate aici nu sunt reguli rigide de memorat. Sunt ghiduri care, combinate gânditor, produc rezultate dramatic mai bune.
 
@@ -21,7 +21,7 @@ O *formulă* este orice instrucțiune, întrebare sau descriere a sarcinii pe ca
 
 AI nu încearcă să ghicească ce vrei dincolo de ceea ce este declarat. Răspunde la conținutul formulei tale și la contextul conversației curente — nimic mai mult. Dacă formula ta este vagă, răspunsul va fi generic. Dacă formula ta este specifică și bine structurată, răspunsul va fi focalizat și util. Aceasta nu este o chestiune că AI este „inteligent" sau „limitat." Este o reflectare directă a inputului primit.
 
-Înțelegerea acestei relații de bază — că outputul este modelat de input — este cea mai importantă perspectivă în ingineria formulelor. Tot ceea ce urmează este un set de strategii pentru a face acel input cât mai eficient posibil.
+Înțelegerea acestei relații de bază — că outputul este modelat de input — este cea mai importantă perspectivă în ingineria prompturilor. Tot ceea ce urmează este un set de strategii pentru a face acel input cât mai eficient posibil.
 
 ## Principiile Fundamentale
 
@@ -93,7 +93,7 @@ Aceste principii nu sunt menite să fie folosite în izolare. În practică, o f
 
 Consideră diferența dintre această formulă: „Fă un exercițiu de engleză" și aceasta: „Ești profesor de engleză pentru clasa a 6-a. Creează o scurtă poveste de 8-10 propoziții folosind Present Simple, despre rutina de dimineață a unui elev. Apoi creează trei exerciții bazate pe poveste: un exercițiu Adevărat/Fals cu 5 întrebări, un exercițiu de completare cu 6 propoziții și un exercițiu de formare a întrebărilor cu 4 itemi. Include o cheie de răspunsuri pentru toate exercițiile."
 
-A doua formulă combină stabilirea rolului, specificarea publicului, constrângerile de format, cerințele de structură și așteptările explicite de output. Durează aproximativ treizeci de secunde de scris și economisește timp semnificativ de revizuire ulterior. Acesta este beneficiul practic al ingineriei formulelor: o mică investiție în claritate de la bun început produce output mai aproape de gata pentru clasă la prima tentativă.
+A doua formulă combină stabilirea rolului, specificarea publicului, constrângerile de format, cerințele de structură și așteptările explicite de output. Durează aproximativ treizeci de secunde de scris și economisește timp semnificativ de revizuire ulterior. Acesta este beneficiul practic al ingineriei prompturilor: o mică investiție în claritate de la bun început produce output mai aproape de gata pentru clasă la prima tentativă.
 
 ## Abordarea Iterativă
 
@@ -105,7 +105,7 @@ Pe măsură ce îți construiești încrederea cu aceste principii fundamentale,
 
 ## Rezumat
 
-- Ingineria formulelor este o abilitate pedagogică, nu una tehnică — este construită pe aceleași abilități pe care profesorii le folosesc când scriu sarcini clare, planuri de lecție și criterii de evaluare.
+- Ingineria prompturilor este o abilitate pedagogică, nu una tehnică — este construită pe aceleași abilități pe care profesorii le folosesc când scriu sarcini clare, planuri de lecție și criterii de evaluare.
 - O formulă este orice instrucțiune sau întrebare dată unui sistem AI, iar calitatea outputului este determinată direct de claritatea și specificitatea formulei.
 - Principiile fundamentale ale formulării eficiente includ definirea scopului, specificarea publicului, constrângerea sferei, atribuirea unui rol, stabilirea așteptărilor, furnizarea de exemple și solicitarea raționamentului pas cu pas.
 - Aceste principii funcționează cel mai bine în combinație — o formulă educațională puternică aplică de obicei mai multe principii simultan, rezultând output care necesită revizuiri minime.

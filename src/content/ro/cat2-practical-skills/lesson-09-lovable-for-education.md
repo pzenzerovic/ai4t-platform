@@ -9,7 +9,7 @@ order: 9
 
 ## De Ce Să Îți Construiești Propriile Instrumente?
 
-De-a lungul acestei categorii, ai învățat cum să comunici eficient cu AI — prin context, ingineria formulelor și meta-prompting. Aceste abilități te ajută să generezi outputuri bazate pe text: fișe, planuri de lecție, quiz-uri, rubrici. Dar ce-ar fi dacă ai putea merge un pas mai departe și crea instrumente interactive pe care elevii tăi le pot folosi direct pe dispozitivele lor?
+De-a lungul acestei categorii, ai învățat cum să comunici eficient cu AI — prin context, ingineria prompturilor și meta-prompting. Aceste abilități te ajută să generezi outputuri bazate pe text: fișe, planuri de lecție, quiz-uri, rubrici. Dar ce-ar fi dacă ai putea merge un pas mai departe și crea instrumente interactive pe care elevii tăi le pot folosi direct pe dispozitivele lor?
 
 Acesta este locul unde intervine Lovable. Lovable este o platformă online care îți permite să construiești site-uri mici și aplicații web simple descriind ce vrei în limbaj simplu. Nu trebuie să știi să codezi. Scrii ce ar trebui să facă instrumentul, Lovable generează o primă versiune, și apoi o îmbunătățești pas cu pas cerând modificări — folosind exact tipul de comunicare clară și structurată pe care l-ai practicat de-a lungul acestor lecții. Rezultatul este un link partajabil care se deschide pe orice dispozitiv cu un browser.
 
@@ -31,11 +31,11 @@ Un laptop este cel mai ușor dispozitiv pentru construire deoarece poți vedea p
 
 ![Pagina de start Lovable unde pornești un proiect nou tastând prima ta formulă](/images/lessons/practical-skills/lovable-01-editor-interface.png)
 
-Pentru a crea un proiect nou, tastezi pur și simplu prima ta formulă în interfața de chat centrală. Acesta este locul unde abilitățile de inginerie a formulelor din lecțiile anterioare devin direct relevante.
+Pentru a crea un proiect nou, tastezi pur și simplu prima ta formulă în interfața de chat centrală. Acesta este locul unde abilitățile de inginerie a prompturilor din lecțiile anterioare devin direct relevante.
 
 ## Scrierea Primei Tale Formule
 
-Cheia succesului cu Lovable este să descrii ce vrei într-un mod clar și detaliat — exact cum ai învățat în lecțiile despre ingineria formulelor. Pentru jocul nostru de comparare a numerelor, am folosit următoarea formulă:
+Cheia succesului cu Lovable este să descrii ce vrei într-un mod clar și detaliat — exact cum ai învățat în lecțiile despre ingineria prompturilor. Pentru jocul nostru de comparare a numerelor, am folosit următoarea formulă:
 
 *„Creează un joc educațional optimizat pentru mobil pentru elevii din clasa 1 pentru a practica compararea numerelor de la 1 la 10. Jocul ar trebui să fie proiectat pentru orientare portret cu o interfață minimală. Elevii ar trebui să vadă două numere aleatorii pe ecran și să aleagă un simbol de comparație (mai mic decât, mai mare decât sau egal cu). Sistemul ar trebui să recunoască ce au ales și să ofere feedback imediat. Aplicația este gamificată — răspunsurile corecte adaugă un punct, răspunsurile incorecte scad un punct, iar jocul se termină când elevul ajunge la 20 de puncte cu un mesaj de felicitare. Punctele sunt afișate tot timpul. Folosește fonturi mari și rotunjite potrivite pentru copii mici și păstrează interfața curată și simplă."*
 
@@ -49,7 +49,7 @@ Editorul are două zone principale. Pe partea stângă, ai fereastra de chat und
 
 ## Procesul de Iterare: Rafinarea Aplicației Tale
 
-Prima ta versiune aproape niciodată nu va fi perfectă, și asta este complet normal. Puterea reală a Lovable vine din procesul de iterare, unde testezi aplicația și ceri îmbunătățiri bazate pe ceea ce observi. Aceasta este aceeași abordare iterativă pe care ai învățat-o în lecția de inginerie a formulelor — prima formulă stabilește direcția, iar formulele ulterioare rafinează rezultatul.
+Prima ta versiune aproape niciodată nu va fi perfectă, și asta este complet normal. Puterea reală a Lovable vine din procesul de iterare, unde testezi aplicația și ceri îmbunătățiri bazate pe ceea ce observi. Aceasta este aceeași abordare iterativă pe care ai învățat-o în lecția de inginerie a prompturilor — prima formulă stabilește direcția, iar formulele ulterioare rafinează rezultatul.
 
 Jocul generat arăta bine — afișa două numere cu butoane colorate pentru simbolurile de comparație, un contor de scor și un design curat, prietenos cu copiii:
 
@@ -124,7 +124,7 @@ O aplicație educațională bună este de asemenea sinceră despre limitările s
 ## Rezumat
 
 - Lovable este o platformă online care îți permite să construiești aplicații web interactive mici descriind ce vrei în limbaj simplu, fără cunoștințe de programare.
-- Abilitățile de inginerie a formulelor pe care le-ai dezvoltat de-a lungul acestei categorii — definirea scopurilor, specificarea publicurilor, constrângerea sferei și iterarea — se aplică direct la construirea aplicațiilor cu Lovable.
+- Abilitățile de inginerie a prompturilor pe care le-ai dezvoltat de-a lungul acestei categorii — definirea scopurilor, specificarea publicurilor, constrângerea sferei și iterarea — se aplică direct la construirea aplicațiilor cu Lovable.
 - Fluxul de lucru de bază urmează un ciclu generează-testează-observă-rafinează: Lovable creează o primă versiune, o testezi ca un utilizator ar face-o, identifici ce trebuie schimbat și ceri îmbunătățiri specifice.
 - Modul de editare vizuală îți permite să selectezi elemente individuale de pe ecran și să dai instrucțiuni țintite pentru modificări vizuale, ceea ce este deosebit de util pentru ajustarea layout-ului, culorilor și vizibilității butoanelor.
 - Testează întotdeauna aplicația publicată pe dispozitivele și rețeaua reale pe care le vor folosi elevii tăi înainte de a o implementa într-un cadru de clasă.

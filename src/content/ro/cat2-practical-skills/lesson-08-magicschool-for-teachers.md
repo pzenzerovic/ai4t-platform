@@ -35,7 +35,7 @@ Fiecare instrument include un buton „Show an Exemplar" care afișează un outp
 
 ## Fluxul de Lucru de Bază
 
-Fluxul de lucru MagicSchool urmează cinci pași care vor fi familiare dacă ai practicat principiile ingineriei formulelor din lecțiile anterioare din această categorie.
+Fluxul de lucru MagicSchool urmează cinci pași care vor fi familiare dacă ai practicat principiile ingineriei prompturilor din lecțiile anterioare din această categorie.
 
 În primul pas, alegi un instrument. Răsfoiește categoriile sau caută după cuvinte cheie. Fiecare instrument este proiectat pentru o sarcină specifică — Lesson Plan Generator, Worksheet Generator, Multiple Choice Quiz Maker, Rubric Generator, Text Leveller și așa mai departe.
 
@@ -55,7 +55,7 @@ Pentru a vedea acest flux de lucru în practică, hai să parcurgem crearea unui
 
 Observă nivelul de detaliu din formular. Câmpul subiect specifică nu doar „ciclul apei", ci obiectivele exacte de învățare: elevii ar trebui să poată identifica și explica cele patru etape principale. Câmpul Additional Context descrie situația specifică a clasei: o clasă cu abilități mixte cu trei elevi care învață limba engleză și doi elevi cu acomodări pentru lectură, echipament de laborator limitat și o cerere de suporturi vizuale și activități practice.
 
-Această specificitate este ceea ce face diferența dintre outputul generic și ceva cu adevărat adaptat clasei tale. Aplici aceleași principii de inginerie a formulelor pe care le-ai învățat anterior — definind scopul, specificând publicul și furnizând context relevant — dar printr-un formular ghidat în loc de o casetă de text goală.
+Această specificitate este ceea ce face diferența dintre outputul generic și ceva cu adevărat adaptat clasei tale. Aplici aceleași principii de inginerie a prompturilor pe care le-ai învățat anterior — definind scopul, specificând publicul și furnizând context relevant — dar printr-un formular ghidat în loc de o casetă de text goală.
 
 După darea de clic pe Generate, MagicSchool a produs un plan de lecție complet în aproximativ zece secunde. Outputul includea obiective clar formulate, o listă de materiale care ținea cont de echipamentul limitat de laborator, strategii de diferențiere pentru elevii ELL și elevii cu acomodări și secțiuni cronometrate care se încadrau în perioada de 45 de minute.
 

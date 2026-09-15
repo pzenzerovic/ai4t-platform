@@ -73,7 +73,7 @@ Indiferent de tipul de material pe care îl creezi, fluxul de lucru AI al Canva 
 
 În primul pas, alegi un șablon sau dai clic pe „Creează un design" și selectezi formatul de care ai nevoie — prezentare, poster, fișă, infografic, certificat sau oricare dintre zecile de alte opțiuni disponibile.
 
-În al doilea pas, folosești Magic Write sau Magic Design pentru a genera conținut inițial. Descrie clar ce vrei, aplicând principiile ingineriei formulelor din lecțiile anterioare din această categorie: specifică publicul, subiectul, obiectivele de învățare și formatul dorit.
+În al doilea pas, folosești Magic Write sau Magic Design pentru a genera conținut inițial. Descrie clar ce vrei, aplicând principiile ingineriei prompturilor din lecțiile anterioare din această categorie: specifică publicul, subiectul, obiectivele de învățare și formatul dorit.
 
 În al treilea pas, revizuiești și editezi textul și elementele vizuale generate. Acesta este locul unde judecata ta profesională este esențială. Verifică acuratețea, adecvarea vârstei și alinierea cu curriculumul. Simplifică limbajul acolo unde este nevoie, înlocuiește exemplele generice cu unele relevante pentru elevii tăi și elimină orice adaugă zgomot vizual fără a susține învățarea.
 

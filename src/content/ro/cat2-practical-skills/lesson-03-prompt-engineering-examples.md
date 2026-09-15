@@ -1,15 +1,15 @@
 ---
-title: "Ingineria Formulelor — Exemple Practice pe Materii"
+title: "Ingineria Prompturilor — Exemple Practice pe Materii"
 slug: "prompt-engineering-examples"
 category: "practical-skills"
 level: "intermediate"
-description: "Vedeți principiile ingineriei formulelor în acțiune prin exemple reale din clasă — de la fișe de matematică și probleme de știință la exerciții de limbă și planificarea lecțiilor."
+description: "Vedeți principiile ingineriei prompturilor în acțiune prin exemple reale din clasă — de la fișe de matematică și probleme de știință la exerciții de limbă și planificarea lecțiilor."
 order: 3
 ---
 
 ## De la Principii la Practică
 
-Lecția anterioară a introdus principiile fundamentale ale ingineriei formulelor: definirea scopurilor, specificarea publicului, constrângerea sferei, atribuirea de roluri, stabilirea așteptărilor, furnizarea de exemple și solicitarea raționamentului pas cu pas. Înțelegerea acestor principii este importantă, dar ceea ce contează în cele din urmă este capacitatea de a le aplica în practică.
+Lecția anterioară a introdus principiile fundamentale ale ingineriei prompturilor: definirea scopurilor, specificarea publicului, constrângerea sferei, atribuirea de roluri, stabilirea așteptărilor, furnizarea de exemple și solicitarea raționamentului pas cu pas. Înțelegerea acestor principii este importantă, dar ceea ce contează în cele din urmă este capacitatea de a le aplica în practică.
 
 Această lecție prezintă o serie de exemple detaliate, specifice materiei, care arată cum funcționează aceste principii în scenarii reale de predare. Fiecare exemplu urmează un tipar consistent: o sarcină de predare este identificată, o formulă bine elaborată este prezentată, iar raționamentul din spatele formulei este explicat — evidențiind care principii sunt în joc și de ce produc rezultate mai bune decât o cerere mai simplă și mai puțin structurată.
 

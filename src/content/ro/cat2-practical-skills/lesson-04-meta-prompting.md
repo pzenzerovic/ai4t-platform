@@ -9,7 +9,7 @@ order: 4
 
 ## Când Știi Problema, dar Nu Soluția
 
-Cele două lecții anterioare despre ingineria formulelor au presupus că tu, ca profesor, ai o imagine destul de clară despre ce vrei ca AI să producă. Vrei o fișă, un quiz, un plan de lecție sau o rubrică de evaluare — și știi suficient despre outputul dorit pentru a scrie o formulă specifică și bine structurată.
+Cele două lecții anterioare despre ingineria prompturilor au presupus că tu, ca profesor, ai o imagine destul de clară despre ce vrei ca AI să producă. Vrei o fișă, un quiz, un plan de lecție sau o rubrică de evaluare — și știi suficient despre outputul dorit pentru a scrie o formulă specifică și bine structurată.
 
 În practică, acest lucru nu este adesea cazul. Profesorii știu frecvent problema pe care vor să o rezolve, dar nu forma exactă pe care ar trebui să o ia soluția. Ai putea gândi: „Elevii mei se confruntă cu tabla înmulțirii, dar nu sunt sigur ce tip de exercițiu ar funcționa cel mai bine." Sau: „Trebuie să recapitulez acest subiect, dar nu știu dacă un quiz, o activitate de potrivire sau o discuție de grup ar fi mai eficace." Sau chiar: „Am o idee vagă pentru o lecție interesantă, dar nu pot articula cu precizie ce vreau."
 
@@ -23,7 +23,7 @@ Prefixul „meta" este adecvat deoarece nu formulezi AI să îndeplinească o sa
 
 Asta poate suna abstract, dar în practică este remarcabil de natural. Oglindește tipul de conversație pe care l-ai putea purta cu un coleg în cancelarie: „Am această idee pentru o lecție despre schimbările climatice, dar nu sunt sigur cum să o structurez. Ce crezi?" Nu ai aștepta ca colegul tău să producă imediat un plan de lecție finit. Ai aștepta să pună întrebări, să sugereze opțiuni și să te ajute să te gândești. Meta-prompting-ul transformă AI în acel tip de partener de gândire.
 
-> **Idee Cheie**: Meta-prompting-ul nu este un înlocuitor pentru ingineria formulelor. Este un pas preliminar care te ajută să ajungi la o formulă mai bună. Mai întâi folosești meta-prompting-ul pentru a clarifica ce vrei. Apoi folosești ingineria formulelor pentru a-l obține.
+> **Idee Cheie**: Meta-prompting-ul nu este un înlocuitor pentru ingineria prompturilor. Este un pas preliminar care te ajută să ajungi la o formulă mai bună. Mai întâi folosești meta-prompting-ul pentru a clarifica ce vrei. Apoi folosești ingineria prompturilor pentru a-l obține.
 
 ## Meta-prompting-ul ca Extensie a Practicii Reflexive
 
@@ -59,7 +59,7 @@ Un alt tipar frecvent este când un profesor are o idee, dar nu este sigur de fo
 
 Meta-prompting-ul nu înlocuiește expertiza profesorului. Dimpotrivă, o amplifică. AI într-o conversație de meta-prompting nu ia decizii — prezintă opțiuni, structuri și posibilități pe care profesorul le poate accepta, respinge sau modifica pe baza judecății sale profesionale.
 
-Acesta este un punct crucial. În exemplele de inginerie a formulelor din lecția anterioară, expertiza profesorului era incorporată în formulă în sine — în alegerea publicului, secvența pedagogică, criteriile de evaluare. În meta-prompting, expertiza profesorului este exercitată în timpul conversației, pe măsură ce evaluează sugestiile AI și dirijează dialogul spre un rezultat util.
+Acesta este un punct crucial. În exemplele de inginerie a prompturilor din lecția anterioară, expertiza profesorului era incorporată în formulă în sine — în alegerea publicului, secvența pedagogică, criteriile de evaluare. În meta-prompting, expertiza profesorului este exercitată în timpul conversației, pe măsură ce evaluează sugestiile AI și dirijează dialogul spre un rezultat util.
 
 Avantajele practice sunt semnificative. Meta-prompting-ul reduce presiunea de a obține formula corectă din prima încercare. Deschide posibilități la care profesorul poate nu s-a gândit. Oferă o modalitate structurată de a gândi sarcini complexe. Și produce formule finale mai bune, care la rândul lor produc outputuri finale mai bune — un ciclu virtuos.
 

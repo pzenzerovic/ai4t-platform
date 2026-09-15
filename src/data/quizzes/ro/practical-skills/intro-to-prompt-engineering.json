@@ -4,7 +4,7 @@
     {
       "id": "q1",
       "type": "single",
-      "text": "De ce descrie lecția ingineria formulelor ca pe o abilitate pedagogică, nu ca pe una tehnică?",
+      "text": "De ce descrie lecția ingineria prompturilor ca pe o abilitate pedagogică, nu ca pe una tehnică?",
       "options": [
         { "id": "a", "text": "Deoarece se sprijină pe comunicarea clară și structurată pe care profesorii o folosesc deja când scriu cerințe pentru sarcini, obiective și criterii de evaluare." },
         { "id": "b", "text": "Deoarece necesită cunoștințe de programare pe care profesorii le dobândesc în formarea inițială." },

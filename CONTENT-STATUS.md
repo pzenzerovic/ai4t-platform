@@ -124,6 +124,8 @@ Each lesson needs to be translated into 3 additional languages. Translation shou
 | Romanian (RO) | Asociatia Adfaber | 33 / 33 | 📝 Drafts complete (29 by partner; 4 drafted in partner's style for cat2/05, cat2/06, cat3/08, cat3/09 — awaiting partner review) |
 
 > **Note:** UI translations (buttons, menus, labels) are already complete in all 4 languages. Only lesson content needs translation.
+>
+> **RO terminology (2026-09-15):** the standard term for *prompt engineering* across the Romanian course is **„ingineria prompturilor"** (partner decision, Adfaber, 2026-09-15); „inginerie a formulelor" was replaced in all lessons and RO quizzes.
 
 ---
 

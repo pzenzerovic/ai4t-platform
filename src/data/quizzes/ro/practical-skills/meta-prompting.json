@@ -4,7 +4,7 @@
     {
       "id": "q1",
       "type": "truefalse",
-      "text": "Meta-prompting-ul înlocuiește ingineria formulelor: odată ce puteți purta un dialog de planificare cu AI, scrierea unei formule specifice și bine structurate nu mai este necesară.",
+      "text": "Meta-prompting-ul înlocuiește ingineria prompturilor: odată ce puteți purta un dialog de planificare cu AI, scrierea unei formule specifice și bine structurate nu mai este necesară.",
       "correct": ["false"],
       "explanation": "Lecția afirmă explicit că meta-prompting-ul este un pas preliminar, nu un înlocuitor. Mai întâi îl folosiți pentru a clarifica ce vreți, apoi scrieți o formulă specifică pentru a obține acel lucru, așa cum demonstrează exemplul complet de la clasa a 3-a."
     },
