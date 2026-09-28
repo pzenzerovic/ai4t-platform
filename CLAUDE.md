@@ -88,7 +88,7 @@ players. Token lives in `.env.local` as `VIMEO_ACCESS_TOKEN` (gitignored).
 ## Working conventions
 
 - Workbench root: see [Housekeeping](#housekeeping--migration-2026-08-05) — moved off the Desktop
-  on 2026-08-05. Old path was `/Users/paolo/Desktop/Claude Cowork radni folder/AI4T platforma/`.
+  on 2026-08-05.
 - Working dir for code: `ai4t-platform/`
 - User's primary language: **Croatian** (Paolo communicates in HR; respond in HR
   unless asked otherwise). Technical terms (React, Remotion, frontmatter, commit,
