@@ -77,7 +77,32 @@ export default function Footer() {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-6 text-center text-xs text-gray-400">
+        <div className="border-t border-gray-800 pt-6 text-center text-xs text-gray-400 space-y-2">
+          {/* Open licence notice, required for Erasmus+ results (AMPEU Annex 2,
+              point 3.2). Content CC BY 4.0, code MIT; the EU emblem and partner
+              names are excluded in LICENSE. Links are underlined, not just
+              coloured, so they stay findable on the dark footer. */}
+          <p>
+            {t('footer.licenseContent')}{' '}
+            <a
+              href="https://creativecommons.org/licenses/by/4.0/"
+              rel="license noopener"
+              target="_blank"
+              className="text-gray-200 underline hover:text-white"
+            >
+              CC BY 4.0
+            </a>
+            .{' '}
+            <a
+              href="https://github.com/pzenzerovic/ai4t-platform/blob/main/LICENSE"
+              rel="noopener"
+              target="_blank"
+              className="text-gray-200 underline hover:text-white"
+            >
+              {t('footer.licenseCode')}
+            </a>
+            .
+          </p>
           <p>AI4Teachers — Erasmus+ KA210-SCH</p>
         </div>
       </div>

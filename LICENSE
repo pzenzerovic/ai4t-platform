@@ -1,0 +1,41 @@
+AI4Teachers (AI4T) platform: licences
+
+This repository holds two kinds of material under two open licences.
+
+1. Educational content: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+   Lessons, quizzes, lesson plans, assessment questions, narration scripts,
+   videos and other teaching material, including everything under
+   src/content/ and src/data/, are licensed under CC BY 4.0, except where
+   otherwise noted.
+
+   Attribution: "AI4Teachers (AI4T), Erasmus+ project
+   2025-1-HR01-KA210-SCH-000356497, https://ai4teachers.app"
+
+   Licence text: https://creativecommons.org/licenses/by/4.0/legalcode
+
+   Not covered: the EU emblem and the "Co-funded by the European Union"
+   lockup (see EU-EMBLEM-SOURCES.md), the Erasmus+ name, and partner names
+   and logos. These remain under their owners' terms.
+
+2. Source code: MIT License
+
+   Copyright (c) 2026 AI4Teachers (AI4T) project partners
+
+   Permission is hereby granted, free of charge, to any person obtaining a copy
+   of this software and associated documentation files (the "Software"), to deal
+   in the Software without restriction, including without limitation the rights
+   to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+   copies of the Software, and to permit persons to whom the Software is
+   furnished to do so, subject to the following conditions:
+
+   The above copyright notice and this permission notice shall be included in all
+   copies or substantial portions of the Software.
+
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
